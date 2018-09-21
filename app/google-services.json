@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "75196323688",
+    "firebase_url": "https://pepak-jawa.firebaseio.com",
+    "project_id": "pepak-jawa",
+    "storage_bucket": "pepak-jawa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:75196323688:android:2645884932e3577c",
+        "android_client_info": {
+          "package_name": "org.d3ifcool.pepakjawa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "75196323688-f2m2u2qlvsais6g6i1njn7fn8tnnmi3s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.d3ifcool.pepakjawa",
+            "certificate_hash": "27598edfcbc8dba0d7f411ea6ad9d67f9ba867d9"
+          }
+        },
+        {
+          "client_id": "75196323688-lrmkugkvjc67rcghartn2obam54dicd9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-g52kJ4Pgq0EhAlbtXd6ZNsm4k4Vwk6o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "75196323688-lrmkugkvjc67rcghartn2obam54dicd9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
