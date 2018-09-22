@@ -14,6 +14,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:background="@color/tan_background"
             android:orientation="vertical">
 
             <TextView
@@ -21,6 +22,7 @@
                 android:layout_height="260dp"
                 android:background="#FFF59D"
                 android:gravity="bottom"
+                android:paddingBottom="5dp"
                 android:text="PEPAK DASHBOARD"
                 android:textAlignment="center"
                 android:textColor="@color/colorPrimaryDark"
@@ -50,7 +52,7 @@
                     android:layout_margin="2dp"
                     android:layout_weight="1"
                     android:clickable="true"
-                    android:background="@color/colorGrass"
+                    android:background="@color/category_pramasastra"
                     android:orientation="vertical">
 
 
@@ -70,7 +72,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_marginTop="30dp"
-                        android:background="@color/colorGrassDark"
+                        android:background="@color/category_pramasastra_dark"
                         android:padding="8dp"
                         android:text="Paramasastra"
                         android:textAlignment="center"
@@ -85,7 +87,7 @@
                     android:layout_height="120dp"
                     android:layout_margin="2dp"
                     android:layout_weight="1"
-                    android:background="@color/colorBlueJeans"
+                    android:background="@color/category_rupakawruh"
                     android:orientation="vertical">
 
                     <ImageView
@@ -102,7 +104,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_marginTop="30dp"
-                        android:background="@color/colorBlueJeansDark"
+                        android:background="@color/category_rupakawruhdark"
                         android:padding="8dp"
                         android:text="Rupa Kawruh"
                         android:textAlignment="center"
@@ -117,7 +119,7 @@
                     android:layout_height="120dp"
                     android:layout_margin="2dp"
                     android:layout_weight="1"
-                    android:background="@color/colorLavander"
+                    android:background="@color/category_kawruhbasa"
                     android:orientation="vertical">
 
                     <ImageView
@@ -134,7 +136,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_marginTop="30dp"
-                        android:background="@color/colorLavanderDark"
+                        android:background="@color/category_kawruhbasadark"
                         android:padding="8dp"
                         android:text="Kawruh Basa"
                         android:textAlignment="center"
@@ -159,7 +161,7 @@
                     android:layout_height="120dp"
                     android:layout_margin="2dp"
                     android:layout_weight="1"
-                    android:background="@color/colorMint"
+                    android:background="@color/category_kesusastraan"
                     android:orientation="vertical">
 
                     <ImageView
@@ -176,7 +178,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_marginTop="30dp"
-                        android:background="@color/colorMintDark"
+                        android:background="@color/category_kesusastraandark"
                         android:padding="8dp"
                         android:text="Kesusastraan"
                         android:textAlignment="center"
@@ -267,7 +269,7 @@
                     android:gravity="center_horizontal"
                     android:layout_margin="2dp"
                     android:layout_weight="3"
-                    android:background="@color/colorAqua"
+                    android:background="@color/colorPrimaryDark"
                     android:orientation="vertical">
 
                     <!--<ImageView-->
@@ -283,7 +285,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_marginTop="10dp"
-                        android:background="@color/colorAquaDark"
+                        android:background="@color/colorPrimary"
                         android:padding="8dp"
                         android:text="Kuis"
                         android:textAlignment="center"

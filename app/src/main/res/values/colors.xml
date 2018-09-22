@@ -1,10 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimary">#4A312A</color>
+    <color name="colorPrimaryDark">#2F1D1A</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="primary_color"></color>
+    <color name="primary_dark_color"></color>
 
     <color name="colorWhite">#FFFFFF</color>
+    <color name="tan_background">#FFF7DA</color>
+    <!-- Background color for the pramasastra category -->
+    <color name="category_pramasastra">#FD8E09</color>
+    <color name="category_pramasastra_dark">#fd7a09</color>
+    <!-- Background color for the rupakawruh category -->
+    <color name="category_rupakawruh">#379237</color>
+    <color name="category_rupakawruhdark">#307f30</color>
+    <!-- Background color for the kawruhbasa category -->
+    <color name="category_kawruhbasa">#8800A0</color>
+    <color name="category_kawruhbasadark">#7a0090</color>
+    <!-- Background color for the kesusastra category -->
+    <color name="category_kesusastraan">#16AFCA</color>
+    <color name="category_kesusastraandark">#139db5</color>
+
     <color name="colorGrapeFruit">#ED5565</color>
     <color name="colorGrapeFruitDark">#DA4453</color>
     <color name="colorBitterSweet">#FC6E51</color>
