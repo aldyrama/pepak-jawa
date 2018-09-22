@@ -53,6 +53,7 @@
                     android:background="@color/colorGrass"
                     >
                     <ImageView
+                        android:id="@+id/img_paramasestra"
                         android:layout_width="30dp"
                         android:layout_height="30dp"
                         android:layout_marginTop="20dp"
@@ -61,6 +62,7 @@
                         android:tint="@color/colorWhite"
                         />
                     <TextView
+                        android:id="@+id/text_paramasestra"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:padding="8dp"
@@ -83,6 +85,7 @@
                     android:background="@color/colorBlueJeans"
                     >
                     <ImageView
+                        android:id="@+id/img_rupa_kawruh"
                         android:layout_width="30dp"
                         android:layout_height="30dp"
                         android:layout_marginTop="20dp"
@@ -91,6 +94,7 @@
                         android:tint="@color/colorWhite"
                         />
                     <TextView
+                        android:id="@+id/text_rupa_kawruh"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:padding="8dp"
@@ -113,6 +117,7 @@
                     android:background="@color/colorLavander"
                     >
                     <ImageView
+                        android:id="@+id/img_kawruh_basa"
                         android:layout_width="30dp"
                         android:layout_height="30dp"
                         android:layout_marginTop="20dp"
@@ -121,6 +126,7 @@
                         android:tint="@color/colorWhite"
                         />
                     <TextView
+                        android:id="@+id/text_kawruh_basa"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:padding="8dp"
@@ -160,6 +166,7 @@
                         android:tint="@color/colorWhite"
                         />
                     <TextView
+                        android:id="@+id/img_kesusastraan"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:padding="8dp"
@@ -182,6 +189,7 @@
                     android:background="@color/colorAqua"
                     >
                     <ImageView
+                        android:id="@+id/img_aksara_jawa"
                         android:layout_width="30dp"
                         android:layout_height="30dp"
                         android:layout_marginTop="20dp"
@@ -190,6 +198,7 @@
                         android:tint="@color/colorWhite"
                         />
                     <TextView
+                        android:id="@+id/text_aksara_jawa"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:padding="8dp"
@@ -212,6 +221,7 @@
                     android:background="@color/colorPinkRose"
                     >
                     <ImageView
+                        android:id="@+id/img_wayang"
                         android:layout_width="30dp"
                         android:layout_height="30dp"
                         android:layout_marginTop="20dp"
@@ -220,6 +230,7 @@
                         android:tint="@color/colorWhite"
                         />
                     <TextView
+                        android:id="@+id/text_wayang"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:padding="8dp"
@@ -236,7 +247,7 @@
 
 
             </LinearLayout>
-            <!-- End Third Row-->
+
 
         </LinearLayout>
 
