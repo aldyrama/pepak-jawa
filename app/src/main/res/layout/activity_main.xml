@@ -50,8 +50,7 @@
                     android:layout_weight="1"
                     android:layout_margin="2dp"
                     android:orientation="vertical"
-                    android:background="@color/colorGrass"
-                    >
+                    android:background="@color/colorGrass">
                     <ImageView
                         android:layout_width="30dp"
                         android:layout_height="30dp"
@@ -82,14 +81,14 @@
                     android:orientation="vertical"
                     android:background="@color/colorBlueJeans"
                     >
+
                     <ImageView
-                        android:layout_width="30dp"
+                        android:layout_width="34dp"
                         android:layout_height="30dp"
-                        android:layout_marginTop="20dp"
                         android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
                         android:src="@drawable/ic_launcher_foreground"
-                        android:tint="@color/colorWhite"
-                        />
+                        android:tint="@color/colorWhite" />
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
