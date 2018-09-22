@@ -17,7 +17,35 @@
             </intent-filter>
         </activity>
         <activity android:name=".LoginActivity" />
-        <activity android:name=".MaterialActivity"></activity>
+        <provider
+            android:name=".Database.Provider"
+            android:authorities="org.d3ifcool.pepakjawa"
+            android:exported="false" />
+        <activity android:name=".PramasastralActivity" />
+        <activity
+            android:name=".WayangActivity"
+            android:label="@string/title_activity_wayang"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RupaKawruhActivity"
+            android:label="@string/title_activity_rupa_kawruh"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".KawruhBasaActivity"
+            android:label="@string/title_activity_kawruh_basa"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".KesusastraanActivity"
+            android:label="@string/title_activity_kesusastraan"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AksaraJawaActivity"
+            android:label="@string/title_activity_aksara_jawa"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".KuisActivity"
+            android:label="@string/title_activity_kuis"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
         <provider
             android:name=".Database.Provider"
             android:authorities="org.d3ifcool.pepakjawa"

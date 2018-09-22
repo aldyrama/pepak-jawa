@@ -15,11 +15,11 @@ import android.widget.Toast;
 
 import org.d3ifcool.pepakjawa.Database.Contract;
 
-public class MaterialActivity extends AppCompatActivity {
+public class PramasastralActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_material);
+        setContentView(R.layout.activity_pramasastra);
     }
 }

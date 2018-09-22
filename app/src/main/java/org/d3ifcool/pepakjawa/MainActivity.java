@@ -6,7 +6,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 
 import com.google.firebase.auth.FirebaseAuth;
 
@@ -29,6 +31,179 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        // INTENT MATERI PRAMASASTRA
+        LinearLayout pramasastra = (LinearLayout) findViewById(R.id.pramasastra);
+        pramasastra.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                        Intent intent = new Intent(MainActivity.this, PramasastralActivity.class);
+                        startActivity(intent);
+                }
+            });
+        ImageView imgpramasastra = (ImageView) findViewById(R.id.img_pramasastra);
+        imgpramasastra.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, PramasastralActivity.class);
+                startActivity(intent);
+            }
+        });
+        TextView textpramasastra = (TextView) findViewById(R.id.text_pramasastra);
+        textpramasastra.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, PramasastralActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        //INTENT MATERI RUPA KAWRUH
+        LinearLayout rupakawruh = (LinearLayout) findViewById(R.id.rupa_kawruh);
+        rupakawruh.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, RupaKawruhActivity.class);
+                startActivity(intent);
+            }
+        });
+        ImageView imgkawruh = (ImageView) findViewById(R.id.img_rupa_kawruh);
+        imgkawruh.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, RupaKawruhActivity.class);
+                startActivity(intent);
+            }
+        });
+        TextView textkawruh = (TextView) findViewById(R.id.text_rupa_kawruh);
+        textkawruh.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, RupaKawruhActivity.class);
+                startActivity(intent);
+            }
+        });
+        //INTENT MATERI KAWRUH BASA
+        LinearLayout kawruhbasa = (LinearLayout) findViewById(R.id.kawruh_basa);
+        kawruhbasa.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, KawruhBasaActivity.class);
+                startActivity(intent);
+            }
+        });
+        ImageView imgbasa = (ImageView) findViewById(R.id.img_kawruh_basa);
+        imgbasa.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, KawruhBasaActivity.class);
+                startActivity(intent);
+            }
+        });
+        TextView textbasa = (TextView) findViewById(R.id.text_kawruh_basa);
+        textkawruh.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, KawruhBasaActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        //INTENT MATERI KESUSASTRAAN
+        LinearLayout kesusastraan = (LinearLayout) findViewById(R.id.kasusastra);
+        kesusastraan.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, KesusastraanActivity.class);
+                startActivity(intent);
+            }
+        });
+        ImageView imgkesusastraan = (ImageView) findViewById(R.id.img_kasusastra);
+        imgkesusastraan.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, KesusastraanActivity.class);
+                startActivity(intent);
+            }
+        });
+        TextView textkesustraan = (TextView) findViewById(R.id.text_kasusastra);
+        textkesustraan.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, KesusastraanActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        //INTENT MATERI AKSARA JAWA
+        LinearLayout aksarajawa = (LinearLayout) findViewById(R.id.aksara_jawa);
+        aksarajawa.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, AksaraJawaActivity.class);
+                startActivity(intent);
+            }
+        });
+        ImageView imgaksarajawa = (ImageView) findViewById(R.id.img_aksara_jawa);
+        imgaksarajawa.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, AksaraJawaActivity.class);
+                startActivity(intent);
+            }
+        });
+        TextView textaksarajawa = (TextView) findViewById(R.id.text_aksara_jawa);
+        textaksarajawa.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, AksaraJawaActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        //INTENT MATERI WAYANG
+        LinearLayout wayang = (LinearLayout) findViewById(R.id.wayang);
+        wayang.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, WayangActivity.class);
+                startActivity(intent);
+            }
+        });
+        ImageView imgwayang = (ImageView) findViewById(R.id.img_wayang);
+        imgwayang.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, WayangActivity.class);
+                startActivity(intent);
+            }
+        });
+        TextView textwayang = (TextView) findViewById(R.id.text_wayang);
+        textwayang.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, WayangActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        // KUIS
+        LinearLayout kuis = (LinearLayout) findViewById(R.id.kuis);
+        kuis.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, KuisActivity.class);
+                startActivity(intent);
+            }
+        });
+        TextView textkuis = (TextView) findViewById(R.id.text_kuis);
+        textkuis.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, KuisActivity.class);
+                startActivity(intent);
+            }
+        });
+
         mAuth = FirebaseAuth.getInstance();
 //        btnLogout = findViewById(R.id.btnLogout);
 
@@ -42,12 +217,12 @@ public class MainActivity extends AppCompatActivity {
             }
         };
 
-        btnLogout.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                mAuth.signOut();
-            }
-        });
+//        btnLogout.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                mAuth.signOut();
+//            }
+//        });
     }
 
     @Override
