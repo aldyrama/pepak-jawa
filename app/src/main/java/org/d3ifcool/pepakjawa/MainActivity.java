@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         mAuth = FirebaseAuth.getInstance();
-        btnLogout = findViewById(R.id.btnLogout);
+//        btnLogout = findViewById(R.id.btnLogout);
 
         mAuthListener = new FirebaseAuth.AuthStateListener() {
             @Override
