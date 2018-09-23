@@ -4,10 +4,29 @@ import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 
+import com.bignerdranch.expandablerecyclerview.Model.ParentObject;
+
+import org.d3ifcool.pepakjawa.Model.TitleChild;
+import org.d3ifcool.pepakjawa.Model.TitleCreator;
+import org.d3ifcool.pepakjawa.Model.TitleParent;
+import org.d3ifcool.pepakjawa.MyAdapter.Adapter;
+
+import java.util.ArrayList;
+import java.util.List;
+
 public class AksaraJawaActivity extends AppCompatActivity {
+    RecyclerView recyclerView;
+
+    @Override
+    protected void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        ((Adapter)recyclerView.getAdapter()).onSaveInstanceState(outState);
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,14 +35,30 @@ public class AksaraJawaActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
+        //RECYCLERVIEW
+        recyclerView = (RecyclerView)findViewById(R.id.aksaraRecyclerView);
+        recyclerView.setLayoutManager(new LinearLayoutManager(this));
+
+        Adapter adapter = new Adapter(this,initData());
+        adapter.setParentClickableViewAnimationDefaultDuration();
+        adapter.setParentAndIconExpandOnClick(true);
+
+        recyclerView.setAdapter(adapter);
+    }
+
+    private List<ParentObject> initData() {
+        TitleCreator titleCreator = TitleCreator.get(this);
+        List<TitleParent> titles = titleCreator.getAll();
+        List<ParentObject> parentObject = new ArrayList<>();
+        for(TitleParent title:titles)
+        {
+            List<Object> childList = new ArrayList<>();
+            childList.add(new TitleChild("Description","Translate"));
+            title.setChildObjectList(childList);
+            parentObject.add(title);
+        }
+        return parentObject;
+
     }
 
 }
