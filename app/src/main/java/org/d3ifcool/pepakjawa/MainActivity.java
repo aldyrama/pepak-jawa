@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onStart() {
         super.onStart();
 //        Intent intent = new Intent(MainActivity.this, LoginActivity.class);
-//        startActivity(intent);
+//        startActivity(intent);SKJDJ
         mAuth.addAuthStateListener(mAuthListener);
     }
 
