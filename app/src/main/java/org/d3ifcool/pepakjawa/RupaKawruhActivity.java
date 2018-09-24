@@ -32,8 +32,8 @@ public class RupaKawruhActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_rupa_kawruh);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
+//        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+//        setSupportActionBar(toolbar);
 
         //RECYCLERVIEW
         recyclerView = (RecyclerView)findViewById(R.id.rupaRecyclerView);

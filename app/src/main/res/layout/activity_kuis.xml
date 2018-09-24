@@ -1,31 +1,100 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_quiz"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".KuisActivity">
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical">
 
-    <android.support.design.widget.AppBarLayout
+    <TextView
+        android:layout_marginTop="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:theme="@style/AppTheme.AppBarOverlay">
+        android:text="Ini Pertanyaan Nya ?"
+        android:textSize="20sp"
+        android:padding="4dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/question"/>
 
-        <android.support.v7.widget.Toolbar
-            android:id="@+id/toolbar"
-            android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="?attr/colorPrimary"
-            app:popupTheme="@style/AppTheme.PopupOverlay" />
 
-    </android.support.design.widget.AppBarLayout>
 
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fab"
-        android:layout_width="wrap_content"
+    <Button
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end"
-        android:layout_margin="@dimen/fab_margin"
-        app:srcCompat="@android:drawable/ic_dialog_email" />
+        android:text="A"
+        android:background="@color/colorPrimary"
+        android:textColor="#fff"
+        android:padding="8dp"
+        android:onClick="onClick"
+        android:layout_marginBottom="24dp"
+        android:id="@+id/choice1"/>
 
-</android.support.design.widget.CoordinatorLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="B"
+        android:background="@color/colorPrimary"
+        android:textColor="#fff"
+        android:padding="8dp"
+        android:onClick="onClick"
+        android:layout_marginBottom="24dp"
+        android:id="@+id/choice2"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="C"
+        android:background="@color/colorPrimary"
+        android:textColor="#fff"
+        android:padding="8dp"
+        android:onClick="onClick"
+        android:layout_marginBottom="24dp"
+        android:id="@+id/choice3"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="D"
+        android:background="@color/colorPrimary"
+        android:textColor="#fff"
+        android:padding="8dp"
+        android:layout_marginBottom="24dp"
+        android:id="@+id/choice4"
+        android:onClick="onClick" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#d4390a"
+        android:layout_marginBottom="2dp">
+
+        <TextView
+            android:id="@+id/score_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="#ffff"
+            android:textStyle="bold"
+            android:text="Score" />
+        <TextView
+            android:id="@+id/score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/score_text"
+            android:layout_centerHorizontal="true"
+            android:textColor="#fff"
+            android:textSize="15dp"
+            android:text="0/0" />
+    </RelativeLayout>
+
+
+
+</LinearLayout>

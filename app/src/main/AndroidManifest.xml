@@ -17,39 +17,50 @@
             </intent-filter>
         </activity>
         <activity android:name=".LoginActivity" />
+
         <provider
             android:name=".Database.Provider"
             android:authorities="org.d3ifcool.pepakjawa"
             android:exported="false" />
-        <activity android:name=".PramasastralActivity" />
+
+        <activity
+            android:name=".PramasastralActivity"
+            android:label="@string/title_activity_pramasastra"
+            android:theme="@style/AppTheme"/>
         <activity
             android:name=".WayangActivity"
             android:label="@string/title_activity_wayang"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme" />
         <activity
             android:name=".RupaKawruhActivity"
             android:label="@string/title_activity_rupa_kawruh"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme" />
         <activity
             android:name=".KawruhBasaActivity"
             android:label="@string/title_activity_kawruh_basa"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme" />
         <activity
             android:name=".KesusastraanActivity"
             android:label="@string/title_activity_kesusastraan"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme" />
         <activity
             android:name=".AksaraJawaActivity"
             android:label="@string/title_activity_aksara_jawa"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme" />
         <activity
             android:name=".KuisActivity"
             android:label="@string/title_activity_kuis"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme" />
+        <activity android:name=".ScoreActivity"
+            android:label="@string/title_activity_score"
+            android:theme="@style/AppTheme"/>
+
         <provider
             android:name=".Database.Provider"
             android:authorities="org.d3ifcool.pepakjawa"
             android:exported="false" />
+
+
     </application>
 
 </manifest>
