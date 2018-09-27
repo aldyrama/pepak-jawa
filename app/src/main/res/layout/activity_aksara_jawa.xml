@@ -4,7 +4,7 @@
     android:id="@+id/activity_aksara_jawa"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@color/tan_background"
+    android:background="#FFCCBC"
     android:minHeight="88dp"
     android:orientation="horizontal"
     tools:context=".AksaraJawaActivity">
@@ -15,29 +15,21 @@
         android:layout_height="88dp" />
 
     <LinearLayout
+        android:id="@+id/text_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
+        android:orientation="horizontal"
         android:paddingLeft="16dp">
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:gravity="bottom"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:textSize="20sp"
             android:textAppearance="?android:textAppearanceMedium"
             android:textColor="@android:color/black"
-            android:textStyle="bold"
-            android:text="ho"/>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:gravity="top"
-            android:textAppearance="?android:textAppearanceMedium"
-            android:textColor="@android:color/black"
-            android:text="ha"/>
+            android:text="ha"
+            android:id="@+id/java_text_view"/>
 
     </LinearLayout>
 

@@ -33,7 +33,7 @@ public class WayangActivity extends AppCompatActivity {
         setContentView(R.layout.activity_wayang);
 
      //RECYCLERVIEW
-    recyclerView = (RecyclerView)findViewById(R.id.wayangRecyclerView);
+//    recyclerView = (RecyclerView)findViewById(R.id.wayangRecyclerView);
     recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
     Adapter adapter = new Adapter(this,initData());
