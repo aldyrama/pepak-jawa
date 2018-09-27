@@ -7,6 +7,7 @@
     android:layout_height="match_parent"
     android:padding="16dp"
     android:orientation="vertical"
+    android:background="#FFCCBC"
     tools:context=".LoginActivity">
     <LinearLayout
         android:layout_width="wrap_content"
@@ -37,6 +38,8 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorWhite"
         android:text="login"/>
     <LinearLayout
         android:layout_width="match_parent"
@@ -68,5 +71,16 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center">
     </com.google.android.gms.common.SignInButton>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="Tidak punya akun? "/>
+    </LinearLayout>
 
 </LinearLayout>
