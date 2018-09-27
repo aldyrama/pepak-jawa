@@ -4,28 +4,26 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".InputActivity"
+    android:padding="16dp"
+    tools:context=".AccountActivity"
     android:orientation="vertical">
+    <EditText
+        android:id="@+id/name_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/email_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/password_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
-    <EditText
-        android:id="@+id/jawa"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="jawa"/>
-    <EditText
-        android:id="@+id/transalate"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="translate"/>
     <Button
-        android:id="@+id/tambah"
+        android:id="@+id/out"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="tambah"/>
-    <Button
-        android:id="@+id/lihat"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="lihat"/>
+        android:text="logout"/>
 
 </LinearLayout>

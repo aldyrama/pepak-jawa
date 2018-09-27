@@ -17,10 +17,12 @@
             </intent-filter>
         </activity>
         <activity android:name=".LoginActivity" />
+
         <provider
             android:name=".Database.Provider"
             android:authorities="org.d3ifcool.pepakjawa"
             android:exported="false" />
+
         <activity android:name=".PramasastralActivity" />
         <activity
             android:name=".WayangActivity"
@@ -45,11 +47,14 @@
         <activity
             android:name=".KuisActivity"
             android:label="@string/title_activity_kuis"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+
         <provider
             android:name=".Database.Provider"
             android:authorities="org.d3ifcool.pepakjawa"
             android:exported="false" />
+
+        <activity android:name=".AccountActivity"></activity>
     </application>
 
 </manifest>
