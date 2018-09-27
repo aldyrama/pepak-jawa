@@ -21,8 +21,6 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onStart() {
         super.onStart();
-//        Intent intent = new Intent(MainActivity.this, LoginActivity.class);
-//        startActivity(intent);SKJDJ
         mAuth.addAuthStateListener(mAuthListener);
     }
 
@@ -231,5 +229,11 @@ public class MainActivity extends AppCompatActivity {
         a.addCategory(Intent.CATEGORY_HOME);
         a.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         startActivity(a);
+    }
+
+    public void input(View view) {
+        Intent intent = new Intent(MainActivity.this, InputActivity.class);
+        startActivity(intent);
+
     }
 }

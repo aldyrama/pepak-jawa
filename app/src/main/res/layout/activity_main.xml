@@ -22,7 +22,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="260dp"
-                android:background="@drawable/dashboard"
+                android:background="@drawable/banner"
                 android:gravity="bottom"
                 android:paddingBottom="5dp"
                 android:text="PEPAK DASHBOARD"
@@ -349,7 +349,8 @@
                         android:text="Games"
                         android:textAlignment="center"
                         android:textColor="@color/colorWhite"
-                        android:textSize="18sp" />
+                        android:textSize="18sp"
+                        android:onClick="input"/>
 
                 </LinearLayout>
 
