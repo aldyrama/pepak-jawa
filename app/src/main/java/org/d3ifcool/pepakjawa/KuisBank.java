@@ -3,24 +3,24 @@ package org.d3ifcool.pepakjawa;
 public class KuisBank {
 
     private String textQuestions [] = {
-            "1. Apakah Torik ganteng ?",
-            "2. siapa yang bukan teman kos toriq ?",
-            "3. siapa klompok mobpro aldy yang cowok?",
-            "4. tahun berapa torik lahir",
-            "5. siapa orang paling ganteng di kls 40.04 ?"
+            "1. Dalam bahasa Jawa sebutan anak kerbau adalah ...",
+            "2. Dalam bahasa Jawa sebutan anak anjing adalah ...",
+            "3. Apa nama senjata kerbau dalam bahasa Jawa?",
+            "4. Apa nama senjata lebah dalam bahasa Jawa?",
+            "5. Apa arti piwulang dalam bahasa Indonesia?"
     };
 
     // array of multiple choices for each question
     private String multipleChoice [][] = {
-            {"mungkin - bisa jadi", "sangat ganteng", "B aja", "Cukup ganteng"},
-            {"Aldy", "Tiok", "Rozikin", "Dendy"},
-            {"Ferdy", "Ucup", "Toriq", "Rozikin"},
-            {"1999", "1998", "1995", "2000"},
-            {"Toriq", "Aldy", "Rozikin", "Fersy"}
+            {"Kirik", "Gudel", "Piyik", "Gembluk"},
+            {"Piyik", "Tiok", "Kirik", "Gembluk"},
+            {"Sungu", "Entup", "Patil", "Piyik"},
+            {"Entup", "Gudel", "Piyik", "Patil"},
+            {"Tempat", "Pelajaran", "Tulisan", "Rumahnya"}
     };
 
     private String mCorrectAnswers[] =
-            {"Cukup ganteng", "Tiok", "Rozikin", "1995", "Toriq"};
+            {"Gudel", "Kirik", "Sungu", "Entup", "Pelajaran"};
 
     public int getLength(){
         return textQuestions.length;
