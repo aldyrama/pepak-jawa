@@ -138,4 +138,9 @@ public class LoginActivity extends AppCompatActivity {
         a.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         startActivity(a);
     }
+
+    public void createAccount(View view) {
+        Intent b = new Intent(LoginActivity.this,AccountActivity.class);
+        startActivity(b);
+    }
 }
