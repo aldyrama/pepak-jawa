@@ -14,8 +14,8 @@ public class ScoreActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_score);
 
-        TextView txtScore = (TextView) findViewById(R.id.textScore);
-        TextView txtHighScore = (TextView) findViewById(R.id.textHighScore);
+        TextView txtScore = (TextView) findViewById(R.id.txtScore);
+        TextView txtHighScore = (TextView) findViewById(R.id.txtHighScore);
 
         Intent intent = getIntent();
         int score = intent.getIntExtra("score", 0);
@@ -38,4 +38,17 @@ public class ScoreActivity extends AppCompatActivity {
         Intent intent = new Intent(ScoreActivity.this, KuisActivity.class);
         startActivity(intent);
     }
+
+    public void done(View view) {
+        Intent intent = new Intent(ScoreActivity.this, StartQuizActivity.class);
+        startActivity(intent);
+    }
+
+    @Override
+    public void onBackPressed() {
+        Intent intent = new Intent(ScoreActivity.this, StartQuizActivity.class);
+        startActivity(intent);
+    }
+
+
 }

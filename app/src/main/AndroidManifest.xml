@@ -48,13 +48,19 @@
             android:name=".KuisActivity"
             android:label="@string/title_activity_kuis"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ScoreActivity"
+            android:label="Score"
+            android:theme="@style/AppTheme" />
 
         <provider
             android:name=".Database.Provider"
             android:authorities="org.d3ifcool.pepakjawa"
             android:exported="false" />
 
-        <activity android:name=".AccountActivity"></activity>
+        <activity android:name=".AccountActivity" />
+        <activity android:name=".StartQuizActivity" />
+        <activity android:name=".BestScore"></activity>
     </application>
 
 </manifest>

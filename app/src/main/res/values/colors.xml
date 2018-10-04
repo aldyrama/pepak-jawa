@@ -20,6 +20,7 @@
     <!-- Background color for the kesusastra category -->
     <color name="category_kesusastraan">#16AFCA</color>
     <color name="category_kesusastraandark">#139db5</color>
+    <color name="primary">#009688</color>
 
     <color name="colorGrapeFruit">#ED5565</color>
     <color name="colorGrapeFruitDark">#DA4453</color>

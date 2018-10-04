@@ -1,54 +1,109 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/activity_highest_score"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFCCBC"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="16dp"
-    android:paddingRight="@dimen/activity_horizontal_margin1"
     tools:context=".ScoreActivity">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/primary"/>
+
+    <LinearLayout
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:padding="10dp"
+        android:gravity="center_vertical"
+        android:background="@android:color/white"
+        android:elevation="8dp">
+
+        <TextView
+            android:id="@+id/done"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:onClick="done"
+            android:text="done"/>
+
+        <TextView
+            android:id="@+id/play_again"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="4dp"
+            android:onClick="onClick"
+            android:text="Mulai Lagi"/>
+
+    </LinearLayout>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/results_cardview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        app:cardPreventCornerOverlap="false"
+        app:cardElevation="2dp">
 
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:gravity="center"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true">
+        android:layout_alignParentStart="true"
+        >
 
         <TextView
-            android:text="Score Anda :"
-            android:layout_width="500dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/textScore"
+            android:textSize="20dp"
+            android:paddingTop="15dp"
+            android:textStyle="bold"
             android:gravity="center_horizontal"
-            android:paddingRight="100dp"
-            android:background="@color/colorPrimary"
-            android:textColor="#fff"
-            android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+            android:text="Pepak jawa"/>
 
         <TextView
-            android:text="Best Score  :"
-            android:paddingRight="100dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:layout_width="500dp"
-            android:layout_height="wrap_content"
-            android:textColor="#fff"
-            android:background="#d4390a"
-            android:id="@+id/textHighScore"
+            android:paddingTop="10dp"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:text="Pendidikan adalah satu-satunya kunci untuk membuka dunia ini, serta paspor untuk menuju kebebasan. "/>
 
-            android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
-
-        <Button
-            android:text="Coba Lagi"
-            android:layout_width="wrap_content"
+        <TextView
+            android:id="@+id/txtScore"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:layout_gravity="center_horizontal"
-            android:id="@+id/button"
-            android:onClick="onClick" />
+            android:gravity="center"
+            android:layout_marginTop="110dp"
+            android:textSize="20dp"
+            android:text="New Score :"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"/>
+
+        <TextView
+            android:id="@+id/txtHighScore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textSize="20dp"
+            android:text="Best Score :" />
+
     </LinearLayout>
+    </android.support.v7.widget.CardView>
 </RelativeLayout>
