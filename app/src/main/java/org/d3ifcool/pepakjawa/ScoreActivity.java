@@ -48,6 +48,7 @@ public class ScoreActivity extends AppCompatActivity {
     public void onBackPressed() {
         Intent intent = new Intent(ScoreActivity.this, StartQuizActivity.class);
         startActivity(intent);
+
     }
 
 

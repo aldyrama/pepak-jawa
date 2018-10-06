@@ -14,6 +14,8 @@ import android.widget.TextView;
 
 import com.google.firebase.auth.FirebaseAuth;
 
+import info.hoang8f.widget.FButton;
+
 public class MainActivity extends AppCompatActivity {
 
     Button btnLogout;
@@ -208,7 +210,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         // KUIS
-        LinearLayout kuis = (LinearLayout) findViewById(R.id.kuis);
+        FButton kuis = (FButton) findViewById(R.id.kuis);
         kuis.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -216,14 +218,14 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        TextView textkuis = (TextView) findViewById(R.id.text_kuis);
-        textkuis.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, StartQuizActivity.class);
-                startActivity(intent);
-            }
-        });
+//        TextView textkuis = (TextView) findViewById(R.id.text_kuis);
+//        textkuis.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intent = new Intent(MainActivity.this, StartQuizActivity.class);
+//                startActivity(intent);
+//            }
+//        });
     }
 
     @Override

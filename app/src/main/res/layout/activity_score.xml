@@ -88,6 +88,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
+            android:textStyle="bold"
             android:layout_marginTop="110dp"
             android:textSize="20dp"
             android:text="New Score :"/>
@@ -101,6 +102,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
+            android:textStyle="bold"
             android:textSize="20dp"
             android:text="Best Score :" />
 

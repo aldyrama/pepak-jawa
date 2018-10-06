@@ -14,7 +14,6 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@color/tan_background"
             android:clickable="true"
             android:foreground="?android:attr/selectableItemBackground"
             android:orientation="vertical">
@@ -22,7 +21,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="260dp"
-                android:background="#000"
+                android:background="@drawable/dashboard"
                 android:gravity="bottom"
                 android:paddingBottom="5dp"
                 android:text="PEPAK DASHBOARD"
@@ -274,43 +273,21 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="8dp"
                 android:layout_marginBottom="3dp"
                 android:weightSum="3">
 
 
-                <LinearLayout
+                <info.hoang8f.widget.FButton
                     android:id="@+id/kuis"
-                    android:layout_width="300dp"
-                    android:layout_height="60dp"
-                    android:gravity="center_horizontal"
-                    android:layout_margin="2dp"
-                    android:layout_weight="3"
-                    android:background="@color/colorPrimaryDark"
-                    android:orientation="vertical">
-
-                    <!--<ImageView-->
-                    <!--android:layout_width="30dp"-->
-                    <!--android:layout_height="30dp"-->
-                    <!--android:layout_gravity="center"-->
-                    <!--android:layout_marginTop="20dp"-->
-                    <!--android:src="@drawable/ic_launcher_foreground"-->
-                    <!--android:tint="@color/colorWhite" />-->
-
-                    <TextView
-                        android:id="@+id/text_kuis"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_marginTop="10dp"
-                        android:background="@color/colorPrimary"
-                        android:padding="8dp"
-                        android:clickable="true"
-                        android:foreground="?android:attr/selectableItemBackground"
-                        android:text="Kuis"
-                        android:textAlignment="center"
-                        android:textColor="@color/colorWhite"
-                        android:textSize="18sp" />
-
-                </LinearLayout>
+                    android:layout_width="match_parent"
+                    android:text="Mulai"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:textColor="@color/colorWhite"
+                    android:layout_height="80dp" />
 
             </LinearLayout>
 
@@ -319,39 +296,6 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:weightSum="3">
-
-
-                <LinearLayout
-                    android:layout_width="300dp"
-                    android:layout_height="60dp"
-                    android:gravity="center_horizontal"
-                    android:layout_margin="2dp"
-                    android:layout_weight="3"
-                    android:clickable="true"
-                    android:foreground="?android:attr/selectableItemBackground"
-                    android:background="@color/colorPrimaryDark"
-                    android:orientation="vertical">
-
-                    <!--<ImageView-->
-                    <!--android:layout_width="30dp"-->
-                    <!--android:layout_height="30dp"-->
-                    <!--android:layout_gravity="center"-->
-                    <!--android:layout_marginTop="20dp"-->
-                    <!--android:src="@drawable/ic_launcher_foreground"-->
-                    <!--android:tint="@color/colorWhite" />-->
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_marginTop="10dp"
-                        android:background="@color/colorPrimary"
-                        android:padding="8dp"
-                        android:text="Games"
-                        android:textAlignment="center"
-                        android:textColor="@color/colorWhite"
-                        android:textSize="18sp"/>
-
-                </LinearLayout>
 
             </LinearLayout>
 

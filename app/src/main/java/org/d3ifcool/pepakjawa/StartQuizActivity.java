@@ -33,4 +33,10 @@ public class StartQuizActivity extends AppCompatActivity {
             }
         });
     }
+    @Override
+    public void onBackPressed() {
+        Intent intent = new Intent(StartQuizActivity.this, MainActivity.class);
+        startActivity(intent);
+
+    }
 }
