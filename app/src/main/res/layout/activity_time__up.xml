@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Time_Up"
+    tools:ignore="MissingDefaultResource">
+
+    <TextView
+        android:id="@+id/timeUpText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Waktu Habis"
+        android:textColor="@color/red"
+        android:textSize="30sp" />
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/time128"
+        />
+
+    <TextView
+        android:id="@+id/new_score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Score baru :"
+        android:textColor="@color/grey"
+        android:textSize="20sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"></View>
+
+    <info.hoang8f.widget.FButton
+        android:id="@+id/playAgainButton"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Coba Lagi"
+        android:backgroundTint="@color/colorMint"
+        android:shadowColor="@color/colorMintDark"
+        android:textColor="@color/white"
+        fbutton:buttonColor="@color/lightGreen" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"></View>
+
+    <info.hoang8f.widget.FButton
+        android:id="@+id/down"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Selesai"
+        android:backgroundTint="@color/colorMint"
+        android:shadowColor="@color/colorMintDark"
+        android:textColor="@color/white"
+        fbutton:buttonColor="@color/lightGreen" />
+
+</LinearLayout>

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -13,20 +12,19 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:clickable="true"
             android:foreground="?android:attr/selectableItemBackground"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:focusable="true">
 
-            <TextView
+            <ImageButton
                 android:layout_width="match_parent"
-                android:layout_height="260dp"
-                android:background="@drawable/dashboard"
+                android:layout_height="280dp"
+                android:background="@drawable/borobudur"
                 android:gravity="bottom"
                 android:paddingBottom="5dp"
-                android:text="PEPAK DASHBOARD"
                 android:textAlignment="center"
-                android:textColor="@color/colorPrimaryDark"
                 android:textSize="24sp" />
 
             <LinearLayout
@@ -44,7 +42,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:weightSum="3">
+                android:weightSum="3"
+                android:baselineAligned="false">
 
                 <LinearLayout
                     android:id="@+id/pramasastra"
@@ -54,8 +53,9 @@
                     android:layout_weight="1"
                     android:clickable="true"
                     android:foreground="?android:attr/selectableItemBackground"
-                    android:background="@color/category_pramasastra"
-                    android:orientation="vertical">
+                    android:background="@color/colorGrapeFruit"
+                    android:orientation="vertical"
+                    android:focusable="true">
 
 
                     <ImageView
@@ -67,7 +67,8 @@
                         android:clickable="true"
                         android:src="@drawable/wayang"
                         android:scaleType="fitXY"
-                        android:adjustViewBounds="true" />
+                        android:adjustViewBounds="true"
+                        android:focusable="true" />
 
                     <TextView
                         android:id="@+id/text_pramasastra"
@@ -75,12 +76,13 @@
                         android:layout_height="match_parent"
                         android:layout_marginTop="15dp"
                         android:clickable="true"
-                        android:background="@color/category_pramasastra_dark"
+                        android:background="@color/colorGrapeFruitDark"
                         android:padding="8dp"
-                        android:text="Paramasastra"
+                        android:text="@string/paramasastra"
                         android:textAlignment="center"
                         android:textColor="@color/colorWhite"
-                        android:textSize="16sp" />
+                        android:textSize="16sp"
+                        android:focusable="true" />
 
                 </LinearLayout>
 
@@ -92,8 +94,9 @@
                     android:layout_weight="1"
                     android:clickable="true"
                     android:foreground="?android:attr/selectableItemBackground"
-                    android:background="@color/category_rupakawruh"
-                    android:orientation="vertical">
+                    android:background="@color/colorBitterSweet"
+                    android:orientation="vertical"
+                    android:focusable="true">
 
                     <ImageView
                         android:id="@+id/img_rupa_kawruh"
@@ -103,16 +106,17 @@
                         android:layout_marginTop="15dp"
                         android:clickable="true"
                         android:scaleType="fitXY"
-                        android:src="@drawable/wayang" />
+                        android:src="@drawable/wayang"
+                        android:focusable="true" />
 
                     <TextView
                         android:id="@+id/text_rupa_kawruh"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_marginTop="15dp"
-                        android:background="@color/category_rupakawruhdark"
+                        android:background="@color/colorBitterSweetDark"
                         android:padding="8dp"
-                        android:text="Rupa Kawruh"
+                        android:text="@string/rupa_kawruh"
                         android:textAlignment="center"
                         android:textColor="@color/colorWhite"
                         android:textSize="16sp" />
@@ -127,8 +131,9 @@
                     android:layout_weight="1"
                     android:clickable="true"
                     android:foreground="?android:attr/selectableItemBackground"
-                    android:background="@color/category_kawruhbasa"
-                    android:orientation="vertical">
+                    android:background="@color/colorFlower"
+                    android:orientation="vertical"
+                    android:focusable="true">
 
                     <ImageView
                         android:id="@+id/img_kawruh_basa"
@@ -138,14 +143,15 @@
                         android:layout_marginTop="15dp"
                         android:scaleType="fitXY"
                         android:clickable="true"
-                        android:src="@drawable/wayang" />
+                        android:src="@drawable/wayang"
+                        android:focusable="true" />
 
                     <TextView
                         android:id="@+id/text_kawruh_basa"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_marginTop="15dp"
-                        android:background="@color/category_kawruhbasadark"
+                        android:background="@color/colorFlowerDark"
                         android:padding="8dp"
                         android:text="Kawruh Basa"
                         android:textAlignment="center"
@@ -172,7 +178,7 @@
                     android:layout_weight="1"
                     android:clickable="true"
                     android:foreground="?android:attr/selectableItemBackground"
-                    android:background="@color/category_kesusastraan"
+                    android:background="@color/colorGrass"
                     android:orientation="vertical">
 
                     <ImageView
@@ -189,7 +195,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_marginTop="15dp"
-                        android:background="@color/category_kesusastraandark"
+                        android:background="@color/colorGrassDark"
                         android:padding="8dp"
                         android:text="Kesusastraan"
                         android:textAlignment="center"
@@ -206,7 +212,7 @@
                     android:layout_weight="1"
                     android:clickable="true"
                     android:foreground="?android:attr/selectableItemBackground"
-                    android:background="@color/colorAqua"
+                    android:background="@color/colorMint"
                     android:orientation="vertical">
 
                     <ImageView
@@ -223,7 +229,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_marginTop="15dp"
-                        android:background="@color/colorAquaDark"
+                        android:background="@color/colorMintDark"
                         android:padding="8dp"
                         android:text="Aksara Jawa"
                         android:textAlignment="center"
@@ -274,7 +280,6 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:gravity="center_horizontal"
-                android:layout_marginTop="8dp"
                 android:layout_marginBottom="3dp"
                 android:weightSum="3">
 
@@ -282,12 +287,12 @@
                 <info.hoang8f.widget.FButton
                     android:id="@+id/kuis"
                     android:layout_width="match_parent"
-                    android:text="Mulai"
+                    android:text="Kuis"
                     android:layout_marginLeft="3dp"
                     android:layout_marginRight="3dp"
                     android:backgroundTint="@color/colorPrimary"
                     android:textColor="@color/colorWhite"
-                    android:layout_height="80dp" />
+                    android:layout_height="60dp" />
 
             </LinearLayout>
 

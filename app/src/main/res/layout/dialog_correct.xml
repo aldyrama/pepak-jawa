@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent"
+    android:gravity="center"
+    tools:ignore="MissingDefaultResource">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/correctText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/jawaban_benar"
+            android:textColor="@color/green"
+            android:gravity="center"
+            android:textSize="30sp"/>
+    </LinearLayout>
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/happy80"
+        android:layout_marginBottom="10dp"/>
+    <info.hoang8f.widget.FButton
+        android:id="@+id/dialogNext"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="@string/lanjut"
+        android:backgroundTint="@color/colorMint"
+        android:shadowColor="@color/colorMintDark"
+        android:textColor="@color/white"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+</LinearLayout>

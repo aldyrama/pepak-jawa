@@ -3,11 +3,11 @@
     <color name="colorPrimary">#4A312A</color>
     <color name="colorPrimaryDark">#2F1D1A</color>
     <color name="colorAccent">#FF4081</color>
-    <color name="primary_color"></color>
-    <color name="primary_dark_color"></color>
 
     <color name="colorWhite">#FFFFFF</color>
     <color name="tan_background">#FFF7DA</color>
+    <color name="Black">#000000</color>
+    <color name="Button">#29B6F6</color>
     <!-- Background color for the pramasastra category -->
     <color name="category_pramasastra">#FD8E09</color>
     <color name="category_pramasastra_dark">#fd7a09</color>
@@ -40,4 +40,13 @@
     <color name="colorAquaDark">#3BAFDA</color>
     <color name="colorPinkRose">#EC87C0</color>
     <color name="colorPinkRoseDark">#D770AD</color>
+
+    <color name="white">#ffffff</color>
+    <color name="grey">#757171</color>
+    <color name="backgroundColor">#3E454F</color>
+    <color name="lightGreen">#8BC34A</color>
+    <color name="green">#008000</color>
+    <color name="red">#FF0000</color>
+
+    <color name="transparent">#88000000</color>
 </resources>

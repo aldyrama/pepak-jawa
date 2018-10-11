@@ -1,6 +1,7 @@
 package org.d3ifcool.pepakjawa;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -214,7 +215,7 @@ public class MainActivity extends AppCompatActivity {
         kuis.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, StartQuizActivity.class);
+                Intent intent = new Intent(MainActivity.this, StartQuiz.class);
                 startActivity(intent);
             }
         });
@@ -251,5 +252,6 @@ public class MainActivity extends AppCompatActivity {
         a.addCategory(Intent.CATEGORY_HOME);
         a.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         startActivity(a);
+
     }
 }
