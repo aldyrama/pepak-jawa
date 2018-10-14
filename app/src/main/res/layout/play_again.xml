@@ -20,34 +20,52 @@
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:src="@drawable/sad80" />
-    <TextView
-        android:id="@+id/new_score"
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="Skor kamu :"
-        android:textColor="@color/grey"
-        android:textSize="20sp" />
+        android:padding="10dp"
+        android:gravity="center">
 
-    <info.hoang8f.widget.FButton
-        android:id="@+id/playAgainButton"
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        android:layout_margin="15dp"
-        android:textColor="@color/white"
-        android:backgroundTint="@color/colorMint"
-        android:shadowColor="@color/colorMintDark"
-        android:text="Coba Lagi"
-        fbutton:buttonColor="@color/lightGreen" />
+        <TextView
+            android:id="@+id/textscore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Skor Kamu :"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
 
-    <info.hoang8f.widget.FButton
-        android:id="@+id/down"
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        android:text="Selesai"
-        android:textColor="@color/white"
-        android:backgroundTint="@color/colorMint"
-        android:shadowColor="@color/colorMintDark"
-        android:onClick="down"
-        fbutton:buttonColor="@color/lightGreen" />
+        <TextView
+            android:id="@+id/new_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:layout_toRightOf="@id/textscore"/>
+
+
+    </RelativeLayout>
+        <!--<info.hoang8f.widget.FButton-->
+        <!--android:id="@+id/playAgainButton"-->
+        <!--android:layout_width="300dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_margin="15dp"-->
+        <!--android:textColor="@color/white"-->
+        <!--android:backgroundTint="@color/colorMint"-->
+        <!--android:shadowColor="@color/colorMintDark"-->
+        <!--android:text="Coba Lagi"-->
+        <!--fbutton:buttonColor="@color/lightGreen" />-->
+
+    <!--<info.hoang8f.widget.FButton-->
+        <!--android:id="@+id/down"-->
+        <!--android:layout_width="300dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Selesai"-->
+        <!--android:textColor="@color/white"-->
+        <!--android:backgroundTint="@color/colorMint"-->
+        <!--android:shadowColor="@color/colorMintDark"-->
+        <!--android:onClick="down"-->
+        <!--fbutton:buttonColor="@color/lightGreen" />-->
 </LinearLayout>

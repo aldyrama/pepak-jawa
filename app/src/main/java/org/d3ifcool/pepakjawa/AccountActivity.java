@@ -29,7 +29,7 @@ public class AccountActivity extends AppCompatActivity {
         }else {
             nameUser.setText(getIntent().getStringExtra("data1"));
             emailUser.setText(getIntent().getStringExtra("data2"));
-//            Intent intent = new Intent(AccountActivity.this, MainActivity.class);
+//            Intent intent = new Intent(AccountActivity.this, WayangPoin.class);
 //            startActivity(intent);
         }
 

@@ -2,6 +2,7 @@ package org.d3ifcool.pepakjawa;
 
 import android.app.Dialog;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.graphics.Typeface;
 import android.graphics.drawable.ColorDrawable;
@@ -21,7 +22,7 @@ import info.hoang8f.widget.FButton;
 
 public class QuizActivity extends AppCompatActivity {
     FButton buttonA, buttonB, buttonC, buttonD;
-    TextView questionText, triviaQuizText, timeText, resultText, coinText;
+    TextView questionText, triviaQuizText, timeText, resultText, coinText, txtHighscore;
     QuizHelper QuizHelper;
     Question currentQuestion;
     List<Question> list;
@@ -31,16 +32,12 @@ public class QuizActivity extends AppCompatActivity {
     CountDownTimer countDownTimer;
     Typeface tb, sb;
     MediaPlayer audioBackground;
+    TextView score;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_game_main);
-
-//        audioBackground = MediaPlayer.create(this, R.raw.backsound);
-//        audioBackground.setLooping(true);
-//        audioBackground.setVolume(1,1);
-//        audioBackground.start();
 
         questionText = (TextView) findViewById(R.id.triviaQuestion);
         buttonA = (FButton) findViewById(R.id.buttonA);
@@ -51,8 +48,10 @@ public class QuizActivity extends AppCompatActivity {
         timeText = (TextView) findViewById(R.id.timeText);
         resultText = (TextView) findViewById(R.id.resultText);
         coinText = (TextView) findViewById(R.id.coinText);
+        txtHighscore = (TextView) findViewById(R.id.coinText);
+        score = (TextView) findViewById(R.id.coinText);
 
-        QuizHelper = new QuizHelper(this);
+    QuizHelper = new QuizHelper(this);
         QuizHelper.getWritableDatabase();
         if (QuizHelper.getAllOfTheQuestions().size() == 0) {
             QuizHelper.allQuestion();
@@ -88,34 +87,26 @@ public class QuizActivity extends AppCompatActivity {
         buttonC.setText(currentQuestion.getOptC());
         buttonD.setText(currentQuestion.getOptD());
 
-
         timeValue = 10;
         countDownTimer.cancel();
         countDownTimer.start();
-        coinText.setText(String.valueOf(coinValue));
-        coinValue++;
-
+        coinText.setText(String.valueOf(Data.score));
+        Data.score++;
     }
 
     public void buttonA(View view) {
         if (currentQuestion.getOptA().equals(currentQuestion.getAnswer())) {
             buttonA.setButtonColor(ContextCompat.getColor(getApplicationContext(),R.color.lightGreen));
             if (qid < list.size() - 1) {
-
                 disableButton();
-
                 correctDialog();
             }
             else {
-
                 gameWon();
-
             }
         }
         else {
-
             gameLostPlayAgain();
-
         }
     }
 
@@ -161,6 +152,7 @@ public class QuizActivity extends AppCompatActivity {
             gameLostPlayAgain();
         }
     }
+
     public void gameWon() {
         Intent intent = new Intent(this, QuizWin.class);
         startActivity(intent);
@@ -168,13 +160,14 @@ public class QuizActivity extends AppCompatActivity {
     }
 
     public void gameLostPlayAgain() {
+        score.setText(String.valueOf(Data.score-1));
         Intent intent = new Intent(this, PlayAgain.class);
         startActivity(intent);
         finish();
-        audioBackground = MediaPlayer.create(this, R.raw.wrong);
-        audioBackground.setLooping(false);
-        audioBackground.setVolume(1,1);
-        audioBackground.start();
+//        audioBackground = MediaPlayer.create(this, R.raw.wrong);
+//        audioBackground.setLooping(false);
+//        audioBackground.setVolume(1,1);
+//        audioBackground.start();
     }
 
     public void timeUp() {
@@ -206,8 +199,6 @@ public class QuizActivity extends AppCompatActivity {
         Intent intent = new Intent(this, StartQuiz.class);
         startActivity(intent);
         finish();
-//        audioBackground.stop();
-//        QuizActivity.this.finish();
     }
 
     public void correctDialog() {
@@ -223,10 +214,10 @@ public class QuizActivity extends AppCompatActivity {
 
         onPause();
 
-        audioBackground = MediaPlayer.create(this, R.raw.correct);
-        audioBackground.setLooping(false);
-        audioBackground.setVolume(1,1);
-        audioBackground.start();
+//        audioBackground = MediaPlayer.create(this, R.raw.correct);
+//        audioBackground.setLooping(false);
+//        audioBackground.setVolume(1,1);
+//        audioBackground.start();
 
 
         TextView correctText = (TextView) dialogCorrect.findViewById(R.id.correctText);
@@ -268,6 +259,5 @@ public class QuizActivity extends AppCompatActivity {
         buttonC.setEnabled(true);
         buttonD.setEnabled(true);
     }
-
 
 }

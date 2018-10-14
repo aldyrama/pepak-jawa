@@ -29,7 +29,7 @@
             android:id="@+id/playGame"
             fbutton:buttonColor="@color/lightGreen"
             android:layout_width="300dp"
-            android:text="Mulai"
+            android:text="Mulai Kuis"
             android:backgroundTint="@color/colorMint"
             android:shadowColor="@color/colorMintDark"
             android:textColor="@color/white"
@@ -53,7 +53,7 @@
             android:src="@drawable/thropy" />
 
         <TextView
-            android:id="@+id/coinText"
+            android:id="@+id/best_score"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="0"

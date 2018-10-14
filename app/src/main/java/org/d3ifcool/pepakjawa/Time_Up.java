@@ -8,48 +8,71 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
+import java.util.Timer;
+import java.util.TimerTask;
+
 import info.hoang8f.widget.FButton;
 
 public class Time_Up extends AppCompatActivity {
     FButton playAgainButton;
     TextView timeUpText;
     MediaPlayer audioBackground;
+    FButton downButton;
+    TextView score;
+    Timer timer;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_time__up);
         //Initialize
-        playAgainButton = (FButton)findViewById(R.id.playAgainButton);
+//        playAgainButton = (FButton)findViewById(R.id.playAgainButton);
         timeUpText = (TextView)findViewById(R.id.timeUpText);
+//        downButton = (FButton) findViewById(R.id.downtime);
+        score = (TextView) findViewById(R.id.new_score);
 
-        audioBackground = MediaPlayer.create(this, R.raw.timeup);
-        audioBackground.setLooping(false);
-        audioBackground.setVolume(1,1);
-        audioBackground.start();
+        score.setText(String.valueOf(Data.score-1));
 
-        //play again button onclick listener
-        playAgainButton.setOnClickListener(new View.OnClickListener() {
+//        audioBackground = MediaPlayer.create(this, R.raw.timeup);
+//        audioBackground.setLooping(false);
+//        audioBackground.setVolume(1,1);
+//        audioBackground.start();
+
+        timer = new Timer();
+        timer.schedule(new TimerTask() {
             @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(Time_Up.this,QuizActivity.class);
+            public void run() {
+                Intent intent = new Intent(Time_Up.this, StartQuiz.class);
                 startActivity(intent);
                 finish();
-
-
             }
-        });
+        }, 3000);
 
-
-//        //Setting typefaces for textview and button - this will give stylish fonts on textview and button
-//        Typeface typeface = Typeface.createFromAsset(getAssets(),"fonts/shablagooital.ttf");
-//        timeUpText.setTypeface(typeface);
-//        playAgainButton.setTypeface(typeface);
+//        playAgainButton.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Data.score = 0;
+//                Intent intent = new Intent(Time_Up.this,QuizActivity.class);
+//                startActivity(intent);
+//                finish();
+//            }
+//        });
+//
+//        downButton.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intent = new Intent(Time_Up.this,StartQuiz.class);
+//                startActivity(intent);
+//                score.setText(String.valueOf(Data.score-1));
+//                finish();
+//            }
+//        });
+//
     }
 
-    @Override
-    public void onBackPressed() {
-        super.onBackPressed();
-        finish();
+        @Override
+        public void onBackPressed() {
+            super.onBackPressed();
+            finish();
     }
 }

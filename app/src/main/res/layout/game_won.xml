@@ -10,8 +10,14 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:src="@drawable/thropy"
-        android:layout_margin="20dp"/>
+        android:src="@drawable/thropy"/>
+
+    <!--<TextView-->
+        <!--android:id="@+id/won"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="100"-->
+        <!--android:textSize="40sp"/>-->
 
     <TextView
         android:layout_width="match_parent"
@@ -21,15 +27,15 @@
         android:textStyle="bold"
         android:textSize="32sp"/>
 
-    <info.hoang8f.widget.FButton
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Mulai Lagi"
-        android:backgroundTint="@color/colorMint"
-        android:shadowColor="@color/colorMintDark"
-        android:textColor="@color/white"
-        android:id="@+id/platygaianbutton"
-        android:layout_margin="15dp"
-        android:onClick="PlayAgain"
-        />
+    <!--<info.hoang8f.widget.FButton-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Mulai Lagi"-->
+        <!--android:backgroundTint="@color/colorMint"-->
+        <!--android:shadowColor="@color/colorMintDark"-->
+        <!--android:textColor="@color/white"-->
+        <!--android:id="@+id/platygaianbutton"-->
+        <!--android:layout_margin="15dp"-->
+        <!--android:onClick="PlayAgain"-->
+        <!--/>-->
 </LinearLayout>

@@ -189,7 +189,7 @@ public class MainActivity extends AppCompatActivity {
         wayang.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, WayangActivity.class);
+                Intent intent = new Intent(MainActivity.this, WayangPoin.class);
                 startActivity(intent);
             }
         });
@@ -197,7 +197,7 @@ public class MainActivity extends AppCompatActivity {
         imgwayang.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, WayangActivity.class);
+                Intent intent = new Intent(MainActivity.this, WayangPoin.class);
                 startActivity(intent);
             }
         });
@@ -205,7 +205,7 @@ public class MainActivity extends AppCompatActivity {
         textwayang.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, WayangActivity.class);
+                Intent intent = new Intent(MainActivity.this, WayangPoin.class);
                 startActivity(intent);
             }
         });
@@ -223,7 +223,7 @@ public class MainActivity extends AppCompatActivity {
 //        textkuis.setOnClickListener(new View.OnClickListener() {
 //            @Override
 //            public void onClick(View v) {
-//                Intent intent = new Intent(MainActivity.this, StartQuizActivity.class);
+//                Intent intent = new Intent(WayangPoin.this, StartQuizActivity.class);
 //                startActivity(intent);
 //            }
 //        });
