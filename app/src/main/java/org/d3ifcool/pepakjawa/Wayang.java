@@ -1,9 +1,5 @@
 package org.d3ifcool.pepakjawa;
 
-/**
- * Created by Aws on 28/01/2018.
- */
-
 public class Wayang {
 
     private String Title;

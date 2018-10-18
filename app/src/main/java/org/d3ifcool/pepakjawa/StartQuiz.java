@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Typeface;
+import android.preference.PreferenceManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -30,17 +31,17 @@ public class StartQuiz extends AppCompatActivity {
 
         txtHighScore.setText(String.valueOf(Data.score-1));
 
-        SharedPreferences mypref = getPreferences(MODE_PRIVATE);
+        SharedPreferences mypref = PreferenceManager.getDefaultSharedPreferences(this);
         txtHighScore.setText(String.valueOf(Data.score-1));
-        int highscore = mypref.getInt(" ",0);
-        if(highscore>= Data.score-1)
+        int highscore = mypref.getInt("highscore",0);
+        if(highscore >= Data.score-1)
             txtHighScore.setText(" "+highscore);
         else
         {
             txtHighScore.setText(String.valueOf(Data.score-1));
             SharedPreferences.Editor editor = mypref.edit();
-            editor.putInt(" ", Data.score-1);
-//            txtHighScore.setText(String.valueOf(Data.score-1));
+            editor.putInt("highscore", Data.score-1);
+            Data.bestScore = highscore;
             editor.commit();
         }
 
@@ -54,4 +55,10 @@ public class StartQuiz extends AppCompatActivity {
             }
         });
    }
+
+            @Override
+            public void onBackPressed() {
+                super.onBackPressed();
+                finish();
+    }
 }

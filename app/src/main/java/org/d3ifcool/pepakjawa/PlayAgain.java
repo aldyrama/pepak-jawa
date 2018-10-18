@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.Timer;
 import java.util.TimerTask;
@@ -43,7 +44,7 @@ public class PlayAgain extends Activity {
                 finish();
 
             }
-        }, 3000);
+        }, 1500);
     }
 
 //        //play again button onclick listener
@@ -78,10 +79,7 @@ public class PlayAgain extends Activity {
 
     @Override
     public void onBackPressed() {
-        Intent intent = new Intent(PlayAgain.this, StartQuiz.class);
-        startActivity(intent);
-        score.setText(String.valueOf(Data.score-1));
-        finish();
+
     }
 
 

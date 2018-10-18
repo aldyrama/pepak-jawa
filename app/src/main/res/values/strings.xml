@@ -26,28 +26,274 @@
     <string name="paramasastra">Paramasastra</string>
     <string name="rupa_kawruh">Rupa Kawruh</string>
 
+    //Referensi
+    <string name="referensi">
+        Referensi \n Icon, Gambar dan Artikel
+    </string>
+    <string name="wayangarjuna">
+        Arjuna Designed by Free Vectors via \n
+        <a rel="nofollow" href="https://www.vecteezy.com/">www.vecteezy.com</a>
+    </string>
+    <string name="wayangsinta">
+        shinta : Designed by \n
+        <a target="_blank" href="https://www.vecteezy.com">www.Vecteezy.com</a>
+    </string>
+    <string name="wayangall">
+        Free Vector Design by: Vecteezy \n
+        <a rel="nofollow" target="_blank" href="https://www.Vecteezy.com/">https://www.Vecteezy.com/</a>
+    </string>
+    <string name="icon">
+        icon : Designed by Ibrandify \n
+        <a href='https://www.freepik.com/free-vector/6-clock-icons_995776.htm'>https://www.freepik.com/free-vector/6-clock-icons_995776.htm</a>
+    </string>
+    <string name="artikelkresna">
+        Kresna : Artikel by \n
+        <a href = 'https://wayang.wordpress.com/2006/10/26/kresna/'>https://wayang.wordpress.com/2006/10/26/kresna/</a>
+    </string>
+    <string name="artikelsadewa">
+        sadewa : Artikel by \n
+        <a href = 'http://dalang666.blogspot.com/2011/09/sadewa.html'>http://dalang666.blogspot.com/2011/09/sadewa.html</a>
+    </string>
+    <string name="artikelbima">
+        bima : Artikel by \n
+        <a href = 'https://wayang.wordpress.com/2006/10/26/bima-werkudara/'> https://wayang.wordpress.com/2006/10/26/bima-werkudara/ </a>
+    </string>
+    <string name="artikellaksamana">
+        laksamana : Artikel by \n
+        <a href = 'https://wayangku.id/nama-tokoh-wayang-lesmana-laksmana-widagda/'>https://wayangku.id/nama-tokoh-wayang-lesmana-laksmana-widagda/</a>
+    </string>
+    <string name="artikelsinta">
+        shinta : Artikel by \n
+        <a href = 'https://wayang.wordpress.com/2006/10/26/sinta/'>https://wayang.wordpress.com/2006/10/26/sinta//</a>
+    </string>
+    <string name="artikelramawijaya">
+        ramawijaya : Artikel by \n
+        <a href = 'https://wayang.wordpress.com/2006/10/24/rama-wijaya/'>https://wayang.wordpress.com/2006/10/24/rama-wijaya/</a>
+    </string>
+    <string name="artikelbagong">
+        bagong : Artikel by \n
+        <a href = 'https://wayang.wordpress.com/2010/03/12/bagong-cepot/'>https://wayang.wordpress.com/2010/03/12/bagong-cepot/</a>
+    </string>
+    <string name="artikelpetruk">
+        petruk : Artikel by \n
+        <a href = 'https://wayang.wordpress.com/2010/03/12/petruk/'>https://wayang.wordpress.com/2010/03/12/petruk/</a>
+    </string>
+    <string name="artikelarjuna">
+        arjuna : Artikel by \n
+        <a href = 'https://wayang.wordpress.com/2010/07/18/arjuna-2/'>https://wayang.wordpress.com/2010/07/18/arjuna-2//</a>
+    </string>
+    <string name="artikelgatotkaca">
+        gatotkaca : Artikel by \n
+        <a href = 'https://wayang.wordpress.com/2010/03/06/gatotkaca/'>https://wayang.wordpress.com/2010/03/06/gatotkaca/</a>
+    </string>
+    <string name="artikelkumbakarna">
+        kumbakarna : Artikel by \n
+        <a href = 'https://wayang.wordpress.com/2006/10/26/arya-kumbakarna/'>https://wayang.wordpress.com/2006/10/26/arya-kumbakarna/</a>
+    </string>
+    <string name="artikelhanoman">
+        hanoman : Artikel by \n
+        <a href = 'https://wayang.wordpress.com/2006/10/25/anoman/'>https://wayang.wordpress.com/2006/10/25/anoman/</a>
+    </string>
+
     //Wayang Description
-    <string name="kresna">PRABU KRESNA yang waktu mudanya bernama Narayana, adalah putra Prabu Basudewa, raja negara Mandura dengan permaisuri Dewi Mahendra/Maekah (Jawa.
-        Prabu Kresna lahir kembar bersama kakaknya, Kakrasana, dan mempunyai adik lain ibu bernama Dewi Sumbadra/Dewi Lara Ireng, putri Prabu Basudewa dengan permaisuri Dewi Badrahini.
-        Prabu Kresna juga mempunyai saudara lain ibu bernama Arya Udawa, putra Prabu Basudewa dengan Ken Sagupi, seorang swarawati keraton Mandura.
+    <string name="kresna">
+        Prabu Kresna yang waktu mudanya bernama Narayana, adalah putra Prabu Basudewa, raja negara Mandura dengan permaisuri Dewi Mahendra/Maekah (Jawa). Ia lahir kembar bersama kakaknya, Kakrasana,
+        dan mempunyai adik lain ibu bernama Dewi Sumbadra/Dewi Lara Ireng, putri Prabu Basudewa dengan permaisuri Dewi Badrahini. Prabu Kresna juga mempunyai saudara lain ibu bernama Arya Udawa, putra Prabu Basudewa dengan Ken Sagupi, seorang swarawati keraton Mandura. \n\n
         Prabu Kresna adalah titisan Sanghyang Wisnu yang terakhir. Selain sangat sakti dan dapat bertiwikrama, ia juga mempunyai pusaka-pusaka sakti, antara lain; Senjata Cakra, Kembang Wijayakusuma, Terompet/Sangkala Pancajahnya, Kaca paesan, Aji Pameling dan Aji Kawrastawan.
-        Prabu Kresna mendapat negara Dwarawati setelah mengalahkan Prabu Narasinga, kemudian naik tahta bergelar Prabu Sri Bathara Kresna.</string>
-
-    <string name="sadewa">SAHADEWA atau Sadewa yang dalam pedalangan Jawa disebut pula dengan nama Tangsen (=buah dari tumbuh–tumbuhan yang daunnya dapat dipergunakan dan dipakai untuk obat) adalah putra ke-lima/bungsu Prabu Pandudewanata, raja negara Astina dengan permaisuri Dewi Madrim, putri Prabu Mandrapati dengan Dewi Tejawati dari negara Mandaraka.Ia lahir kembar bersama kakanya, Nakula. Sadewa juga mempunyai tiga orang saudara satu ayah, putra Prabu Pandu dengan Dewi Kunti, dari negara Mandura, bernama; Puntadewa, Bima/Werkundara dan Arjuna.
-        Sadewa adalah titisan Bathara Aswin, Dewa Tabib. Ia sangat mahir dalam ilmu kasidan (Jawa)/seorang mistikus. Mahir menunggang kuda dan mahir menggunakan senjata panah dan lembing. Selain sangat sakti, Sadewa juga memiliki Aji Purnamajati pemberian Ditya Sapulebu, Senapati negara Mretani yang berkhasiat; dapat mengerti dan mengingat dengan jelas pada semua peristiwa.
-        Sadewa mempunyai watak jujur, setia, taat, belas kasih, tahu membalas guna dan dapat menyimpan rahasia. Ia tinggal di kesatrian Bawenatalun/Bumiretawu, wilayah negara Amarta. Sahadewa menikah dengan Dewi Srengginiwati, adik Dewi Srengganawati (Isteri Nakula), putri Resi Badawanganala, kura-kura raksasa yang tinggal di sungai/narmada Wailu (menurut Purwacarita, Badawanangala dikenal sebagai raja negara Gisiksamodra/Ekapratala).Dari perkawinan tersebut ia memperoleh seorang putra bernama Bambang Widapaksa/ Sidapaksa).
+        Ia mendapat negara Dwarawati setelah mengalahkan Prabu Narasinga, kemudian naik tahta bergelar Prabu Sri Bathara Kresna.
+        Prabu Kresna mempunyai 4 (empat) orang permaisuri :\n
+        1.Dewi Jembawati, putri Resi Jembawan dengan Dewi Trijata dari pertapaan Gadamadana, berputra ; Samba dan Gunadewa (berwujud kera).\n
+        2.Dewi Rukmini, putri Prabu Bismaka/Arya Prabu Rukma dengan Dewi Rumbini dari negara Kumbina, berputra: Saradewa (berwujud raksasa), Partadewa dan Dewi Titisari/Sitisari. \n
+        3.Dewi Setyaboma, putri Prabu Setyajid/Arya Ugrasena dengan Dewi Wersini, dari negara Lesanpura, berputra ; Arya Setyaka.\n
+        4.Dewi Pratiwi, istri turunan sebagai titisan Sanghyang Wisnu, putri Nagaraja dari Sumur Jalatunda, berputra ; Bambang Sitija dan Dewi Siti Sundari.\n\n
+        Setelah meninggalnya Prabu Baladewa/Resi Balarama, kakaknya, dan musnahnya seluruh Wangsa Yadawa, Prabu Kresna menginginkan moksa. Ia wafat dalam keadaan bertapa dengan perantaraan panah seorang pemburu bernama Ki Jara yang mengenai kakinya.
     </string>
 
-    <string name="bima">Bima (Sanskerta: Bhima) atau Bimasena (Sanskerta: Bhimaséna) adalah seorang tokoh protagonis dalam wiracarita Mahabharata. Ia dianggap sebagai seorang tokoh heroik. Ia adalah putra Dewi Kunti dan dikenal sebagai tokoh Pandawa yang kuat, bersifat selalu kasar dan menakutkan bagi musuh, walaupun sebenarnya hatinya lembut. Ia merupakan keluarga Pandawa di urutan yang kedua, dari lima bersaudara. Saudara se’ayah’-nya ialah wanara yang terkenal dalam epos Ramayana dan sering dipanggil dengan nama Hanoman.
-        Akhir dari riwayat Bima diceritakan bahwa dia mati sempurna (moksa) bersama ke empat saudaranya setelah akhir perang Bharatayuddha. Cerita ini dikisahkan dalam episode atau lakon Prasthanikaparwa. Bima setia pada satu sikap, yaitu tidak suka berbasa basi dan tak pernah bersikap mendua serta tidak pernah menjilat ludahnya sendiri.
+    <string name="sadewa">
+        Sahadewa atau Sadewa adalah saudara terakhir dari para Pandawa. Sadewa memiliki saudara kembar yaitu Nakula, mereka juga menjadi tokoh protagonis dalam cerita Mahabarata. Sadewa adalah putera dari Pandu dan Dewi Madri.
+        Sadewa dan saudara kembarnya Nakula dikisahkan sebagai anugerah dari dewa kembar bernama Aswinkepada Dewi Madri, karena Pandu mendapat kutukan dari Resi Kindama bahwa ia akan mati apabila mengawini istrinya. \n\n
+        Sadewa  memiliki sifat yang bijak, bahkan walaupun ia putera yang paling muda dari Para Pandawa, ia adalah yang terbijak. Kakaknya, Yudistira pernah mengatakan bahwa Sadewa lebih bijak daripada Wrehaspati, yaitu guru para dewa.\n\n
+        Sadewa memiliki kepandaian dalam hal ilmu perbintangan atau astronomi. Kepandaiannya jauh di atas murid-murid Resi Drona yang lainnya. Ia mampu mengetahui kejadian yang akan datang, namun ia pernah dikutuk, apabila sampai membeberkan rahasia takdir,
+        maka kepalanya akan terbelah menjadi dua. Ia juga pandai dalam hal ilmu peternakan sapi. Dan pada saat Para Pandawa menjalani masa penyamaran di Kerajaan Matsyakarena kalah bermain dadu dengan Korawa, Sadewa menyamar menjadi seorang gembala sapi bernama Tantripala. \n\n
+        Sadewa menikah dengan puteri Jarasanda,raja Kerajaan Magadha, dan dari pernikahan tersebut, ia memperoleh seorang putera bernama Suhotra, Sedangkan dari Dropadi, yang merupakan istri para Pandawa setelah Arjuna memenangkan sayembara memanah di kerajaan Pancala, Sadewa memiliki putera bernama Srutakirti. \n\n
+        Istri Sadewa versi pewayangan hanya seorang, yaitu Perdapa putri Resi Tambrapetra. Dari perkawinan itu lahir dua orang anak bernama Niken Sayekti dan Bambang Sabekti. Masing-masing menikah dengan anak-anak Nakula yang bernama Pramusintadan Pramuwati. \n\n
+        Sadewa  juga turut serta dalam peperangan besar di Kurukshetra (Bharatayuddha). Dalam kisah Mahabharata, pada hari ke-18 Sadewa bertempur melawan Sengkuni, dan ia berhasil mengalahkan Sengkuni dengan pedangnya. Sengkuni adalah paman para Korawa dari pihak ibu. Ia licik dan yang memicu permusuhan antara Pandawa dan Korawa, sehingga meletus perangBharatayuddha.\n\n
+        Sadewa juga merupakan tokoh utama dalam Kakawin Sudamala, yaitu karya sastra berbahasa Jawa Kuna peninggalan Kerajaan Majapahit. Dalam naskan ini diceritakan tentang kutukan yang menimpa istri Batara Guru yang bernama Umayi, akibat perbuatannya berselingkuh dengan Batara Brahma.Umayi dikisahkan berubah menjadi Rakshasi bernama Ra Nini,
+        dan hanya bisa kembali ke wujud asal apabila diruwat oleh bungsu Pandawa. Oleh karena itu, Sadewa diculik dan dipaksa untuk memimpin prosesi ruwatan. Setelah dirasuki batara Guru, barulah Sadewa menjalankan permintaan Ra Nini. Kemudian Sadewa mendapat julukan Sudamala yang berarti “menghilangkan penyakit”. Dan dengan petunjuk Ra Nini yang sudah berubah menjadi Umayi, Sadewa pun pergi ke desa Prangalas menikahi putri seorang pertapa bernama Tambrapetra, yang bernama Predapa. \n\n
+        Sadewa meninggal dalam perjalanan ke puncak gunung Himalaya bersama para pandawa dan istri mereka Dropadi. Sadewa meniggal setelah Dropadi. Arwah Sadewa mencapai kedamaian di surga.
+
     </string>
 
-    <string name="laksamana">Laksmana adalah salah satu tokoh protagonist dalam wiracarita Ramayana. Ia merupakan putera ketiga Prabu Dasarata dan merupakan adik tiri Sri Rama, pangeran kerajaan Kosala.Laksmana merupakan adik yang paling dekat dengan Rama bila dibanding dengan saudara-saudaranya yang lain.
-        Menurut kitab Purana, Laksmana merupakan penitisan Sesa. Sesha adalah ular yang mengabdi kepada Wisnu dan menjadi ranjang ketika Wisnu beristirahat di lautan susu. Sesha selalu menitis kepada setiap awatara Wisnu dan menjadi pendamping setianya. Dalam hal ini, Sesha menitis kepada Laksmana, yang kemudian menjadi pendamping awatara Wisnu, yaitu Rama.
-        Laksmana merupakan putera ketiga Prabu Dasarata, raja Kerajaan Kosala. Kakak pertamanya adalah Rama, kakak keduanya bernama Bharata, dan kembarannya sekaligus adiknya bernama Satrugna. Laksmana menikah dengan adik Dewi Sita yang bernama Urmila
+    <string name="bima">
+        Bima atau Werkudara dikenal pula dengan nama; Balawa, Bratasena, Birawa, Dandunwacana, Nagata, Kusumayuda, Kowara, Kusumadilaga, Pandusiwi, Bayusuta, Sena, atau Wijasena. Ia putra kedua Prabu Pandu, raja Negara Astina dengan Dewi Kunti, putri Prabu Basukunti dengan Dewi Dayita dari negara Mandura. Bima mempunyai dua orang saudara kandung bernama: Puntadewa dan Arjuna, serta 2 orang saudara lain ibu, yaitu ; Nakula dan Sadewa. \n\n
+        Bima memililki sifat dan perwatakan; gagah berani, teguh, kuat, tabah, patuh dan jujur. Ia memiliki keistimewaan ahli bermain ganda dan memiliki berbagai senjata antara lain; Kuku Pancanaka, Gada Rujakpala, Alugara, Bargawa (kapak besar) dan Bargawasta, sedangkan ajian yang dimiliki adalah ; Aji Bandungbandawasa, Aji Ketuklindu dan Aji Blabakpangantol-antol. \n\n
+        Bima juga memiliki pakaian yang melambangkan kebesaran yaitu; Gelung Pudaksategal, Pupuk Jarot Asem, Sumping Surengpati, Kelatbahu Candrakirana, ikat pinggang Nagabanda dan Celana Cinde Udaraga. Sedangkan beberapa anugerah Dewata yang diterimanya antara lain; Kampuh/kain Poleng Bintuluaji, Gelang Candrakirana, Kalung Nagasasra, Sumping Surengpati dan pupuk Pudak Jarot Asem. \n\n
+        Bima tinggal di kadipaten Jodipati, wilayah negara Amarta. Ia mempunyai tiga orang isteri dan 3 orang anak, yaitu : \n
+        1. Dewi Nagagini, berputra Arya Anantareja,\n
+        2. Dewi Arimbi, berputra Raden Gatotkaca dan \n
+        3. Dewi Urangayu, berputra Arya Anantasena\n\n
+        Akhir riwayat Bima diceritakan, mati sempurna (moksa) bersama ke empat saudaranya setelah akhir perang Bharatayuda.
     </string>
 
-    <string name="sinta">Shinta merupakan puteri dari seorang bidadari bernama Batari Tari atau  Kanun isteri dari Rahwana. Konon, Shinta adalah titisan dari Btari Widawati istri dari Dewa Wisnu.
-        Pada bulan ke-7 Kanun yang tengah “mitoni” kehamilannya, tiba-tiba membuat geger istana Alengka, lantaran bayi yang  dikandung itu diramalkan oleh beberapa pendeta yang ada dalam pesta,  bakal jadi “isteri” Rahwana (ayahnya sendiri). Rahwana naik pitam. Ia bangkit dari singgasananya serta berkeinginan  memenggal kepala Kanun. Namun sebelum  terwujud tiba-tiba Rahwana membatalkan niatnya karena berpikir siapa tahu anaknya akan menjadi anak yang cantik. Dengan demikian, diapun akan bersedia untuk menikah dengannya.
+    <string name="laksamana">
+        Lesmana (Laksmana atau Laksmana Widagda) adalah putra Prabu Dasarata, raja negara Ayodya dengan permaisuri kedua Dewi Sumitra, putri Prabu Ruryana raja negara Maespati. Ia mempunyai empat orang saudara seayah lain ibu masing-masing bernama ; Ramawijaya/Ramadewa, dari permaisuri Dewi Kusalya dan Barata, Satrugna serta Dewi Kawakwa ketiganya putra Prabu Dasarata dengan permaisuri Dewi Kekayi. Leksmana bertempat tinggal di kesatrian Girituba. \n\n
+        Ia seorang ksatria brahmacari (tidak menikah). Mempunyai watak halus, setia dan tak kenal takut. Sejak kecil Leksmana sangat rapat dan sangat sayang kepada Ramawijaya. Leksmana diyakini sebagai titisan Bathara Suman, pasangan Bathara Wisnu. Dengan setia Leksmana mengikuti Ramawijaya menjalani pengasingan selama 13 tahun bersama Dewi Sinta. Ketika Dewi Sinta diculik Prabu Dasamuka dari tengah hutan Dandaka dan disekap di taman Argasoka negara Alengka,
+        Leksmana membantu perjuangan Ramawijaya merebut dan membebaskan kembali Dewi Sinta dari sekapan Prabu Dasamuka. \n\n
+        Di dalam perang besar Alengka, Lesmana banyak menewaskan senapati ulung andalan negara Alengka. Ia menewaskan Dewi Sarpakenaka serta Indrajid/Megananda, keduanya adik dan putra kesayangan Prabu Dasamuka. Setelah berakhirnya perang Alengka dan Ramawijaya beserta Dewi Sinta kembali kenegara Ayodya, dengan setia Leksmana tetap membantu Prabu Ramawijaya mengatur tata pemerintahan negara Ayodya.
+        Ia meninggal dalam usia lanjut dan jenazahnya dimakamkan di gunung Kutarunggu berdampingan dengan makam Prabu Ramawijaya.
+    </string>
+
+    <string name="sinta">
+        Dewi Sinta adalah putri Prabu Janaka, raja negara Mantili atau Mitila (Mahabharata). Dewi Sinta diyakini sebagai titisan Bathari Sri Widowati, istri Bathara Wisnu. Selain sangat cantik, Dewi Sinta merupakan putri yang sangat setia, jatmika (selalu dengan sopan santun) dan suci trilaksita (ucapan, pikiran dan hati)nya. Dewi Sinta menikah dengan Ramawijaya, putra Prabu Dasarata dengan Dewi Kusalya dari negara Ayodya, setelah Rama memenangkan sayembara mengangkat busur Dewa Siwa di negara Mantili.
+        Dari perkawinan tersebut ia memperoleh dua orang putra masing-masing bernama; Lawa dan Kusya. \n\n
+        Dengan setia Dewi Sinta mengikuti suaminya, Ramawijaya menjalani pengasingan. Karena terpesona oleh keindahan Kijang Kencana penjelmaan Ditya Marica, Dewi Sinta akhirnya diculik oleh Prabu Dasamuka dan ditawan di taman Argasoka negara Alengka hampir 12 tahun lamanya. Ia akhirnya dapat dibebaskan oleh Ramawijaya, setelah berhasil membinasakan Prabu Dasamuka dan semua senapati perang Alengka. \n\n
+        Menurut Mahabharata, Dewi Sinta tidak lama tinggal di istana Ayodya sebagai permaisuri Prabu Rama. Karena kecurigaan Prabu Rama terhadap kesucian Dewi Sinta walau telah dibuktikan dengan hukum bakar di Alengka, Dewi Sinta kemudian diasingkan dari istana Ayodya, dan hidup di pertapaan Resi Walmiki. Di tempat itulah Dewi Sinta melahirkan kedua putra kembarnya. Lawa dan Kusya. Akhir riwayatnya diceritakan, Dewi Sinta mati ditelan bumi saat akan boyong kembali ke istana Ayodya. \n\n
+    </string>
+
+    <string name="ramawijaya">
+        Ramawijaya adalah seorang satria yang pandai berperang. Walaupun sikapnya lemah-lembut, tetapi ia tangkas menggunakan senjata, terutama panah. Ia rajin berlatih menggunakan panah sehingga tak ada satria lain yang mampu mengalahkan kepandaiannya dalam memanah. Busur yang seberapapun besarnya dapat dilengkungkan olehnya, dan sasaran yang betapapun jauhnya selalu terbidik dengan tepat. \n\n
+        Bala tentara Ayodya pun amat besar dan kuat serta memiliki pasukan berkuda yang tangguh. Gajah-gajah pun digunakan untuk berperang. Syahdan, datanglah seorang pendeta mengunjungi istana Ayodya. Ia bernama Bagawan Wiswamitra. Karena Prabu Dasarata sangat menghargai kehidupan beragama maka kedatangan Bagawan Wiswamitra disambut dengan segala kehormatan.
+        Bagawan Wiswamitra bertempat tinggal jauh dari kota Ayodya. Kedatangannya ke Ayodya kali ini bertujuan untuk meminta bantuan agar Sang Prabu menghalau raksasa-raksasa yang sering mengganggu ketentraman penduduk desa. \n\n
+        Sudah agak lama pertapaan Sang Bagawan selalu didatangi para raksasa perusuh dari negeri Raja Tatsaka. Mereka merusak sawah dan ladang para cantrik serta menangkap dan merampas ternak. Jika mereka tidak mendapatkan ternak, siapapun yang ditemuinya ditangkapnya pula dan dijadikan mangsa. \n\n
+        Penduduk desa di sekitar pertapaan Sang Bagawan sudah pernah mengadakan perlawanan tetapi karena jumlahnya tidak sebanding dengan jumlah raksasa maka para raksasa itu tak dapat dikalahkan. /n/n
+        Maka berangkatlah Ramawijaya dan Laksamana beserta pasukan Ayodya. Kedatangan para satria Ayodya itu pun disambut oleh para raksasa dengan geram. Pasukan Ayodya berperang dengan gagah berani sehingga para raksasa itu tumpas. Raja Tatsaka terbunuh oleh panah Ramawijaya.
+        Setelah para raksasa terusir, Bagawan Wiswamitra beserta para cantrik kembali ke pertapaannya. Para penduduk membersihkan puing-puing yang berserakan akibat peperangan. Rumah-rumah penduduk yang dirusak oleh para raksasa kini diperbaiki dan dibangun lagi.
+        Mereka juga mulai beternak. Sawah dan ladang yang rusak mereka cangkul dan garap lagi. Saluran-saluran air digali pula. Tanah-tanah yang baru dibuka dijadikan tanah garapan, dibagi-bagi dalam petak-petak persawahan, dan diairi. Benih-benih disebarkan. \n\n
+    </string>
+
+    <string name="bagong">
+        Bagong adalah anak angkat ketiga Semar. Dia adik Gareng dan Petruk. Diceritakan ketika itu Gareng dan Petruk minta dicarikan teman, sanghyang Tunggal bersabda :”Ketahuilah bahwa temanmu adalah bayanganmu sendiri.” Seketika itu bayangan berubah menjadi manusia dan selanjutnya diberi nama Bagong.
+        Bagong berbadan pendek, gemuk seperti semar tetapi mata dan mulut lebar. Ia memiliki watak banyak bercanda, pintar membuat lelucon, bahkan terkadang saking lucunya menjadi menjengkelkan. Beradat lancang, tetapi jujur, dan juga sakti. Kalau menjalankan tugas terkadang tergesa-gesa kurang perhitungan. Bagong bersuara besar dan kedengaran agak kendor di leher.
+        Ada yang mengatakan kalau Bagong berasal dari kata Baghoo (bahasa Arab) yang artinya senang membangkang/ menentang, tidak mudah menurut atau percaya pada nasihat orang lain.  Ini juga menjadi nasihat pada tuannya bahwa manusia didunia ini mempunyai watak yang bermacam-macam dan perlu diperhatikan dan diwaspadai dari watak dan karakter masing – masing watak tersebut. \n\n
+        Inti Pendidikan dan Budi Pekerti:\n
+        1.  Hidup ini perlu hiburan \n
+        2.  Setiap tindakan jangan tergesa-gesa dalam pelaksanaannya, harus diperhitungkan terlebih dahulu, minimal  dampak negatif dan positif yang akan timbul akibat dari perbuatan kita tersebut.
+            Pelajari berbagai macam watak/ karakter manusia agar kita bisa hidup bermasyarakat dengan baik. \n
+        3.  kejujuran modal utama dalam bermasyarakat, tanpa itu kita akan dijauhi oleh orang lain.
+    </string>
+
+    <string name="petruk">
+        Petruk adalah tokoh punakawan dalam pewayangan Jawa, di pihak keturunan/trah Witaradya. Petruk tidak disebutkan dalam kitab Mahabarata. Jadi jelas bahwa kehadirannya dalam dunia pewayangan merupakan gubahan asli Jawa. \n\n
+        Menurut pedalangan, ia adalah anak pendeta raksasa di pertapaan dan bertempat di dalam laut bernama Begawan Salantara. Sebelumnya ia bernama Bambang Pecruk Panyukilan. Ia gemar bersenda gurau, baik dengan ucapan maupun tingkah laku dan senang berkelahi. Ia seorang yang pilih tanding/sakti di tempat kediamannya dan daerah sekitarnya.
+        Oleh karena itu ia ingin berkelana guna menguji kekuatan dan kesaktiannya. \n\n
+        Di tengah jalan ia bertemu dengan Bambang Sukodadi dari pertapaan Bluluktiba yang pergi dari padepokannya di atas bukit, untuk mencoba kekebalannya. Karena mempunyai maksud yang sama, maka terjadilah perang tanding. Mereka berkelahi sangat lama, berhantam, bergumul, tarik-menarik, tendang-menendang, injak-menginjak,
+        hingga tubuhnya menjadi cacat dan berubah sama sekali dari wujud aslinya yang tampan. Perkelahian ini kemudian dipisahkan oleh Smarasanta (Semar) dan Bagong yang mengiringi Batara Ismaya. Mereka diberi fatwa dan nasihat sehingga akhirnya keduanya menyerahkan diri dan berguru kepada Smara/Semar dan mengabdi kepada Sanghyang Ismaya.
+        Demikianlah peristiwa tersebut diceritakan dalam lakon Batara Ismaya Krama. \n\n
+        Karena perubahan wujud tersebut masing-masing kemudian berganti nama. Bambang Pecruk Panyukilan menjadi Petruk, sedangkan Bambang Sukodadi menjadi Gareng. \n\n
+        Petruk mempuyai istri bernama Dewi Ambarawati, putri Prabu Ambarasraya, raja Negara Pandansurat yang didapatnya melalui perang tanding. Para pelamarnya antara lain: Kalagumarang dan Prabu Kalawahana raja raksasa di Guwaseluman.
+        Petruk harus menghadapi mereka dengan perang tanding dan akhirnya ia dapat mengalahkan mereka dan keluar sebagai pemenang. Dewi Ambarawati kemudian diboyong ke Girisarangan dan Resi Pariknan yang memangku perkawinannya. Dalam perkawinan ini mereka mempunyai anak lelaki dan diberi nama Lengkungkusuma. \n\n
+    </string>
+
+    <string name="samar">
+        Semar (Betara lsmaya), seorang Dewa, saudara Betara Manikmaya (Betara Guru), anak Sang Hyang Tunggal. Sang Hyang Tunggal menganggap Semar sebagai yang dituakan dan diramalkan, tak akan dapat bergaul dengan para Dewa,
+        lalu dititahkan lah Semar untuk tinggal di dunia dan mengasuh keturunan Dewa-Dewa yang menitis pada manusia. Setelah Semar tinggal di Marcapada (dunia), berubahlah keelokan parasnya menjadi orang yang sangat jelek, segala tanda-tanda kejelekan pada badan manusia terdapat pada Semar,
+        sehingga Semar dipandang sebagai orang biasa saja. \n\n
+        Semar selalu mengikuti dan menjaga keturunan Dewa yang berdarah Pandawa. Semar seorang yang bersifat sabar, pengasih dan penyayang, tak pernah susah. Tetapi pada waktu marah, tak seorangpun dapat mencegahnya, Dewa-Dewa pun dianggapnya di bawah telapak tangannya.
+        Tanda-tanda pada waktu marah, dari mata bercucuran air mata, dan angin keluar tak henti-hentinya, sambil berteriak-teriak kepada Dewa minta kembali keelokan rupanya. \n\n
+        Semar selalu merendahkan diri pada anak-anak asuhannya dan dengan bahasa lemah lembut sebagai hamba kepada tuannya.
+        Tetapi jika bergaul dengan para Dewa ia bersikap sebagai teman sejawatnya. Semar beristri Dewi Kanastren dan mempunyai sepuluh orang anak, yang kesemuanya adalah dewa. Semar sebagai lambang orang yang suka mengetahui kejiwaan manusia yang sebenar-benarnya.
+        \n\n
+        "https://wayangku.wordpress.com/2008/07/01/semar-betara-ismaya/"
+    </string>
+
+    <string name="gareng">
+        Gareng lazim disebut sebagai anaknya Semar, dan masuk dalam golongan panakawan. Aslinya, Gareng bernama Bambang Sukskati, putra Resi Sukskadi dari padepokan Bluluktiba. Bertahun-tahun Bambang Sukskati bertapa di bukit Candala untuk mendapatkan kesaktian. Setelah selesai tapanya, ia kemudian minta ijin pada ayahnya untuk pergi menaklukan raja-raja. \n\n
+        Di tengah perjalanan Bambang Sukskati bertemu dengan Bambang Panyukilan, putra Bagawan Salantara dari padepokan Kembangsore. Karena sama-sama congkaknya dan sama-sama mempertahankan pendiriannya, terjadilah peperangan antara keduanya. Mereka mempunyai kesaktian yang seimbang, sehingga tiada yang kalah dan menang.
+        Mereka juga tak mau berhenti berkelahi walau tubuh mereka telah saling cacad tak karuan. Perkelahian baru berakhir setelah dilerai oleh Semar/Sanghyang Ismaya. Karena sabda Sanghyang Ismaya, berubahlah wujud keduanya menjadi sangat jelek. Tubuh Bambang Sukskati menjadi cacad. Matanya juling, hidung bulat bundar, tak berleher, perut gendut, kaki pincang, tangannya bengkok/tekle/ceko (Jawa).
+        Oleh Sanghyang Ismaya namanya diganti menjadi Nala Gareng, sedangkan Bambang Panyukilan menjadi Petruk. \n\n
+        Nala Gareng menikah dengan Dewi Sariwati, putri Prabu Sarawasesa dengan permaisuri Dewi Saradewati dari negara Salarengka, yang diperolehnya atas bantuan Resi Tritusta dari negara Purwaduksina. Nala Gareng berumur sangat panjang, ia hidup sampai jaman Madya. \n\n
+
+
+    </string>
+
+    <string name="arjuna">
+        Arjuna \n\n
+        Sepuluh namaku adalah: Arjuna, Phālguna, Jishnu, Kirti, Shwetawāhana, Wibhatsu, Wijaya, Pārtha, Sawyashachi dan Dhananjaya. Aku dipanggil Dhananjaya ketika aku menaklukkan seluruh raja pada saat Yadnya Rajasuya dan mengumpulkan harta mereka. Aku selalu bertarung sampai akhir dan aku selalu menang, itulah sebabnya aku dipanggil Wijaya. Kuda yang diberikan Dewa Agni kepadaku berwarna putih,
+        itulah sebabnya aku dipanggil Shwetawāhana. Ayahku Indra memberiku mahkota indah ketika aku bersamanya, itulah sebabnya aku dipanggil Kriti. Aku tidak pernah bertarung dengan curang dalam pertempuran, itulah sebabnya aku dipanggil Wibhatsu. Aku tidak pernah menakuti musuhku dengan keji, aku bisa menggunakan kedua tanganku ketika menembakkan anah panah, itulah sebabnya aku disebut Sawyashachī.
+        Raut wajahku unik bagaikan pohon Arjun, dan namaku adalah “yang tak pernah lapuk”, itulah sebabnya aku dipanggil Arjuna. Aku lahir di lereng gunung Himawan, di sebuah tempat yang disebut Satsringa pada hari ketika bintang Uttarā Phālgunī berada di atas, itulah sebabnya aku disebut Phālguna. Aku disebut Jishnu karena aku menjadi hebat ketika marah. Ibuku bernama Prithā, sehingga aku disebut juga Pārtha.
+        Aku bersumpah bahwa aku akan menghancurkan setiap orang yang melukai kakakku Yudistira dan menaburkan darahnya di bumi. Aku tak bisa ditaklukkan oleh siapa pun. \n\n
+        Dalam Mahabharata diceritakan bahwa Raja Hastinapura yang bernama Pandu tidak bisa melanjutkan keturunan karena dikutuk oleh seorang resi. Kunti (istri pertamanya) menerima anugerah dari Resi Durwasa agar mampu memanggil Dewa-Dewa sesuai dengan keinginannya, dan juga dapat memperoleh anak dari Dewa tersebut. Pandu dan Kunti memanfaatkan anugerah tersebut kemudian memanggil Dewa Yama (Dharmaraja; Yamadipati),
+        Dewa Bayu (Marut), dan Dewa Indra (Sakra) yang kemudian memberi mereka tiga putera. Arjuna merupakan putera ketiga, lahir dari Indra, pemimpin para Dewa.
+    </string>
+
+    <string name="gatotkaca">
+        Gatotkaca, terkenal sebagai ksatria perkasa berotot kawat bertulang besi. Ia adalah anak Bima, ibunya bernama Dewi Arimbi. Dalam pewayangan, Gatotkaca adalah seorang raja muda di Pringgadani, yang rakyatnya hampir seluruhnya terdiri atas bangsa raksasa. Negeri ini diwarisinya dari ibunya. Sebelum itu, kakak ibunya yang bernama Arimba, menjadi raja di negeri itu. Sebagai raja muda di Pringgadani,
+        Gatotkaca banyak dibantu oleh patihnya, Brajamusti, adik Arimbi. \n\n
+        Begitu lahir di dunia, Gatotkaca telah membuat huru-hara. Tali pusarnya tidak dapat diputus. Berbagai macam pisau dan senjata tak mampu memotong tali pusar itu. Akhirnya keluarga Pandawa sepakat menugasi Arjuna mencari senjata ampuh untuk keperluan itu. Sementara itu para dewa pun tahu peristiwa itu. Untuk menolongnya Batara Guru mengutus Batara Narada turun ke bumi membawa senjata pemotong tali pusar Gatotkaca. Namun Batara Narada membuat kekeliruan.
+        Senjata, yang bernama Kunta Wijayandanu, itu bukan diserahkan pada Arjuna, me-lainkan pada Karna yang wajah dan penampilannya mirip Arjuna. Untuk memperoleh senjata pemberian dewa itu Arjuna terpaksa mencoba merebutnya dari tangan Karna. Usahanya ini tak berhasil. Arjuna hanya dapat merebut sarung (warangka) senjata sakti itu. Sedangkan bilah senjata Kunta tetap dilarikan Karna.
+        Untunglah ternyata sarung Kunta itu pun dapat digu-nakan memotong tali pusar Gatotkaca. Namun, begitu tali pusar itu putus, warangka Kunta langsung melesat masuk ke dalam pusar bayi itu. \n\n
+        Setelah tali pusarnya putus, atas izin Bima dan keluarga Pandawa lainnya, Gatotkaca dibawa Batara Narada ke Kahyangan untuk meng-hadapi Kala Sakipu dan Kala Pracona yang mengamuk. Mula-mula Bima dan Dewi Arimbi tidak merelakan anaknya yang baru lahir itu dibawa Narada. Namun, setelah dewa itu menjelaskan bahwa me-nurut ramalan para dewa, Kala Sakipu dan Kala Pracona memang hanya dikalahkan oleh bayi yang di-namakan Tutuka itu, Bima dan Arimbi mengizinkan. \n\n
+        Di sini Gatotkaca digembleng oleh Empu Batara Anggajali. Setelah penggemblengan selesai, begitu muncul kembali dari Kawah Candradimuka, bayi itu sudah berubah ujud menjadi ksatria muda yang perkasa. Ia mengenakan Caping Basunanda, penutup kepala gaib, yang menyebabkannya tidak akan kehujanan dan tidak pula kepanasan. Ia juga mengenakan terompah Padakacarma yang jika digunakan menendang, musuhnya akan mati. \n\n
+        Para dewa lalu menyuruhnya berkelahi melawan bala tentara raksasa pimpinan Prabu Kala Pracona dan Patih Kala Sakipu lagi. Gatotkaca ternyata sanggup menunaikan tugas itu dengan baik. Kala Pracona dan Kala Sakipu dapat dibunuhnya. \n\n
+
+    </string>
+
+    <string name="kumbakarna">
+        Arya Kumbakarna adalah putra kedua Resi Wisrawa dengan Dewi Sukesi, putri Prabu Sumali, raja negara Alengka. Ia mempunyai tiga orang saudara kandung bernama; Dasamuka/Rahwana, Dewi Sarpakenaka dan Arya Wibisana. Kumbakarna juga mempunyai saudara lain ibu bernama Wisrawana/Prabu Danaraja raja negara Lokapala, putra Resi Wisrawa dengan Dewi Lokawati. \n\n
+        Kumbakarna mempunyai tempat kedudukan di kesatrian/negara Leburgangsa. Ia berwatak jujur, berani karena benar dan bersifat satria. Pada waktu mudanya ia pergi bertapa dengan maksud agar dapat anugerah Dewa berupa kejujuran dan kesaktian. Kumbakarna pernah ikut serta Prabu Dasamuka menyerang Suralaya, dan memperoleh Dewi Aswani sebagai istrinya. Dari perkawinan tersebut ia memperoleh dua orang putra bernama; Kumba-kumba dan Aswanikumba. \n\n
+        Pada waktu pecah perang besar Alengka, negara Alengka diserang balatentara kera Prabu Rama, dibawah panglima perangnya Narpati Sugriwa untuk membebaskan Dewi Sinta yang disekap Prabu Dasamuka, Kumbakana maju sebagai senapati perang. Ia berperang bukan membela keangkaramurkaan Prabu Dasamuka tetapi membela negara Alengka, tanah leluhurnya yang telah memberinya hidup. \n\n
+        Kumbakarna akhirnya gugur dalam pertempuran melawan Prabu Rama dan Laksmana. Tubuhnya terpotong-potong menjadi beberapa bagian oleh hantaman senjata panah yang dilepas secara bersamaan. Apa yang terjadi pada diri Kumbakarna merupakan karma perbuatan Resi Wisrawa, ayahnya tatkala membunuh Jambumangli. \n\n
+    </string>
+
+    <string name="hanoman">
+        Anoman berwujud kera putih, tetapi dapat berbicara dan beradat-istiadat seperti manusia. Ia juga dikenal dengan nama ; Anjanipura (putra Dewi Anjani), Bayudara (putra Bathara Bayu), Bayusiwi, Guruputra (putra Bathara Guru), Handayapati (mempunyai kekuatan yang sangat besar), Yudawisma (panglima perang), Haruta (angin), Maruti, Palwagaseta (kera putih), Prabancana, Ramandayapati (putra angkat Sri Rama), Senggana (panglima perang),
+        Suwiyuswa (panjang usia) dan Mayangkara (roh suci, gelar setelah menjadi pendeta di Kendalisada). \n\n
+        Anoman adalah putra Bathara Guru dengan Dewi Anjani, putri sulung Resi Gotama dengan Dewi Windradi dari pertapaan Erriya/Grastina.Anoman merupakan makluk kekasih dewata. Ia mendapat anugerah Cupumanik Astagina, juga ditakdirkan berumur panjang, hidup dari jaman Ramayana sampai jaman Mahabharata, bahkan sampai awal/memasuki jaman Madya. Anoman memiliki beberapa kesaktian.
+        Ia dapat bertiwikrama, memiliki Aji Sepiangin (dari Bathara Bayu), Aji Pameling (dari Bathara Wisnu), dan Aji Mundri (dari Resi Subali). Tata pakaiannya yang melambangkan kebesaran, antara lain ; Pupuk Jarotasem Ngrawit, Gelung Minangkara, Kelatbahu Sigar Blibar, Kampuh/Kain Poleng berwarna hitam, merah dan putih, Gelang/Binggel Candramurti dan Ikat Pinggang Akar Mimang. \n\n
+        Anoman tiga kali menikah. Pertama dengan Dewi Urangrayung, putri Bagawan Minalodra dari Kandabumi. berputra Trigangga/Triyangga, berujud kera putih. Istri kedua bernama Dewi Sayempraba, putri raksasa Wisakarma dari Gowawindu, tidak mempunyai anak. \n\n
+        Anoman kemudian menikah dengan Dewi Purwati, putri Resi Purwapada dari pertapaan Andonsumawi, berputra Purwaganti. Anoman mempunyai perwatakan ; pemberani, sopan-santun, tahu harga diri. setia. prajurit ulung, waspada, pandai berlagu, rendah hati, teguh dalam pendirian, kuat dan tabah. Ia mati moksa, raga dan sukmanya lenyap di pertapaan Kendalisada.
+    </string>
+
+    <string name="rahwana">
+        Dasamuka atau Rahwana adalah putra Resi Wisrawa dengan Dewi Sukesi, putri Prabu Sumali, raja negara Alengka. Ia mempunyai tiga orang saudara kandung masing-maasing bernama; Arya Kumbakarna, Dewi Sarpakenaka dan Arya Wibisana. Dasamuka juga mempunyai saudara seayah lain ibu bernama Wisrawana/Prabu Danaraja raja negara Lokapala, putra Resi Wisrawa dengan Dewi Lokawati.\n\n
+        Dasamuka berwatak angkara murka, ingin menangnya sendiri, penganiaya dan penghianat. Berani dan selalu menurutkan kata hati. Ia sangat sakti. Memiliki Aji Rawarontek dari Prabu Danaraja dan Aji Pancasona dari Resi Subali. Dasamuka menjadi raja negara Alengka mengantikan kakeknya, Prabu Sumali dengan menyingkirkan pamannya, Prahasta. Ia membunuh Prabu Danaraja, kakak tirinya dan merebut negara Lokapala. \n\n
+        Dasamuka pernah menyerang Suralaya dan memperoleh Dewi Tari, putri Bathara Indra dengan Dewi Wiyati. yang menjadi istrinya dan berputra Indrajid/Megananda.
+        Istri Dasamuka yang lain :
+        - Dewi Urangrayung, putri Bagawan Minalodra, dan berputra Pratalamayam / Bukbis. \n
+        - Dewi Satiwati berputra  Yaksadewa.\n
+        - Dewi Tisnawati berputra Trisirah.\n
+        - Dewi Wisandi berputra kembar yaitu Trimuka, dan Trikaya.\n
+        - Dewi Wiraksi berputra Trimurda.\n\n
+        Disebutkan Dasamuka juga mempunyai anak lain yang bernama Trinetra dan Dasawilukrama. Dalam Lakon Anggada Balik, Dasawilukrama satu-satunya anak Rahwana yang masih hidup ingin membalas kematian ayahnya. \n\n
+        Dasamuka sangat menginginkan dapat memperistri wanita titisan Bathari Sri Widowati. Ia pernah mengejar-ngejar Dewi Kusalya, ibu Prabu Rama, dan kemudian menculik serta mensekap Dewi Sinta, istri Prabu Rama selama hampir 12 tahun di taman Hargasoka negara Alengka. \n\n
+        Kesaktian dan keangkaramurkaan Prabu Dasamuka hanya dapat diatasi/ditaklukan oleh Prabu Arjunasasra, raja negara Maespati, dan Resi Subali, brahmana kera dari pertapaan Sonyapringga. Akhirnya Prabu Dasamuka harus mati oleh Prabu Ramawijaya, satria titisan Bathara Wisnu. Seluruh kesaktiannya musnah oleh daya kesaktian panah Gowawijaya. \n\n
+        http://caritawayang.blogspot.com/2015/05/rahwana-dasamuka.html
+    </string>
+    <string name="duryudana">
+        DURYUDANA adalah putra sulung Prabu Drestarastra, raja negara Astina dengan permaisuri Dewi Gandari, putri Prabu Gandara dari negara Gandaradesa (Plasajenar/Pedalangan Jawa). Ia bersaudara 100 (seratus) orang, --- 99 orang laki-laki dan 1 orang wanita, yang disebut dengan Sata Kurawa. Diantaranya yang terkenal adalah ; Bogadatta (raja negara Turilaya), Bomawikata, Citraksa, Citraksi, Durmagati, Dursasana (Adipati Banjarjungut),
+        Gardapati, Gardapura (raja negara Bukasapta), Kartamarma (raja negara Banyutinalang) dan Patiweya. \n\n
+        Duryudana berwatak jujur, mudah terpengaruh karena dungunya dan menyenangi sesuatu yang serba enak dan bergelimang dengan kemewahan. Sebagai pimpinan/orang yang tertua dari keluarga Kurawa yang berdarah Kuru, Duryudana pun disebut dengan nama Kurupati. Ia juga dikenal dengan nama Detaputra, Gendarisuta (anak Dewi Gendari), Jakawitana dan Suyudana. \n\n
+        Duryudana menikah dengan Dewi Banowati, putri ketiga Prabu Salya dengan Dewi Pujawati/Setyawati dari negara Mandaraka. Dari perkawinan tersebut, ia memperoleh dua orang putra bernama ; Leksmanamandrakumara dan Dewi Leksmanawati (setelah dewasa kawin dengan Warsakusuma, putra Adipati Karna). \n\n
+        Duryudana pandai bermain gada, dan memiliki kesaktian kebal dari segala macam senjata berkat daya kesaktian Minyak Tala yang membaluri/membasuh seluruh tubuhnya. Ia gugur dalam perang Bhatarayuda melawan Bima. Tubuhnya hancur terkena hantaman Gada Rujakpala \n\n
+    </string>
+
+    <string name="baladewa">
+        Baladewa adalah anak Prabu Basudewa, raja Mandura dari Ibu yang bernama Dewi Mahendra. Ia mempunyai saudara kembar yang bernama Kresna. Walaupun lahir kembar Baladewa dan Kresna adiknya tidak sama. Baladewa berkulit putih bule, sedangkan Kresna berkulit hitam cemani. Selain kresna, Baladewa mempunyai adik wanita bernama Bratajaya atau Sumbadra. \n\n
+        Walaupun Baladewa terkenal sebagai raja yang mudah marah, ia jujur, adil, dan tulus. Ia tidak sungkan-sungkan untuk meminta maaf atas kesalahannya. Sejak kecil Baladewa dan ke dua adiknya diungsikan dan disembunyikan di kademangan Widarakandang karena mendapat ancaman mau dibunuh oleh Kangsadewa. Di kademangan Widarakandang Baladewa dan kedua adiknya diasuh oleh Demang Antyagopa dan nyai Sagopi. \n\n
+        Di dalam pengungsian, Baladewa remaja yang bernama Kakrasana berguru kepada seorang resi jelmaan Batara Brama di pertapaan Argasonya. Setelah selesai berguru Baladewa diberi pusaka sakti yaitu senjata Nanggala yang berujud angkus, angkusa atau mata bajak, dan Alugora berujud gada dengan kedua ujung yang runcing. Selain itu Baladewa juga mendapat aji Jaladara yang dapat terbang dengan kecepatan tinggi. Maka kemudian Kakrasana mendapat sebutan nama Wasi Jaladara. \n\n
+        Baladewa beristeri Erawati anak Raja Salya dari negara Mandaraka dan mempunyai dua anak laki-laki yaitu Wisata dan Wimuna. Baladewa menjadi raja di Mandura menggantikan ayahnya Prabu Basudewa. \n\n
+        Nama lain dari Baladewa adalah Kakrasana, Karsana, Balarama, Wasi Jaladara, Curiganata. \n\n
+        Pada saat perang Baratayuda berlangsung, Baladewa justru tidak terlibat sama sekali. Hal ini disebabkan karena rekayasa Prabu Kresna. Baladewa sengaja diselamatkan oleh Kresna dari kemungkinan buruk yang bakal menimpanya, yaitu dengan meminta Baladewa bertapa di Grojogan sewu. Tujuannya agar Baladewa tidak mendengar suara gemuruh perang, karena tertutup oleh suara air terjun. Baru ketika perang Baratayuda sudah usai, Baladewa sadar bahwa ia ditipu oleh adiknya.
+        Baladewa meninggal dalam usia lanjut. Ia sempat menyaksikan penobatan Prabu Parikesit menjadi raja Hastinapura. Baladewa wafat menyusul Kresna adiknya yang terlebih dahulu muksa.
+    </string>
+
+    <string name="parikesit">
+        Raden Parikesit merupakan putera dari Raden Angkawijaya dengan Dewi Utari. Parikesit dilahirkan sesudah perang Baratayudha. Dia Benar-benar sangat disayangi oleh ke lima Pandawa. Pada saat ia  bayi selalu di cari oleh Aswatama, untuk dibunuh lantaran Parikesitlah yang dimasa akan datang bakal menguasai negeri Hastinapura. Namun dengan tidak disengaja, Parikesit menendang panah yang di taruh buat menjaganya dan seketika mengenai Aswatama. Tersungkurlah Aswatama hingga menemui ajal terakhirnya.
+        Lalu, Parikesit bertahta sebagai raja di Hastinapura, bernama Prabu Kresnadipayana, seperti nama buyut, Prabu Kresnadipayana (Abyasa). Tokoh Parikesit terhitung wayang penutup dalam wayang Purwa. Kemudian disambung zaman Madya, juga bernama wayang Madya, serta Parikesit permulaan cerita dari wayang Madya.Parikesit terhitung cerita terakhir dari wayang Purwa, dan cuma sedikit memainkannya. \n\n
+        Parikesit memperoleh kehormatan berbentuk Kekuasaan serta “Power” tidaklah dia yang menginginkan apalagi berambisi untuk merebutnya. Sistem naik tahta Parikesit diawali jauh sebelum saat dia dilahirkan di muka bumi. Dalam cerita carangan pewayangan (bukan hanya versus asli Mahabarata Hindia), sekurang-kurangnya diawali dari kerja keras serta perjuangan berat Abimanyu saat masih menjadi  perjaka (Abimanyu yaitu bapak parikesit ) untuk memperoleh wahyu JayaNingrat (Cakra Ningrat?) anugerah dari Yang Maha Tunggal melalui beberapa dewa di kayangan.
+        Konon, siapa saja yang memperoleh wahyu ini keturunan yang berkaitan bakal memperoleh keluhuran serta kejayaan dalam hidupnya. Saat berita bakal turunnya wahyu ini menyebar, maka beberapa kesatria berupaya dengan semua daya serta kemampuan yang dimilikinya untuk memperoleh wahyu itu. Tak terkecuali Lesmana Mandrakumara, anak Kurupati, Samba anak Kresna, serta Abimanyu putra Harjuna. Beragam halangan serta godaan mesti mereka hadapi baik godaan untuk menguji fisik berbentuk ketangkasan serta keprigelan olah kanuragan,
+        siksaan batin dengan bertapa berbulan – bulan hingga godaan syahwat berwujud wanita penggoda nan cantik rupawan. Serta pada perebutan wahyu itu, Abimanyulah yang lalu memenangkannya \n\n
+        Tetapi lalu Abimanyu gugur dalam perang Bharatayuda  lantaran melindungi Puntadewa yang diserang oleh pasukan Kurawa,Puntadewa yang merasa bersalah, sedih luar biasa atas tewasnya Abimanyu. Dalam penyesalan yang amat dalam in, dia bersumpah di hadapan seluruh jagad raya bahwa kelak setelah perang ini selesai dan jika Pandawa berhasil keluar sebagai pemenang, tiada lain yang patut naik tahta kerajaan dengan keluhuran dan kejayaan selain keturunan Abimanyu.
+        Sumpah ini didengar seluruh jagad dan direstui Gusti Yang Maha Menentukan. maka hak akan tahta   berpindah ke tangan putera Abimanyu, yang kebetulan lahir bertepatan dengan usainya perang Bharatayuda. Sesaat tampuk pimpinan kerajaan Astina ada ditangan Puntadewa, lalu Prabu Baladewa atau  Begawan Curiganata ditugaskan untuk mendidik serta membina Parikesit sebagai putra mahkota. \n\n
+        Parikesit diangkat jadi Raja Astina lewat sistem pendadaran atau mungkin sistem kaderisasi serta pergantian yang disiapkan dengan cara masak. Suatu suksesi yang terpogram, damai, menawan serta tiada gejolak. Ajaran “Kautamaning Prabu” diberikan serta diwariskan oleh Pandawa pada Parikesit sampai sistem pergantian serta suksesi itu berjalan alami serta damai. \n\n
+    </string>
+
+    <string name="antareja">
+        Antareja adalah putera Bima/Werkundara, salah satu dari lima satria Pandawa, dengan Dewi Nagagini, putri Hyang Anantaboga dengan Dewi Supreti dari Kahyangan Saptapratala. Ia mempunyai 2 (dua) orang saudara lelaki lain ibu, bernama: Raden Gatotkaca, putra Bima dengan Dewi Arimbi, dan Arya Anantasena, putra Bima dengan Dewi Urangayu. \n\n
+        Sejak kecil Anatareja tinggal bersama ibu dan kakeknya di Saptapratala (dasar bumi). Ia memiliki ajian Upasanta pemberian Hyang Anantaboga. Lidahnya sangat sakti, mahluk apapun yang dijilat telapak kakinya akan menemui kematian. Anatareja berkulit napakawaca, sehingga kebal terhadap senjata. Ia juga memiliki cincin mustikabumi, pemberian ibunya, yang mempunyai kesaktian, menjauhkan dari kematian selama masih menyentuh bumi/tanah, dan dapat digunakan untuk menghidupkan kembali kematian di luar takdir.
+        Kesaktian lain Anantareja dapat hidup dan berjalan didalam bumi. \n\n
+        Anantareja memiliki sifat dan perwatakan : jujur, pendiam, sangat berbakti pada yang lebih tua dan sayang kepada yang muda, rela berkorban dan besar kepercayaanya kepada Sang Maha Pencipta. Ia menikah dengan Dewi Ganggi, putri Prabu Ganggapranawa, raja ular/taksaka di Tawingnarmada, dan berputra Arya Danurwenda. \n\n
+        Setelah dewasa Anantareja menjadi raja di negara Jangkarbumi bergelar Prabu Nagabaginda. Ia meninggal menjelang perang Bharatayuda atas kemauannya sendiri dengan cara menjilat telapak kakinya sebagai tawur (korban untuk kemenangan) keluarga Pandawa dalam perang Bharatayuda. \n\n
+        
     </string>
 </resources>

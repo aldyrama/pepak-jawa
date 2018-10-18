@@ -10,11 +10,14 @@ import android.widget.TextView;
 import java.util.Timer;
 import java.util.TimerTask;
 
+import info.hoang8f.widget.FButton;
+
 public class QuizWin extends Activity {
 
     MediaPlayer audioBackground;
     TextView score;
     Timer timer;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,18 +29,18 @@ public class QuizWin extends Activity {
 //        audioBackground.setVolume(1,1);
 //        audioBackground.start();
 
-        timer = new Timer();
-        timer.schedule(new TimerTask() {
-            @Override
-            public void run() {
-                Data.score = +1;
-                Intent intent = new Intent(QuizWin.this, StartQuiz.class);
-                startActivity(intent);
-                finish();
-//                audioBackground.stop();
-                QuizWin.this.finish();
-            }
-        }, 5000);
+        FButton fButton= (FButton) findViewById(R.id.platygaianbutton);
+            fButton.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Intent intent = new Intent(QuizWin.this, StartQuiz.class);
+                    startActivity(intent);
+                    finish();
+                }
+            });
+
+
+
     }
 
     @Override

@@ -27,15 +27,15 @@
         android:textStyle="bold"
         android:textSize="32sp"/>
 
-    <!--<info.hoang8f.widget.FButton-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:text="Mulai Lagi"-->
-        <!--android:backgroundTint="@color/colorMint"-->
-        <!--android:shadowColor="@color/colorMintDark"-->
-        <!--android:textColor="@color/white"-->
-        <!--android:id="@+id/platygaianbutton"-->
-        <!--android:layout_margin="15dp"-->
-        <!--android:onClick="PlayAgain"-->
-        <!--/>-->
+    <info.hoang8f.widget.FButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="selesai"
+        android:backgroundTint="@color/colorMint"
+        android:shadowColor="@color/colorMintDark"
+        android:textColor="@color/white"
+        android:id="@+id/platygaianbutton"
+        android:layout_margin="15dp"
+        android:onClick="PlayAgain"
+        />
 </LinearLayout>

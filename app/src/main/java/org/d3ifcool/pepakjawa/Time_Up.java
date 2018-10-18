@@ -26,12 +26,10 @@ public class Time_Up extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_time__up);
         //Initialize
-//        playAgainButton = (FButton)findViewById(R.id.playAgainButton);
-        timeUpText = (TextView)findViewById(R.id.timeUpText);
-//        downButton = (FButton) findViewById(R.id.downtime);
+        timeUpText = (TextView) findViewById(R.id.timeUpText);
         score = (TextView) findViewById(R.id.new_score);
 
-        score.setText(String.valueOf(Data.score-1));
+        score.setText(String.valueOf(Data.score - 1));
 
 //        audioBackground = MediaPlayer.create(this, R.raw.timeup);
 //        audioBackground.setLooping(false);
@@ -46,33 +44,11 @@ public class Time_Up extends AppCompatActivity {
                 startActivity(intent);
                 finish();
             }
-        }, 3000);
-
-//        playAgainButton.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Data.score = 0;
-//                Intent intent = new Intent(Time_Up.this,QuizActivity.class);
-//                startActivity(intent);
-//                finish();
-//            }
-//        });
-//
-//        downButton.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent intent = new Intent(Time_Up.this,StartQuiz.class);
-//                startActivity(intent);
-//                score.setText(String.valueOf(Data.score-1));
-//                finish();
-//            }
-//        });
-//
+        }, 1500);
     }
 
         @Override
         public void onBackPressed() {
-            super.onBackPressed();
-            finish();
+
     }
 }

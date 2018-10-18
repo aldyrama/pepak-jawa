@@ -58,15 +58,17 @@ class QuizHelper extends SQLiteOpenHelper {
     void allQuestion() {
         ArrayList<Question> arraylist = new ArrayList<>();
 
-        arraylist.add(new Question("Dimana Toriq Dan Rozikin Kuliah ?", "Telkom", "Binus", "Itb", "UNP", "Telkom"));
+        arraylist.add(new Question("Siapakah anak dari sang hyang tunggal ?", "Arjuna", "semar", "bagong", "shinta", "semar"));
 
-        arraylist.add(new Question("Apa Kamu Ganteng ?", "Ya", "Benar Sekali", "Cukup Ganteng", "Ganteng Kali", "Ganteng Kali"));
+        arraylist.add(new Question("Wayang yang dikenal dengan ketampanan dan kelembutannya hatinya ?", "arjuna", "gareng", "petruk", "ramawijaya", "arjuna"));
 
-        arraylist.add(new Question("Dimana Saya Kos ?", "G House", "Asrama", "Urban", "Toilet", "G House"));
+        arraylist.add(new Question("Siapakah putra Prabu Dasarata dan Dewi Ragu ?", "Arjuna", "laksamana", "bima", "ramawijaya", "ramawijaya"));
 
         arraylist.add(new Question("Lagu Kesukaan Toriq ?", "Twice", "Rock", "Pop", "Dangdut", "Twice"));
 
         arraylist.add(new Question("Cewek Toriq Siapa ?", "Meta", "Adam", "Tiok", "Ferdy", "Meta"));
+
+        arraylist.add(new Question("tokoh protagonis dalam wiracarita Mahabharata ?", "laksamana", "sadewa", "bima", "ramawijaya", "bima"));
         this.addAllQuestions(arraylist);
 
     }

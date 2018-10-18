@@ -1,7 +1,9 @@
 package org.d3ifcool.pepakjawa;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.media.MediaPlayer;
+import android.preference.PreferenceManager;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -22,39 +24,25 @@ public class MainActivity extends AppCompatActivity {
     Button btnLogout;
     FirebaseAuth mAuth;
     FirebaseAuth.AuthStateListener mAuthListener;
-
-    @Override
-    protected void onStart() {
-        super.onStart();
-        mAuth.addAuthStateListener(mAuthListener);
-    }
-
+    SharedPreferences mypref;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        mAuth = FirebaseAuth.getInstance();
-//        btnLogout = findViewById(R.id.btnLogout);
-
-        mAuthListener = new FirebaseAuth.AuthStateListener() {
-            @Override
-            public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
-                if (firebaseAuth.getCurrentUser() == null) {
-                    Intent intent = new Intent(MainActivity.this, LoginActivity.class);
-                    startActivity(intent);
-                }
-            }
-        };
-
-//        btnLogout.setOnClickListener(new View.OnClickListener() {
+//        mAuth = FirebaseAuth.getInstance();
+////        btnLogout = findViewById(R.id.btnLogout);
+//
+//        mAuthListener = new FirebaseAuth.AuthStateListener() {
 //            @Override
-//            public void onClick(View v) {
-//                mAuth.signOut();
+//            public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
+//                if (firebaseAuth.getCurrentUser() == null) {
+//                    Intent intent = new Intent(MainActivity.this, LoginActivity.class);
+//                    startActivity(intent);
+//                }
 //            }
-//        });
-
-
+//        };
+         mypref = PreferenceManager.getDefaultSharedPreferences(this);
         // INTENT MATERI PRAMASASTRA
         LinearLayout pramasastra = (LinearLayout) findViewById(R.id.pramasastra);
         pramasastra.setOnClickListener(new View.OnClickListener() {
@@ -219,14 +207,6 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-//        TextView textkuis = (TextView) findViewById(R.id.text_kuis);
-//        textkuis.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent intent = new Intent(WayangPoin.this, StartQuizActivity.class);
-//                startActivity(intent);
-//            }
-//        });
     }
 
     @Override
@@ -238,9 +218,27 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
-            case R.id.account:
-                Intent intent = new Intent(MainActivity.this, AccountActivity.class);
-                startActivity(intent);
+            case R.id.share:
+                Intent intent = new Intent(Intent.ACTION_SEND);
+
+                final String appPackageName = getApplicationContext().getPackageName();
+                String startAppLink = "";
+
+                try{
+                    startAppLink = "https://play.google.com/store/apps/details?id=" + appPackageName;
+                }
+                catch (android.content.ActivityNotFoundException anfe){
+                    startAppLink = "https://play.google.com/store/apps/details?id=" + appPackageName;
+                }
+
+                intent.setType("text/link");
+                String shareBody = "Hallo!" + "\n" + "Ini adalah aplikasi Pepak Jawa sangat cocok buat kalian yang ingin mengetahui budaya jawa, dan ada fitur kuis juga lo!" +
+                        "AYO COBAIN KESERUAN BELAJAR BAHASA DAN BUDAYA JAWA DI APLIKASI PEPAK JAWA!" + "\n" + "Skore Kuis Saya :" + "\t\t"
+                        + (String.valueOf(mypref.getInt("highscore", 0))) + "\n" + "" + startAppLink;
+                String shareSub = "App Name";
+                intent.putExtra(Intent.EXTRA_SUBJECT,shareSub);
+                intent.putExtra(Intent.EXTRA_TEXT,shareBody);
+                startActivity(Intent.createChooser(intent, "Bagikan dengan"));
                 return true;
         }
         return super.onOptionsItemSelected(item);
@@ -253,5 +251,11 @@ public class MainActivity extends AppCompatActivity {
         a.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         startActivity(a);
 
+    }
+
+
+    public void about(MenuItem item) {
+        Intent intent = new Intent(MainActivity.this, AboutActivity.class);
+        startActivity(intent);
     }
 }

@@ -18,10 +18,10 @@
             android:orientation="vertical"
             android:focusable="true">
 
-            <ImageButton
+            <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="280dp"
-                android:background="@drawable/borobudur"
+                android:background="@drawable/backgroundhome"
                 android:gravity="bottom"
                 android:paddingBottom="5dp"
                 android:textAlignment="center"
