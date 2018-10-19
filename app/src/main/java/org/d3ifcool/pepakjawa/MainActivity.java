@@ -15,40 +15,25 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.google.firebase.auth.FirebaseAuth;
 
 import info.hoang8f.widget.FButton;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button btnLogout;
-    FirebaseAuth mAuth;
-    FirebaseAuth.AuthStateListener mAuthListener;
     SharedPreferences mypref;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-//        mAuth = FirebaseAuth.getInstance();
-////        btnLogout = findViewById(R.id.btnLogout);
-//
-//        mAuthListener = new FirebaseAuth.AuthStateListener() {
-//            @Override
-//            public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
-//                if (firebaseAuth.getCurrentUser() == null) {
-//                    Intent intent = new Intent(MainActivity.this, LoginActivity.class);
-//                    startActivity(intent);
-//                }
-//            }
-//        };
-         mypref = PreferenceManager.getDefaultSharedPreferences(this);
+        mypref = PreferenceManager.getDefaultSharedPreferences(this);
         // INTENT MATERI PRAMASASTRA
         LinearLayout pramasastra = (LinearLayout) findViewById(R.id.pramasastra);
         pramasastra.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                        Intent intent = new Intent(MainActivity.this, PramasastralActivity.class);
+                        Intent intent = new Intent(MainActivity.this, ParamasastraActivity.class);
                         startActivity(intent);
                 }
             });
@@ -56,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
         imgpramasastra.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, PramasastralActivity.class);
+                Intent intent = new Intent(MainActivity.this, ParamasastraActivity.class);
                 startActivity(intent);
             }
         });
@@ -64,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
         textpramasastra.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, PramasastralActivity.class);
+                Intent intent = new Intent(MainActivity.this, ParamasastraActivity.class);
                 startActivity(intent);
             }
         });
@@ -207,6 +192,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
     }
 
     @Override

@@ -4,7 +4,7 @@ import android.content.ContentResolver;
 import android.net.Uri;
 import android.provider.BaseColumns;
 
-public class Contract {
+public class   Contract {
 
     public Contract() {}
 

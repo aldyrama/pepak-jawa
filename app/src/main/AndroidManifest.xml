@@ -24,7 +24,7 @@
             android:authorities="org.d3ifcool.pepakjawa"
             android:exported="false" />
 
-        <activity android:name=".PramasastralActivity" />
+        <activity android:name=".ParamasastraActivity" />
         <activity
             android:name=".RupaKawruhActivity"
             android:label="@string/title_activity_rupa_kawruh"
@@ -41,14 +41,14 @@
             android:name=".AksaraJawaActivity"
             android:label="@string/title_activity_aksara_jawa"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".Description"
+        
+        <activity android:name=".Description"
             android:label="Deskripsi"
-            android:theme="@style/AppTheme" />
-        <activity
-            android:name=".WayangPoin"
+            android:theme="@style/AppTheme"/>
+
+        <activity android:name=".WayangPoin"
             android:label="Wayang"
-            android:theme="@style/AppTheme" />
+            android:theme="@style/AppTheme"/>
 
         <provider
             android:name=".Database.Provider"
@@ -60,9 +60,8 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".PlayAgain" />
         <activity android:name=".QuizWin" />
-        <activity
-            android:name=".Time_Up"
-            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Time_Up"
+            android:theme="@style/AppTheme.NoActionBar"/>
         <activity
             android:name=".QuizActivity"
             android:theme="@style/AppTheme.NoActionBar" />
