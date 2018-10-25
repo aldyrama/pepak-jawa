@@ -58,17 +58,75 @@ class QuizHelper extends SQLiteOpenHelper {
     void allQuestion() {
         ArrayList<Question> arraylist = new ArrayList<>();
 
-        arraylist.add(new Question("Siapakah anak dari sang hyang tunggal ?", "Arjuna", "semar", "bagong", "shinta", "semar"));
+        arraylist.add(new Question("Apa arti kata Mustaka dalam Bahasa Indonesia ?", "Kepala", "Telinga", "Kaki", "Tangan", "Kepala"));
 
-        arraylist.add(new Question("Wayang yang dikenal dengan ketampanan dan kelembutannya hatinya ?", "arjuna", "gareng", "petruk", "ramawijaya", "arjuna"));
+        arraylist.add(new Question("Apa arti kata Telinga dalam Bahasa Jawa ?", "Paningal", "Mustaka", "Talingan", "Untu", "Talingan"));
 
-        arraylist.add(new Question("Siapakah putra Prabu Dasarata dan Dewi Ragu ?", "Arjuna", "laksamana", "bima", "ramawijaya", "ramawijaya"));
+        arraylist.add(new Question("Apa arti kata Kaki dalam Bahasa Indonesia ?", "Untu", "Paningal", "Mustaka", "Suku", "Suku"));
 
-        arraylist.add(new Question("Lagu Kesukaan Toriq ?", "Twice", "Rock", "Pop", "Dangdut", "Twice"));
+        arraylist.add(new Question("Apa arti kata Asta dalam Bahasa Indonesia", "Telinga", "Tangan", "Kaki", "Perut", "Tangan"));
 
-        arraylist.add(new Question("Cewek Toriq Siapa ?", "Meta", "Adam", "Tiok", "Ferdy", "Meta"));
+        arraylist.add(new Question("Apa arti kata Rikma dalam Bahasa Indonesia ?", "Perut", "Kepala", "Rambut", "Hidung", "Rambut"));
 
-        arraylist.add(new Question("tokoh protagonis dalam wiracarita Mahabharata ?", "laksamana", "sadewa", "bima", "ramawijaya", "bima"));
+        arraylist.add(new Question("Apa arti kata Hidung dalam Bahasa Jawa ?", "Grana", "Rikma", "Asta", "Paningal", "Grana"));
+
+        arraylist.add(new Question("Apa arti kata Mata dalam Bahasa Jawa ?", "Rikma", "Asta", "Mustaka", "Mripat", "Mripat"));
+
+        arraylist.add(new Question("Apa arti kata Tedha dalam Bahasa Indonesia ?", "Minum", "Tidur", "Makan", "Duduk", "Makan"));
+
+        arraylist.add(new Question("Apa arti kata Luwe dalam Bahasa Indonesia ?", "Makan", "Lapar", "Haus", "Lama", "Lapar"));
+
+        arraylist.add(new Question("Apa arti kata Kesah dalam Bahasa Indonesia ?", "Datang", "Menunggu", "Pergi", "Pulang", "Pergi"));
+
+        arraylist.add(new Question("Dalam Bahasa Jawa, anak ayam disebut ?", "Kuthuk", "Kirik", "Nener", "Ketul", "Kuthuk"));
+
+        arraylist.add(new Question("Dalam Bahasa Jawa, anak babi disebut ?", "Genjik", "Piyik", "Cempe", "Gembluk", "Gembluk"));
+
+        arraylist.add(new Question("Dalam Bahasa Jawa, anak bebek disebut ?", "Cempe", "Meri", "Kirik", "Piyik", "Meri"));
+
+        arraylist.add(new Question("Dalam Bahasa Jawa, anak kambing disebut ?", "Kirik", "Piyik", "Gudel", "Cempe", "Cempe"));
+
+        arraylist.add(new Question("Rete dalam Bahasa Jawa adalah sebutan untuk anak ?", "Kambing", "Monyet", "Buaya", "Ulur", "Buaya"));
+
+        arraylist.add(new Question("Bledug dalam Bahasa Jawa adalah sebutan untuk anak ?", "Buaya", "Gajah", "Harimau", "Kerbau", "Gajah"));
+
+        arraylist.add(new Question("Sawijah dalam Bahasa Jawa adalah sebutan untuk anak ?", "Cicak", "Cacing", "Bebek", "Gajah", "Cicak"));
+
+        arraylist.add(new Question("Cemeng dalam Bahasa Jawa adalah sebutan untuk anak ?", "Bebek", "Cicak", "Harimau", "Kucing", "Kucing"));
+
+        arraylist.add(new Question("Dibal dalam Bahasa Jawa adalah sebutan untuk anak ?", "Harimau", "Ular", "Singa", "Naga", "Singa"));
+
+        arraylist.add(new Question("Kisi/Ucet dalam Bahasa Jawa adalah sebutan untuk anak ?", "Cicak", "Ular", "Kambing", "Burung", "Ular"));
+
+        arraylist.add(new Question("Dalam Bahasa Jawa, cara memanggil angsa yaitu dengan cara ?", "Jih, jih", "Kati, kati", "Pus, pus", "Meh, meh", "Kati, kati"));
+
+        arraylist.add(new Question("Dalam Bahasa Jawa, cara memanggil kucing yaitu dengan cara ?", "Pus, pus", "Meh, meh", "Jih, jih", "Kur, kur", "Pus, pus"));
+
+        arraylist.add(new Question("Dalam Bahasa Jawa, cara memanggil kambing yaitu dengan cara ?", "Kur, kur", "Thi, thi, thi", "Pus, pus", "Mi, mi, mi", "Mi, mi, mi"));
+
+        arraylist.add(new Question("Dalam Bahasa Jawa, cara memanggil kuda yaitu dengan cara ?", "Mi, mi, mi", "Ki, ki, ki", "Meh, meh", "O-ek, o-ek", "Ki, ki, ki"));
+
+        arraylist.add(new Question("Dalam Bahasa Jawa, cara memanggil bebek yaitu dengan cara ?", "Meh, meh", "Pus, pus", "Ri, ri, ri", "Thi, thi, thi", "Ri, ri, ri"));
+
+        arraylist.add(new Question( "Dalam Bahasa Jawa, nama batang pisang disebut ?", "Ruyung", "Debog", "Gleges", "Glugu", "Debog"));
+
+        arraylist.add(new Question( "Dalam Bahasa Jawa, nama batang jagung disebut ?", "Glugu", "Ruyung", "Debog", "Tebon", "Tebon"));
+
+        arraylist.add(new Question( "Dalam Bahasa Jawa, nama batang kapas disebut ?", "Ruyung", "Tebon", "Randhu", "Gleges", "Randhu"));
+
+        arraylist.add(new Question( "Dalam Bahasa Jawa, nama batang aren disebut ?", "Randhu", "Gleges", "Ruyung", "Bonggol", "Ruyung"));
+
+        arraylist.add(new Question( "Dalam Bahasa Jawa, nama batang bambu muda disebut ?", "Bung", "Bungkilan", "Glugu", "Tebon", "Bung"));
+
+        arraylist.add(new Question( "Dalam Bahasa Indonesia, Glugu berarti ?", "Batang Kelapa", "Batang Padi", "Batang Jagug", "Batang Bambu Muda", "Batang Kelapa"));
+
+        arraylist.add(new Question( "Dalam Bahasa Indonesia, Gleges berarti ?", "Batang Bambu Tua", "Batang Jagung", "Batang Tebu", "Batang Kelapa ", "Batang Tebu"));
+
+        arraylist.add(new Question( "Dalam Bahasa Indonesia, Damen berarti ?", "Batang Tebu", "Batang Kelapa", "Batang Jagung", "Batang Padi", "Batang Padi"));
+
+        arraylist.add(new Question( "Dalam Bahasa Indonesia, Bungkilan berarti ?", "Batang Bambu Muda", "Batang Bambu Tua", "Batang Tebu", "Batang Kelapa", "Batang Bambu Tua"));
+
+        arraylist.add(new Question( "Dalam Bahasa Indonesia, Aren berarti ?", "Batang Tebu", "Batang Melinjo", "Batang Kolang-kaling", "Batang Bambu Muda", "Batang Kolang-kaling"));
         this.addAllQuestions(arraylist);
 
     }
