@@ -8,7 +8,7 @@
     android:layout_gravity="center">
 <LinearLayout
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:orientation="vertical"
     android:gravity="center"
     android:layout_gravity="center"
@@ -24,23 +24,25 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Kuis"
+            android:text="@string/kuis"
             android:gravity="center"
             android:textSize="40sp"/>
     <ImageView
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:src="@drawable/help100"/>
+        android:src="@drawable/help100"
+        tools:ignore="ContentDescription" />
 
         <info.hoang8f.widget.FButton
             android:id="@+id/playGame"
             fbutton:buttonColor="@color/lightGreen"
             android:layout_width="300dp"
-            android:text="Mulai Kuis"
-            android:backgroundTint="@color/colorMint"
+            android:text="@string/mulai_kuis"
+            android:backgroundTint="@color/colorPrimary"
             android:shadowColor="@color/colorMintDark"
             android:textColor="@color/white"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            tools:ignore="UnusedAttribute" />
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -53,18 +55,20 @@
             android:id="@+id/coinImage"
             android:layout_width="45dp"
             android:layout_height="45dp"
-            android:src="@drawable/thropy" />
+            android:src="@drawable/thropy"
+            tools:ignore="ContentDescription" />
 
         <TextView
             android:id="@+id/best_score"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="0"
+            android:text="@string/_0"
             android:paddingRight="5dp"
             android:paddingLeft="5dp"
             android:gravity="center"
             android:textSize="35sp"
-            android:layout_toRightOf="@id/coinImage"/>
+            android:layout_toRightOf="@id/coinImage"
+            tools:ignore="RtlHardcoded" />
 
     </RelativeLayout>
 </LinearLayout>

@@ -8,7 +8,7 @@ import android.widget.TextView;
 
 public class Description extends AppCompatActivity {
 
-    private TextView tvtitle,tvdescription,tvcategory;
+    private TextView tvtitle, description,tvcategory;
     private ImageView img;
 
     @Override
@@ -17,7 +17,7 @@ public class Description extends AppCompatActivity {
         setContentView(R.layout.description);
 
         tvtitle = (TextView) findViewById(R.id.txttitle);
-        tvdescription = (TextView) findViewById(R.id.txtDesc);
+        description = (TextView) findViewById(R.id.txtDesc);
         tvcategory = (TextView) findViewById(R.id.txtCat);
         img = (ImageView) findViewById(R.id.bookthumbnail);
 
@@ -26,13 +26,18 @@ public class Description extends AppCompatActivity {
         String Title = intent.getExtras().getString("Title");
         String Description = intent.getExtras().getString("Description");
         int image = intent.getExtras().getInt("Thumbnail") ;
+        overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
 
         // Setting values
 
         tvtitle.setText(Title);
-        tvdescription.setText(Description);
+        description.setText(Description);
         img.setImageResource(image);
 
-
+    }
+    @Override
+    public void finish() {
+        super.finish();
+        overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
     }
 }

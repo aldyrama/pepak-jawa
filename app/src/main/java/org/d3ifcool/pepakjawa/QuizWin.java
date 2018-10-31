@@ -36,17 +36,19 @@ public class QuizWin extends Activity {
                     Intent intent = new Intent(QuizWin.this, StartQuiz.class);
                     startActivity(intent);
                     finish();
+                    overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                 }
             });
-
-
-
     }
-
     @Override
     public void onBackPressed() {
         finish();
 //        audioBackground.stop();
         QuizWin.this.finish();
+    }
+    @Override
+    public void finish() {
+        super.finish();
+        overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
     }
 }

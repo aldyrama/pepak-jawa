@@ -4,7 +4,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/transparent"
+    android:background="@drawable/dialog_correct"
     android:gravity="center"
     tools:ignore="MissingDefaultResource">
     <View
@@ -29,15 +29,17 @@
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:src="@drawable/happy80"
-        android:layout_marginBottom="10dp"/>
+        android:layout_marginBottom="10dp"
+        tools:ignore="ContentDescription" />
     <info.hoang8f.widget.FButton
         android:id="@+id/dialogNext"
-        android:layout_width="280dp"
+        android:layout_width="260dp"
         android:layout_height="wrap_content"
         android:text="@string/lanjut"
-        android:backgroundTint="@color/colorMint"
-        android:shadowColor="@color/colorMintDark"
-        android:textColor="@color/white"/>
+        android:backgroundTint="@color/colorPrimary"
+        android:shadowColor="@color/colorPrimary"
+        android:textColor="@color/white"
+        tools:ignore="UnusedAttribute" />
     <View
         android:layout_width="match_parent"
         android:layout_height="50dp"/>

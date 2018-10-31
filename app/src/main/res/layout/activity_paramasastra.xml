@@ -5,12 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ParamasastraActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:ignore="MissingDefaultResource">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Paramasastra adalah tata bahasa dalam bahasa jawa"
+        android:text="@string/paramasastra_adalah_tata_bahasa_dalam_bahasa_jawa"
         android:textSize="22sp"
         android:padding="16dp"
         android:textColor="#000"

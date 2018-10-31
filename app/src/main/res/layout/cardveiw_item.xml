@@ -19,6 +19,7 @@
             android:id="@+id/book_img_id"
             android:layout_width="match_parent"
             android:layout_height="160dp"
+            android:transitionName="imgagetransition"
             android:scaleType="centerCrop"
              />
 
@@ -27,6 +28,7 @@
             android:textColor="#2d2d2d"
             android:textSize="13sp"
             android:gravity="center"
+            android:transitionName="texttransition"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="Book Title"/>

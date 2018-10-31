@@ -37,32 +37,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:clickable="true"
-                android:focusable="true"
-                android:gravity="center_horizontal"
-                android:onClick="arjunavextor"
-                android:text="@string/wayangarjuna"
-                android:textSize="15sp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:layout_marginTop="10dp"
-                android:clickable="true"
-                android:focusable="true"
-                android:onClick="sintavextor"
-                android:text="@string/wayangsinta"
-                android:textSize="15sp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
                 android:layout_marginTop="10dp"
                 android:clickable="true"
                 android:focusable="true"
                 android:onClick="wayangall"
+                android:textStyle="bold"
+                android:gravity="center"
                 android:text="@string/wayangall"
                 android:textSize="15sp" />
 
@@ -70,10 +50,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="15dp"
                 android:clickable="true"
                 android:focusable="true"
                 android:gravity="center"
+                android:textStyle="bold"
                 android:onClick="icon"
                 android:text="@string/icon"
                 android:textSize="15sp" />
@@ -82,82 +63,146 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="15dp"
                 android:clickable="true"
                 android:focusable="true"
                 android:gravity="center"
-                android:onClick="artikelsadewa"
-                android:text="@string/artikelsadewa"
+                android:textStyle="bold"
+                android:onClick="background"
+                android:text="@string/background"
                 android:textSize="15sp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="15dp"
                 android:clickable="true"
                 android:focusable="true"
                 android:gravity="center"
-                android:onClick="artikelbima"
-                android:text="@string/artikelbima"
+                android:textStyle="bold"
+                android:onClick="sound"
+                android:text="@string/sound"
                 android:textSize="15sp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="20dp"
                 android:clickable="true"
                 android:focusable="true"
+                android:textStyle="bold"
                 android:gravity="center"
-                android:onClick="artikellaksamana"
-                android:text="@string/artikellaksamana"
+                android:onClick="artikel1"
+                android:text="@string/artikel1"
                 android:textSize="15sp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginTop="10dp"
-                android:gravity="center_horizontal"
-                android:text="@string/artikelsinta"
+                android:layout_marginTop="15dp"
+                android:clickable="true"
+                android:textStyle="bold"
+                android:focusable="true"
+                android:gravity="center"
+                android:onClick="artikel2"
+                android:text="@string/artikel2"
                 android:textSize="15sp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginTop="10dp"
-                android:gravity="center_horizontal"
-                android:text="@string/artikelramawijaya"
+                android:layout_marginTop="15dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:onClick="artikel3"
+                android:text="@string/artikel3"
                 android:textSize="15sp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="15dp"
                 android:gravity="center_horizontal"
-                android:text="@string/artikelbagong"
+                android:onClick="artikel4"
+                android:textStyle="bold"
+                android:text="@string/artikel4"
                 android:textSize="15sp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="15dp"
                 android:gravity="center_horizontal"
-                android:text="@string/artikelpetruk"
+                android:onClick="artikel5"
+                android:textStyle="bold"
+                android:text="@string/artikel5"
                 android:textSize="15sp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="15dp"
                 android:gravity="center_horizontal"
-                android:text="@string/artikelgatotkaca"
+                android:onClick="artikel16"
+                android:textStyle="bold"
+                android:text="@string/artikel16"
                 android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp"
+                android:gravity="center_horizontal"
+                android:onClick="artikel17"
+                android:textStyle="bold"
+                android:text="@string/artikel17"
+                android:textSize="15sp" />
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="center_horizontal"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:gravity="center_horizontal"-->
+                <!--android:text="@string/artikelramawijaya"-->
+                <!--android:textSize="15sp" />-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="center_horizontal"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:gravity="center_horizontal"-->
+                <!--android:text="@string/artikelbagong"-->
+                <!--android:textSize="15sp" />-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="center_horizontal"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:gravity="center_horizontal"-->
+                <!--android:text="@string/artikelpetruk"-->
+                <!--android:textSize="15sp" />-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="center_horizontal"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:gravity="center_horizontal"-->
+                <!--android:text="@string/artikelgatotkaca"-->
+                <!--android:textSize="15sp" />-->
 
 
         </LinearLayout>

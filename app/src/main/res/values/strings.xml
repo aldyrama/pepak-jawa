@@ -6,7 +6,7 @@
     <string name="title_activity_kawruh_basa">KawruhBasa</string>
     <string name="title_activity_rupa_kawruh">RupaKawruh</string>
     <string name="title_activity_kesusastraan">Kesusastraan</string>
-    <string name="title_activity_aksara_jawa">AksaraJawa</string>
+    <string name="title_activity_aksara_jawa">Aksara</string>
     <string name="title_activity_kuis">Kuis</string>
     <string name="title_activity_score">Score</string>
 
@@ -26,73 +26,77 @@
     <string name="paramasastra">Paramasastra</string>
     <string name="rupa_kawruh">Rupa Kawruh</string>
 
+    <string name="hore">
+        Hore! \n Kamu mulai menguasainya :)
+    </string>
+
+    <string name="aksarajawa">
+        Disebut juga carakan, merupakan kata dasar Aksara Jawa yang berjumlah 20 aksara pokok dan bersifat kesukukataan.
+        Masing masing aksara mempunyai pasangan yang berfungsi sebagai penghubung suku kata tertutup dengan suku kata berikutnya.
+    </string>
+
+    <string name="shandangan">
+        Merupakan tanda yang dipakai untuk merubah bunyi dalam tulisan jawa. Shandangan terbagi menjadi 2, yaitu shandangan vokal dan shandangan
+        konsonan penutup suku kata. Aksara yang tidak mempunyai  shandangan vokal dilafalkandengan vokal\a\ (seperti o pada kata pokok)
+    </string>
+
+    <string name="aksaramurda">
+        Dipakai untuk menuliskan nama orang, gelar, nama tempat, dan nama lembaga. Masing-masing aksara murda mempunyai pasangan.
+    </string>
+
+    <string name="aksaraswara">
+        Digunakan untuk menulisaksara vokal yang menjadi suku kata yang berasal dari bahasa asing untuk mempertegas pelafalannya.
+    </string>
+
+    <string name="wilangan">
+        Dipakai untuk menyatakan lambang bilangan atau nomor. Penulisan wilangan jawa selalu diapit oleh pada pangkat.
+    </string>
+
+    <string name="rekan">
+        Aksara rekan atau Rekaan dipakai untuk menulis aksara konsonan pada kata-kata asing yang masih dipertahankan keaslian pengucapannya.
+    </string>
     //Referensi
     <string name="referensi">
         Referensi \n Icon, Gambar dan Artikel
     </string>
-    <string name="wayangarjuna">
-        Arjuna Designed by Free Vectors via \n
-        <a rel="nofollow" href="https://www.vecteezy.com/">www.vecteezy.com</a>
-    </string>
-    <string name="wayangsinta">
-        shinta : Designed by \n
-        <a target="_blank" href="https://www.vecteezy.com">www.Vecteezy.com</a>
-    </string>
     <string name="wayangall">
-        Free Vector Design by: Vecteezy \n
-        <a rel="nofollow" target="_blank" href="https://www.Vecteezy.com/">https://www.Vecteezy.com/</a>
+        Free Vector Design by:  \n
+        <a href="https://www.Vecteezy.com/" rel="nofollow" target="_blank">https://www.Vecteezy.com/</a>
     </string>
     <string name="icon">
-        icon : Designed by Ibrandify \n
         <a href='https://www.freepik.com/free-vector/6-clock-icons_995776.htm'>https://www.freepik.com/free-vector/6-clock-icons_995776.htm</a>
     </string>
-    <string name="artikelkresna">
-        Kresna : Artikel by \n
-        <a href = 'https://wayang.wordpress.com/2006/10/26/kresna/'>https://wayang.wordpress.com/2006/10/26/kresna/</a>
+    <string name="background">
+        <a href="https://pngtree.com/freebackground/shrine-temple-building-place-of-worship-background_135544.html">
+            https://pngtree.com/freebackground/shrine-temple-building-place-of-worship-background_135544.html</a>
     </string>
-    <string name="artikelsadewa">
-        sadewa : Artikel by \n
-        <a href = 'http://dalang666.blogspot.com/2011/09/sadewa.html'>http://dalang666.blogspot.com/2011/09/sadewa.html</a>
+    <string name="sound">
+        <a href='https://www.freepik.com/free-vector/colorful-origami-banner-collection_1230245.htm'>
+            https://www.freepik.com/free-vector/colorful-origami-banner-collection_1230245.htm</a>
     </string>
-    <string name="artikelbima">
-        bima : Artikel by \n
-        <a href = 'https://wayang.wordpress.com/2006/10/26/bima-werkudara/'> https://wayang.wordpress.com/2006/10/26/bima-werkudara/ </a>
+    //Artikel
+    <string name="artikel1">
+        Artikel by \n
+        <a href='https://wayang.wordpress.com/2006/10/26/kresna/'>https://wayang.wordpress.com</a>
     </string>
-    <string name="artikellaksamana">
-        laksamana : Artikel by \n
-        <a href = 'https://wayangku.id/nama-tokoh-wayang-lesmana-laksmana-widagda/'>https://wayangku.id/nama-tokoh-wayang-lesmana-laksmana-widagda/</a>
+    <string name="artikel2">
+        <a href='http://tokohpewayanganjawa.blogspot.com//'>http://tokohpewayanganjawa.blogspot.com//</a>
     </string>
-    <string name="artikelsinta">
-        shinta : Artikel by \n
-        <a href = 'https://wayang.wordpress.com/2006/10/26/sinta/'>https://wayang.wordpress.com/2006/10/26/sinta//</a>
+    <string name="artikel3">
+        <a href='https://caritawayang.blogspot.com/'>https://caritawayang.blogspot.com/</a>
     </string>
-    <string name="artikelramawijaya">
-        ramawijaya : Artikel by \n
-        <a href = 'https://wayang.wordpress.com/2006/10/24/rama-wijaya/'>https://wayang.wordpress.com/2006/10/24/rama-wijaya/</a>
+    <string name="artikel4">
+        <a href='http://nuradiwibowo02.blogspot.com/'>http://nuradiwibowo02.blogspot.com/</a>
     </string>
-    <string name="artikelbagong">
-        bagong : Artikel by \n
-        <a href = 'https://wayang.wordpress.com/2010/03/12/bagong-cepot/'>https://wayang.wordpress.com/2010/03/12/bagong-cepot/</a>
+    <string name="artikel5">
+        <a href='https://deviyohanna.wordpress.com/2014/06/14/deskripsi-tokoh-wayang-indonesia/ artikel'>https://deviyohanna.wordpress.com/2014/06/14/deskripsi-tokoh-wayang-indonesia/ artikel</a>
     </string>
-    <string name="artikelpetruk">
-        petruk : Artikel by \n
-        <a href = 'https://wayang.wordpress.com/2010/03/12/petruk/'>https://wayang.wordpress.com/2010/03/12/petruk/</a>
+    <string name="artikel16">
+    Sound Efect by \n
+    <a href='https://freesound.org/people/Bertrof/sounds/131657/'>https://freesound.org/people/Bertrof/sounds/131657/</a>
     </string>
-    <string name="artikelarjuna">
-        arjuna : Artikel by \n
-        <a href = 'https://wayang.wordpress.com/2010/07/18/arjuna-2/'>https://wayang.wordpress.com/2010/07/18/arjuna-2//</a>
-    </string>
-    <string name="artikelgatotkaca">
-        gatotkaca : Artikel by \n
-        <a href = 'https://wayang.wordpress.com/2010/03/06/gatotkaca/'>https://wayang.wordpress.com/2010/03/06/gatotkaca/</a>
-    </string>
-    <string name="artikelkumbakarna">
-        kumbakarna : Artikel by \n
-        <a href = 'https://wayang.wordpress.com/2006/10/26/arya-kumbakarna/'>https://wayang.wordpress.com/2006/10/26/arya-kumbakarna/</a>
-    </string>
-    <string name="artikelhanoman">
-        hanoman : Artikel by \n
-        <a href = 'https://wayang.wordpress.com/2006/10/25/anoman/'>https://wayang.wordpress.com/2006/10/25/anoman/</a>
+    <string name="artikel17">
+    <a href='https://freesound.org/people/LittleRainySeasons/sounds/335908/'>https://freesound.org/people/LittleRainySeasons/sounds/335908/</a>
     </string>
 
     //Wayang Description
@@ -192,8 +196,6 @@
         Tanda-tanda pada waktu marah, dari mata bercucuran air mata, dan angin keluar tak henti-hentinya, sambil berteriak-teriak kepada Dewa minta kembali keelokan rupanya. \n\n
         Semar selalu merendahkan diri pada anak-anak asuhannya dan dengan bahasa lemah lembut sebagai hamba kepada tuannya.
         Tetapi jika bergaul dengan para Dewa ia bersikap sebagai teman sejawatnya. Semar beristri Dewi Kanastren dan mempunyai sepuluh orang anak, yang kesemuanya adalah dewa. Semar sebagai lambang orang yang suka mengetahui kejiwaan manusia yang sebenar-benarnya.
-        \n\n
-        "https://wayangku.wordpress.com/2008/07/01/semar-betara-ismaya/"
     </string>
 
     <string name="gareng">
@@ -294,6 +296,146 @@
         Kesaktian lain Anantareja dapat hidup dan berjalan didalam bumi. \n\n
         Anantareja memiliki sifat dan perwatakan : jujur, pendiam, sangat berbakti pada yang lebih tua dan sayang kepada yang muda, rela berkorban dan besar kepercayaanya kepada Sang Maha Pencipta. Ia menikah dengan Dewi Ganggi, putri Prabu Ganggapranawa, raja ular/taksaka di Tawingnarmada, dan berputra Arya Danurwenda. \n\n
         Setelah dewasa Anantareja menjadi raja di negara Jangkarbumi bergelar Prabu Nagabaginda. Ia meninggal menjelang perang Bharatayuda atas kemauannya sendiri dengan cara menjilat telapak kakinya sebagai tawur (korban untuk kemenangan) keluarga Pandawa dalam perang Bharatayuda. \n\n
-        
     </string>
+
+    <string name="antasena">
+        Raden Antasena adalah putra Arya Wekudara yang ketiga dengan Dewi Urangayu, putri Sanghyang Baruna, dewi ikan yang berkedudukan di Kisiknarmada. Pertemuan Bima dengan Dewi Urangayu terjadi ketika Resi Druna menguji siswanya di perguruan Sokalima. Saat itu Werkudara diadu dengan duryudana, karena kalah dalam menggunakan gada, Duryudana sakit hati. Ia menyuruh Dursasana agar melenyapkan Werkudara. \n\n
+        Dursasana pura-pura mengadakan pesta memeriahkan pendadaran siswa Sokalima tadi. Dalam pesta itu Werkudara memeriahkan pendadaran siswa Sokalima tadi. Dalam pesta itu Werkudara diajak minum tuak. Karena terlalu banyak minum, Aryaa Sena mabuk dan jatuh pingsan. Dalam keadaan pingsan itulah tubuh Sena diikat lalu diceburkan ke dalam sungai Jamuna. Tubuh Bima hanyut hingga ke Kisik narmada (pertemuan sungai Jamuna dan sungai Gangga). ia ditolong oleh Batara Baruna dan disembuhkan dengan air Rasakunda.
+        Akhirnya Arya Bima dijodohkan dengan putrinya Dewi Urangayu adik Urang Rayung yang menjadi istri Anoman dan berputera Trigangga. Perkawinan Bima dengan Dewi Urangayu inilah akhirnya Arya Sena berputera Raden Antasena, berkedudukan di Kisik Narmada ikut kakeknya. \n\n
+        Bersamaan lahirnya Antasena, kahyangan Suralaya sedang digempur angkatan dari Girikadasar di bawah kekuasaan raja Kalalodra. namun raja raksasa berwajah ikan itu dapat dibinasakan oleh Antasena yang saat itu masih bocah. Dengan keberhasilan menumpas musuh dewa tersebut, Resi Mintuna (kakek Antasena) diangkat menjadi dewa menguasai ikan dengan gelar Batara Baruna. \n\n
+        Ketika Resi Bisma menyelenggarakan perlombaan membuat sungai menuju bengawan Gangga, Kurawa dan Pandawa saling berlomba. Werkudara dibantu pasukan dari Kisik Narmada yang dipimpin oleh Antasena berhasil membuat sungai yang kemudian oleh Bisma diberi nama Sungai Serayu. Kurawa hanya mampu membuat sungai yang tembus ke kali Serayu, maka sungai itu dinamakan Kelawing atau terbalik. Nama Kelawing dalam pedalangan disebut Kali Cingcinggoling. \n\n
+        Ketika usai perlombaan, Kurawa yang sakit hati kembali berusaha ingin membinasakn Pandawa. Ia bersekutu dengan raja Girisamodra Prabu Gangga Trimuka. Atas bujuk Sengkuni, Gangga Trimuka akan menguasai Tribuwana jika dapat membunuh padanwa sebagai tumbalnya. Prabu Gangga Trimuka kemudian menangkap Pandawa dan dipenjara ke dalam gedung kaca bernama Kongedah, sehingga Pandawa mati lemas di dalam penjara gedung kaca tadi. \n\n
+        Mengetahui Pnadawa dipenjara, Antasena melabrak raja Girisamodra. Prabu Gangga Trimuka dibinasakan dengan belai upas (sungut upas Jw.) dan Pandawa dikeluarkan dari Kongedah. Melihat kondisi Pandawa mati lemas, Antasena segera menghidupkan kembali dengan air kehidupan Madusena. Atas kemufakatan Pandawa, negara Girisamodra kemudian diserahkan kepada Antasena. \n\n
+        Tidak berbeda dengan Antareja, kakaknya. Antasena juga memiliki sisik pada kulitnya yang berfungsi untuk menangkal senjata tajam. Keduanya juga dapat membenamkan diri ke dalam tanah dan tak akan mati jika tubuhnya masih menyinggung air ataupun tanah. Dalam pedalangan, Antasena kawin dengan Dewi Manuwati, putri Arjuna dan Dewi manuhara.
+    </string>
+
+    <string name="jatayu">
+        JATAYU adalah burung garuda yang dapat berbicara seperti manusia. Garuda Jatayu adalah putra ketiga Resi Briswawa, yang berarti masih keturunan langsung Dewi Brahmanistri, putri Bathara Brahma. Ia mempunyai tiga saudara kandung masing-masing bernama ; Garuda Harna, Garuda Brihawan dan Garuda Sempati.
+        Jatayu bersahabat karib dengan Prabu Dasarata, raja negara Ayodya. /n/n
+        Mereka bersahabat sejak kecil, karena kakek Prabu Dasarata, Bathara Kandikota bersahabat karib dengan Resi Briswawa. Ketika Jatayu mendengar jeritan Dewi Sinta yang menyebut-nyebut nama Ramawijaya dan negara Ayodya, tahulah Jatayu bahwa wanita yang dikempit oleh Prabu Dasamuka terbang di atas hutan Dandaka adalah menantu Prabu Dasarata.\n\n
+        Dengan mengerahkan seluruh kesaktian dan kemampuannya, Jatayu berusaha merebut Dewi Sinta dari tangan Prabu Dasamuka.  Tapi Prabu Dasamuka yang memiliki Aji Rawarontek dan Pancasona tidak terkalahkan. \n\n
+        Tubuh Jatayu mengalami luka parah dan kedua sayapnya putus oleh sabetan pedang Prabu Dasamuka.
+        Namun dalam keadaan tak berdaya, disaat menjelang ajal, Jatayu masih sempat bertemu dengan Ramawijaya, dan memberitahukan keberadaan Dewi Sinta yang diculik Prabu Dasamuka, raja negara Alengka.
+    </string>
+
+    <string name="citraksa">
+        CITRAKSA adalah putra Prabu Drestarasta, raja negara Astina dengan Dewi Gandari, putri Prabu Gandara dengan permaisuri Dewi Gandini dari negara Gandaradesa. Ia mempunyai saudara sebanyak 100 orang (99 orang laki-laki dan 1 orang wanita) yang disebut Sata Kurawa. \n\n
+        Diantara saudara-saudaranya yang dikenal dalam pedalangan adalah ; Duryudana (raja negara Astina), Bogadatta (raja negara Turilaya), Bomawikata, Wikataboma, Citraksi, Citraboma, Citrayuda, Carucitra, Dursasana (Adipati Banjarjumut), Durmagati, Durmuka, Durgempo, Gardapati (raja negara Bukasapta), Gardapura, Kartamarma (raja negara Banyutinalang), Kartadenta, Surtayu, Surtayuda, Windandini (raja negara Purantara) dan Dewi Dursilawati. /n/n
+        Sebagai murid Resi Drona, Citraksa juga mahir dalam olah keprajuritan, khususnya mempermaikan senjata panah dan lembing. Ia memiliki sifat dan perwatakan ; ladak/galak, congkak, licik, mau menangnya sendiri dan agak pengecut. Citraksa sangat erat hubungannya dengan Citraksi dan Citrayuda.Pada saat berlangsungnya perang Bharatayuda, Citraksa bersama beberapa orang saudaranya tampil pada awal pertempuran sebagai komandan pasukan balatentara Kurawa.\n\n
+        Citraksa bersama - sama dengan Citrayuda, Surtayu, Citrakundala dan Dirgalasara tewas dalam peperangan melawan Arya Wratsangka, senapati perang Pandawa, putra Prabu Matswapati dari negara Wirata.
+    </string>
+
+    <string name="citraksi">
+        Raden Citraksi adalah putera Prabu Dastarastra di Hastinapura, raut mukanya mirip seperti Raden Citraksa, dan ia terhitung seorang Kurawa yang terkemuka. Dalam perang Baratayudha ia tewas oleh Pandawa. \n\n
+        Citraksi mempunyai sifat dan perwatakan ;  sok tahu, congkak dan keras hati. Kalau bicara gagap (tersendat-sendat) membuat orang tidak sabar mendengarnya. Lawan bicaranya serasa   ikut sesak napas jika berbicara dengannya. Jika melakukan pembicaraan dia tidak pernah sampai pada ujung maksudnya. Maunya banyak tetapi keluarnya hanya beberapa patah kata yang didorong dengan susah payah dari rongga dada tapi tertahan di ujung bibir.
+        Misalnya “eemmmmaaa..aaan Seng…seng…seng kuniii…eem…eemmm…emmbeeeekk…”. Ujung-ujungnya Sengkuni atau Dursasana dengan mengurut dada berkata, “sudah..sudah Citraksi jangan bicara lagi.. Aku sudah tahu maksudmu..” Kegagapannya ini justru dimanfaatkan Ki dalang untuk bahan lelucon.  Sebagai murid Resi Drona, ia juga mahir dalam olah keprajuritan, khususnya mempermainkan senjata gada dan trisula. \n\n
+        Salah satu dari seratus Kurawa. Yang khas darinya adalah ketika bicara gagap. Selalu bersama dengan Citraksa, mukanya juga mirip satu sama lain. Citraksi, karena kepengecutannya dia sembunyi ketika perang Baratayudha, dia pun masih hidup paska perang, bersembunyi kesana kemari, sampai ke negri Mandraka. \n\n
+        Tapi orang-orang Mandraka mengenalinya, sebagai salah satu Kurawa sebagai biang perang yang menewaskan raja mereka Salya yang dicintai. Citraksi luka parah dikeroyok, sempat ditolong pimpinan Mandraka yang saat itu sudah dijabat Nakula. Citraksi mati diperjalanan menuju tabib istana.
+    </string>
+
+    <string name="dursasana">
+        Dursasana adalah putra Prabu Drestarasta, raja negara Astina dengan permaisuri Dewi Gandari, putri Prabu Gandara dengan Dewi Gandini dari negara Gandaradesa. Ia bersaudara 100 orang –{99 orang pria dan 1 orang wanita} yang disebut Sata Kurawa. Diantaranya yang dikenal dalam pedalangan adalah Duryudana (raja Negara Astina), Bogadatta (raja negara Turilaya),
+        Bomawikata, Citraksa, Citraksi, Carucitra, Citrayuda, Citraboma, Durmuka, Durmagati, Durgempo, Gardapati (raja Negara Bukasapta), Gardapura , Kartamarma, (raja negara Banyutinalang), Kartadenta, Surtayu, Surtayuda, Wikataboma, Widandini (raja negara Purantara) dan Dewi Dursilawati. \n\n
+        Dursasana menikah dengan Dewi Saltani, putri Adipati Banjarjungut. Dari perkawinan ini ia berputra seorang lelaki bernama Dursala. Dursasana berbadan besar, gagah dan bermulut lebar, mempunyai watak dan sifat; takabur,gemar bertindak sewenang-wenang, besar kepala, senang meremehkan dan menghina orang lain. Ia mempunyai pusaka sebuah keris yang luar biasa besarnya bernama Kyai Barla. \n\n
+        Dursasana mati di medan perang Bharatayuda oleh Bima/Werkudara dalam keadaan sangat menyedihkan. Dadanya dibelah dengan kuku Pancanaka. Darah yang menyembur ditampung Bima untuk memenuhi sumpah Dewi Drupadi, yang akan dibuat kramas dan mencuci rambutnya. Anggota tubuh dan kepala Dursasana hancur berkeping-keping, dihantam gada Rujakpala.
+    </string>
+
+    <string name="gardapati">
+        Gardapati adalah putra Prabu Drestarasta, raja negara Astina dengan permaisuri Dewi Gandari, putri Prabu Gandara dengan Dewi Gandini dari negara Gandaradesa. Ia bersaudara 100 orang –{99 orang pria dan 1 orang wanita} yang disebut Sata Kurawa. Diantaranya yang dikenal dalam pedalangan adalah Duryudana (raja Negara Astina), Bogadatta (raja negara Turilaya),
+        Bomawikata, Citraksa, Citraksi, Carucitra, Citrayuda, Citraboma, Dursasana (Adipati Banjarjungut), Durmuka, Durmagati, Durgempo, Gardapura , Kartamarma (raja negara Banyutinalang), Kartadenta, Surtayu, Surtayuda, Wikataboma, Widandini (raja negara Purantara) dan Dewi Dursilawati. \n\n
+        Gardapati berwatak keras hati, congkak, cerdik dan licik. Ia pandai dalam olah ketrampilan mempergunakan senjata gada dan lembing. Dengan kesaktiannya, ia berhasil merebut negara Bukasapta, dan mengangkat dirinya menjadi raja bergelar Prabu Gardapati. Adik kesayangannya Gardapura di angkat menjadi raja muda bergelar Prabu Anom Gardapura. \n\n
+        Saat berlangsungnya perang Bharatayuda, Gardapati diangkat menjadi senapati perang Kurawa dengan senapati pendamping Prabu Wresaya, raja negara Glagahtinalang. Gardapati tewas dalam peperangan melawan Bima. Tubuhnya hancur dihantam gada Rujakpala.
+    </string>
+
+    <string name="gendari">
+        Dewi adalah putra Prabu Gandara, raja negara Gandaradesa dengan permaisuri Dewi Gandini. Ia mempunyai tiga orang saudara kandung, masing-masing bernama ; Arya Sakuni, Arya Surabasata dan Arya Gajaksa. \n\n
+        Dewi Gandari menikah dengan Prabu Drestarasta, raja negara Astina, putra Prabu Kresnadwipayana/Bagawan Abiyasa dengan permaisuri Dewi Ambika. Dari perkawinan tersebut ia memperoleh 100 (seratus) orang anak, tetapi pada waktu lahirnya berwujud gumpalan darah kental, yang oleh Dewi Gandari dicerai beraikan menjadi seratus potongan, dan atas kehendak Dewata menjelma menjadi bayi Manusia. \n\n
+        Keseratus putra Dewi Gandari tersebut dikenal dengan nama Sata Kurawa. Diantara mereka yang terkenal dalam pedalangan adalah: Duryudana (raja negara Astina). Bogadatta, (raja negara Turilaya), Carucitra, Citrayuda, Citraboma, Dursasana (Adipati Banjarjungut), Durmuka, Durmagati, Durgempo, Gardapati (raja negara Bukasapta), Gardapura, Kartamarma (raja negara Banyutinalang), Kartadenta, Surtayu, Surtayuda, Wikataboma, Widandini (raja negara Purantara) dan Dewi Dursilawati. \n\n
+        Dewi Gandari mempunyai sifat kejam dan bengis. Ia selalu mementingkan diri sendiri dan tidak segan-segan berkhianat serta pendendam. Dendam dan kebenciannya terhadap Pandu, menjadi penyebab utama kebencian anak-anaknya, Kurawa terhadap Pandawa. Ia mati terjun ke dalam Pancaka/api pembakaran jenazah bersama Dewi Kunti dan Prabu Drestarasta setelah berakhirnya perang Bharatayuda.
+    </string>
+
+    <string name="dewimadrim">
+        Dewi Madrim atau Dewi Madri adalah putri Prabu Mandrapati, raja negara Mandaraka dengan permaisuri Dewi Tejawati. Ia mempunyai kakak kandung bernama Narasoma, yang setelah menjadi raja Mandaraka bergelar Prabu Salya. \n\n
+        Dewi Madrim menikah dengan Prabu Pandu, raja negara Astina dan menjadi permaisuri ke dua mendampingi Dewi Kunti. Dari perkawinan tersebut, ia berputra dua orang kembar yang diberi nama Nakula dan Sadewa. Dewi Madrim berwatak penuh belas kasih, setia, sabar dan Wingit. \n\n
+        Akhir riwayat Dewi Madrim diceritakan, ia terjun kedalam Pancaka (api pembakaran jenazah) ikut bela pati atas kematian suaminya, Prabu Pandu. Kedua putra kembarnya, Nakula dan Sadewa yang masih bayi kemudian diasuh oleh Dewi Kunti.
+    </string>
+
+    <string name="dewikunthi">
+        raja mandura dari bangsa yadawa mempunyai dua orang anak, yaitu basudewa dan dewi prita. basudewa ini nantinya akan mempunyai anak kresna, baladewa, dan sembadra. nah raja mandura ini mempunyai sepupu uaitu raja kunthiboja yang tidak memiliki keturunan. karena merasa kasihan raja mandura memberikan anaknya dewi prita ke raja kunthiboja sebagai anak. nah sejak itu dewi prita dikenal sebagai dewi kunti. \n\n
+        nah suatu saat di kerajaan kunthiboja datang tamu agung begawan druwasa, kunti kecil kemudian disuruh meladeni keperluan sang begawan. selama lebih setahun kunti menjadi “pesuruh” begawan druwasa. kunti meladeni segala keperluan begawan dengan iklas ceria dan sabar. begawan druwasa yang sakti kemudian merasa sangat sayang pada kunti yang sudah dianggap sebagai anaknya sendiri. maka sang begawan memberikan mantra kepada kunti.
+        ya mantra sakti pemanggil dewa, siapapun dewa yang dipanggil akan datang dan memberikan anak sesuai dengan keluhuran dewa yang bersangkutan. kunti kecil merasa sangat bergembira sekali. \n\n
+        maka tanpa setahu sang begawan, kunti mencoba merapalkan mantra tersebut. sebenarnya dia cuma coba coba sahaja. tapi hasilnya fatal. waktu itu kunta membaca mantram sambil menyebut dewa surya dewa pujaanya. maka “jreeng” datanglah dewa surya kehadapan kunti. dewa surya kaget karena ternyata yang memanggil dirinya adalah anak anak dibawah umur.
+        tapi sudah jadi ketetapan dewata, maka kunti mengandung anak dewa surya. kunti memohon memelas, karena takut diolok olok akibat kehamilan di luar nikah tersebut. karena merasa kasihan maka dewa surya mengeluarkan bayi di kandungan kunti melalui telinga. karena lahir lewat telinga maka keperawanan kunti tak hilang, dan karena itu pula maka bayi itu diberi nama karna yang artinya telinga. \n\n
+        karna lahir dengan rompi yang tak akan pernah tembus oleh senjata apapun wajah dan tubuhnya gilang gemilang oleh pancaran cahaya surya seperti ayahnya. namun karena malu, dan merasa bingung. anak itu dibuang oleh kunti ke sungai. ya inilah kesalahan besar kunti, sampai ahir hayatnya kunti menyesali hal ini. dan hukuman dewa atas perbuatanya adalah harus menyaksikan anaknya saling membunuh pada kemudian hari. \n\n
+        ketika sudah cukup umur maka diadakan sayembara untuk menikahkan kunti oleh prabu kuntiboja.nah yang memenangkan pertandingan ini adalah pandu dewanata dari hastina. konon ketika pulang, pandu dijegat oleh narasoma dari mandaraka, terjadilah perang tanding. karena sebelum perang narasoma berjanji jika menang kunti diambil dan jika kalah madrim adiknya diberikan pada pandu, maka karena kalah madrim pun diberikan kepada pandu. \n\n
+        di tengah jalan sengkuni menghadang, sama dengan narasoma, sengkuni bertanding dengan pandu dan kalah, maka gendari diberikan kepada pandu. tapi disini sengkuni memang berniat ikut jadi “penguasa” hastina liwat pernikahan gendari dan penguasa hastina. \n\n
+        sampai di hastina, para sesepuh hastina memebrikan saran supaya para puteri itu dibagi juga dengan kakaknya destarata. rupanya ke 3 putri itu tak mau nikah dengan destarata. kunti dan madrim berdoa siang malam, sementara sengkuni memandikan gendari dengan air amis, sehingga baunya amis bukan main. toh ahirnya justru gendari yang dipilih oleh destarata. konon karena destarata memang tak ingin menyakiti pandu, maka dia bermaksud pilih yang paling jelek, sayangnya hal ini membuat sengkuni dan gendari dendam pada pandu.
+    </string>
+
+    <string name="destarata">
+        Destarata adalah anak sulung Prabu Kresna Dwipayana atau Begawan Abiyasa raja Hastinapura, lahir dari seorang Ibu bernama Dewi Ambika putri dari negara Giyantipura atau negara Kasi. Sejak lahir aku mempunyai cacat netra, tidak dapat melihat atau buta. Aku mempunyai dua adik dari ibu yang berbeda yaitu Pandudewanata dan Yamawidura. \n\n
+        Walaupun aku cacat, aku memiliki mantra sakti Aji Lebur Saketi yang sangat ditakuti lawan. Apabila mantra Aji Lebur Saketi aku baca maka semua benda yang aku pegang akan hancur menjadi debu. \n\n
+        Nama lain dari Destarastra adalah Raden Kuru. Ia bertempat tinggal di Kadipaten Gajahoya. Isterinya bernama Dewi Gendari putri Prabu Keswara dari Plasajenar atau Gandaradesa. \n\n
+        Perkawinan Destarastra dengan Gendari ini adalah atas kebaikan Pandudewanata adiknya, yang waktu itu memenangkan sayembara dengan memboyong tiga putri. Satu dari ketiga putri boyongan tersebut diberikan kepada Destarastra. Dari perkawinan dengan Dewi Gendari putri boyongan tersebut Destarastra dikaruniai seratus orang anak laki-laki dan ditambah satu anak perempuan,
+        yang kemudian lebih dikenal dengan sebutan Kurawa. Dari seratus anak, yang lahir sulung merupakan anak istimewa. Istimewa karena ketika lahir bayi tersebut mempunyai badan yang paling besar, berkulit kuning dan tangisnya seperti serigala. Ia diberi nama Duryudana. \n\n
+        Pada akhir hayatnya, Destarastra mati tertimbun beteng bersama isterinya, dan tanpa sengaja diinjak-injak oleh seratus anaknya. Peristiwa tersebut terjadi pada awal perang Baratayuda, pada saat cerita Kresna duta. \n\n
+        Ada versi lain yang mengatakan bahwa matinya Destarastra pada waktu perang Baratayuda sudah selesai, yaitu ketika Destarastra bersama Gendari isterinya bertapa di hutan. Tiba-tiab hutan terbakar dan mereka berdua mati bersama.
+    </string>
+
+    <string name="karna">
+        Karna adalah salah satu tokoh penting dalam Mahabharata. Ia adalah putra tertua Kunti, sehingga merupakan saudara seibu Pandava dan merupakan yang tertua dari keenam saudara tersebut. Walaupun Duryodhana menunjuknya sebagai raja Anga, perannya dalam kisah Mahabharata jauh melebihi peran seorang raja. Karna bertarung di pihak Kaurava dalam perang di Kurukshetra. \n\n
+        Semasa mudanya, Kunti merawat resi Durvasa selama satu tahun. Sang resi sangat senang dengan pengabdian yang diberikan olehnya sehingga memberikan anugerah untuk memanggil salah satu dari para dewa dan dewa yang dipilihnya tersebut akan memberiknya seorang putra yang mempunyai sifat baik menyamai dewa tersebut. Karena ragu-ragu apakah anugerah tersebut benar,
+        Kunti, selagi masih belum menikah, memutuskan untuk mencoba mantra tersebut dan memanggil dewa matahari, Surya. Ketika Surya menampakkan diri didepannya, Kunti terpesona. Karena terikat mantra Durvasa, Surya memberinya seorang anak secemerlang dan sekuat ayahnya, walaupun Kunti sendiri tidak menginginkan anak. Dengan kesaktian Surya, Kunti tetap tidak ternodai keperawanannya. Sang bayi adalah Karna, lahir dengan baju besi dan anting-anting untuk melindunginya. \n\n
+        Kunti kini berada dalam posisi yang memalukan sebagai seorang ibu seorang anak tanpa ayah. Karena tidak mau menanggung malu ini, ia meletakkan Karna ke dalam keranjang dan menghanyutkannya bersama dengan perhiasannya (mirip dengan kisah Nabi Musa), berdoa agar bayi tersebut selamat.
+    </string>
+
+    <string name="sangkuni">
+        Arya Sakuni yang waktu mudanya bernama Trigantalpati adalah putra kedua Prabu Gandara, raja negara Gandaradesa dengan permaisuri Dewi Gandini. Ia mempunyai tiga orang saudara kandung masing-masing bernama Dewi Gandari, Arya Surabasata dan Arya Gajaksa. \n\n
+        Arya Sakuni menikah dengan Dewi Sukesti, putri Prabu Keswara raja negara Plasajenar. Dari perkawinan tersebut ia memperoleh tiga orang putra bernama ; Arya Antisura/Arya Surakesti, Arya Surabasa dan Dewi Antiwati yang kemudian diperistri Arya Udawa, patih negara Dwarawati. \n\n
+        Sakuni mempunyai sifat perwatakan ; tangkas, pandai bicara, buruk hati, dengki dan licik. Ia bukan saja ahli dalam siasat dan tata pemerintahan serta ketatanegaraan, tetapi juga mahir dalam olah keprajuritan. \n\n
+        Sakuni mempunyai pusaka berwujud Cis (=Tombak pendek untuk memerintah gajah) yang mempunyai khasiat dapat menimbulkan air bila ditancapkan ke tanah. \n\n
+        Dalam perang Bharatayuda, Sakuni diangkat menjadi Senapati Agung Kurawa setelah gugurnya Prabu Salya, raja negara Mandaraka. Ia mati dengan sangat menyedihkan di tangan Bima. Tubuhnya dikuliti dan kulitnya diberikan kepada Dewi Kunti untuk melunasi sumpahnya. Mayat Sakuni kemudian dihancurkan dengan gada Rujakpala.
+    </string>
+
+    <string name="pandudewananta">
+        Segera setelah Begawan Abyasa beranjak menjadi lanjut usia dia memanggil kedua puteranya untuk menyampaikan maksudnya yaitu ingin mewariskan tahta kepada salah satu anaknya. \n\n
+        “Putera-puteraku terkasih, seperti yang kalian ketahui ayahanda kalian telah beranjak tua, takhta kerajaan ini akan segera aku wariskan. Memang dalam aturan kerajaan bahwa putera sulunglah yang akan menggantikan seorang raja, akan tetapi anakku Dastarata, Hatiku sedih karena Dewa tidak berkenan memberimu penghilatan yang sempurna bahkan hingga engkau dewasa, aku mengkhawatirkan apabila engkau yang memimpin kerajaan ini maka akan kurang sempurna jalannya pemerintahan.” \n\n
+        Prabu Abyasa terdiam sejenak, terlihat Raden Pandudewanata menunduk, sedangkan Raden Destarata nampak gelisah. “Maka oleh karena hal itu aku telah memutuskan bahwa takhta kerajaan ini akan aku wariskan kepada adikmu Raden Pandudewanata. \n\n
+        Begawan Abyasa berhenti sejenak kemudian dia bertanya kepada Destarata: \n\n
+        “Apakah kamu tidak keberatan Anakku Destarata?”
+        “Sendika Dawuh Ayahanda, apapun yang menjadi keputusan ayahanda adalah yang terbaik bagi negeri ini, hamba mengakui bahwa akan lebih baik apabila adik Pandu yang menjadi Raja Astina”. \n\n
+        Dastarata menjawab dengan terbata-bata, didalam hatinya dia galau sekali, haknya untuk menjadi raja hilang, dan dalam hati dia menyesali nasibnya menjadi orang buta. \n\n
+        “Apakah kamu bersedia Pandu?” Prabu Abyasa \n\n
+        “Apapun yang ayahanda titahkan akan ananda laksanakan dengan baik-baik dan sungguh-sungguh, Ananda akan senantiasa meminta nasehat dari Ayahanda dan Kakanda Destarata ” Demikian Raden Pandu Dewanata menjawab. \n\n
+        Segera setelah itu Prabu Abyasa mengumumkan kepada rakyatnya mengenaik diangkatnya Raden Pandu Dewanata menjadi raja menggantikan dirinya. \n\n
+        Mereka adalah orang-orang yang sudah terlanjur mendekati, berbuat baik, bahkan menjilat kepada Raden Destarata karena mereka yakin bahwa Raden Destarata akan segera naik tahta, akan tetapi setelah mendengar pengumuman yang diucapkan oleh Prabu Abyasa bahwa yang menjadi raja adalah Raden Pandu Dewanata maka buyarlah segala rencana yang mereka susun, kemungkinan untuk bisa naik pangkat untuk menduduki jabatan-jabatan negara yang penting menjadi gagal. Apalagi selama ini mereka kurang berbaik-baik denga Raden Pandu. \n\n
+        Prabu Abyasa segera menetapkan hari baik untuk mengangkat Raden Pandu Dewanata menjadi raja. Semua pegawai mempersiapkan segala kebutuhan upacara dan pesta yang akan diselenggarakan untuk merayakan hari itu. \n\n
+        Pada hari penobatan Raden Pandu menjadi raja, semua rakyat bersukaria, mereka mengelu-elukan raja baru mereka, banyak para undangan yaitu para bangsawan, serta raja dan pangeran dari negeri tetangga berdatangan memberikan ucapan selamat. \n\n
+        Sebagian orang sebenarnya memperhatikan bahwa Raden Destarata tidak begitu bersemangat dalam pesta itu. Namun karena dia buta, orang-orang berpikir mungkin karena dia buta sehingga tidak terlalu banyak temannya dan tidak banyak bicara pula. Tampak dia lebih banyak berdiam diri termenung dan duduk sedih, sekali-kali tampak dia tersenyum, namun senyum itu benar benar terlihat hambar.
+    </string>
+
+    <string name="werkundara">
+         Werkudara dikenal pula dengan nama; Balawa, Bratasena, Birawa, Dandunwacana, Nagata, Kusumayuda, Kowara, Kusumadilaga, Pandusiwi, Bayusuta, Sena, atau Wijasena. Ia putra kedua Prabu Pandu, raja Negara Astina dengan Dewi Kunti, putri Prabu Basukunti dengan Dewi Dayita dari negara Mandura. Bima mempunyai dua orang saudara kandung bernama: Puntadewa dan Arjuna, serta 2 orang saudara lain ibu, yaitu ; Nakula dan Sadewa.  \n\n
+         Werkundara memililki sifat dan perwatakan; gagah berani, teguh, kuat, tabah, patuh dan jujur. Ia memiliki keistimewaan ahli bermain ganda dan memiliki berbagai senjata antara lain; Kuku Pancanaka, Gada Rujakpala, Alugara, Bargawa (kapak besar) dan Bargawasta, sedangkan ajian yang dimiliki adalah ; Aji Bandungbandawasa, Aji Ketuklindu dan Aji Blabakpangantol-antol. \n\n
+        Werkundara juga memiliki pakaian yang melambangkan kebesaran yaitu; Gelung Pudaksategal, Pupuk Jarot Asem, Sumping Surengpati, Kelatbahu Candrakirana, ikat pinggang Nagabanda dan Celana Cinde Udaraga. Sedangkan beberapa anugerah Dewata yang diterimanya antara lain; Kampuh/kain Poleng Bintuluaji, Gelang Candrakirana, Kalung Nagasasra, Sumping Surengpati dan pupuk Pudak Jarot Asem. \n\n
+    </string>
+    <string name="aksara_jawa">Aksara Jawa</string>
+    <string name="todo">TODO</string>
+    <string name="congratulation">congratulation !!!</string>
+    <string name="selesai">selesai</string>
+    <string name="kuis">Kuis</string>
+    <string name="mulai_kuis">Mulai Kuis</string>
+    <string name="_0">0</string>
+    <string name="_10">10</string>
+    <string name="ini_pertanyaanya">ini pertanyaanya?</string>
+    <string name="a">A</string>
+    <string name="b">B</string>
+    <string name="d">D</string>
+    <string name="c">C</string>
+    <string name="paramasastra_adalah_tata_bahasa_dalam_bahasa_jawa">Paramasastra adalah tata bahasa dalam bahasa jawa</string>
+    <string name="kawruh_basa">Kawruh Basa</string>
+    <string name="kasusastra">Kasusastra</string>
+    <string name="aksara">Aksara</string>
+    <string name="wayang">Wayang</string>
+    <string name="kuis_pepak_jawa">Kuis Pepak Jawa</string>
 </resources>

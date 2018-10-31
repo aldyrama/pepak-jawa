@@ -10,7 +10,8 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:src="@drawable/thropy"/>
+        android:src="@drawable/thropy"
+        android:contentDescription="@string/todo" />
 
     <!--<TextView-->
         <!--android:id="@+id/won"-->
@@ -22,7 +23,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="congratulation !!!"
+        android:text="@string/congratulation"
         android:gravity="center"
         android:textStyle="bold"
         android:textSize="32sp"/>
@@ -30,12 +31,11 @@
     <info.hoang8f.widget.FButton
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="selesai"
-        android:backgroundTint="@color/colorMint"
+        android:text="@string/selesai"
+        android:backgroundTint="@color/colorPrimary"
         android:shadowColor="@color/colorMintDark"
         android:textColor="@color/white"
         android:id="@+id/platygaianbutton"
         android:layout_margin="15dp"
-        android:onClick="PlayAgain"
-        />
+        tools:ignore="UnusedAttribute" />
 </LinearLayout>

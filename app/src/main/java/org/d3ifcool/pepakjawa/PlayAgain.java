@@ -45,6 +45,7 @@ public class PlayAgain extends Activity {
 
             }
         }, 1500);
+
     }
 
 //        //play again button onclick listener
@@ -79,8 +80,6 @@ public class PlayAgain extends Activity {
 
     @Override
     public void onBackPressed() {
-
     }
-
 
 }

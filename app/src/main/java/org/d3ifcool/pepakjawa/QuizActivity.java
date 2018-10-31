@@ -157,6 +157,46 @@ public class QuizActivity extends AppCompatActivity {
         Intent intent = new Intent(this, QuizWin.class);
         startActivity(intent);
         finish();
+        overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
+    }
+
+    public void correctDialog() {
+        final Dialog dialogCorrect = new Dialog(QuizActivity.this);
+        dialogCorrect.requestWindowFeature(Window.FEATURE_NO_TITLE);
+        if (dialogCorrect.getWindow() != null) {
+            ColorDrawable colorDrawable = new ColorDrawable(Color.TRANSPARENT);
+            dialogCorrect.getWindow().setBackgroundDrawable(colorDrawable);
+        }
+        dialogCorrect.setContentView(R.layout.dialog_correct);
+        dialogCorrect.setCancelable(false);
+        dialogCorrect.show();
+
+        onPause();
+
+        audioBackground = MediaPlayer.create(this, R.raw.correctwrite);
+        audioBackground.setLooping(false);
+        audioBackground.setVolume(1,1);
+        audioBackground.start();
+
+
+        TextView correctText = (TextView) dialogCorrect.findViewById(R.id.correctText);
+        FButton buttonNext = (FButton) dialogCorrect.findViewById(R.id.dialogNext);
+
+        correctText.setTypeface(sb);
+        buttonNext.setTypeface(sb);
+
+        buttonNext.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                dialogCorrect.dismiss();
+                qid++;
+                currentQuestion = list.get(qid);
+                updateQueAndOptions();
+                resetColor();
+                enableButton();
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
+            }
+        });
     }
 
     public void gameLostPlayAgain() {
@@ -164,16 +204,18 @@ public class QuizActivity extends AppCompatActivity {
         Intent intent = new Intent(this, PlayAgain.class);
         startActivity(intent);
         finish();
-//        audioBackground = MediaPlayer.create(this, R.raw.wrong);
-//        audioBackground.setLooping(false);
-//        audioBackground.setVolume(1,1);
-//        audioBackground.start();
+        overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
+        audioBackground = MediaPlayer.create(this, R.raw.wrongwrite);
+        audioBackground.setLooping(false);
+        audioBackground.setVolume(1,1);
+        audioBackground.start();
     }
 
     public void timeUp() {
         Intent intent = new Intent(this, Time_Up.class);
         startActivity(intent);
         finish();
+        overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
     }
 
     @Override
@@ -196,48 +238,11 @@ public class QuizActivity extends AppCompatActivity {
     //On BackPressed
     @Override
     public void onBackPressed() {
-        Intent intent = new Intent(this, StartQuiz.class);
-        startActivity(intent);
         finish();
+        overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
     }
 
-    public void correctDialog() {
-        final Dialog dialogCorrect = new Dialog(QuizActivity.this);
-        dialogCorrect.requestWindowFeature(Window.FEATURE_NO_TITLE);
-        if (dialogCorrect.getWindow() != null) {
-            ColorDrawable colorDrawable = new ColorDrawable(Color.TRANSPARENT);
-            dialogCorrect.getWindow().setBackgroundDrawable(colorDrawable);
-        }
-        dialogCorrect.setContentView(R.layout.dialog_correct);
-        dialogCorrect.setCancelable(false);
-        dialogCorrect.show();
 
-        onPause();
-
-//        audioBackground = MediaPlayer.create(this, R.raw.correct);
-//        audioBackground.setLooping(false);
-//        audioBackground.setVolume(1,1);
-//        audioBackground.start();
-
-
-        TextView correctText = (TextView) dialogCorrect.findViewById(R.id.correctText);
-        FButton buttonNext = (FButton) dialogCorrect.findViewById(R.id.dialogNext);
-
-        correctText.setTypeface(sb);
-        buttonNext.setTypeface(sb);
-
-        buttonNext.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                dialogCorrect.dismiss();
-                qid++;
-                currentQuestion = list.get(qid);
-                updateQueAndOptions();
-                resetColor();
-                enableButton();
-            }
-        });
-    }
 
     public void resetColor() {
         buttonA.setButtonColor(ContextCompat.getColor(getApplicationContext(),R.color.white));
@@ -258,6 +263,11 @@ public class QuizActivity extends AppCompatActivity {
         buttonB.setEnabled(true);
         buttonC.setEnabled(true);
         buttonD.setEnabled(true);
+    }
+    @Override
+    public void finish() {
+        super.finish();
+        overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
     }
 
 }

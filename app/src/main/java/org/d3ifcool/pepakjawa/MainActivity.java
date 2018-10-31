@@ -7,6 +7,7 @@ import android.preference.PreferenceManager;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.CardView;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -29,167 +30,80 @@ public class MainActivity extends AppCompatActivity {
 
         mypref = PreferenceManager.getDefaultSharedPreferences(this);
         // INTENT MATERI PRAMASASTRA
-        LinearLayout pramasastra = (LinearLayout) findViewById(R.id.pramasastra);
+       CardView pramasastra = (CardView) findViewById(R.id.pramasastra);
         pramasastra.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                        Intent intent = new Intent(MainActivity.this, ParamasastraActivity.class);
-                        startActivity(intent);
+                    Intent intent = new Intent(MainActivity.this, ParamasastraActivity.class);
+                    startActivity(intent);
+                    overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
+
                 }
             });
-        ImageView imgpramasastra = (ImageView) findViewById(R.id.img_pramasastra);
-        imgpramasastra.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, ParamasastraActivity.class);
-                startActivity(intent);
-            }
-        });
-        TextView textpramasastra = (TextView) findViewById(R.id.text_pramasastra);
-        textpramasastra.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, ParamasastraActivity.class);
-                startActivity(intent);
-            }
-        });
 
         //INTENT MATERI RUPA KAWRUH
-        LinearLayout rupakawruh = (LinearLayout) findViewById(R.id.rupa_kawruh);
+        CardView rupakawruh = (CardView) findViewById(R.id.rupa_kawruh);
         rupakawruh.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, RupaKawruhActivity.class);
                 startActivity(intent);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
             }
         });
-        ImageView imgkawruh = (ImageView) findViewById(R.id.img_rupa_kawruh);
-        imgkawruh.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, RupaKawruhActivity.class);
-                startActivity(intent);
-            }
-        });
-        TextView textkawruh = (TextView) findViewById(R.id.text_rupa_kawruh);
-        textkawruh.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, RupaKawruhActivity.class);
-                startActivity(intent);
-            }
-        });
+
         //INTENT MATERI KAWRUH BASA
-        LinearLayout kawruhbasa = (LinearLayout) findViewById(R.id.kawruh_basa);
+        CardView kawruhbasa = (CardView) findViewById(R.id.kawruh_basa);
         kawruhbasa.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, KawruhBasaActivity.class);
                 startActivity(intent);
-            }
-        });
-        ImageView imgbasa = (ImageView) findViewById(R.id.img_kawruh_basa);
-        imgbasa.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, KawruhBasaActivity.class);
-                startActivity(intent);
-            }
-        });
-        TextView textbasa = (TextView) findViewById(R.id.text_kawruh_basa);
-        textkawruh.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, KawruhBasaActivity.class);
-                startActivity(intent);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
             }
         });
 
         //INTENT MATERI KESUSASTRAAN
-        LinearLayout kesusastraan = (LinearLayout) findViewById(R.id.kasusastra);
+        CardView kesusastraan = (CardView) findViewById(R.id.ksusastra);
         kesusastraan.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, KesusastraanActivity.class);
                 startActivity(intent);
-            }
-        });
-        ImageView imgkesusastraan = (ImageView) findViewById(R.id.img_kasusastra);
-        imgkesusastraan.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, KesusastraanActivity.class);
-                startActivity(intent);
-            }
-        });
-        TextView textkesustraan = (TextView) findViewById(R.id.text_kasusastra);
-        textkesustraan.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, KesusastraanActivity.class);
-                startActivity(intent);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
             }
         });
 
         //INTENT MATERI AKSARA JAWA
-        LinearLayout aksarajawa = (LinearLayout) findViewById(R.id.aksara_jawa);
+        CardView aksarajawa = (CardView) findViewById(R.id.aksara);
         aksarajawa.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, AksaraJawaActivity.class);
                 startActivity(intent);
-            }
-        });
-        ImageView imgaksarajawa = (ImageView) findViewById(R.id.img_aksara_jawa);
-        imgaksarajawa.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, AksaraJawaActivity.class);
-                startActivity(intent);
-            }
-        });
-        TextView textaksarajawa = (TextView) findViewById(R.id.text_aksara_jawa);
-        textaksarajawa.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, AksaraJawaActivity.class);
-                startActivity(intent);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
             }
         });
 
         //INTENT MATERI WAYANG
-        LinearLayout wayang = (LinearLayout) findViewById(R.id.wayang);
+        CardView wayang = (CardView) findViewById(R.id.wayang);
         wayang.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, WayangPoin.class);
                 startActivity(intent);
-            }
-        });
-        ImageView imgwayang = (ImageView) findViewById(R.id.img_wayang);
-        imgwayang.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, WayangPoin.class);
-                startActivity(intent);
-            }
-        });
-        TextView textwayang = (TextView) findViewById(R.id.text_wayang);
-        textwayang.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, WayangPoin.class);
-                startActivity(intent);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
             }
         });
 
         // KUIS
-        FButton kuis = (FButton) findViewById(R.id.kuis);
+        CardView kuis = (CardView) findViewById(R.id.quiz);
         kuis.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, StartQuiz.class);
                 startActivity(intent);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
             }
         });
 
@@ -218,8 +132,8 @@ public class MainActivity extends AppCompatActivity {
                 }
 
                 intent.setType("text/link");
-                String shareBody = "Hallo!" + "\n" + "Ini adalah aplikasi Pepak Jawa sangat cocok buat kalian yang ingin mengetahui budaya jawa, dan ada fitur kuis juga lo!" +
-                        "AYO COBAIN KESERUAN BELAJAR BAHASA DAN BUDAYA JAWA DI APLIKASI PEPAK JAWA!" + "\n" + "Skore Kuis Saya :" + "\t\t"
+                String shareBody = "Hallo!" + "\n" + "Ini adalah aplikasi Pepak Jawa sangat cocok buat kalian yang ingin mengetahui bahasa dan budaya jawa, " +
+                        "dan ada fitur kuis juga lo!" + "AYO COBAIN KESERUAN BELAJAR BAHASA DAN BUDAYA JAWA DI APLIKASI PEPAK JAWA!" + "\n" + "Skore Kuis Saya :" + "\t\t"
                         + (String.valueOf(mypref.getInt("highscore", 0))) + "\n" + "" + startAppLink;
                 String shareSub = "App Name";
                 intent.putExtra(Intent.EXTRA_SUBJECT,shareSub);
@@ -243,5 +157,6 @@ public class MainActivity extends AppCompatActivity {
     public void about(MenuItem item) {
         Intent intent = new Intent(MainActivity.this, AboutActivity.class);
         startActivity(intent);
+        overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
     }
 }

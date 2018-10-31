@@ -31,10 +31,10 @@ public class Time_Up extends AppCompatActivity {
 
         score.setText(String.valueOf(Data.score - 1));
 
-//        audioBackground = MediaPlayer.create(this, R.raw.timeup);
-//        audioBackground.setLooping(false);
-//        audioBackground.setVolume(1,1);
-//        audioBackground.start();
+        audioBackground = MediaPlayer.create(this, R.raw.timeup);
+        audioBackground.setLooping(false);
+        audioBackground.setVolume(1,1);
+        audioBackground.start();
 
         timer = new Timer();
         timer.schedule(new TimerTask() {
@@ -49,6 +49,10 @@ public class Time_Up extends AppCompatActivity {
 
         @Override
         public void onBackPressed() {
-
+    }
+    @Override
+    public void finish() {
+        super.finish();
+        overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
     }
 }
