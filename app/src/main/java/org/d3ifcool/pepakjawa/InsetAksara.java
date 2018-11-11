@@ -39,7 +39,6 @@ public class InsetAksara extends AppCompatActivity implements GestureOverlayView
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         Bundle extras = getIntent().getExtras();
-
         setContentView(R.layout.activity_inset_aksara);
 
         //memanggil urutan aksara

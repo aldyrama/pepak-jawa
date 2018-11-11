@@ -1,368 +1,707 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
-
-
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/bg">
 
     <LinearLayout
-        android:orientation="vertical"
-        android:background="@drawable/bg"
-        android:weightSum="10"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-
-        <GridLayout
-            android:id="@+id/mainGrid"
-            android:layout_width="match_parent"
-            android:layout_height="382dp"
-            android:layout_marginTop="5dp"
-            android:layout_weight="8"
-            android:alignmentMode="alignMargins"
-            android:clickable="true"
-            android:columnCount="2"
-            android:columnOrderPreserved="false"
-            android:padding="14dp"
-            android:rowCount="3"
-            android:focusable="true">
-
-            <!-- Row 1 -->
-
-            <!-- Column 1 -->
-            <android.support.v7.widget.CardView
-                android:id="@+id/pramasastra"
-                android:layout_width="0dp"
-                android:layout_height="0dp"
-                android:layout_rowWeight="1"
-                android:layout_columnWeight="1"
-                android:layout_marginLeft="16dp"
-                android:layout_marginRight="16dp"
-                android:layout_marginBottom="16dp"
-                android:foreground="?android:attr/selectableItemBackground"
-                android:clickable="true"
-                app:cardCornerRadius="8dp"
-                app:cardElevation="8dp"
-                tools:ignore="UnusedAttribute"
-                android:focusable="true">
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal|center_vertical"
-                    android:layout_margin="16dp"
-                    android:orientation="vertical"
-                    tools:ignore="UseCompoundDrawables">
-
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal"
-                        android:src="@drawable/books"
-                        tools:ignore="ContentDescription" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/paramasastra"
-                        android:textAlignment="center"
-                        android:textColor="@android:color/black"
-                        android:textSize="18sp"
-                        android:textStyle="bold" />
-
-                </LinearLayout>
-
-            </android.support.v7.widget.CardView>
-
-            <!-- Column 2 -->
-            <android.support.v7.widget.CardView
-                android:id="@+id/rupa_kawruh"
-                android:layout_width="0dp"
-                android:layout_height="0dp"
-                android:layout_rowWeight="1"
-                android:layout_columnWeight="1"
-                android:foreground="?android:attr/selectableItemBackground"
-                android:layout_marginLeft="16dp"
-                android:layout_marginRight="16dp"
-                android:layout_marginBottom="16dp"
-                android:clickable="true"
-                app:cardCornerRadius="8dp"
-                app:cardElevation="8dp"
-                tools:ignore="UnusedAttribute"
-                android:focusable="true">
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal|center_vertical"
-                    android:layout_margin="16dp"
-                    android:orientation="vertical"
-                    tools:ignore="UseCompoundDrawables">
-
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal"
-                        android:src="@drawable/books" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/rupa_kawruh"
-                        android:textAlignment="center"
-                        android:textColor="@android:color/black"
-                        android:textSize="18sp"
-                        android:textStyle="bold" />
-
-                </LinearLayout>
-
-            </android.support.v7.widget.CardView>
-
-
-            <!-- Row 2 -->
-
-            <!-- Column 1 -->
-            <android.support.v7.widget.CardView
-                android:id="@+id/kawruh_basa"
-                android:layout_width="0dp"
-                android:layout_height="0dp"
-                android:layout_rowWeight="1"
-                android:layout_columnWeight="1"
-                android:layout_marginLeft="16dp"
-                android:layout_marginRight="16dp"
-                android:foreground="?android:attr/selectableItemBackground"
-                android:layout_marginBottom="16dp"
-                android:clickable="true"
-                app:cardCornerRadius="8dp"
-                app:cardElevation="8dp"
-                tools:ignore="UnusedAttribute"
-                android:focusable="true">
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal|center_vertical"
-                    android:layout_margin="16dp"
-                    android:orientation="vertical"
-                    tools:ignore="UseCompoundDrawables">
-
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal"
-                        android:src="@drawable/books"
-                        tools:ignore="ContentDescription" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/kawruh_basa"
-                        android:textAlignment="center"
-                        android:textColor="@android:color/black"
-                        android:textSize="18sp"
-                        android:textStyle="bold" />
-
-                </LinearLayout>
-
-            </android.support.v7.widget.CardView>
-
-            <!-- Column 2 -->
-            <android.support.v7.widget.CardView
-                android:id="@+id/ksusastra"
-                android:layout_width="0dp"
-                android:layout_height="0dp"
-                android:layout_rowWeight="1"
-                android:layout_columnWeight="1"
-                android:layout_marginLeft="16dp"
-                android:layout_marginRight="16dp"
-                android:layout_marginBottom="16dp"
-                android:foreground="?android:attr/selectableItemBackground"
-                android:clickable="true"
-                app:cardCornerRadius="8dp"
-                app:cardElevation="8dp"
-                tools:ignore="UnusedAttribute"
-                android:focusable="true">
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal|center_vertical"
-                    android:layout_margin="16dp"
-                    android:orientation="vertical"
-                    tools:ignore="UseCompoundDrawables">
-
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal"
-                        android:src="@drawable/books"
-                        tools:ignore="ContentDescription" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/kasusastra"
-                        android:textAlignment="center"
-                        android:textColor="@android:color/black"
-                        android:textSize="18sp"
-                        android:textStyle="bold" />
-
-                </LinearLayout>
-
-            </android.support.v7.widget.CardView>
-
-
-            <!-- Row 2 -->
-
-            <!-- Column 1 -->
-            <android.support.v7.widget.CardView
-                android:id="@+id/aksara"
-                android:layout_width="0dp"
-                android:layout_height="0dp"
-                android:layout_rowWeight="1"
-                android:layout_columnWeight="1"
-                android:layout_marginLeft="16dp"
-                android:layout_marginRight="16dp"
-                android:layout_marginBottom="16dp"
-                android:foreground="?android:attr/selectableItemBackground"
-                android:clickable="true"
-                app:cardCornerRadius="8dp"
-                app:cardElevation="8dp"
-                tools:ignore="UnusedAttribute"
-                android:focusable="true">
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal|center_vertical"
-                    android:layout_margin="16dp"
-                    android:orientation="vertical"
-                    tools:ignore="UseCompoundDrawables">
-
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal"
-                        android:src="@drawable/books"
-                        tools:ignore="ContentDescription" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/aksara"
-                        android:textAlignment="center"
-                        android:textColor="@android:color/black"
-                        android:textSize="18sp"
-                        android:textStyle="bold" />
-
-                </LinearLayout>
-
-            </android.support.v7.widget.CardView>
-
-            <!-- Column 2 -->
-            <android.support.v7.widget.CardView
-                android:id="@+id/wayang"
-                android:layout_width="0dp"
-                android:layout_height="0dp"
-                android:layout_rowWeight="1"
-                android:layout_columnWeight="1"
-                android:layout_marginLeft="16dp"
-                android:layout_marginRight="16dp"
-                android:layout_marginBottom="16dp"
-                android:foreground="?android:attr/selectableItemBackground"
-                android:clickable="true"
-                app:cardCornerRadius="8dp"
-                app:cardElevation="8dp"
-                tools:ignore="UnusedAttribute"
-                android:focusable="true">
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal|center_vertical"
-                    android:layout_margin="16dp"
-                    android:orientation="vertical"
-                    tools:ignore="UseCompoundDrawables">
-
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal"
-                        android:src="@drawable/books"
-                        tools:ignore="ContentDescription" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/wayang"
-                        android:textAlignment="center"
-                        android:textColor="@android:color/black"
-                        android:textSize="18sp"
-                        android:textStyle="bold" />
-
-                </LinearLayout>
-            </android.support.v7.widget.CardView>
-        </GridLayout>
-
-        <GridLayout
-            android:layout_width="match_parent"
-            android:layout_height="150dp"
-            android:clickable="true"
-            android:layout_gravity="center"
-            android:columnCount="2"
-            android:layout_marginTop="5dp"
-            android:padding="14dp"
-            android:focusable="true">
-
-            <android.support.v7.widget.CardView
-                android:layout_width="0dp"
-                android:layout_height="0dp"
-                android:id="@+id/quiz"
-                android:clickable="true"
-                android:layout_rowWeight="1"
-                android:layout_columnWeight="1"
-                android:layout_marginLeft="16dp"
-                android:layout_marginRight="16dp"
-                android:layout_marginBottom="16dp"
-                android:foreground="?android:attr/selectableItemBackground"
-                app:cardCornerRadius="8dp"
-                app:cardElevation="8dp"
-                android:focusable="true"
-                tools:ignore="UnusedAttribute">
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal|center_vertical"
-                    android:layout_margin="16dp"
-                    android:orientation="vertical"
-                    tools:ignore="UseCompoundDrawables">
-
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal"
-                        android:src="@drawable/quis"
-                        tools:ignore="ContentDescription" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/kuis_pepak_jawa"
-                        android:textAlignment="center"
-                        android:textColor="@android:color/black"
-                        android:textSize="18sp"
-                        android:textStyle="bold" />
-
-                </LinearLayout>
-
-            </android.support.v7.widget.CardView>
-
-        </GridLayout>
-
+        android:layout_height="100dp"
+        android:background="@color/colorPrimary">
     </LinearLayout>
 
-</ScrollView>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/paramasastra"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_marginTop="30dp"
+            android:clickable="true"
+            android:background="@drawable/ripple_effect"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            android:foreground="?attr/selectableItemBackgroundBorderless">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/ic_action_arrow"
+                android:layout_marginLeft="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/paramasastra"
+                    android:layout_gravity="center_vertical"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="10dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginTop="20dp"
+                android:gravity="right">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_action_right"
+                android:layout_gravity="right"
+                />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/rupa_kawruh"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_marginTop="10dp"
+            android:clickable="true"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackgroundBorderless">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/ic_action_arrow"
+                    android:layout_marginLeft="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rupa_kawruh"
+                    android:layout_gravity="center_vertical"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="10dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginTop="20dp"
+                android:gravity="right">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/ic_action_right"
+                    android:layout_gravity="right"
+                    />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/kawruh_basa"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_marginTop="10dp"
+            android:clickable="true"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackgroundBorderless">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/ic_action_arrow"
+                    android:layout_marginLeft="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/kawruh_basa"
+                    android:layout_gravity="center_vertical"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="10dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginTop="20dp"
+                android:gravity="right">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/ic_action_right"
+                    android:layout_gravity="right"
+                    />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/kasusastra"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_marginTop="10dp"
+            android:clickable="true"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackgroundBorderless">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/ic_action_arrow"
+                    android:layout_marginLeft="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/kasusastra"
+                    android:layout_gravity="center_vertical"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="10dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginTop="20dp"
+                android:gravity="right">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/ic_action_right"
+                    android:layout_gravity="right"
+                    />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:id="@+id/aksara"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_marginTop="10dp"
+            android:clickable="true"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackgroundBorderless">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/ic_action_arrow"
+                    android:layout_marginLeft="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/aksara"
+                    android:layout_gravity="center_vertical"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="10dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginTop="20dp"
+                android:gravity="right">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/ic_action_right"
+                    android:layout_gravity="right"
+                    />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/wayang"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_marginTop="10dp"
+            android:clickable="true"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackgroundBorderless">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/ic_action_arrow"
+                    android:layout_marginLeft="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/wayang"
+                    android:layout_gravity="center_vertical"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="10dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginTop="20dp"
+                android:gravity="right">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/ic_action_right"
+                    android:layout_gravity="right"
+                    />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/quiz"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_marginTop="10dp"
+            android:clickable="true"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackgroundBorderless">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/quis"
+                    android:layout_marginLeft="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/kuis"
+                    android:layout_gravity="center_vertical"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="10dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginTop="20dp"
+                android:gravity="right">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/ic_action_right"
+                    android:layout_gravity="right"
+                    />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+    </ScrollView>
+
+
+
+    <!--<LinearLayout-->
+        <!--android:orientation="vertical"-->
+        <!--android:background="@drawable/bg"-->
+        <!--android:weightSum="10"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content">-->
+
+
+        <!--<GridLayout-->
+            <!--android:id="@+id/mainGrid"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:layout_weight="8"-->
+            <!--android:alignmentMode="alignMargins"-->
+            <!--android:clickable="true"-->
+            <!--android:columnCount="2"-->
+            <!--android:columnOrderPreserved="false"-->
+            <!--android:padding="14dp"-->
+            <!--android:rowCount="3"-->
+            <!--android:focusable="true">-->
+
+            <!--&lt;!&ndash; Row 1 &ndash;&gt;-->
+
+            <!--&lt;!&ndash; Column 1 &ndash;&gt;-->
+            <!--<android.support.v7.widget.CardView-->
+                <!--android:id="@+id/pramasastra"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="0dp"-->
+                <!--android:layout_rowWeight="1"-->
+                <!--android:layout_columnWeight="1"-->
+                <!--android:layout_marginLeft="16dp"-->
+                <!--android:layout_marginRight="16dp"-->
+                <!--android:layout_marginBottom="16dp"-->
+                <!--android:foreground="?android:attr/selectableItemBackground"-->
+                <!--android:clickable="true"-->
+                <!--app:cardCornerRadius="8dp"-->
+                <!--app:cardElevation="8dp"-->
+                <!--android:focusable="true">-->
+
+                <!--<LinearLayout-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_gravity="center_horizontal|center_vertical"-->
+                    <!--android:layout_margin="16dp"-->
+                    <!--android:orientation="vertical">-->
+
+                    <!--<ImageView-->
+                        <!--android:layout_width="50dp"-->
+                        <!--android:layout_height="50dp"-->
+                        <!--android:layout_gravity="center_horizontal"-->
+                        <!--android:src="@drawable/ic_action_arrow"/>-->
+
+                    <!--<TextView-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="@string/paramasastra"-->
+                        <!--android:textAlignment="center"-->
+                        <!--android:textColor="@android:color/black"-->
+                        <!--android:textSize="18sp"-->
+                        <!--android:textStyle="bold" />-->
+
+                <!--</LinearLayout>-->
+            <!--</android.support.v7.widget.CardView>-->
+
+            <!--&lt;!&ndash; Column 2 &ndash;&gt;-->
+            <!--<android.support.v7.widget.CardView-->
+                <!--android:id="@+id/rupa_kawruh"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="0dp"-->
+                <!--android:layout_rowWeight="1"-->
+                <!--android:layout_columnWeight="1"-->
+                <!--android:foreground="?android:attr/selectableItemBackground"-->
+                <!--android:layout_marginLeft="16dp"-->
+                <!--android:layout_marginRight="16dp"-->
+                <!--android:layout_marginBottom="16dp"-->
+                <!--android:clickable="true"-->
+                <!--app:cardCornerRadius="8dp"-->
+                <!--app:cardElevation="8dp"-->
+                <!--android:focusable="true">-->
+
+                <!--<LinearLayout-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_gravity="center_horizontal|center_vertical"-->
+                    <!--android:layout_margin="16dp"-->
+                    <!--android:orientation="vertical">-->
+
+                    <!--<ImageView-->
+                        <!--android:layout_width="50dp"-->
+                        <!--android:layout_height="50dp"-->
+                        <!--android:layout_gravity="center_horizontal"-->
+                        <!--android:src="@drawable/ic_action_arrow" />-->
+
+                    <!--<TextView-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="@string/rupa_kawruh"-->
+                        <!--android:textAlignment="center"-->
+                        <!--android:textColor="@android:color/black"-->
+                        <!--android:textSize="18sp"-->
+                        <!--android:textStyle="bold" />-->
+
+                <!--</LinearLayout>-->
+            <!--</android.support.v7.widget.CardView>-->
+
+
+            <!--&lt;!&ndash; Row 2 &ndash;&gt;-->
+
+            <!--&lt;!&ndash; Column 1 &ndash;&gt;-->
+            <!--<android.support.v7.widget.CardView-->
+                <!--android:id="@+id/kawruh_basa"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="0dp"-->
+                <!--android:layout_rowWeight="1"-->
+                <!--android:layout_columnWeight="1"-->
+                <!--android:layout_marginLeft="16dp"-->
+                <!--android:layout_marginRight="16dp"-->
+                <!--android:foreground="?android:attr/selectableItemBackground"-->
+                <!--android:layout_marginBottom="16dp"-->
+                <!--android:clickable="true"-->
+                <!--app:cardCornerRadius="8dp"-->
+                <!--app:cardElevation="8dp"-->
+                <!--android:focusable="true">-->
+
+                <!--<LinearLayout-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_gravity="center_horizontal|center_vertical"-->
+                    <!--android:layout_margin="16dp"-->
+                    <!--android:orientation="vertical">-->
+
+                    <!--<ImageView-->
+                        <!--android:layout_width="50dp"-->
+                        <!--android:layout_height="50dp"-->
+                        <!--android:layout_gravity="center_horizontal"-->
+                        <!--android:src="@drawable/ic_action_arrow" />-->
+
+                    <!--<TextView-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="@string/kawruh_basa"-->
+                        <!--android:textAlignment="center"-->
+                        <!--android:textColor="@android:color/black"-->
+                        <!--android:textSize="18sp"-->
+                        <!--android:textStyle="bold" />-->
+
+                <!--</LinearLayout>-->
+            <!--</android.support.v7.widget.CardView>-->
+
+            <!--&lt;!&ndash; Column 2 &ndash;&gt;-->
+            <!--<android.support.v7.widget.CardView-->
+                <!--android:id="@+id/ksusastra"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="0dp"-->
+                <!--android:layout_rowWeight="1"-->
+                <!--android:layout_columnWeight="1"-->
+                <!--android:layout_marginLeft="16dp"-->
+                <!--android:layout_marginRight="16dp"-->
+                <!--android:layout_marginBottom="16dp"-->
+                <!--android:foreground="?android:attr/selectableItemBackground"-->
+                <!--android:clickable="true"-->
+                <!--app:cardCornerRadius="8dp"-->
+                <!--app:cardElevation="8dp"-->
+                <!--android:focusable="true">-->
+
+                <!--<LinearLayout-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_gravity="center_horizontal|center_vertical"-->
+                    <!--android:layout_margin="16dp"-->
+                    <!--android:orientation="vertical">-->
+
+                    <!--<ImageView-->
+                        <!--android:layout_width="50dp"-->
+                        <!--android:layout_height="50dp"-->
+                        <!--android:layout_gravity="center_horizontal"-->
+                        <!--android:src="@drawable/ic_action_arrow"/>-->
+
+                    <!--<TextView-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="@string/kasusastra"-->
+                        <!--android:textAlignment="center"-->
+                        <!--android:textColor="@android:color/black"-->
+                        <!--android:textSize="18sp"-->
+                        <!--android:textStyle="bold" />-->
+
+                <!--</LinearLayout>-->
+            <!--</android.support.v7.widget.CardView>-->
+
+            <!--&lt;!&ndash; Row 2 &ndash;&gt;-->
+
+            <!--&lt;!&ndash; Column 1 &ndash;&gt;-->
+            <!--<android.support.v7.widget.CardView-->
+                <!--android:id="@+id/aksara"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="0dp"-->
+                <!--android:layout_rowWeight="1"-->
+                <!--android:layout_columnWeight="1"-->
+                <!--android:layout_marginLeft="16dp"-->
+                <!--android:layout_marginRight="16dp"-->
+                <!--android:layout_marginBottom="16dp"-->
+                <!--android:foreground="?android:attr/selectableItemBackground"-->
+                <!--android:clickable="true"-->
+                <!--app:cardCornerRadius="8dp"-->
+                <!--app:cardElevation="8dp"-->
+                <!--android:focusable="true">-->
+
+                <!--<LinearLayout-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_gravity="center_horizontal|center_vertical"-->
+                    <!--android:layout_margin="16dp"-->
+                    <!--android:orientation="vertical">-->
+
+                    <!--<ImageView-->
+                        <!--android:layout_width="50dp"-->
+                        <!--android:layout_height="50dp"-->
+                        <!--android:layout_gravity="center_horizontal"-->
+                        <!--android:src="@drawable/ic_action_arrow" />-->
+
+                    <!--<TextView-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="@string/aksara"-->
+                        <!--android:textAlignment="center"-->
+                        <!--android:textColor="@android:color/black"-->
+                        <!--android:textSize="18sp"-->
+                        <!--android:textStyle="bold" />-->
+
+                <!--</LinearLayout>-->
+            <!--</android.support.v7.widget.CardView>-->
+
+            <!--&lt;!&ndash; Column 2 &ndash;&gt;-->
+            <!--<android.support.v7.widget.CardView-->
+                <!--android:id="@+id/wayang"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="0dp"-->
+                <!--android:layout_rowWeight="1"-->
+                <!--android:layout_columnWeight="1"-->
+                <!--android:layout_marginLeft="16dp"-->
+                <!--android:layout_marginRight="16dp"-->
+                <!--android:layout_marginBottom="16dp"-->
+                <!--android:foreground="?android:attr/selectableItemBackground"-->
+                <!--android:clickable="true"-->
+                <!--app:cardCornerRadius="8dp"-->
+                <!--app:cardElevation="8dp"-->
+                <!--android:focusable="true">-->
+
+                <!--<LinearLayout-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_gravity="center_horizontal|center_vertical"-->
+                    <!--android:layout_margin="16dp"-->
+                    <!--android:orientation="vertical">-->
+
+                    <!--<ImageView-->
+                        <!--android:layout_width="50dp"-->
+                        <!--android:layout_height="50dp"-->
+                        <!--android:layout_gravity="center_horizontal"-->
+                        <!--android:src="@drawable/ic_action_arrow" />-->
+
+                    <!--<TextView-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="@string/wayang"-->
+                        <!--android:textAlignment="center"-->
+                        <!--android:textColor="@android:color/black"-->
+                        <!--android:textSize="18sp"-->
+                        <!--android:textStyle="bold" />-->
+
+                <!--</LinearLayout>-->
+            <!--</android.support.v7.widget.CardView>-->
+        <!--</GridLayout>-->
+
+        <!--<GridLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="150dp"-->
+            <!--android:clickable="true"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:columnCount="2"-->
+            <!--android:layout_marginTop="5dp"-->
+            <!--android:padding="14dp"-->
+            <!--android:focusable="true">-->
+
+            <!--<android.support.v7.widget.CardView-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="0dp"-->
+                <!--android:id="@+id/quiz"-->
+                <!--android:clickable="true"-->
+                <!--android:layout_rowWeight="1"-->
+                <!--android:layout_columnWeight="1"-->
+                <!--android:layout_marginLeft="16dp"-->
+                <!--android:layout_marginRight="16dp"-->
+                <!--android:layout_marginBottom="16dp"-->
+                <!--android:foreground="?android:attr/selectableItemBackground"-->
+                <!--app:cardCornerRadius="8dp"-->
+                <!--app:cardElevation="8dp"-->
+                <!--android:focusable="true">-->
+
+                <!--<LinearLayout-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_gravity="center_horizontal|center_vertical"-->
+                    <!--android:layout_margin="16dp"-->
+                    <!--android:orientation="vertical">-->
+
+                    <!--<ImageView-->
+                        <!--android:layout_width="50dp"-->
+                        <!--android:layout_height="50dp"-->
+                        <!--android:layout_gravity="center_horizontal"-->
+                        <!--android:src="@drawable/quis" />-->
+
+                    <!--<TextView-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="@string/kuis_pepak_jawa"-->
+                        <!--android:textAlignment="center"-->
+                        <!--android:textColor="@android:color/black"-->
+                        <!--android:textSize="18sp"-->
+                        <!--android:textStyle="bold" />-->
+
+                <!--</LinearLayout>-->
+            <!--</android.support.v7.widget.CardView>-->
+        <!--</GridLayout>-->
+    <!--</LinearLayout>-->
+</RelativeLayout>

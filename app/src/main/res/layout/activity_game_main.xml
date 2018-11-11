@@ -6,11 +6,12 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#E3E8EE"
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context=".QuizActivity">
 <RelativeLayout
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:background="@drawable/bg">
 
@@ -24,22 +25,21 @@
         android:id="@+id/results_cardview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="50dp"
-        android:layout_marginBottom="60dp"
         android:layout_alignParentTop="true"
         android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
         android:layout_marginRight="20dp"
-        app:cardPreventCornerOverlap="false"
-        app:cardElevation="2dp">
+        app:cardCornerRadius="8dp"
+        app:cardElevation="2dp"
+        app:cardPreventCornerOverlap="false">
 
         <LinearLayout
-            android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            >
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical">
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -53,27 +53,29 @@
                     android:layout_height="30dp"
                     android:src="@drawable/thropy"
                     tools:ignore="ContentDescription" />
+
                 <TextView
                     android:id="@+id/triviaQuizText"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_toLeftOf="@+id/timeText"
+                    android:layout_toRightOf="@+id/coinText"
                     android:gravity="center"
                     android:text="@string/kuis"
                     android:textColor="@color/Black"
                     android:textSize="25sp"
-                    android:layout_toLeftOf="@+id/timeText"
-                    android:layout_toRightOf="@+id/coinText"
                     tools:ignore="RtlHardcoded" />
+
                 <TextView
                     android:id="@+id/coinText"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/_10"
-                    android:paddingRight="5dp"
-                    android:paddingLeft="5dp"
-                    android:gravity="center"
-                    android:textSize="20sp"
                     android:layout_toRightOf="@id/coinImage"
+                    android:gravity="center"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="@string/_10"
+                    android:textSize="20sp"
                     tools:ignore="RtlHardcoded" />
 
                 <TextView
@@ -82,8 +84,8 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentEnd="true"
                     android:layout_alignParentRight="true"
-                    android:paddingLeft="10dp"
                     android:gravity="center"
+                    android:paddingLeft="10dp"
                     android:paddingRight="10dp"
                     android:text="@string/time"
                     android:textSize="20sp" />
@@ -92,16 +94,17 @@
 
             <TextView
                 android:id="@+id/triviaQuestion"
-                android:layout_marginTop="30dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/ini_pertanyaanya"
-                android:textSize="20sp"
-                android:padding="4dp"
+                android:layout_marginTop="30dp"
                 android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:padding="4dp"
+                android:text="@string/ini_pertanyaanya"
                 android:textColor="@color/Black"
-                android:textStyle="bold"
-                android:gravity="center"/>
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
             <TextView
                 android:id="@+id/resultText"
                 android:layout_width="match_parent"
@@ -117,8 +120,8 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:backgroundTint="@color/colorPrimary"
-                android:shadowColor="@color/colorMintDark"
                 android:onClick="buttonA"
+                android:shadowColor="@color/colorMintDark"
                 android:text="@string/a"
                 android:textColor="@color/white"
                 tools:ignore="UnusedAttribute" />
@@ -129,8 +132,8 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:backgroundTint="@color/colorPrimary"
-                android:shadowColor="@color/colorMintDark"
                 android:onClick="buttonB"
+                android:shadowColor="@color/colorMintDark"
                 android:text="@string/b"
                 android:textColor="@color/white"
                 tools:ignore="UnusedAttribute" />
@@ -142,8 +145,8 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:backgroundTint="@color/colorPrimary"
-                android:shadowColor="@color/colorMintDark"
                 android:onClick="buttonC"
+                android:shadowColor="@color/colorMintDark"
                 android:text="@string/c"
                 android:textColor="@color/white"
                 tools:ignore="UnusedAttribute" />
@@ -154,8 +157,8 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:backgroundTint="@color/colorPrimary"
-                android:shadowColor="@color/colorMintDark"
                 android:onClick="buttonD"
+                android:shadowColor="@color/colorMintDark"
                 android:text="@string/d"
                 android:textColor="@color/white"
                 tools:ignore="UnusedAttribute" />

@@ -216,120 +216,140 @@ public class AksaraJawaActivity extends AppCompatActivity {
         Intent i = new Intent(AksaraJawaActivity.this, InsetAksara.class);
         i.putExtra("aksara", 1);
         startActivity(i);
+        overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
     }
 
     public void Na(View V){
         Intent i = new Intent(AksaraJawaActivity.this, InsetAksara.class);
         i.putExtra("aksara", 2);
         startActivity(i);
+        overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
     }
 
     public void Ca(View V){
         Intent i = new Intent(AksaraJawaActivity.this, InsetAksara.class);
         i.putExtra("aksara", 3);
         startActivity(i);
+        overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
     }
 
     public void Ra(View V){
         Intent i = new Intent(AksaraJawaActivity.this, InsetAksara.class);
         i.putExtra("aksara", 4);
         startActivity(i);
+        overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
     }
 
     public void Ka(View V){
         Intent i = new Intent(AksaraJawaActivity.this, InsetAksara.class);
         i.putExtra("aksara", 5);
         startActivity(i);
+        overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
     }
 
     public void Da(View V){
         Intent i = new Intent(AksaraJawaActivity.this, InsetAksara.class);
         i.putExtra("aksara", 6);
         startActivity(i);
+        overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
     }
 
     public void Ta(View V){
         Intent i = new Intent(AksaraJawaActivity.this, InsetAksara.class);
         i.putExtra("aksara", 7);
         startActivity(i);
+        overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
     }
 
     public void Sa(View V){
         Intent i = new Intent(AksaraJawaActivity.this, InsetAksara.class);
         i.putExtra("aksara", 8);
         startActivity(i);
+        overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
     }
 
     public void Wa(View V){
         Intent i = new Intent(AksaraJawaActivity.this, InsetAksara.class);
         i.putExtra("aksara", 9);
         startActivity(i);
+        overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
     }
 
     public void La(View V){
         Intent i = new Intent(AksaraJawaActivity.this, InsetAksara.class);
         i.putExtra("aksara", 10);
         startActivity(i);
+        overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
     }
 
     public void Pa(View V){
         Intent i = new Intent(AksaraJawaActivity.this, InsetAksara.class);
         i.putExtra("aksara", 11);
         startActivity(i);
+        overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
     }
 
     public void Dha(View V){
         Intent i = new Intent(AksaraJawaActivity.this, InsetAksara.class);
         i.putExtra("aksara", 12);
         startActivity(i);
+        overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
     }
 
     public void Ja(View V){
         Intent i = new Intent(AksaraJawaActivity.this, InsetAksara.class);
         i.putExtra("aksara", 13);
         startActivity(i);
+        overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
     }
 
     public void Ya(View V){
         Intent i = new Intent(AksaraJawaActivity.this, InsetAksara.class);
         i.putExtra("aksara", 14);
         startActivity(i);
+        overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
     }
 
     public void Nya(View V){
         Intent i = new Intent(AksaraJawaActivity.this, InsetAksara.class);
         i.putExtra("aksara", 15);
         startActivity(i);
+        overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
     }
 
     public void Ma(View V){
         Intent i = new Intent(AksaraJawaActivity.this, InsetAksara.class);
         i.putExtra("aksara", 16);
         startActivity(i);
+        overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
     }
 
     public void Ga(View V){
         Intent i = new Intent(AksaraJawaActivity.this, InsetAksara.class);
         i.putExtra("aksara", 17);
         startActivity(i);
+        overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
     }
 
     public void Ba(View V){
         Intent i = new Intent(AksaraJawaActivity.this, InsetAksara.class);
         i.putExtra("aksara", 18);
         startActivity(i);
+        overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
     }
 
     public void Tha(View V){
         Intent i = new Intent(AksaraJawaActivity.this, InsetAksara.class);
         i.putExtra("aksara", 19);
         startActivity(i);
+        overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
     }
 
     public void Nga(View V){
         Intent i = new Intent(AksaraJawaActivity.this, InsetAksara.class);
         i.putExtra("aksara", 20);
         startActivity(i);
+        overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
     }
     @Override
     public void finish() {
