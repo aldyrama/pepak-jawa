@@ -325,7 +325,21 @@
                 android:layout_weight="0"
                 android:weightSum="100"
                 android:adjustViewBounds="true">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:padding="5dp"
+                    android:id="@+id/ffr"
+                    android:adjustViewBounds="true" />
 
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:padding="5dp"
+                    android:id="@+id/ffv"
+                    android:adjustViewBounds="true" />
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -502,40 +516,39 @@
                         android:adjustViewBounds="true" />
 
                 </LinearLayout>
-            </LinearLayout>
-
-            <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="0"
-                android:weightSum="100"
-                android:adjustViewBounds="true">
-
-                <ImageView
-                    android:layout_width="wrap_content"
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/nyaa"
-                    android:layout_weight="7"
-                    android:padding="5dp"
-                    android:adjustViewBounds="true" />
+                    android:layout_weight="0"
+                    android:weightSum="100"
+                    android:adjustViewBounds="true">
 
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/gaa"
-                    android:layout_weight="7"
-                    android:padding="5dp"
-                    android:adjustViewBounds="true" />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/nyaa"
+                        android:layout_weight="20"
+                        android:padding="5dp"
+                        android:adjustViewBounds="true" />
 
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/baa"
-                    android:layout_weight="7"
-                    android:padding="5dp"
-                    android:adjustViewBounds="true" />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/gaa"
+                        android:layout_weight="20"
+                        android:padding="5dp"
+                        android:adjustViewBounds="true"/>
 
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/baa"
+                        android:layout_weight="20"
+                        android:padding="5dp"
+                        android:adjustViewBounds="true" />
+
+                </LinearLayout>
             </LinearLayout>
 
             <View

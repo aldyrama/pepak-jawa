@@ -119,7 +119,7 @@
         android:visibility="gone"
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
-        android:layout_marginTop="70dp"
+        android:layout_marginTop="30dp"
         android:layout_marginBottom="70dp" >
 
         <LinearLayout
@@ -134,7 +134,7 @@
                 android:layout_height="100dp"
                 android:id="@+id/imageView15"
                 android:src="@drawable/happy80"
-                android:layout_marginTop="40dp" />
+                android:layout_marginTop="30dp" />
 
             <TextView
                 android:layout_width="fill_parent"
@@ -156,7 +156,7 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="15dp"
                 android:gravity="center_vertical|center_horizontal"
-                android:layout_marginTop="50dp"
+                android:layout_marginTop="40dp"
                 android:textStyle="bold" />
 
             <LinearLayout
@@ -164,7 +164,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginTop="50dp"
+                android:layout_marginTop="40dp"
                 android:gravity="center_vertical|center_horizontal" >
 
                 <info.hoang8f.widget.FButton
@@ -188,7 +188,7 @@
         android:visibility="gone"
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
-        android:layout_marginTop="70dp"
+        android:layout_marginTop="30dp"
         android:layout_marginBottom="70dp">
 
         <LinearLayout

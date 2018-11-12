@@ -4,26 +4,13 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.ImageView;
-import android.widget.ListView;
+import android.widget.Toast;
 
-import com.bignerdranch.expandablerecyclerview.Model.ParentObject;
 import com.squareup.picasso.Picasso;
-
-import org.d3ifcool.pepakjawa.Model.TitleChild;
-import org.d3ifcool.pepakjawa.Model.TitleCreator;
-import org.d3ifcool.pepakjawa.Model.TitleParent;
-import org.d3ifcool.pepakjawa.MyAdapter.Adapter;
-
-import java.util.ArrayList;
-import java.util.List;
 
 import uk.co.chrisjenx.calligraphy.CalligraphyConfig;
 import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
@@ -37,7 +24,7 @@ public class AksaraJawaActivity extends AppCompatActivity {
     //Shandangan
     ImageView i, u, e, o, r, h, ng, pangkon, re, raa;
     //Aksara Murda
-    ImageView naa, kaa, taa, saa, paa, nyaa, gaa, baa;
+    ImageView naa, kaa, taa, saa, paa, nyaa, gaa, baa, facefour, facefive;
     //Aksara Swara
     ImageView a, ii, uu, ee, oo;
     //Wilangan
@@ -99,6 +86,8 @@ public class AksaraJawaActivity extends AppCompatActivity {
         nyaa = (ImageView) findViewById(R.id.nyaa);
         gaa = (ImageView) findViewById(R.id.gaa);
         baa = (ImageView) findViewById(R.id.baa);
+        facefour = (ImageView) findViewById(R.id.ffr);
+        facefive = (ImageView) findViewById(R.id.ffv);
         //Aksara Swara
         a = (ImageView) findViewById(R.id.a);
         ii = (ImageView) findViewById(R.id.ii);
@@ -173,6 +162,7 @@ public class AksaraJawaActivity extends AppCompatActivity {
         Picasso.with(getApplicationContext()).load("file:///android_asset/img/nyam.png").into(nyaa);
         Picasso.with(getApplicationContext()).load("file:///android_asset/img/gam.png").into(gaa);
         Picasso.with(getApplicationContext()).load("file:///android_asset/img/bam.png").into(baa);
+
 
         //Aksara Swara
         Picasso.with(getApplicationContext()).load("file:///android_asset/img/a.png").into(a);
