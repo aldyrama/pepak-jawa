@@ -5,7 +5,7 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/ic_launcher_pepak"
+        android:icon="@mipmap/ic_launcher_pepak"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
@@ -15,32 +15,27 @@
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 
-        <provider
-            android:name=".Database.Provider"
-            android:authorities="org.d3ifcool.pepakjawa"
-            android:exported="false" />
-
         <activity android:name=".ParamasastraActivity"
-            android:theme="@style/AppTheme">
-
+            android:theme="@style/AppTheme"
+            android:label="@string/title_activity_pramasastra">
         </activity>
+
         <activity
             android:name=".RupaKawruhActivity"
             android:label="@string/title_activity_rupa_kawruh"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme" />
         <activity
             android:name=".KawruhBasaActivity"
             android:label="@string/title_activity_kawruh_basa"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme" />
         <activity
             android:name=".KesusastraanActivity"
             android:label="@string/title_activity_kesusastraan"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme" />
         <activity
             android:name=".AksaraJawaActivity"
             android:label="@string/title_activity_aksara_jawa"
@@ -54,10 +49,6 @@
             android:label="Wayang"
             android:theme="@style/AppTheme" />
 
-        <provider
-            android:name=".Database.Provider"
-            android:authorities="org.d3ifcool.pepakjawa"
-            android:exported="false" />
 
         <activity
             android:name=".StartQuiz"

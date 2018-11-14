@@ -1,10 +1,9 @@
 <resources>
     <string name="app_name">Pepak Jawa</string>
-    <string name="title_activity_pramasastra">Pramasastra</string>
+    <string name="title_activity_pramasastra">Paramasastra</string>
     <string name="title_activity_wayang">Wayang</string>
-    <string name="title_activity_kawruh">KawruhActivity</string>
-    <string name="title_activity_kawruh_basa">KawruhBasa</string>
-    <string name="title_activity_rupa_kawruh">RupaKawruh</string>
+    <string name="title_activity_kawruh_basa">Kawruh Basa</string>
+    <string name="title_activity_rupa_kawruh">Rupa Kawruh</string>
     <string name="title_activity_kesusastraan">Kesusastraan</string>
     <string name="title_activity_aksara_jawa">Aksara</string>
     <string name="title_activity_kuis">Kuis</string>
@@ -25,6 +24,7 @@
     <string name="lanjut">Lanjut</string>
     <string name="paramasastra">Paramasastra</string>
     <string name="rupa_kawruh">Rupa Kawruh</string>
+    <string name="paramasastra_describe">Paramasastra adalah tata bahasa dalam bahasa jawa</string>
 
     <string name="hore">
         Hore! \n Kamu mulai menguasainya :)
@@ -438,4 +438,6 @@
     <string name="aksara">Aksara</string>
     <string name="wayang">Wayang</string>
     <string name="kuis_pepak_jawa">Kuis Pepak Jawa</string>
+    <string name="rupakawruh_describe">Rupa Kawruh adalah macam ilmu pengetahuan</string>
+    <string name="kawruhbasa_describe">Kawruh basa adalah ilmu pengetahuan bahasa</string>
 </resources>

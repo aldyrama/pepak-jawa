@@ -1,0 +1,3836 @@
+[
+    {
+      "id": "1",
+      "category": "Tembung Lan Jinise",
+      "jawa": "Tembung Aran",
+      "translate": "Kata benda"
+    },
+    {
+      "id": "2",
+      "category": "Tembung Lan Jinise",
+      "jawa": "Tembung Kriya",
+      "translate": "Kata kerja"
+    },
+    {
+      "id": "3",
+      "category": "Tembung Lan Jinise",
+      "jawa": "Tembung Ganti",
+      "translate": "Kata ganti"
+    },
+    {
+      "id": "4",
+      "category": "Tembung Lan Jinise",
+      "jawa": "Tembung Wilangan",
+      "translate": "Kata bilangan"
+    },
+    {
+      "id": "5",
+      "category": "Tembung lan Jinise",
+      "jawa": "Tembung Sipat",
+      "translate": "Kata Sifat"
+    },
+    {
+      "id": "6",
+      "category": "Tembung lan Jinise",
+      "jawa": "Tembung Katrangan",
+      "translate": "Kata Keterangan"
+    },
+    {
+      "id": "9",
+      "category": "Tembung lan Jinise",
+      "jawa": "Tembung Pangguwuh",
+      "translate": "Kata Seru"
+    },
+    {
+      "id": "10",
+      "category": "Tembung lan Jinise",
+      "jawa": "Tembung Sandhangan",
+      "translate": "Kata Sandang"
+    },
+    {
+      "id": "13",
+      "category": "Tembung lan Jinise",
+      "jawa": "Tembung Panyambung",
+      "translate": "Kata Sambung"
+    },
+    {
+      "id": "14",
+      "category": "Tembung lan Jinise",
+      "jawa": "Tembung Pangarep",
+      "translate": "Kata Depan"
+    },
+    {
+      "id": "17",
+      "category": "Pamilahane Tembung",
+      "jawa": "Tembung Lingga",
+      "translate": "Kata asli yang belum diberi imbuhan"
+    },
+    {
+      "id": "18",
+      "category": "Pamilahane Tembung",
+      "jawa": "Tembung Andhahan",
+      "translate": "Kata yang sudah diberi imbuhan"
+    },
+    {
+      "id": "21",
+      "category": "Pamilahane Tembung",
+      "jawa": "Tembung Rangkep",
+      "translate": "Kata ganda"
+    },
+    {
+      "id": "22",
+      "category": "Tembung Tanggap",
+      "jawa": "Dakombe(Da+ombe)",
+      "translate": "Aku minum(Kata ganti orang pertama)"
+    },
+    {
+      "id": "23",
+      "category": "Tembung Tanggap",
+      "jawa": "Koombe(Ko+ombe)",
+      "translate": "Kau minum(Kata ganti orang kedua"
+    },
+    {
+      "id": "24",
+      "category": "Tembung Tanggap",
+      "jawa": "Diombe(Di+ombe)",
+      "translate": "Dia minum(Kata ganti orang ketiga)"
+    },
+    {
+      "id": "25",
+      "category": "Tembung Tanggap",
+      "jawa": "Koombe(Ko+ombe)",
+      "translate": "Kau minum(Kata ganti orang kedua"
+    },
+    {
+      "id": "27",
+      "category": "Tembung Tanggap",
+      "jawa": "Dakpakani(Dipakani+i)",
+      "translate": "Aku makan(Kata kerja pasif)"
+    },
+    {
+      "id": "28",
+      "category": "Tembung Tanggap",
+      "jawa": "Dakpakakake(Dapkani+ake)",
+      "translate": "Aku memakan(Kata kerja pasif)"
+    },
+    {
+      "id": "29",
+      "category": "Tembung Tanggap",
+      "jawa": "Dakpakani(Dipakani+i)",
+      "translate": "Aku makan(Kata kerja pasif)"
+    },
+    {
+      "id": "30",
+      "category": "Tembung Tanggap",
+      "jawa": "Dakpakakake(Dapkani+ake)",
+      "translate": "Aku memakan(Kata kerja pasif)"
+    },
+    {
+      "id": "31",
+      "category": "Tembung Tanduk",
+      "jawa": "Mangan(M+pangan)",
+      "translate": "Makan(Kata aktif)"
+    },
+    {
+      "id": "32",
+      "category": "Tembung Tanduk",
+      "jawa": "Nata(N+tata)",
+      "translate": "Menata(Kata aktif)"
+    },
+    {
+      "id": "33",
+      "category": "Tembung Tanduk",
+      "jawa": "Mangan(M+pangan)",
+      "translate": "Makan(Kata aktif)"
+    },
+    {
+      "id": "34",
+      "category": "Tembung Tanduk",
+      "jawa": "Nata(N+tata)   ",
+      "translate": "Menata(Kata aktif)"
+    },
+    {
+      "id": "35",
+      "category": "Tembung Tanduk",
+      "jawa": "Ngarang(Ng+karang)",
+      "translate": "Mengarang(Kata aktif)"
+    },
+    {
+      "id": "36",
+      "category": "Tembung Tanduk",
+      "jawa": "Nyathet(Ny+cathet)",
+      "translate": "Mencatat(Kata aktif)"
+    },
+    {
+      "id": "37",
+      "category": "Tembung Tanduk",
+      "jawa": "Ngarang(Ng+karang)",
+      "translate": "Mengarang(Kata aktif)"
+    },
+    {
+      "id": "38",
+      "category": "Tembung Tanduk",
+      "jawa": "Nyathet(Ny+cathet)",
+      "translate": "Mencatat(Kata aktif)"
+    },
+    {
+      "id": "39",
+      "category": "Tembung Tanduk",
+      "jawa": "Nanduri(Nanduri+i)",
+      "translate": "Menanam(Kata kerja aktif)"
+    },
+    {
+      "id": "40",
+      "category": "Tembung Tanduk",
+      "jawa": "Nyilihake(Nyilih+ake)",
+      "translate": "Meminjamkan(Kata kerja aktif)"
+    },
+    {
+      "id": "41",
+      "category": "Tembung Tanduk",
+      "jawa": "Nanduri(Nanduri+i)",
+      "translate": "Menanam(Kata kerja aktif)"
+    },
+    {
+      "id": "42",
+      "category": "Tembung Tanduk",
+      "jawa": "Nyilihake(Nyilih+ake)",
+      "translate": "Meminjamkan(Kata kerja aktif)"
+    },
+    {
+      "id": "43",
+      "category": "Tembung Camboran Wutuh",
+      "jawa": "Ajur ajer",
+      "translate": "Melebur mencair"
+    },
+    {
+      "id": "44",
+      "category": "Tembung Camboran Wutuh",
+      "jawa": "Bibit kawit",
+      "translate": "Asal usul"
+    },
+    {
+      "id": "48",
+      "category": "Tembung Camboran Wutuh",
+      "jawa": "Cekak aos",
+      "translate": "Padat berisi"
+    },
+    {
+      "id": "61",
+      "category": "Tembung Camboran Wutuh",
+      "jawa": "Edi Peni",
+      "translate": "Bagus sekali"
+    },
+    {
+      "id": "62",
+      "category": "Tembung Camboran Wutuh",
+      "jawa": "Gagah Prakosa",
+      "translate": "Gagah Perkasa"
+    },
+    {
+      "id": "63",
+      "category": "Tembung Camboran Wutuh",
+      "jawa": "Jalma Manungsa",
+      "translate": "Manusia"
+    },
+    {
+      "id": "64",
+      "category": "Tembung Camboran Wutuh",
+      "jawa": "Jaran Kepang",
+      "translate": "Jathilan(Tarian tradisional)"
+    },
+    {
+      "id": "65",
+      "category": "Tembung Camboran Wutuh",
+      "jawa": "Abot Entheng",
+      "translate": "Berat Ringan"
+    },
+    {
+      "id": "66",
+      "category": "Tembung Camboran Wutuh",
+      "jawa": "Lanang Wadon",
+      "translate": "Pria Wanita"
+    },
+    {
+      "id": "67",
+      "category": "Tembung Camboran Wutuh",
+      "jawa": "Bapa Biyung",
+      "translate": "Bapak Ibu"
+    },
+    {
+      "id": "68",
+      "category": "Tembung Camboran Wutuh",
+      "jawa": "Gedhe Cilik",
+      "translate": "Besar Kecil"
+    },
+    {
+      "id": "69",
+      "category": "Tembung Camboran Wutuh",
+      "jawa": "Yayah Wibi",
+      "translate": "Bapak Ibu"
+    },
+    {
+      "id": "70",
+      "category": "Tembung Camboran Wutuh",
+      "jawa": "Nom Tua",
+      "translate": "Muda Tua"
+    },
+    {
+      "id": "71",
+      "category": "Tembung Camboran Wutuh",
+      "jawa": "Endhek Dhuwur",
+      "translate": "Pendek Tinggi"
+    },
+    {
+      "id": "72",
+      "category": "Tembung Camboran Wutuh",
+      "jawa": "Abang Mbranang",
+      "translate": "Merah Banget"
+    },
+    {
+      "id": "73",
+      "category": "Tembung Camboran Wutuh",
+      "jawa": "Bakul Kacang",
+      "translate": "Keranjang Kacang"
+    },
+    {
+      "id": "74",
+      "category": "Tembung Camboran Wutuh",
+      "jawa": "Pager Wesi",
+      "translate": "Pagar Besi"
+    },
+    {
+      "id": "75",
+      "category": "Tembung Camboran Wutuh",
+      "jawa": "Pamong Desa",
+      "translate": "Perangkat Desa"
+    },
+    {
+      "id": "76",
+      "category": "Tembung Camboran Wutuh",
+      "jawa": "Omah Dara",
+      "translate": "Rumah Dara"
+    },
+    {
+      "id": "77",
+      "category": "Tembung Camboran Wutuh",
+      "jawa": "Dadar Gulung",
+      "translate": "Dadar Gulung(Makanan)"
+    },
+    {
+      "id": "78",
+      "category": "Tembung Camboran Wutuh",
+      "jawa": "Jaga Baya",
+      "translate": "Petugas Keamanan"
+    },
+    {
+      "id": "97",
+      "category": "Tembung Camboran Tugel",
+      "jawa": "Bangcuk(Abang+Pucuk)\\r\\n",
+      "translate": "Merah Pucuk"
+    },
+    {
+      "id": "98",
+      "category": "Tembung Camboran Tugel",
+      "jawa": "Bangjo(Abang+ijo)",
+      "translate": "Merah Hijau"
+    },
+    {
+      "id": "99",
+      "category": "Tembung Camboran Tugel",
+      "jawa": "Barbeh(Bubar+Kabeh)",
+      "translate": "Bubar Semua"
+    },
+    {
+      "id": "100",
+      "category": "Tembung Camboran Tugel",
+      "jawa": "Barji(Bubar+Siji)",
+      "translate": "Bubar Satu"
+    },
+    {
+      "id": "101",
+      "category": "Tembung Camboran Tugel",
+      "jawa": "Bulik(Ibu+Cilik)",
+      "translate": "Tante"
+    },
+    {
+      "id": "102",
+      "category": "Tembung Camboran Tugel",
+      "jawa": "Cowek(Konco+Dhewek)",
+      "translate": "Teman Sendiri"
+    },
+    {
+      "id": "103",
+      "category": "Tembung Camboran Tugel",
+      "jawa": "Dewa(Gedhe+Dawa)",
+      "translate": "Besar Panjang"
+    },
+    {
+      "id": "104",
+      "category": "Tembung Camboran Tugel",
+      "jawa": "Dhegus(Gedhe+Bagus)",
+      "translate": "Besar Bagus"
+    },
+    {
+      "id": "105",
+      "category": "Tembung Camboran Tugel",
+      "jawa": "Dhekmu(Endhek+Lemu)",
+      "translate": "Pendek Gemuk"
+    },
+    {
+      "id": "106",
+      "category": "Tembung Camboran Tugel",
+      "jawa": "Dhekwur(Endhek+Dhuwur)",
+      "translate": "Pendek Tinggi"
+    },
+    {
+      "id": "107",
+      "category": "Tembung Camboran Tugel",
+      "jawa": "Dhelik(Endhek+Cilik)",
+      "translate": "Pendek Kecil"
+    },
+    {
+      "id": "108",
+      "category": "Tembung Camboran Tugel",
+      "jawa": "Dhemes(Gedhe+Lemes)",
+      "translate": "Besar Lemas"
+    },
+    {
+      "id": "109",
+      "category": "Tembung Camboran Tugel",
+      "jawa": "Gowek(Tonggo+Dhewek)",
+      "translate": "Tetangga Sendiri"
+    },
+    {
+      "id": "110",
+      "category": "Tembung Camboran Tugel",
+      "jawa": "Jiro(Siji+Loro)",
+      "translate": "Satu dua"
+    },
+    {
+      "id": "111",
+      "category": "Tembung Camboran Tugel",
+      "jawa": "Jitus(Siji+Satus)",
+      "translate": "Satu Seratus"
+    },
+    {
+      "id": "112",
+      "category": "Tembung Camboran Tugel",
+      "jawa": "Linak(Lali+Anak)",
+      "translate": "Lupa Anak"
+    },
+    {
+      "id": "113",
+      "category": "Tembung Camboran Tugel",
+      "jawa": "Wulu(Sewu+Telu)",
+      "translate": "Seribu Tiga"
+    },
+    {
+      "id": "114",
+      "category": "Pamilahe Ukara",
+      "jawa": "Jejer-Wasesa",
+      "translate": "Subjek-Predikat"
+    },
+    {
+      "id": "115",
+      "category": "Pamilahe Ukara",
+      "jawa": "Jejer-Wasesa-Lesan",
+      "translate": "Subjek+Predikat+Objek"
+    },
+    {
+      "id": "116",
+      "category": "Pamilahe Ukara",
+      "jawa": "Jejer+Wasesa+Lesan+Katrangan",
+      "translate": "Subjek-Predikat-Objek-Keterangan"
+    },
+    {
+      "id": "117",
+      "category": "Ukara Tanduk",
+      "jawa": "Bono nendhang bal",
+      "translate": "Bono menendang bola"
+    },
+    {
+      "id": "118",
+      "category": "Ukara Tanduk",
+      "jawa": "Marni mbungkus kado",
+      "translate": "Marni membungkus kado"
+    },
+    {
+      "id": "119",
+      "category": "Ukara Tanduk",
+      "jawa": "Tono ngangkat kerdus",
+      "translate": "Tono mengangkat kardus"
+    },
+    {
+      "id": "120",
+      "category": "Ukara Tanduk",
+      "jawa": "Yanti mangan tahu",
+      "translate": "Yanti makan tahu"
+    },
+    {
+      "id": "121",
+      "category": "Ukara Tanggap",
+      "jawa": "Bal ditendhang Bono",
+      "translate": "Bola ditendang bono"
+    },
+    {
+      "id": "122",
+      "category": "Ukara Tanggap",
+      "jawa": "Kado dibungkus marni",
+      "translate": "Kado dibungkus marni"
+    },
+    {
+      "id": "123",
+      "category": "Ukara Tanggap",
+      "jawa": "Kerdus diangkat tono",
+      "translate": "Kardus diangkat tono"
+    },
+    {
+      "id": "124",
+      "category": "Ukara Tanggap",
+      "jawa": "Tahu dipangan yanti",
+      "translate": "Tahu dimakan yanti"
+    },
+    {
+      "id": "125",
+      "category": "Ukara Lamba",
+      "jawa": "Dimas numpak sepedhah",
+      "translate": "Dimas naik sepeda"
+    },
+    {
+      "id": "126",
+      "category": "Ukara Lamba",
+      "jawa": "Bulik nembe siram",
+      "translate": "Tante baru mandi"
+    },
+    {
+      "id": "127",
+      "category": "Ukara Lamba",
+      "jawa": "Pakdhe maos koran",
+      "translate": "Pakde baca koran"
+    },
+    {
+      "id": "128",
+      "category": "Ukara Lamba",
+      "jawa": "Darmo nyegat bis",
+      "translate": "Darmo mencegat bus"
+    },
+    {
+      "id": "129",
+      "category": "Jenenge Kembang",
+      "jawa": "Kembang aren jenenge dangu",
+      "translate": "Kembang aren namanya dangu"
+    },
+    {
+      "id": "130",
+      "category": "Jenenge Kembang",
+      "jawa": "Kembang blimbing jenenge maya",
+      "translate": "kembang blimbing namanya maya"
+    },
+    {
+      "id": "131",
+      "category": "Jenenge Kembang",
+      "jawa": "Kembang blutru jenenge montro",
+      "translate": "kembang blutru namanya montro"
+    },
+    {
+      "id": "132",
+      "category": "Jenenge Kembang",
+      "jawa": "Kembang cengkeh jenenge polong",
+      "translate": "Kembang cengkeh namanya polong"
+    },
+    {
+      "id": "133",
+      "category": "Jenenge Kembang",
+      "jawa": "Kembang cubung jenenge torong",
+      "translate": "Kembang cubung namanya torong"
+    },
+    {
+      "id": "134",
+      "category": "Jenenge Kembang",
+      "jawa": "Kembang dhadap jenenge celung",
+      "translate": "Kembang dhadap namanya celung"
+    },
+    {
+      "id": "135",
+      "category": "Jenenge Kembang",
+      "jawa": "Kembang duren jenenge dlongop",
+      "translate": "Kembang duren namanya dlongop"
+    },
+    {
+      "id": "136",
+      "category": "Jenenge Kembang",
+      "jawa": "Kembang ganyong jenenge puspanyidra",
+      "translate": "Kembang ganyong namanya puspanyidra"
+    },
+    {
+      "id": "137",
+      "category": "Jenenge Kembang",
+      "jawa": "Kembang garut jenenge grameng",
+      "translate": "Kembang garut namanya grameng"
+    },
+    {
+      "id": "138",
+      "category": "Jenenge Kembang",
+      "jawa": "Kembang gebang jenenge krandhing",
+      "translate": "Kembang gebang namanya krandhing"
+    },
+    {
+      "id": "139",
+      "category": "Jenenge Kembang",
+      "jawa": "Kembang Gedhang jenenge tuntut",
+      "translate": "Kembang pisang namanya tuntut"
+    },
+    {
+      "id": "140",
+      "category": "Jenenge Kembang",
+      "jawa": "Kembang gembili jenenge seneng",
+      "translate": "Kembang gemili namanya seneng"
+    },
+    {
+      "id": "141",
+      "category": "Jenenge Kembang",
+      "jawa": "Kembang jagung jenenge sinuwun",
+      "translate": "Kembang jagung namanya sinuwun"
+    },
+    {
+      "id": "142",
+      "category": "Jenenge Kembang",
+      "jawa": "Kembang jambe jenenge mayang",
+      "translate": "Kembang jambe namanya mayang"
+    },
+    {
+      "id": "143",
+      "category": "Jenenge Kembang",
+      "jawa": "Kembang jambu jenenge karuk",
+      "translate": "Kembang jambu namanya karuk"
+    },
+    {
+      "id": "144",
+      "category": "Jenenge Kembang",
+      "jawa": "Kembang jarak jenenge juwis ",
+      "translate": "Kembang jarak namanya juwis"
+    },
+    {
+      "id": "145",
+      "category": "Jenenge Kembang",
+      "jawa": "Kembang jati jenenge janggleng",
+      "translate": "Kembang jati namanya janggleng"
+    },
+    {
+      "id": "146",
+      "category": "Jenenge Kembang",
+      "jawa": "Kembang jengkol jenenge kecuwis",
+      "translate": "Kembang jengkol namanya kecuwis"
+    },
+    {
+      "id": "147",
+      "category": "Jenenge Kembang",
+      "jawa": "Kembang kacang jenenge besungut",
+      "translate": "Kembang kacang namanya besungut"
+    },
+    {
+      "id": "148",
+      "category": "Jenenge Kembang",
+      "jawa": "Kembang kanthil jenenge gadhing",
+      "translate": "Kembang kantil namanya gadhing"
+    },
+    {
+      "id": "149",
+      "category": "Jenenge Kembang",
+      "jawa": "Kembang kapas jenenge kadi",
+      "translate": "Kembang kapas namanya kadi"
+    },
+    {
+      "id": "150",
+      "category": "Jenenge Kembang",
+      "jawa": "Kembang kara jenenge kepek",
+      "translate": "Kembang kara namanya kepek"
+    },
+    {
+      "id": "151",
+      "category": "Jenenge Kembang",
+      "jawa": "Kembang kecipir jenenge cethethet",
+      "translate": "Kembang kecipir namanya cethethet"
+    },
+    {
+      "id": "152",
+      "category": "Jenenge Kembang",
+      "jawa": "Kembang kelor jenenge limaran",
+      "translate": "Kembang kelor namanya limaran"
+    },
+    {
+      "id": "153",
+      "category": "Jenenge Kembang",
+      "jawa": "Kembang kencur jenenge sedhet",
+      "translate": "Kembang kencur namanya sedhet"
+    },
+    {
+      "id": "154",
+      "category": "Jenenge Kembang",
+      "jawa": "Kembang tales jenenge pancal",
+      "translate": "Kembang tales namanya pancal"
+    },
+    {
+      "id": "155",
+      "category": "Jenenge Kembang",
+      "jawa": "Kembang kluwih jenenge onthel",
+      "translate": "Kembang kluwih namanya onthel"
+    },
+    {
+      "id": "156",
+      "category": "Jenenge Kembang",
+      "jawa": "Kembang kopi jenenge blanggreng",
+      "translate": "Kembang kopi namanya blanggreng"
+    },
+    {
+      "id": "157",
+      "category": "Jenenge Kembang",
+      "jawa": "Kembang krambil jenenge manggar",
+      "translate": "Kembang krambil namanya manggar"
+    },
+    {
+      "id": "158",
+      "category": "Jenenge Kembang",
+      "jawa": "Kembang krokot jenenge naknik",
+      "translate": "Kembang krokot namanya naknik"
+    },
+    {
+      "id": "159",
+      "category": "Jenenge Kembang",
+      "jawa": "Kembang lamtara jenenge jedhiding",
+      "translate": "Kembang lamtara namanya jedhiding"
+    },
+    {
+      "id": "160",
+      "category": "Jenenge Kembang",
+      "jawa": "Kembang lombok jenenge menik",
+      "translate": "Kembang lombok namanya menik"
+    },
+    {
+      "id": "161",
+      "category": "Jenenge Kembang",
+      "jawa": "Kembang mlinjo jenenge uceng",
+      "translate": "Kembang mlinjo namanya uceng"
+    },
+    {
+      "id": "162",
+      "category": "Jenenge Kembang",
+      "jawa": "Kembang nangka jenenge angkup",
+      "translate": "Kembang nangka namanya angkup"
+    },
+    {
+      "id": "163",
+      "category": "Jenenge Kembang",
+      "jawa": "Kembang pace jenenge nyrewenteh",
+      "translate": "Kembang pace namanya nyrewenteh"
+    },
+    {
+      "id": "164",
+      "category": "Jenenge Kembang",
+      "jawa": "Kembang pace jenenge pendul",
+      "translate": "Kembang pace namanya pendul"
+    },
+    {
+      "id": "165",
+      "category": "Jenenge Kembang",
+      "jawa": "Kembang tela jenenge ingklik",
+      "translate": "Kembang tela namanya ingklik"
+    },
+    {
+      "id": "166",
+      "category": "Jenenge Kembang",
+      "jawa": "Kembang randhu jenenge karuk",
+      "translate": "Kembang randhu namanya karuk"
+    },
+    {
+      "id": "167",
+      "category": "Jenenge Kembang",
+      "jawa": "Kembang salak jenenge ketheker",
+      "translate": "Kembang salak namanya ketheker"
+    },
+    {
+      "id": "168",
+      "category": "Jenenge Kembang",
+      "jawa": "Kembang suruh jenenge drenges",
+      "translate": "Kembang suruh namanya drenges"
+    },
+    {
+      "id": "169",
+      "category": "Jenenge Kembang",
+      "jawa": "Kembang tebu jenenge glagah",
+      "translate": "Kembang tebu namanya glagah"
+    },
+    {
+      "id": "170",
+      "category": "Jenenge Pentil",
+      "jawa": "Pentil asem jenenge cempaluk",
+      "translate": "Asem muda namanya cempaluk"
+    },
+    {
+      "id": "171",
+      "category": "Jenenge Pentil",
+      "jawa": "Pentil jagung jenenge janten",
+      "translate": "Jagung muda namanya janten"
+    },
+    {
+      "id": "172",
+      "category": "Jenenge Pentil",
+      "jawa": "Pentil jambe jenenge bleber",
+      "translate": "Jambe muda namanya bleber"
+    },
+    {
+      "id": "173",
+      "category": "Jenenge Pentil",
+      "jawa": "Pentil jambu jenenge karuk",
+      "translate": "Jambu muda namanya karuk"
+    },
+    {
+      "id": "174",
+      "category": "Jenenge Pentil",
+      "jawa": "Pentil kacang jenenge besungut",
+      "translate": "kacang muda namanya besungut"
+    },
+    {
+      "id": "175",
+      "category": "Jenenge Pentil",
+      "jawa": "Pentil krambil jenenge blubuk",
+      "translate": "Krambil muda namanya blubuk"
+    },
+    {
+      "id": "176",
+      "category": "Jenenge Pentil",
+      "jawa": "Pentil manggis jenenge blibar",
+      "translate": "Manggis muda namanya blibar"
+    },
+    {
+      "id": "177",
+      "category": "Jenenge Pentil",
+      "jawa": "Pentil nangka jenenge gori",
+      "translate": "Nangka muda namanya gori"
+    },
+    {
+      "id": "178",
+      "category": "Jenenge Pentil",
+      "jawa": "Pentil pelem jenenge pencit",
+      "translate": "Pelem muda namanya pencit"
+    },
+    {
+      "id": "179",
+      "category": "Jenenge Pentil",
+      "jawa": "Pentil randhu jenenge plencing",
+      "translate": "Randhu muda namanya plencing"
+    },
+    {
+      "id": "180",
+      "category": "Jenenge Pentil",
+      "jawa": "Pentil semangka jenenge pionco",
+      "translate": "Semangka muda namanya pionco"
+    },
+    {
+      "id": "181",
+      "category": "Jenenge Pentil",
+      "jawa": "Pentil mlinjo jenenge kroto",
+      "translate": "Mlinjo muda namanya kroto"
+    },
+    {
+      "id": "182",
+      "category": "Jenenge Pentil",
+      "jawa": "Pentil timun jenenge serit",
+      "translate": "Timun muda namanya serit"
+    },
+    {
+      "id": "183",
+      "category": "Jenenge Woh",
+      "jawa": "Woh aren jenenge kolang-kaling",
+      "translate": "Buah aren namanya kolang-kaling"
+    },
+    {
+      "id": "184",
+      "category": "Jenenge Woh",
+      "jawa": "Woh bengkowang jenenge besusu",
+      "translate": "Buah bengkuang namanya besusu"
+    },
+    {
+      "id": "185",
+      "category": "Jenenge Woh",
+      "jawa": "Woh cengkeh jenenge polong",
+      "translate": "Buah cengkeh namanya polong"
+    },
+    {
+      "id": "186",
+      "category": "Jenenge Woh",
+      "jawa": "Woh gebang jenenge krandhing",
+      "translate": "Buah gebang namanya krandhing"
+    },
+    {
+      "id": "187",
+      "category": "Jenenge Woh",
+      "jawa": "Woh gembili jenenge katak",
+      "translate": "Buah gembili namanya katak"
+    },
+    {
+      "id": "188",
+      "category": "Jenenge Woh",
+      "jawa": "Woh jati jenenge janggleng",
+      "translate": "Buah jati namanya janggleng"
+    },
+    {
+      "id": "189",
+      "category": "Jenenge Woh",
+      "jawa": "Woh kanthil jenenge gandhek",
+      "translate": "Buah kantil namanya gandhek"
+    },
+    {
+      "id": "190",
+      "category": "Jenenge Woh",
+      "jawa": "Woh kelor jenenge klenthang",
+      "translate": "Buah kelor namanya klenthang"
+    },
+    {
+      "id": "191",
+      "category": "Jenenge Woh",
+      "jawa": "Woh kesambi jenenge kecacil",
+      "translate": "Buah kesambi namanya kecacil"
+    },
+    {
+      "id": "192",
+      "category": "Jenenge Woh",
+      "jawa": "Woh kluwek jenenge pocung",
+      "translate": "Buah kluwek namanya pocung"
+    },
+    {
+      "id": "193",
+      "category": "Jenenge Woh",
+      "jawa": "Woh pandhan eri jenenge pandhaga",
+      "translate": "Buah pandan eri namanya pandhaga"
+    },
+    {
+      "id": "194",
+      "category": "Jenenge Woh",
+      "jawa": "Woh so jenenge mlinjo",
+      "translate": "Buah so namanya mlinjo"
+    },
+    {
+      "id": "195",
+      "category": "Jenenge Woh",
+      "jawa": "Woh widara putih jenenge anyang",
+      "translate": "Buah widara putih namanya anyang"
+    },
+    {
+      "id": "196",
+      "category": "Jenenge Isi",
+      "jawa": "Isi asem jenenge klungsu",
+      "translate": "Isi asem namanya klungsu"
+    },
+    {
+      "id": "197",
+      "category": "Jenenge Isi",
+      "jawa": "Isi cipir jenenge botor",
+      "translate": "Isi cipir namanya botor"
+    },
+    {
+      "id": "198",
+      "category": "Jenenge Isi",
+      "jawa": "Isi duren jenenge pongge",
+      "translate": "Isi durian namanya pongge"
+    },
+    {
+      "id": "199",
+      "category": "Jenenge Isi",
+      "jawa": "Isi jambe jenenge jebug",
+      "translate": "Isi jambe namanya jebug"
+    },
+    {
+      "id": "200",
+      "category": "Jenenge Isi",
+      "jawa": "Isi kapas jenenge wuku",
+      "translate": "Isi kapas namanya wuku"
+    },
+    {
+      "id": "201",
+      "category": "Jenenge Isi",
+      "jawa": "Isi kates jenenge trempos",
+      "translate": "Isi kates namanya trempos"
+    },
+    {
+      "id": "202",
+      "category": "Jenenge Isi",
+      "jawa": "Isi kluwek jenenge pocung",
+      "translate": "Isi kluwek namanya pocung"
+    },
+    {
+      "id": "203",
+      "category": "Jenenge Isi",
+      "jawa": "Isi kluwih jenenge brthem",
+      "translate": "Isi kluwih namanya bethem"
+    },
+    {
+      "id": "204",
+      "category": "Jenenge Isi",
+      "jawa": "Isi kesambi jenenge kecacil",
+      "translate": "Isi kesambi namanya kecacil"
+    },
+    {
+      "id": "205",
+      "category": "Jenenge Isi",
+      "jawa": "Isi mlinjo jenenge klathak",
+      "translate": "Isi mlinjo namanya klathak"
+    },
+    {
+      "id": "206",
+      "category": "Jenenge Isi",
+      "jawa": "Isi nangka jenenge beton",
+      "translate": "Isi nangka namanya beton"
+    },
+    {
+      "id": "207",
+      "category": "Jenenge Isi",
+      "jawa": "Isi pelem jenenge pelok",
+      "translate": "Isi pelem namanya pelok"
+    },
+    {
+      "id": "208",
+      "category": "Jenenge Isi",
+      "jawa": "Isi randhu jenenge klentheng",
+      "translate": "Isi salak jenenge kenthos"
+    },
+    {
+      "id": "209",
+      "category": "Jenenge Isi",
+      "jawa": "Isi sawo jenenge kecik",
+      "translate": "Isi sawo namanya kecik"
+    },
+    {
+      "id": "210",
+      "category": "Jenenge Isi",
+      "jawa": "Isi semangka jenenge kuwaci",
+      "translate": "Isi semangka namanya kuwaci"
+    },
+    {
+      "id": "211",
+      "category": "Jenenge Godhong",
+      "jawa": "Godhong aren jenenge dliring",
+      "translate": "Daun aren namanya dliring"
+    },
+    {
+      "id": "212",
+      "category": "Jenenge Godhong",
+      "jawa": "Godhong asem jenenge sinom",
+      "translate": "Daun asem namanya sinom"
+    },
+    {
+      "id": "213",
+      "category": "Jenenge Godhong",
+      "jawa": "Godhong cocor bebek jenenge tiba urip",
+      "translate": "Daun cocor bebek namanya tiba urip"
+    },
+    {
+      "id": "214",
+      "category": "Jenenge Godhong",
+      "jawa": "Godhong dhadhap jenenge tawa",
+      "translate": "Daun dhadhap namanya tawa"
+    },
+    {
+      "id": "215",
+      "category": "Jenenge Godhong",
+      "jawa": "Godhong gedhang enom jenenge pupus",
+      "translate": "Daun pisang muda namanya pupus"
+    },
+    {
+      "id": "217",
+      "category": "Jenenge Godhong ",
+      "jawa": "Godhong Gedhang Garing Jenenge Klaras",
+      "translate": "Daun Pisang Kering Namanya Klaras"
+    },
+    {
+      "id": "218",
+      "category": "Jenenge Godhong",
+      "jawa": "Godhong Gebang Jenenge Kajang",
+      "translate": "Daun Gebang Namanya Kajang"
+    },
+    {
+      "id": "220",
+      "category": "Jenenge Godhong",
+      "jawa": "Godhong Jarak Jenenge Bledheg",
+      "translate": "Daun Jarak Namanya Bledheg"
+    },
+    {
+      "id": "221",
+      "category": "Jenenge Godhong",
+      "jawa": "Godhong Jarak Kebo Jenenge Lomah-Lameh",
+      "translate": "Daun Jarak Kebo Namanya Lomah-Lameh"
+    },
+    {
+      "id": "222",
+      "category": "Jenenge Godhong",
+      "jawa": "Godhong Jati Jenenge Jompong",
+      "translate": "Daun Jati Namanya Jompong"
+    },
+    {
+      "id": "223",
+      "category": "Jenenge Godhong",
+      "jawa": "Godhong Kacang Brol Jenenge Rendeng",
+      "translate": "Daun Kacang Tanah Namanya Rendeng"
+    },
+    {
+      "id": "225",
+      "category": "Jenenge Godhong",
+      "jawa": "Godhong Kates Jenenge Gampleng",
+      "translate": "Daun Kates Namanya Gampelng "
+    },
+    {
+      "id": "227",
+      "category": "Jenenge Godhong ",
+      "jawa": "Godhong Kecipir Jenenge Cethethet",
+      "translate": "Daun Kecipir Namanya Cethethet "
+    },
+    {
+      "id": "228",
+      "category": "Jenenge Godhong",
+      "jawa": "Godhong Kelor Jenenge Limaran (sewu)",
+      "translate": "Daun Kelor Namanya Limaran (sewu)"
+    },
+    {
+      "id": "230",
+      "category": "Jenenge Godhong",
+      "jawa": "Godhong Kluwih Jenenge Kleyang",
+      "translate": "Daun Kluwih Namanya Kleyang"
+    },
+    {
+      "id": "231",
+      "category": "Jenenge Godhong ",
+      "jawa": "Godhong Krambil Enom Jenenge Janur",
+      "translate": "Daun Kelapa Muda Namanya Janur "
+    },
+    {
+      "id": "232",
+      "category": "Jenenge Godhong ",
+      "jawa": "Godhong Krambil Tuwa Jenenge Blarak",
+      "translate": "Daun Kelapa Tua Namanya Blarak "
+    },
+    {
+      "id": "233",
+      "category": "Jenenge Godhong",
+      "jawa": "Godhong Lempuyang Jenenge Lirih",
+      "translate": "Daun Lempuyang Namanya Lirih"
+    },
+    {
+      "id": "234",
+      "category": "Jenenge Godhong",
+      "jawa": "Godhong Lombok Jenenge Sabrang",
+      "translate": "Daun Cabai Namanya Sabrang"
+    },
+    {
+      "id": "235",
+      "category": "Jenenge Godhong",
+      "jawa": "Godhong Mlinjo Jenenge Eso",
+      "translate": "Daun Melinjo Namanya Eso"
+    },
+    {
+      "id": "236",
+      "category": "Jenenge Godhong",
+      "jawa": "Godhong Pari Jenenge Damen",
+      "translate": "Daun Padi Namanya Damen"
+    },
+    {
+      "id": "237",
+      "category": "Jenenge Godhong ",
+      "jawa": "Godhong Pring Jenenge Elarmanyura",
+      "translate": "Daun Bambu Namanya Elarmanyura"
+    },
+    {
+      "id": "238",
+      "category": "Jenenge Godhong ",
+      "jawa": "Godhong Randhu Jenenge Baladewa (Smarakandhi)",
+      "translate": "Daun Randu Namanya Baladewa (Smarakandhi)"
+    },
+    {
+      "id": "239",
+      "category": "Jenenge Godhong",
+      "jawa": "Godhong Siwalan Jenenge Lontar",
+      "translate": "Daun Siwalan Namanya Lontar"
+    },
+    {
+      "id": "240",
+      "category": "Jenenge Godhong",
+      "jawa": "Godhong Tales (Kimpul) Jenenge Lumbu ",
+      "translate": "Daun Tales Namanya Lumbu"
+    },
+    {
+      "id": "241",
+      "category": "Jenenge Godhong",
+      "jawa": "Godhong Tebu Teles Jenenge Momol",
+      "translate": "Daun Tebu Basah Namanya Momol"
+    },
+    {
+      "id": "242",
+      "category": "Jenenge Godhong",
+      "jawa": "Godhong Tebu Garing Jenenge Rapak ",
+      "translate": "Daun Tebu Kering Namany Rapak"
+    },
+    {
+      "id": "243",
+      "category": "Jenenge Godhong",
+      "jawa": "Godhong Tela Jenenge Jlegor",
+      "translate": "Daun Ubi Namanya Jlegor"
+    },
+    {
+      "id": "244",
+      "category": "Jenenge Godhong",
+      "jawa": "Godhong Turi Jenenge Pethuk",
+      "translate": "Daun Turi Namanya Pethuk"
+    },
+    {
+      "id": "245",
+      "category": "Jenenge Godhong",
+      "jawa": "Godhong Waluh Jenenge Lomah-Lameh",
+      "translate": "Daun Labu Namanya Lomah-Lameh"
+    },
+    {
+      "id": "246",
+      "category": "Jenenge Godhong",
+      "jawa": "Godhong Widara Putih Jenenge Trawas",
+      "translate": "Daun Bidara Putih Namanya Trawas"
+    },
+    {
+      "id": "247",
+      "category": "Jenenge Godhong",
+      "jawa": "Godhong Wuni Jenenge Mojar",
+      "translate": "Daun Wuni Namanya Mojar"
+    },
+    {
+      "id": "248",
+      "category": "Jenenge Wit",
+      "jawa": "Wit Aren Jenenge Ruyung",
+      "translate": "Pohon Aren Namanya Ruyung"
+    },
+    {
+      "id": "249",
+      "category": "Jenenge Wit",
+      "jawa": "Wit Gedhang Jenenge Debog",
+      "translate": "Pohon Pisang Namanya Debog"
+    },
+    {
+      "id": "250",
+      "category": "Jenenge Wit",
+      "jawa": "Wit Jagung Jenenge Tebon",
+      "translate": "Pohon Jagung Namanya Tebon"
+    },
+    {
+      "id": "251",
+      "category": "Jenenge Wit",
+      "jawa": "Wit Jambe Jenenge Pucang",
+      "translate": "Pohon Jambu Namanya Pucang"
+    },
+    {
+      "id": "252",
+      "category": "Jenenge Wit",
+      "jawa": "Wit Kacang Jenenge Rendeng",
+      "translate": "Pohon Kacang Namanya Rendeng"
+    },
+    {
+      "id": "253",
+      "category": "Jenenge Wit",
+      "jawa": "Wit Kapuk Jenenge Randhu",
+      "translate": "Pohon Kapuk Namanya Randhu"
+    },
+    {
+      "id": "254",
+      "category": "Jenenge Wit",
+      "jawa": "Wit Krambil Jenenge Glugu",
+      "translate": "Pohon Kelapa Namanya Glugu"
+    },
+    {
+      "id": "255",
+      "category": "Jenenge Wit",
+      "jawa": "Wit Mlinjo Jenenge So, Bego",
+      "translate": "Pohon Melinjo Namanya So, Bego"
+    },
+    {
+      "id": "256",
+      "category": "Jenenge Wit",
+      "jawa": "Wit Pari Jenenge Damen",
+      "translate": "Pohon Padi Namanya Damen"
+    },
+    {
+      "id": "257",
+      "category": "Jenenge Wit",
+      "jawa": "Wit Pohong Jenenge Bonggol",
+      "translate": "Pohon Singkong Namanya Bonggol"
+    },
+    {
+      "id": "258",
+      "category": "Jenenge Wit",
+      "jawa": "Wit Pring Enom Jenenge Bung",
+      "translate": "Pohon Bambu Muda Namanya Bung"
+    },
+    {
+      "id": "259",
+      "category": "Jenenge Wit",
+      "jawa": "Wit Pring Tuwa Jenenge Bungkilan",
+      "translate": "Pohon Bambu Tua Namanya Bungkilan"
+    },
+    {
+      "id": "260",
+      "category": "Jenenge Wit",
+      "jawa": "Wit Siwalan Jenenge Tal, Bogor",
+      "translate": "Pohon Lontar Namanya Tal, Bogor"
+    },
+    {
+      "id": "261",
+      "category": "Jenenge Wit",
+      "jawa": "Wit Tela Jenenge Lung",
+      "translate": "Pohon Ubi Namanya Lung"
+    },
+    {
+      "id": "262",
+      "category": "Jenise Wit-Witan",
+      "jawa": "Jenenge Gedhang : Ambon, Byar, Emas, Ijo, Kepok, Kluthuk, Raja, Susu, Lsp",
+      "translate": "Namanya Pisang : Ambon, Byar, Emas, Ijo, Kepok, Kluthuk, Raja, Susu"
+    },
+    {
+      "id": "263",
+      "category": "Jenise Wit-Witan",
+      "jawa": "Jenenge Jambu : Kluthuk, Krikil, Mete, Aer, Bol, Bangkok, Darsana, Klampok",
+      "translate": "Namanya Jambu : Kluthuk, Krikil, Mete, Aer, Bol, Bangkok, Darsana, Klampok"
+    },
+    {
+      "id": "264",
+      "category": "Jenise Wit-Witan ",
+      "jawa": "Jenenge Jeruk : Bali, Keprok, Manis, Pacitan, Pecel, Purut",
+      "translate": "Namanya Jeruk : Bali, Keprok, Manis, Pacitan, Pecel, Purut"
+    },
+    {
+      "id": "265",
+      "category": "Jenise Wit-Witan",
+      "jawa": "Jenenge Klapa : Gadhing, Genjah, Hibredhah, Sawit, Taun",
+      "translate": "Namanya Kelapa : Gadhing, Genjah, Hibredhah, Sawit, Taun"
+    },
+    {
+      "id": "266",
+      "category": "Jenise Wit-Witan",
+      "jawa": "Jenenge Pari : Bengawan, Cendhani, Rajalele, Gaga, Jero, Gadhis, Ketan",
+      "translate": "Namanya Padi : Bengawan, Cendhani, Rajalele, Gaga, Jero, Gadhis, Ketan"
+    },
+    {
+      "id": "267",
+      "category": "Jenise Wit-Witan",
+      "jawa": "Jenenge Pelem : Arum Manis, Gadhung, Golek, Manalagi, Kweni, Podhang, Sengir",
+      "translate": "Namanya Mangga : Arum Manis, Gadhung, Golek, Manalagi, Kweni, Podhang, Sengir"
+    },
+    {
+      "id": "268",
+      "category": "Jenise Wit-Witan",
+      "jawa": "Jenenge Pring : Apus, Ampel, Cendhani, Gadhing, Petung, Wulung",
+      "translate": "Namanya Bambu : Apus, Ampel, Cendhani, Gadhing, Petung, Wulung"
+    },
+    {
+      "id": "269",
+      "category": "Jenenge Pala",
+      "jawa": "Pala Gumantung : woh-wohan sing gumandhuling wit sing umure cendhak (kates, gedhang, lsp)",
+      "translate": "Tanaman Menggantung : Buah – buahan  yang menggantung di pohon yang umurnya pendek  (pepaya, pisang, dll)"
+    },
+    {
+      "id": "270",
+      "category": "Jenenge Pala",
+      "jawa": "Pala kependhem : Woh-wohan sing kependhem ing lemah (tela, pohong, gembili, tales, uwi, lsp)",
+      "translate": "Tanaman Terpendam : Buah – buahan yang buahnya terpendam dalam tanah (ubi, singkong, gembili, talas, uwi, dll)"
+    },
+    {
+      "id": "271",
+      "category": "Jenenge Pala",
+      "jawa": "Pala Kesimpar : woh-wohan sing wite rumambat (timun, krai, waluh, besusu, semangka, lsp)",
+      "translate": "Tanaman Merambat : Buah–buahan yang pohonnya merambat (timun, krai, labu, bengkoang, semangka, dll)"
+    },
+    {
+      "id": "272",
+      "category": "Jenenge Pala",
+      "jawa": "Pala Kitri/Kirna : Tetanduran ing pekarangan kang umure dawa (jeruk, jangka, pelem, duren, kelapa, lsp)",
+      "translate": "Tanaman Kitri/Kirna : Buah–buahan yang menggantung di pohon yang umurnya panjang (jeruk, jangka, mangga, durian, kealapa, dll)"
+    },
+    {
+      "id": "273",
+      "category": "Jenenge Pala",
+      "jawa": "Palawija : Taneman kang tinandur ing tegal sakliyane pari (jagung, kedhele, wijen, lsp)",
+      "translate": "Palawija : Tanaman yang ada di sawah kecuali padi (jagung, kedelai, wijen, dll)"
+    },
+    {
+      "id": "274",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Ampal Jenenge Embung",
+      "translate": "Anak Ampal Namanya Embung"
+    },
+    {
+      "id": "275",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Angrang Jenenge Kroto",
+      "translate": "Anak Semut Merah Namanya Kroto"
+    },
+    {
+      "id": "276",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Asu Jenenge Kirik",
+      "translate": "Anak Anjing Namanya Kirik"
+    },
+    {
+      "id": "277",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Ayam (pitik) Jenenge Kuthuk",
+      "translate": "Anak Ayam Namanya Kuthuk"
+    },
+    {
+      "id": "278",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Babi Jenenge Gembluk",
+      "translate": "Anak Babi Namnya Gembluk"
+    },
+    {
+      "id": "279",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Bandeng Jenenge Nener",
+      "translate": "Anak Bandeng Namanya Nener"
+    },
+    {
+      "id": "280",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Bantheng Jenenge Wareng ",
+      "translate": "Anak Banteng Namanya Wareng"
+    },
+    {
+      "id": "281",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Banyak Jenenge Blengur",
+      "translate": "Anak Angsa Namanya Blengur"
+    },
+    {
+      "id": "282",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Baya Jenenge Rete",
+      "translate": "Anak Buaya Namanya Rete"
+    },
+    {
+      "id": "283",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Bebek Jenenge Meri",
+      "translate": "Anak Bebek Namanya Meri"
+    },
+    {
+      "id": "284",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Bethik Jenenge Menter",
+      "translate": "Anak Bethik Namanya Menter "
+    },
+    {
+      "id": "285",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Blanak Jenenge Sendha",
+      "translate": "Anak Belanak Namanya Sendha"
+    },
+    {
+      "id": "286",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Brati Jenenge Tongki",
+      "translate": "Anak Brati Namanya Tongki"
+    },
+    {
+      "id": "287",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Budheng Jenenge Kowe",
+      "translate": "Anak Budheng Namanya Kowe"
+    },
+    {
+      "id": "288",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Bulus Jenenge Ketul",
+      "translate": "Anak Bulus Namanya Ketul"
+    },
+    {
+      "id": "289",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Cacing Jenenge Lur",
+      "translate": "Anak Cacing Namanya Lur"
+    },
+    {
+      "id": "290",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Cecak Jenenge Sawiyah",
+      "translate": "Anak Cicak Namanya Sawiyah"
+    },
+    {
+      "id": "291",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Celeng Jenenge Genjik",
+      "translate": "Anak Babi Hutan Namanya Genjik"
+    },
+    {
+      "id": "292",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Coro Jenenge Mendhet",
+      "translate": "Anak Kecoa Namanya Mendhet"
+    },
+    {
+      "id": "293",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Dara Jenenge Piyik",
+      "translate": "Anak Dara Namanya Piyik"
+    },
+    {
+      "id": "294",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Dhorang Jenenge Tamper",
+      "translate": "Anak Dhorang Namanya Tamper"
+    },
+    {
+      "id": "295",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Emprit Jenenge Indhil",
+      "translate": "Anak Emprit Namanya Indhil"
+    },
+    {
+      "id": "296",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Gagak Jenenge Engkak",
+      "translate": "Anak Gagak Namanya Engkak"
+    },
+    {
+      "id": "297",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Gajah Jenenge Bledug",
+      "translate": "Anak Gajah Namanya Bledug"
+    },
+    {
+      "id": "298",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Gangsir Jenenge Clondho",
+      "translate": "Anak Gangsir Namanya Clondho"
+    },
+    {
+      "id": "299",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Garangan Jenenge Rase",
+      "translate": "Anak Garangan Namanya Rase"
+    },
+    {
+      "id": "300",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Garengpung Jenenge Drungkuk",
+      "translate": "Anak Garengpung Namanya Drungkuk"
+    },
+    {
+      "id": "301",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Gemak Jenenge Drigul",
+      "translate": "Anak Burung Puyuh Namanya Drigul"
+    },
+    {
+      "id": "302",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Glathik Jenenge Cecrekan",
+      "translate": "Anak Glatik Namanya Cecrekan"
+    },
+    {
+      "id": "303",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Gundhik Jenenge Laron/Rayap",
+      "translate": "Anak Gundik Namanya Laron/Rayap"
+    },
+    {
+      "id": "304",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Iwak Jenenge Beyong",
+      "translate": "Anak Ikan Namanya Beyong"
+    },
+    {
+      "id": "305",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Jangkrik Jenenge Gendholo",
+      "translate": "Anak Jangkrik Namanya Gendholo"
+    },
+    {
+      "id": "306",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Jaran Jenenge Belo",
+      "translate": "Anak Kuda Namanya Belo"
+    },
+    {
+      "id": "307",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Kadhal Jenenge Tobil",
+      "translate": "Anak Kadal Namanya Tobil"
+    },
+    {
+      "id": "308",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Kakap Jenenge Caplak",
+      "translate": "Anak Kakap Namanya Caplak"
+    },
+    {
+      "id": "309",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Kalajengking Jenenge Ketupa",
+      "translate": "Anak Kalajengking Namanya Ketupa"
+    },
+    {
+      "id": "310",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Kancil Jenenge Kenthi",
+      "translate": "Anak Kancil Namanya Kenthi"
+    },
+    {
+      "id": "311",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Kebo Jenenge Gudel",
+      "translate": "Anak Kerbau Namanya Gudel"
+    },
+    {
+      "id": "312",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Kecapung Jenenge Jenthit",
+      "translate": "Anak Capung Namanya Jenthit"
+    },
+    {
+      "id": "313",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Kemangga Jenenge Ceriwi",
+      "translate": "Anak Laba-Laba Namanya Ceriwi"
+    },
+    {
+      "id": "314",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Kepik Jenenge Mreki",
+      "translate": "Anak Kepik Namanya Mreki"
+    },
+    {
+      "id": "315",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Kidang Jenenge Kompreng",
+      "translate": "Anak Kijang Namanya Kompreng"
+    },
+    {
+      "id": "316",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Kimar Jenenge Kedah",
+      "translate": "Anak Keledai Namanya Kedah"
+    },
+    {
+      "id": "317",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Kinjeng Jenenge Senggutru",
+      "translate": "Anak Capung Namanya Senggutru"
+    },
+    {
+      "id": "318",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Kinjeng Dom Jenenge Undur-Undur",
+      "translate": "Anak Capung Jarum Namanya Undur-Undur"
+    },
+    {
+      "id": "319",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Kintel Jenenge Kentus",
+      "translate": "Anak Belentung Namanya Kentus"
+    },
+    {
+      "id": "320",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Kethek Jenenge Munyuk/Kenyung",
+      "translate": "Anak Monyet Namanya Munyuk/Kenyung"
+    },
+    {
+      "id": "321",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Kodhok Jenenge Precil",
+      "translate": "Anak Katak Namanya Precil"
+    },
+    {
+      "id": "322",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Kombang Jenenge Engkuk",
+      "translate": "Anak Kumbang Namanya Engkuk"
+    },
+    {
+      "id": "323",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Konang Jenenge Endrak",
+      "translate": "Anak Kunang Namanya Endrak"
+    },
+    {
+      "id": "324",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Kremi Jenenge Racek",
+      "translate": "Anak Kremi Namanya Racek"
+    },
+    {
+      "id": "325",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Kucing Jenenge Cemeng",
+      "translate": "Anak Kucing Namanya Cemeng"
+    },
+    {
+      "id": "326",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Kul/Keyong Jenenge Krikik",
+      "translate": "Anak Keyong Namanya Krikik"
+    },
+    {
+      "id": "327",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Kupu Jenenge Uler",
+      "translate": "Anak Kupu-Kupu Namanya Uler"
+    },
+    {
+      "id": "328",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Kura Jenenge Laos",
+      "translate": "Anak Kura-Kura Namanya Laos"
+    },
+    {
+      "id": "329",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Kuthuk Jenenge Kotesan",
+      "translate": "Anak Ikan Gabus Namanya Kotesan"
+    },
+    {
+      "id": "330",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Kwangwung Jenenge Gendhot",
+      "translate": "Anak Wangwung Namanya Gendhot"
+    },
+    {
+      "id": "331",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Laler Jenenge Set/Singgat",
+      "translate": "Anak Lalat Namanya Set/Singgat"
+    },
+    {
+      "id": "332",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Lamuk Jenenge Jenthik",
+      "translate": "Anak Lamuk Namanya Jenthik"
+    },
+    {
+      "id": "333",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Lawa Jenenge Kampret",
+      "translate": "Anak Kelelawar Namanya Kampret"
+    },
+    {
+      "id": "334",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Lele Jenenge Jabrisan",
+      "translate": "Anak Lele Namanya Jabrisan"
+    },
+    {
+      "id": "335",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Lemut Jenenge Uget-Uget",
+      "translate": "Anak Nyamuk Namanya Uget-Uget"
+    },
+    {
+      "id": "336",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Lintah Jenenge Pacet",
+      "translate": "Anak Lintah Namanya Pacet"
+    },
+    {
+      "id": "337",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Lisang Jenenge Beles",
+      "translate": "Anak Lingsang Namanya Beles"
+    },
+    {
+      "id": "338",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Lodan Jenenge Jengkelong",
+      "translate": "Anak Paus Namanya Jengkelong"
+    },
+    {
+      "id": "339",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Lutung Jenenge Kenyung",
+      "translate": "Anak Lutung Namanya Kenyung"
+    },
+    {
+      "id": "340",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Luwak Jenenge Kuwuk",
+      "translate": "Anak Musang Namanya Kuwuk"
+    },
+    {
+      "id": "341",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Luwing Jenenge Gonggo",
+      "translate": "Anak Kaki Seribu Namanya Gonggo"
+    },
+    {
+      "id": "342",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Macan Jenenge Gogor",
+      "translate": "Anak Macan Namanya Gogor"
+    },
+    {
+      "id": "343",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Manuk Jenenge Piyik",
+      "translate": "Anak Burung Namanya Piyik"
+    },
+    {
+      "id": "344",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Menjangan Jenenge Kompreng",
+      "translate": "Anak Rusa Namanya Kompreng"
+    },
+    {
+      "id": "345",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Menthok Jenenge Minthi",
+      "translate": "Anak Entok Namanya Minthi"
+    },
+    {
+      "id": "346",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Merak Jenenge Uncung",
+      "translate": "Anak Merak Namanya Uncung"
+    },
+    {
+      "id": "347",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Nyambik Jenenge Slira",
+      "translate": "Anak Biawak Namanya Slira"
+    },
+    {
+      "id": "348",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Pe Jenenge Genyong",
+      "translate": "Anak Pe Namanya Genyong"
+    },
+    {
+      "id": "349",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Pleting Jenenge Jaringan",
+      "translate": "Anak Pleting Namanya Jaringan"
+    },
+    {
+      "id": "350",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Sapi Jenenge Pedhet",
+      "translate": "Anak Sapi Namanya Pedhet"
+    },
+    {
+      "id": "351",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Sembilang Jenenge Lenger",
+      "translate": "Anak Sembilang Namanya Lenger"
+    },
+    {
+      "id": "352",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Singa Jenenge Dibal",
+      "translate": "Anak Singa Namanya Dibal"
+    },
+    {
+      "id": "353",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Tambra Jenenge Bokol",
+      "translate": "Anak Tambra Namanya Bokol"
+    },
+    {
+      "id": "354",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Tawon Jenenge Gana",
+      "translate": "Anak Tawon Namanya Gana"
+    },
+    {
+      "id": "355",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Tekek Jenenge Celolo",
+      "translate": "Anak Tokek Namanya Celolo"
+    },
+    {
+      "id": "356",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Tikus Jenenge Cindhil",
+      "translate": "Anak Tikus Namanya Cindhil"
+    },
+    {
+      "id": "357",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Tongkol Jenenge Cengkik",
+      "translate": "Anak Tongkol Namanya Cengkik"
+    },
+    {
+      "id": "358",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Tumo Jenenge Kor",
+      "translate": "Anak Kutu Namanya Kor"
+    },
+    {
+      "id": "359",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Ula Jenenge Kisi/Ucet",
+      "translate": "Anak Ular Namanya Kisi/Ucet"
+    },
+    {
+      "id": "360",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Urang Jenenge Grago",
+      "translate": "anak Udang Namanya Grago"
+    },
+    {
+      "id": "361",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Wader Jenenge Sriwet",
+      "translate": "Anak Wader Namanya Sriwet"
+    },
+    {
+      "id": "362",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Wagal Jenenge Jendhil",
+      "translate": "Anak Wagal Namanya Jendhil"
+    },
+    {
+      "id": "363",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Walang Jenenge Dhogol",
+      "translate": "Anak Walang Namanya Dhogol"
+    },
+    {
+      "id": "364",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Warak Jenenge Plenging",
+      "translate": "Anak Badak Namanya Plenging"
+    },
+    {
+      "id": "365",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Wedhus Jenenge Cempe",
+      "translate": "Anak Kambing Namanya Cempe"
+    },
+    {
+      "id": "366",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Welut Jenenge Udhet",
+      "translate": "Anak Belut Namanya Udhet"
+    },
+    {
+      "id": "367",
+      "category": "Jenenge Anak Kewan",
+      "jawa": "Anak Yuyu Jenenge Beyes",
+      "translate": "Anak Kepiting Namanya Beyes"
+    },
+    {
+      "id": "368",
+      "category": "Jenenge Turunane Kewan",
+      "jawa": "Turunane Ayam Biyasa + Ayam Alas Jenenge Bekisar",
+      "translate": "Keturunannya Ayam Biasa + Ayam Hutan Namanya Bekisar"
+    },
+    {
+      "id": "369",
+      "category": "Jenenge Turunane Kewan",
+      "jawa": "Turunane Ayam Biyasa + Ayam Kate Jenenge Wareng",
+      "translate": "Keturunannya Ayam Biasa + Ayam Kate Namanya Wareng"
+    },
+    {
+      "id": "370",
+      "category": "Jenenge Turunane Kewan",
+      "jawa": "Turunane Ayam Biyasa + Bekisar Jenenge Bekikuk",
+      "translate": "Keturunannya Ayam Biasa + Bekisar Namanya Bekikuk"
+    },
+    {
+      "id": "371",
+      "category": "Jenenge Turunane Kewan",
+      "jawa": "Turunane Bebek + Menthog Jenenge Brati",
+      "translate": "Keturunannya Bebek + Entok Namanya Brati"
+    },
+    {
+      "id": "372",
+      "category": "Jenenge Turunane Kewan",
+      "jawa": "Turunane Jaran + Kuldi Jenenge Bihal",
+      "translate": "Keturunannya Kuda + Kuldi Namanya Bihal"
+    },
+    {
+      "id": "373",
+      "category": "Jenenge Gaman Kewan",
+      "jawa": "Gamane Ayam Jago Jenenge Cucuk, Jalu",
+      "translate": "Senjatanya Ayam Jago Namanya Cucuk, Jalu"
+    },
+    {
+      "id": "374",
+      "category": "Jenenge Gaman Kewan",
+      "jawa": "Gamane Asu Jenenge Siyung, Kuku",
+      "translate": "Senjatanya Anjing Namanya Siyung, Kuku"
+    },
+    {
+      "id": "375",
+      "category": "Jenenge Gaman Kewan",
+      "jawa": "Gamane Gajah Jenenge Gadhing, Tlate",
+      "translate": "Sejatanya Gajah Namanya Gadhing, Tlate"
+    },
+    {
+      "id": "376",
+      "category": "Jenenge Gaman Kewan",
+      "jawa": "Gamane Jaran Jenenge Sikil",
+      "translate": "Senjatanya Kuda Namanya Sikil (Kaki)"
+    },
+    {
+      "id": "377",
+      "category": "Jenenge Gaman Kewan",
+      "jawa": "Gamane Kebo, Sapi Jenenge Sungu",
+      "translate": "Senjatanya Kerbau, Sapi Namanya Sungu (Tanduk)"
+    },
+    {
+      "id": "381",
+      "category": "Jenenge Gaman Kewan",
+      "jawa": "Gamane Landhak Jenenge Wulu Eri",
+      "translate": "Senjatanya Landak Namanya Bulu Duri"
+    },
+    {
+      "id": "382",
+      "category": "Jenenge Gaman Kewan",
+      "jawa": "Gamane Lele Jenenge Patil",
+      "translate": "Senjatanya Lele Namanya Pathil"
+    },
+    {
+      "id": "383",
+      "category": "Jenenge Gaman Kewan",
+      "jawa": "Gamane Macan Jenenge Kuku, Siyung",
+      "translate": "Senjatanya Macan Namanya Kuku, Siyung"
+    },
+    {
+      "id": "384",
+      "category": "Jenenge Gaman Kewan",
+      "jawa": "Gamane Tikus Jenenge Kuku, Untu",
+      "translate": "Senjatanya Tikus Namanya Kuku, Gigi"
+    },
+    {
+      "id": "385",
+      "category": "Jenenge Gaman Kewan",
+      "jawa": "Gamane Tikus Clurut, Rase Jenenge Ganda",
+      "translate": "Senjatanya Tikus Celurut, Musang Namanya Ganda"
+    },
+    {
+      "id": "386",
+      "category": "Jenenge Gaman Kewan",
+      "jawa": "Gamane Ula Jenenge Wisa",
+      "translate": "Senjatanya Ular Namanya Bisa"
+    },
+    {
+      "id": "387",
+      "category": "Jenenge Gaman Kewan",
+      "jawa": "Gamane Warak (Badhag) Jenenge Cula",
+      "translate": "Senjatanya Badak Namanya Cula"
+    },
+    {
+      "id": "388",
+      "category": "Jenenge Gaman Kewan",
+      "jawa": "Gamane Yuyu, Kepiting Jenenge Supit",
+      "translate": "Senjatanya Yuyu, Kepiting Namanya Supit"
+    },
+    {
+      "id": "389",
+      "category": "Kabiyasan Solahe Kewan",
+      "jawa": "Solahe Asu : Nyander, Nyethek",
+      "translate": "Perilaku Anjing : Nyander, Nyatek"
+    },
+    {
+      "id": "390",
+      "category": "Kabiyasan Solahe Kewan",
+      "jawa": "Solahe Ayam Babon : Memeti, Nladung",
+      "translate": "Perilaku Ayam Babon : Memeti, Nladung"
+    },
+    {
+      "id": "391",
+      "category": "Kabiyasan Solahe Kewan",
+      "jawa": "Solahe Ayam Jago : Mendel, Nladhung",
+      "translate": "Perilaku Ayam Jago : Mendel, Nladhung"
+    },
+    {
+      "id": "392",
+      "category": "Kabiyasan Solahe Kewan",
+      "jawa": "Solahe Baya : Nyamber, Nyarab",
+      "translate": "Perilaku Buaya : Nyamber, Nyarab"
+    },
+    {
+      "id": "393",
+      "category": "Kabiyasan Solahe Kewan",
+      "jawa": "Solahe Bebek : Mbondholi, Nyosor",
+      "translate": "Perilaku Bebek : Mbondholi, Nyosor"
+    },
+    {
+      "id": "394",
+      "category": "Kabiyasan Solahe Kewan",
+      "jawa": "Solahe Celeng : Nggandhil, Nyronggot",
+      "translate": "Perilaku Babi Hutan : Nggandhil, Nyronggot"
+    },
+    {
+      "id": "395",
+      "category": "Kabiyasan Solahe Kewan",
+      "jawa": "Solahe Dara : Kalangan",
+      "translate": "Perilaku Dara : Kalangan"
+    },
+    {
+      "id": "396",
+      "category": "Kabiyasan Solahe Kewan",
+      "jawa": "Solahe Gajah : Lembehan Tlale",
+      "translate": "Perilaku Gajah : Lembehan Tlate"
+    },
+    {
+      "id": "397",
+      "category": "Kabiyasan Solahe Kewan",
+      "jawa": "Solahe Iwak : Nylurut",
+      "translate": "Perilaku Ikan : Nylurut"
+    },
+    {
+      "id": "398",
+      "category": "Kabiyasan Solahe Kewan",
+      "jawa": "Solahe Jaran : Mbrakot, Nyepak",
+      "translate": "Perilaku Kuda : Mbrakot, Nyepak"
+    },
+    {
+      "id": "399",
+      "category": "Kabiyasan Solahe Kewan",
+      "jawa": "Solahe Kebo : Nyundhang",
+      "translate": "Perilaku Kerbau : Nyundhang"
+    },
+    {
+      "id": "400",
+      "category": "Kabiyasan Solahe Kewan",
+      "jawa": "Solahe Kidang : Nggayor",
+      "translate": "Perilaku Kijang : Nggayor"
+    },
+    {
+      "id": "401",
+      "category": "Kabiyasan Solahe Kewan",
+      "jawa": "Solahe Kucing : Nyakar",
+      "translate": "Perilaku Kucing : Nyakar"
+    },
+    {
+      "id": "402",
+      "category": "Kabiyasan Solahe Kewan",
+      "jawa": "Solahe Kutuk : Milar",
+      "translate": "Perilaku Ikan Gabus : Milar"
+    },
+    {
+      "id": "403",
+      "category": "Kabiyasan Solahe Kewan",
+      "jawa": "Solahe Lele : Matil",
+      "translate": "Perilaku Lele : Matil"
+    },
+    {
+      "id": "404",
+      "category": "Kabiyasan Solahe Kewan",
+      "jawa": "Solahe Macan : Nubruk",
+      "translate": "Perilaku Macan : Nubruk"
+    },
+    {
+      "id": "405",
+      "category": "Kabiyasan Solahe Kewan",
+      "jawa": "Solahe Manuk : Nyamber",
+      "translate": "Perilaku Burung : Nyamber"
+    },
+    {
+      "id": "406",
+      "category": "Kabiyasan Solahe Kewan",
+      "jawa": "Solahe Sapi : Nyepak, Nyundang",
+      "translate": "Perilaku Sapi : Nyepak, Nyundang"
+    },
+    {
+      "id": "407",
+      "category": "Kabiyasan Solahe Kewan",
+      "jawa": "Solahe Tikus : Nyanyah, Ngrikiti",
+      "translate": "Perilaku Tikus : Nyanyah, Ngrikiti"
+    },
+    {
+      "id": "409",
+      "category": "Kabiyasan Solahe Kewan",
+      "jawa": "Solahe Wedhus : Mbijig",
+      "translate": "Perilaku Kambing : Mbijig"
+    },
+    {
+      "id": "410",
+      "category": "Swarane Kewan",
+      "jawa": "Swara Asu : Mbaung/Njeguk",
+      "translate": "Suara Anjing : Mbaung/Njeguk"
+    },
+    {
+      "id": "411",
+      "category": "Swarane Kewan",
+      "jawa": "Swara Babon : Petok-Petok",
+      "translate": "Suara Ayam Babon : Petok-Petok"
+    },
+    {
+      "id": "412",
+      "category": "Swarane Kewan",
+      "jawa": "Swara Banyak : Pating Krengah",
+      "translate": "Suara Banyak : Pating Krengah"
+    },
+    {
+      "id": "413",
+      "category": "Swarane Kewan",
+      "jawa": "Swara Bebek : Kwek-Kwek",
+      "translate": "Suara Bebek : Kwek-Kwek"
+    },
+    {
+      "id": "414",
+      "category": "Swarane Kewan",
+      "jawa": "Swara Cecak : Ngecek",
+      "translate": "Suara Cicak : Ngecek"
+    },
+    {
+      "id": "415",
+      "category": "Swarane Kewan",
+      "jawa": "Swara Dara : Mbekur",
+      "translate": "Suara Burung Dara : Mbekur"
+    },
+    {
+      "id": "416",
+      "category": "Swarane Kewan",
+      "jawa": "Swara Gajah : Ngempret",
+      "translate": "Suara Gajah : Ngempret"
+    },
+    {
+      "id": "417",
+      "category": "Swarane Kewan",
+      "jawa": "Swara Gangsir : Ngenthir",
+      "translate": "Suara Jangkrik Besar : Ngenthir"
+    },
+    {
+      "id": "418",
+      "category": "Swarane Kewan",
+      "jawa": "Swara Garengpung : Ngrengreng",
+      "translate": "Suara Tonggeret : Ngrengreng"
+    },
+    {
+      "id": "419",
+      "category": "Swarane Kewan",
+      "jawa": "Swara Gemak : Ngelung ",
+      "translate": "Suara Burung Puyuh : Ngelung"
+    },
+    {
+      "id": "420",
+      "category": "Swarane Kewan",
+      "jawa": "Swara Jago : Kluruk",
+      "translate": "Suara Ayam Jantan : Kluruk"
+    },
+    {
+      "id": "421",
+      "category": "Swarane Kewan",
+      "jawa": "Swara Jalak : Ngoceh",
+      "translate": "Suara Jalak : Ngoceh"
+    },
+    {
+      "id": "422",
+      "category": "Swarane Kewan",
+      "jawa": "Swara Jaran : Beker/Bengingeh",
+      "translate": "Suara Kuda : Beker/Bengingeh"
+    },
+    {
+      "id": "423",
+      "category": "Swarane Kewan",
+      "jawa": "Swara Jangkrik : Ngerik",
+      "translate": "Suara Jangkrik : Ngerik"
+    },
+    {
+      "id": "424",
+      "category": "Swarane Kewan",
+      "jawa": "Swara Kebo : Ngowek",
+      "translate": "Suara Kerbau : Ngowek"
+    },
+    {
+      "id": "425",
+      "category": "Swarane Kewan",
+      "jawa": "Swara Kethek : Mere",
+      "translate": "Suara Monyet : Mere"
+    },
+    {
+      "id": "426",
+      "category": "Swarane Kewan",
+      "jawa": "Swara Kidang : Mbekik",
+      "translate": "Suara Kijang : Mbekik"
+    },
+    {
+      "id": "427",
+      "category": "Swarane Kewan",
+      "jawa": "Swara Kodhok : Ngorek",
+      "translate": "Suara Katak : Ngorek"
+    },
+    {
+      "id": "428",
+      "category": "Swarane Kewan",
+      "jawa": "Swara Kombang : Mbrengengeng",
+      "translate": "Suara Kumbang : Mbrengengeng"
+    },
+    {
+      "id": "429",
+      "category": "Swarane Kewan",
+      "jawa": "Swara Kucing : Ngeong",
+      "translate": "Suara Kucing : Ngeong"
+    },
+    {
+      "id": "430",
+      "category": "Swarane Kewan",
+      "jawa": "Swara Kuthilang : Ngoceh",
+      "translate": "Suara Kutilang : Ngoceh"
+    },
+    {
+      "id": "431",
+      "category": "Swarane Kewan",
+      "jawa": "Swara Kuthuk : Kiyik-Kiyik",
+      "translate": "Suara Ikan Gabus : Kiyik-Kiyik"
+    },
+    {
+      "id": "432",
+      "category": "Swarane Kewan",
+      "jawa": "Swara Kutut : Manggung",
+      "translate": "Suara Perkutut : Manggung"
+    },
+    {
+      "id": "433",
+      "category": "Swarane Kewan",
+      "jawa": "Swara Lamuk : Nging-nging",
+      "translate": "Suara Anak Nyamuk : Nging-Nging"
+    },
+    {
+      "id": "434",
+      "category": "Swarane Kewan",
+      "jawa": "Swara Macan : Mbaung/Anggero",
+      "translate": "Suara Macan : Mbaung/Anggero"
+    },
+    {
+      "id": "435",
+      "category": "Swarane Kewan",
+      "jawa": "Swara Menco : Ngoceh",
+      "translate": "Suara Menco : Ngoceh "
+    },
+    {
+      "id": "436",
+      "category": "Swarane Kewan",
+      "jawa": "Swara Menjangan : Mbekik",
+      "translate": "Suara Rusa : Mbekik"
+    },
+    {
+      "id": "437",
+      "category": "Swarane Kewan",
+      "jawa": "Swara Merak : Nyengungong",
+      "translate": "Suara Merak : Nyegungong"
+    },
+    {
+      "id": "438",
+      "category": "Swarane Kewan",
+      "jawa": "Swara Sapi : Mbengah",
+      "translate": "Suara Sapi : Mbengah"
+    },
+    {
+      "id": "439",
+      "category": "Swarane Kewan",
+      "jawa": "Swara Singa : Nggero",
+      "translate": "Suara Singa : Nggero"
+    },
+    {
+      "id": "440",
+      "category": "Swarane Kewan",
+      "jawa": "Swara Tikus : Citcit",
+      "translate": "Suara Tikus : Citcit"
+    },
+    {
+      "id": "441",
+      "category": "Swarane Kewan",
+      "jawa": "Swara Ula : Ngakak/Ngeses",
+      "translate": "Suara Ular : Ngakak/Ngeses"
+    },
+    {
+      "id": "442",
+      "category": "Swarane Kewan",
+      "jawa": "Swara Wedhus : Ngembek",
+      "translate": "Suara Kambing : Ngembek"
+    },
+    {
+      "id": "443",
+      "category": "Swara Ngundang Kewan",
+      "jawa": "Ngundang Asu : jih, jih, jih",
+      "translate": "Manggil Anjing : jih, jih, jih"
+    },
+    {
+      "id": "444",
+      "category": "Swara Ngundang Kewan",
+      "jawa": "Ngundang Banyak : kati, kati, kati",
+      "translate": "Manggil Angsa : kati, kati, kati"
+    },
+    {
+      "id": "445",
+      "category": "Swara Ngundang Kewan",
+      "jawa": "Ngundang Bebek : ri, ri, ri",
+      "translate": "Manggil Bebek : ri, ri, ri"
+    },
+    {
+      "id": "446",
+      "category": "Swara Ngundang Kewan",
+      "jawa": "Ngundang Dara : tu, tu, tu",
+      "translate": "Manggil Burung Dara : tu, tu, tu"
+    },
+    {
+      "id": "447",
+      "category": "Swara Ngundang Kewan",
+      "jawa": "Ngundang Jaran : ki, ki, ki",
+      "translate": "Manggil Kuda : ki, ki, ki"
+    },
+    {
+      "id": "448",
+      "category": "Swara Ngundang Kewan",
+      "jawa": "Ngundang Kebo : oek, oek, oek",
+      "translate": "Manggil Kerbau : oek, oek, oek"
+    },
+    {
+      "id": "449",
+      "category": "Swara Ngundang Kewan",
+      "jawa": "Ngundang Kucing : pus, pus, pus",
+      "translate": "Manggil Kucing : pus, pus, pus"
+    },
+    {
+      "id": "450",
+      "category": "Swara Ngundang Kewan",
+      "jawa": "Ngundang Menthog : thi, thi, thi",
+      "translate": "Manggil Entok : thi, thi, thi"
+    },
+    {
+      "id": "451",
+      "category": "Swara Ngundang Kewan",
+      "jawa": "Ngundang Pitik : kur, kur, kur",
+      "translate": "Manggil Itik : kur, kur, kur"
+    },
+    {
+      "id": "452",
+      "category": "Swara Ngundang Kewan",
+      "jawa": "Ngundang Sapi : meh, meh, mheh",
+      "translate": "Manggil Sapi : meh, meh, meh"
+    },
+    {
+      "id": "453",
+      "category": "Swara Ngundang Kewan",
+      "jawa": "Ngundang Wedhus : mi, mi, mi",
+      "translate": "Manggil Kambing : mi, mi, mi"
+    },
+    {
+      "id": "454",
+      "category": "Ulese/Rupane Kewan",
+      "jawa": "Ulese Asu : Belang",
+      "translate": "Warnanya Anjing : Belang"
+    },
+    {
+      "id": "455",
+      "category": "Ulese/Rupane Kewan",
+      "jawa": "Ulese Dara : Gambir, Megan, Klawu, Tlampik",
+      "translate": "Warnanya Dara : Gambir, Megan, Klawu, Tlampik"
+    },
+    {
+      "id": "456",
+      "category": "Ulese/Rupane Kewan",
+      "jawa": "Ulese Jago : Klawu, Wido, Wiring Galih",
+      "translate": "Warnanya Ayam Jantan : Klawu, Wido, Wiring Galih"
+    },
+    {
+      "id": "457",
+      "category": "Ulese/Rupane Kewan",
+      "jawa": "Ulese Jangkrik : Jlitheng, Jrabang, Jragem",
+      "translate": "Warnanya Jangkrik : Jlitheng, Jrabag, Jragem"
+    },
+    {
+      "id": "458",
+      "category": "Ulese/Rupane Kewan",
+      "jawa": "Ulese Jaran : Dhawuk, Kembang Duren, Jlitheng, Jragem, Rajeg, Tutul, Pancal Panggung",
+      "translate": "Warnanya Kuda : Dhawuk, Kembang Duren, Jlitheng, Jragem, Rajeg, Tutul, Pancal Panggung"
+    },
+    {
+      "id": "459",
+      "category": "Ulese/Rupane Kewan",
+      "jawa": "Ulese Kebo : Bule, Lamus",
+      "translate": "Warnanya Kerbau : Bule, Lamus"
+    },
+    {
+      "id": "460",
+      "category": "Ulese/Rupane Kewan",
+      "jawa": "Ulese Kucing : Kembang Asem, Kembang Telon, Candra Mawa",
+      "translate": "Warnanya Kucing : Kembang Asem, Kembang Telon, Candra Mawa"
+    },
+    {
+      "id": "461",
+      "category": "Ulese/Rupane Kewan",
+      "jawa": "Ulahe Macan : Loreng, Tutul",
+      "translate": "Warnanya Macan : Loreng, Tutul"
+    },
+    {
+      "id": "462",
+      "category": "Ulese/Rupane Kewan",
+      "jawa": "Ulese Pitik : Blorok, Gondhang, Lurik Sekul, Sangga Buwana, Tulak",
+      "translate": "Warnanya Itik : Blorok, Gondhang, Lurik Sekul, Sangga Buwana, Tulak"
+    },
+    {
+      "id": "463",
+      "category": "Ulese/Rupane Kewan",
+      "jawa": "Ulese Sapi : Plonthang",
+      "translate": "Warnanya Sapi : Plonthang"
+    },
+    {
+      "id": "464",
+      "category": "Ulese/Rupane Kewan",
+      "jawa": "Ulese Wedhus : Kendhit, Ireng Mulus",
+      "translate": "Warnanya Kambing : Kendhit, Ireng Mulus"
+    },
+    {
+      "id": "465",
+      "category": "Sebutane Mangan",
+      "jawa": "Mangane Asu, Babi : Nocok",
+      "translate": "Makannya Anjing, Babi : Nocok"
+    },
+    {
+      "id": "466",
+      "category": "Sebutane Mangan",
+      "jawa": "Mangane Baya : Nyaplok",
+      "translate": "Makannya Buaya : Nyaplok"
+    },
+    {
+      "id": "467",
+      "category": "Sebutane Mangan",
+      "jawa": "Mangane Buta, Diyu : Mbadhog",
+      "translate": "Makannya Buta, Diyu : Mbadhog"
+    },
+    {
+      "id": "468",
+      "category": "Sebutane Mangan",
+      "jawa": "Mangane Celeng : Nggogos",
+      "translate": "Makannya Babi Hutan : Nggogos"
+    },
+    {
+      "id": "469",
+      "category": "Sebutane Mangan",
+      "jawa": "Mangane Glathik : Nisil",
+      "translate": "Makannya Gelatik : Nisil"
+    },
+    {
+      "id": "471",
+      "category": "Sebutane Mangan",
+      "jawa": "Mangane Kethek : Ngrokoti, Ngemil",
+      "translate": "Makannya Monyet, Ngrokoti, Ngemil"
+    },
+    {
+      "id": "472",
+      "category": "Sebutane Mangan",
+      "jawa": "Mangane Macan : Nggaglak",
+      "translate": "Makannya Macan : Nggaglak"
+    },
+    {
+      "id": "473",
+      "category": "Sebutane Mangan",
+      "jawa": "Mangane Pitik, Manuk : Nothol, Nucuk",
+      "translate": "Makannya Itik, Burung : Nothol, Nucuk"
+    },
+    {
+      "id": "474",
+      "category": "Sebutane Mangan",
+      "jawa": "Mangane Singa : Mangsa ",
+      "translate": "Makannya Singa : Mangsa "
+    },
+    {
+      "id": "475",
+      "category": "Sebutane Mangan",
+      "jawa": "Mangane Tikus : Ngrikiti",
+      "translate": "Makannya Tikus : Ngrikiti"
+    },
+    {
+      "id": "476",
+      "category": "Sebutane Mangan",
+      "jawa": "Mangane Ula : Nguntal",
+      "translate": "Makannya Ular : Nguntal"
+    },
+    {
+      "id": "477",
+      "category": "Sebutane Mangan",
+      "jawa": "Mangane Wedhus : Nyenggut, Nggayemi",
+      "translate": "Makannya Kambing : Nyenggut, Nggayemi"
+    },
+    {
+      "id": "479",
+      "category": "Parikan",
+      "jawa": "Wedang Bubuk Gula Jawa | Yen Kepethuk Ati Lega",
+      "translate": ""
+    },
+    {
+      "id": "480",
+      "category": "Parikan",
+      "jawa": "Sepet-Sepet Sawone Mentah | Diempet-Empet Selak Ra Betah",
+      "translate": ""
+    },
+    {
+      "id": "481",
+      "category": "Parikan",
+      "jawa": "Wajik Klethik Gula Jawa | Luwih Becik Sing Prasaja",
+      "translate": ""
+    },
+    {
+      "id": "482",
+      "category": "Parikan",
+      "jawa": "Godhong Kecipir Mrambat Kawat | Najan Gak Mampir Nanging Liwat",
+      "translate": ""
+    },
+    {
+      "id": "483",
+      "category": "Parikan",
+      "jawa": "Kembang Jagung Dipethik Cina | Barang wis Kadhung Dikapakna",
+      "translate": ""
+    },
+    {
+      "id": "484",
+      "category": "Parikan",
+      "jawa": "Manuk Emprit Menclok Godhong Tebu | Dadi Murid Sing Sregep Sinau",
+      "translate": ""
+    },
+    {
+      "id": "485",
+      "category": "Parikan",
+      "jawa": "Manuk Kutut Manggunge Ngganter | Yen Ra Nurut Bisa Keblinger",
+      "translate": ""
+    },
+    {
+      "id": "486",
+      "category": "Parikan",
+      "jawa": "Bayem Rine Ketan Pulukane | Ayem Atine Keturutan Kekarepane",
+      "translate": ""
+    },
+    {
+      "id": "487",
+      "category": "Parikan",
+      "jawa": "Kripik Gedhang Godhong Tela | Sethithik Endhang Pada Krasa",
+      "translate": ""
+    },
+    {
+      "id": "488",
+      "category": "Parikan",
+      "jawa": "Kecipir Mrambat Kawat | Nadyan Gak Mampir Nek Ketok Liwat",
+      "translate": ""
+    },
+    {
+      "id": "489",
+      "category": "Parikan",
+      "jawa": "Esuk Nyuling Sore Nyuling | Sulinge Arek Surabaya | Esuk Eling Sore Eling | nSing Dieling Ora Rumangsa",
+      "translate": ""
+    },
+    {
+      "id": "490",
+      "category": "Parikan",
+      "jawa": "Yen Kembang Kembange Kacang | Dudu Kembange Puspa Nyidra | Sih Cilik DiKudang-Kudang | Bareng Gedhe Gawe Rekasa",
+      "translate": ""
+    },
+    {
+      "id": "491",
+      "category": "Parikan",
+      "jawa": "Awan-Awan Aja Keluyuran | Ana Pak Mantri Numpak Sekuter | Kapan-Kapan Aku Keturutan | Duwe Kanca Sinaune Pinter",
+      "translate": ""
+    },
+    {
+      "id": "492",
+      "category": "Parikan",
+      "jawa": "Esuk Nembang Sore Nembang | Tembangane Asmaradana | Esuk Ngadhang Sore Ngadhang | Sing Diadhang Ra Teka-Teka",
+      "translate": ""
+    },
+    {
+      "id": "493",
+      "category": "Parikan",
+      "jawa": "Omah Gentheng Saponono | Cagak Pilar Kapuren Putih | Abot Entheng Lakonono | Ati Susah Bakale Pulih",
+      "translate": ""
+    },
+    {
+      "id": "494",
+      "category": "Parikan",
+      "jawa": "Kulon Kali Wetan Kali | Arep Liwat Ora Ana Wote | Wetan Gati Kulon Gati | Arep Ditinggal Padha Abote",
+      "translate": ""
+    },
+    {
+      "id": "495",
+      "category": "Parikan",
+      "jawa": "Sawonggaling Wayange Kuno | Seng Digawe Kayune Jati | Yen Eling Sambangono | Ojo Gawe Larane Ati",
+      "translate": ""
+    },
+    {
+      "id": "496",
+      "category": "Parikan",
+      "jawa": "Neng Jombang Kampunge Sengon | Lemah Geneng Akeh Wedhine | Nadyan Ora Sambang Nek Kirim Ingon | Nek Ora Seneng Apa Mesthine",
+      "translate": ""
+    },
+    {
+      "id": "497",
+      "category": "Parikan",
+      "jawa": "Apa Gunane Meja Lan Kursi | Kuwi Pinongko Palungguhane | Apa Gunane Organisasi | Kuwi Pinongko Persatuane",
+      "translate": ""
+    },
+    {
+      "id": "498",
+      "category": "Parikan",
+      "jawa": "Nyapu Yo Nyapu | Sapu Sada Semendhe Cagak | Mlaku Yo Mlaku | Nek Ketemu Kanca Ayo Diajak",
+      "translate": ""
+    },
+    {
+      "id": "499",
+      "category": "Wangsalan",
+      "jawa": "Jenang Gula, Kowe Aja Lali (Jenang Gula : Glali)",
+      "translate": ""
+    },
+    {
+      "id": "500",
+      "category": "Wangsalan",
+      "jawa": "Ngembang Garut, Nggremeng Ora Karuan (K.Garut : Grameng)",
+      "translate": ""
+    },
+    {
+      "id": "501",
+      "category": "Wangsalan",
+      "jawa": "Mbalung Janur, Gelema Paring Usada. (Balung Janur : Sada)",
+      "translate": ""
+    },
+    {
+      "id": "502",
+      "category": "Wangsalan",
+      "jawa": "Ngembang Kacang, Mbesengut Ora Kalegan. (Kembang Kacang : Besengut-Dadi Kemaruk)",
+      "translate": ""
+    },
+    {
+      "id": "503",
+      "category": "Wangsalan",
+      "jawa": "Sekar Aren Mas, Sampun Dangu Kok Boten Kepanggih. (Sekar Aren : Dangu)",
+      "translate": ""
+    },
+    {
+      "id": "504",
+      "category": "Wangsalan",
+      "jawa": "Kembang Jambu, Kemaruk Duwe Dolanan Anyar. (Kembang Jambu : Karuk : Dadi Kemaruk)",
+      "translate": ""
+    },
+    {
+      "id": "505",
+      "category": "Wangsalan",
+      "jawa": "Roning Mlinjo, Sampun Sayah Nyuwun Ngaso. (Roning Mlinjo : So - Dadi Ngaso)",
+      "translate": ""
+    },
+    {
+      "id": "506",
+      "category": "Wangsalan",
+      "jawa": "Klapa Mudha, Yen Kalegan Paringa Apura. (Klapa Mudha : Degan - Dadi Kalegan)",
+      "translate": ""
+    },
+    {
+      "id": "507",
+      "category": "Wangsalan",
+      "jawa": "Kembang Gembili, Seneng-Seneng Oleh Rejeki. (Kembang Gembili : Seneng)",
+      "translate": ""
+    },
+    {
+      "id": "508",
+      "category": "Wangsalan",
+      "jawa": "Witing Klapa, Jawata Ing Ngarcapada. Salungune Wong Mudha Gelem Rekasa. (Jawata Ing Ngarca Pada : Wong)",
+      "translate": ""
+    },
+    {
+      "id": "509",
+      "category": "Wangsalan",
+      "jawa": "Kolik Priya, Priyagung Anjani Putra. Tuhu Eman, Wong Anom Wedi Kangelan. (Kolok Priya : Manuk Tuhu). (Anjani Putra : Anoman - dadi Anom)",
+      "translate": ""
+    },
+    {
+      "id": "510",
+      "category": "Guru Swara",
+      "jawa": "Ana Awan, Ana Pangan",
+      "translate": ""
+    },
+    {
+      "id": "511",
+      "category": "Guru Swara",
+      "jawa": "Ana Bungah, Ana Susah Iku Wis Lumrah",
+      "translate": ""
+    },
+    {
+      "id": "512",
+      "category": "Guru Swara",
+      "jawa": "Adigang, Adigung, Adiguna",
+      "translate": ""
+    },
+    {
+      "id": "513",
+      "category": "Guru Swara",
+      "jawa": "Becik, Ketitik, Ala Ketara",
+      "translate": ""
+    },
+    {
+      "id": "514",
+      "category": "Guru Swara",
+      "jawa": "Ciri Wanci, Lelai Ginawa Mati",
+      "translate": ""
+    },
+    {
+      "id": "515",
+      "category": "Guru Swara",
+      "jawa": "Desa Mawa Cara, Negara Mawa Tata",
+      "translate": ""
+    },
+    {
+      "id": "516",
+      "category": "Guru Swara",
+      "jawa": "Giri Lungsi, Jalma Tan Kena Ingina",
+      "translate": ""
+    },
+    {
+      "id": "517",
+      "category": "Guru Swara",
+      "jawa": "Gelem Obah, Mesthi Mamah",
+      "translate": ""
+    },
+    {
+      "id": "518",
+      "category": "Guru Swara",
+      "jawa": "Inggah-Inggih, Ora Kepanggih",
+      "translate": ""
+    },
+    {
+      "id": "519",
+      "category": "Guru Swara",
+      "jawa": "Ngalah, Nanging Oleh",
+      "translate": ""
+    },
+    {
+      "id": "520",
+      "category": "Guru Swara",
+      "jawa": "Ora Ngedan, Ora Keduman",
+      "translate": ""
+    },
+    {
+      "id": "521",
+      "category": "Guru Swara",
+      "jawa": "Sing Salah, Kudu Seleh",
+      "translate": ""
+    },
+    {
+      "id": "522",
+      "category": "Guru Swara",
+      "jawa": "Sing Weweh, Bakal Pikoleh",
+      "translate": ""
+    },
+    {
+      "id": "523",
+      "category": "Guru Swara",
+      "jawa": "Sing Gelem Ngalah, Bakal Luhur Wekasane",
+      "translate": ""
+    },
+    {
+      "id": "524",
+      "category": "Guru Swara",
+      "jawa": "Thenguk-Thenguk, Nemu Kethuk",
+      "translate": ""
+    },
+    {
+      "id": "525",
+      "category": "Guru Swara",
+      "jawa": "Tuwas Sayah, Ora Paedah",
+      "translate": ""
+    },
+    {
+      "id": "526",
+      "category": "Guru Swara",
+      "jawa": "Witing Tresna, Jalaran Saka Kulina",
+      "translate": ""
+    },
+    {
+      "id": "527",
+      "category": "Guru Swara",
+      "jawa": "Yen Menang, Aja Njur Sewenang-Wenang",
+      "translate": ""
+    },
+    {
+      "id": "528",
+      "category": "Guru Swara",
+      "jawa": "Yen Krasa Enak, Aja Njur Lali Anak, Lali Bojo, Lali Tangga, Lali Kanca",
+      "translate": ""
+    },
+    {
+      "id": "530",
+      "category": "Tembung Ngoko Perangane Awak ",
+      "jawa": "Alis",
+      "translate": "Alis"
+    },
+    {
+      "id": "531",
+      "category": "Tembung Ngoko Perangane Awak ",
+      "jawa": "Ati",
+      "translate": "Hati"
+    },
+    {
+      "id": "532",
+      "category": "Tembung Ngoko Perangane Awak ",
+      "jawa": "Awak",
+      "translate": "Badan"
+    },
+    {
+      "id": "533",
+      "category": "Tembung Ngoko Perangane Awak ",
+      "jawa": "Balung",
+      "translate": "Tulang"
+    },
+    {
+      "id": "534",
+      "category": "Tembung Ngoko Perangane Awak ",
+      "jawa": "Bangkekan",
+      "translate": "Pergelangan Tangan"
+    },
+    {
+      "id": "535",
+      "category": "Tembung Ngoko Perangane Awak ",
+      "jawa": "Bathuk",
+      "translate": "Kening"
+    },
+    {
+      "id": "536",
+      "category": "Tembung Ngoko Perangane Awak ",
+      "jawa": "Bokong",
+      "translate": "Pantat"
+    },
+    {
+      "id": "537",
+      "category": "Tembung Ngoko Perangane Awak ",
+      "jawa": "Brengos",
+      "translate": "Kumis"
+    },
+    {
+      "id": "538",
+      "category": "Tembung Ngoko Perangane Awak ",
+      "jawa": "Cangkem",
+      "translate": "Mulut"
+    },
+    {
+      "id": "539",
+      "category": "Tembung Ngoko Perangane Awak ",
+      "jawa": "Cengel",
+      "translate": "Tengkuk"
+    },
+    {
+      "id": "540",
+      "category": "Tembung Ngoko Perangane Awak ",
+      "jawa": "Dhadha",
+      "translate": "Dada"
+    },
+    {
+      "id": "541",
+      "category": "Tembung Ngoko Perangane Awak ",
+      "jawa": "Dhengkul",
+      "translate": "Lutut"
+    },
+    {
+      "id": "542",
+      "category": "Tembung Ngoko Perangane Awak ",
+      "jawa": "Dlamakan",
+      "translate": "Kaki"
+    },
+    {
+      "id": "543",
+      "category": "Tembung Ngoko Perangane Awak ",
+      "jawa": "Driji",
+      "translate": "Jari"
+    },
+    {
+      "id": "544",
+      "category": "Tembung Ngoko Perangane Awak ",
+      "jawa": "Embun-Embunan",
+      "translate": "Ubun-Ubun"
+    },
+    {
+      "id": "545",
+      "category": "Tembung Ngoko Perangane Awak ",
+      "jawa": "Endhas",
+      "translate": "Kepala"
+    },
+    {
+      "id": "546",
+      "category": "Tembung Ngoko Perangane Awak ",
+      "jawa": "Epek-Epek",
+      "translate": "Telapak Tangan"
+    },
+    {
+      "id": "547",
+      "category": "Tembung Ngoko Perangane Awak ",
+      "jawa": "Geger",
+      "translate": "Punggung"
+    },
+    {
+      "id": "548",
+      "category": "Tembung Ngoko Perangane Awak ",
+      "jawa": "Gelung",
+      "translate": "Sanggul"
+    },
+    {
+      "id": "549",
+      "category": "Tembung Ngoko Perangane Awak ",
+      "jawa": "Getih",
+      "translate": "Darah"
+    },
+    {
+      "id": "550",
+      "category": "Tembung Ngoko Perangane Awak ",
+      "jawa": "Githok",
+      "translate": "Belakang Leher"
+    },
+    {
+      "id": "551",
+      "category": "Tembung Ngoko Perangane Awak ",
+      "jawa": "Gulu",
+      "translate": "Leher"
+    },
+    {
+      "id": "552",
+      "category": "Tembung Ngoko Perangane Awak ",
+      "jawa": "Idep",
+      "translate": "Bulu Mata"
+    },
+    {
+      "id": "553",
+      "category": "Tembung Ngoko Perangane Awak ",
+      "jawa": "Idu",
+      "translate": "Ludah"
+    },
+    {
+      "id": "554",
+      "category": "Tembung Ngoko Perangane Awak ",
+      "jawa": "Iga",
+      "translate": "Tulang Dada"
+    },
+    {
+      "id": "555",
+      "category": "Tembung Ngoko Perangane Awak ",
+      "jawa": "Ilat",
+      "translate": "Lidah"
+    },
+    {
+      "id": "556",
+      "category": "Tembung Ngoko Perangane Awak ",
+      "jawa": "Irung",
+      "translate": "Hidung"
+    },
+    {
+      "id": "557",
+      "category": "Tembung Ngoko Perangane Awak ",
+      "jawa": "Janggut",
+      "translate": "Dagu"
+    },
+    {
+      "id": "558",
+      "category": "Tembung Ngoko Perangane Awak ",
+      "jawa": "Jenggot",
+      "translate": "Jenggot"
+    },
+    {
+      "id": "559",
+      "category": "Tembung Ngoko Perangane Awak ",
+      "jawa": "Kempol",
+      "translate": "Betis"
+    },
+    {
+      "id": "560",
+      "category": "Tembung Ngoko Perangane Awak ",
+      "jawa": "Kringet",
+      "translate": "Keringat"
+    },
+    {
+      "id": "561",
+      "category": "Tembung Ngoko Perangane Awak ",
+      "jawa": "Kuping",
+      "translate": "Telinga"
+    },
+    {
+      "id": "562",
+      "category": "Tembung Ngoko Perangane Awak ",
+      "jawa": "Lambe",
+      "translate": "Bibir"
+    },
+    {
+      "id": "563",
+      "category": "Tembung Ngoko Perangane Awak ",
+      "jawa": "Luh",
+      "translate": "Air Mata"
+    },
+    {
+      "id": "564",
+      "category": "Tembung Ngoko Perangane Awak ",
+      "jawa": "Mata",
+      "translate": "Mata"
+    },
+    {
+      "id": "565",
+      "category": "Tembung Ngoko Perangane Awak ",
+      "jawa": "Pipi",
+      "translate": "Pipi"
+    },
+    {
+      "id": "566",
+      "category": "Tembung Ngoko Perangane Awak ",
+      "jawa": "Pundhak",
+      "translate": "Pundak"
+    },
+    {
+      "id": "567",
+      "category": "Tembung Ngoko Perangane Awak ",
+      "jawa": "Pupu",
+      "translate": "Paha"
+    },
+    {
+      "id": "568",
+      "category": "Tembung Ngoko Perangane Awak ",
+      "jawa": "Rai",
+      "translate": "Wajah"
+    },
+    {
+      "id": "569",
+      "category": "Tembung Ngoko Perangane Awak ",
+      "jawa": "Rambut",
+      "translate": "Rambut"
+    },
+    {
+      "id": "570",
+      "category": "Tembung Ngoko Perangane Awak ",
+      "jawa": "Riyak",
+      "translate": "Riyak"
+    },
+    {
+      "id": "571",
+      "category": "Tembung Ngoko Perangane Awak ",
+      "jawa": "Sikil",
+      "translate": "Kaki"
+    },
+    {
+      "id": "572",
+      "category": "Tembung Ngoko Perangane Awak ",
+      "jawa": "Susu",
+      "translate": "Payudara"
+    },
+    {
+      "id": "573",
+      "category": "Tembung Ngoko Perangane Awak ",
+      "jawa": "Suwara",
+      "translate": "Suara"
+    },
+    {
+      "id": "574",
+      "category": "Tembung Ngoko Perangane Awak ",
+      "jawa": "Tangan",
+      "translate": "Tangan"
+    },
+    {
+      "id": "575",
+      "category": "Tembung Ngoko Perangane Awak ",
+      "jawa": "Umbel",
+      "translate": "Ingus"
+    },
+    {
+      "id": "576",
+      "category": "Tembung Ngoko Perangane Awak ",
+      "jawa": "Untu",
+      "translate": "Gigi"
+    },
+    {
+      "id": "577",
+      "category": "Tembung Ngoko Perangane Awak ",
+      "jawa": "Uyuh",
+      "translate": "Air Kencing"
+    },
+    {
+      "id": "578",
+      "category": "Tembung Ngoko Perangane Awak ",
+      "jawa": "Weteng",
+      "translate": "Perut"
+    },
+    {
+      "id": "579",
+      "category": "Tembung Ngoko Perangane Awak ",
+      "jawa": "Wudel",
+      "translate": "Pusar"
+    },
+    {
+      "id": "580",
+      "category": "Tembung Krama Madya Perangane Awak ",
+      "jawa": "Alis",
+      "translate": "Alis"
+    },
+    {
+      "id": "581",
+      "category": "Tembung Krama Madya Perangane Awak ",
+      "jawa": "Manah",
+      "translate": "Hati"
+    },
+  {
+    "id": "580",
+    "category": "Tembung Krama Madya Perangane Awak ",
+    "jawa": "Alis",
+    "translate": "Alis"
+  },
+  {
+    "id": "581",
+    "category": "Tembung Krama Madya Perangane Awak ",
+    "jawa": "Manah",
+    "translate": "Hati"
+  },
+  {
+    "id": "582",
+    "category": "Tembung Krama Madya Perangane Awak",
+    "jawa": "Alis",
+    "translate": "Alis"
+  },
+  {
+    "id": "583",
+    "category": "Tembung Krama Madya Perangane Awak",
+    "jawa": "Manah",
+    "translate": "Hati"
+  },
+  {
+    "id": "584",
+    "category": "Tembung Krama Madya Perangane Awak",
+    "jawa": "Badan",
+    "translate": "Badan"
+  },
+  {
+    "id": "585",
+    "category": "Tembung Krama Madya Perangane Awak",
+    "jawa": "Balung",
+    "translate": "Tulang"
+  },
+  {
+    "id": "586",
+    "category": "Tembung Krama Madya Perangane Awak",
+    "jawa": "Bangkekan",
+    "translate": "Pergelangan tangan"
+  },
+  {
+    "id": "587",
+    "category": "Tembung Krama Madya Perangane Awak",
+    "jawa": "Bathuk",
+    "translate": "Kening"
+  },
+  {
+    "id": "588",
+    "category": "Tembung Krama Madya Perangane Awak",
+    "jawa": "Bokong",
+    "translate": "Pantat"
+  },
+  {
+    "id": "589",
+    "category": "Tembung Krama Madya Perangane Awak",
+    "jawa": "Brengos",
+    "translate": "Kumis"
+  },
+  {
+    "id": "590",
+    "category": "Tembung Krama Madya Perangane Awak",
+    "jawa": "Cangkem",
+    "translate": "Mulut"
+  },
+  {
+    "id": "591",
+    "category": "Tembung Krama Madya Perangane Awak",
+    "jawa": "Cengel",
+    "translate": "Tengkuk"
+  },
+  {
+    "id": "592",
+    "category": "Tembung Krama Madya Perangane Awak",
+    "jawa": "Dhadha",
+    "translate": "Dada"
+  },
+  {
+    "id": "593",
+    "category": "Tembung Krama Madya Perangane Awak",
+    "jawa": "Dhengkul",
+    "translate": "Lutut"
+  },
+  {
+    "id": "594",
+    "category": "Tembung Krama Madya Perangane Awak",
+    "jawa": "Dlamkan",
+    "translate": "Kaki"
+  },
+  {
+    "id": "595",
+    "category": "Tembung Krama Madya Perangane Awak",
+    "jawa": "Driji",
+    "translate": "Jari"
+  },
+  {
+    "id": "596",
+    "category": "Tembung Krama Madya Perangane Awak",
+    "jawa": "Embun-embunan",
+    "translate": "Ubun-ubun"
+  },
+  {
+    "id": "597",
+    "category": "Tembung Krama Inggil Perangane Awak",
+    "jawa": "Imba",
+    "translate": "Alis"
+  },
+  {
+    "id": "598",
+    "category": "Tembung Krama Inggil Perangane Awak",
+    "jawa": "Galih",
+    "translate": "Hati"
+  },
+  {
+    "id": "599",
+    "category": "Tembung Krama Inggil Perangane Awak",
+    "jawa": "Salira",
+    "translate": "Badan"
+  },
+  {
+    "id": "600",
+    "category": "Tembung Krama Inggil Perangane Awak",
+    "jawa": "Tosan",
+    "translate": "Tulang"
+  },
+  {
+    "id": "601",
+    "category": "Tembung Krama Inggil Perangane Awak",
+    "jawa": "Pamekan",
+    "translate": "Pergelangan tangan"
+  },
+  {
+    "id": "602",
+    "category": "Tembung Krama Inggil Perangane Awak",
+    "jawa": "Palarapan",
+    "translate": "Kening"
+  },
+  {
+    "id": "603",
+    "category": "Tembung Krama Inggil Perangane Awak",
+    "jawa": "Bocong",
+    "translate": "Pantat"
+  },
+  {
+    "id": "604",
+    "category": "Tembung Krama Inggil Perangane Awak",
+    "jawa": "Gumbala, Rawis",
+    "translate": "Kumis"
+  },
+  {
+    "id": "605",
+    "category": "Tembung Krama Inggil Perangane Awak",
+    "jawa": "Tutuk",
+    "translate": "Mulut"
+  },
+  {
+    "id": "606",
+    "category": "Tembung Krama Inggil Perangane Awak",
+    "jawa": "Griwa",
+    "translate": "Tengkuk"
+  },
+  {
+    "id": "607",
+    "category": "Tembung Krama Inggil Perangane Awak",
+    "jawa": "Jaja",
+    "translate": "Dada"
+  },
+  {
+    "id": "608",
+    "category": "Tembung Krama Inggil Perangane Awak",
+    "jawa": "Jengku",
+    "translate": "Lutut"
+  },
+  {
+    "id": "609",
+    "category": "Tembung Krama Inggil Perangane Awak",
+    "jawa": "Samparan",
+    "translate": "Kaki"
+  },
+  {
+    "id": "610",
+    "category": "Tembung Krama Inggil Perangane Awak",
+    "jawa": "Racikan",
+    "translate": "Jari"
+  },
+  {
+    "id": "611",
+    "category": "Tembung Krama Inggil Perangane Awak",
+    "jawa": "Pasundhulan",
+    "translate": "Ubun-ubun"
+  },
+  {
+    "id": "612",
+    "category": "Tembung Ngoko Liyane",
+    "jawa": "Abang",
+    "translate": "Merah"
+  },
+  {
+    "id": "613",
+    "category": "Tembung Ngoko Liyane",
+    "jawa": "Adhi",
+    "translate": "Adik"
+  },
+  {
+    "id": "614",
+    "category": "Tembung Ngoko Liyane",
+    "jawa": "Adeg",
+    "translate": "Berdiri"
+  },
+  {
+    "id": "615",
+    "category": "Tembung Ngoko Liyane",
+    "jawa": "Adoh",
+    "translate": "Jauh"
+  },
+  {
+    "id": "616",
+    "category": "Tembung Ngoko Liyane",
+    "jawa": "Adus",
+    "translate": "Mandi"
+  },
+  {
+    "id": "617",
+    "category": "Tembung Ngoko Liyane",
+    "jawa": "Ajang",
+    "translate": "Acara"
+  },
+  {
+    "id": "618",
+    "category": "Tembung Ngoko Liyane",
+    "jawa": "Aku",
+    "translate": "Aku"
+  },
+  {
+    "id": "619",
+    "category": "Tembung Ngoko Liyane",
+    "jawa": "Ambung",
+    "translate": "Cium"
+  },
+  {
+    "id": "620",
+    "category": "Tembung Ngoko Liyane",
+    "jawa": "Amit",
+    "translate": "Permisi"
+  },
+  {
+    "id": "621",
+    "category": "Tembung Ngoko Liyane",
+    "jawa": "Anak",
+    "translate": "Anak"
+  },
+  {
+    "id": "622",
+    "category": "Tembung Ngoko Liyane",
+    "jawa": "Anak-anak",
+    "translate": "Anak-anak"
+  },
+  {
+    "id": "623",
+    "category": "Tembung Ngoko Liyane",
+    "jawa": "Anggo",
+    "translate": "Gunakan"
+  },
+  {
+    "id": "624",
+    "category": "Tembung Ngoko Liyane",
+    "jawa": "Aran",
+    "translate": "Nama"
+  },
+  {
+    "id": "625",
+    "category": "Tembung Ngoko Liyane",
+    "jawa": "Arep",
+    "translate": "Mau"
+  },
+  {
+    "id": "626",
+    "category": "Tembung Ngoko Liyane",
+    "jawa": "Pembarep",
+    "translate": "Anak pertama"
+  },
+  {
+    "id": "627",
+    "category": "Tembung Ngoko Liyane",
+    "jawa": "Asu",
+    "translate": "Anjing"
+  },
+  {
+    "id": "628",
+    "category": "Tembung Ngoko Liyane",
+    "jawa": "Aweh",
+    "translate": "Beri"
+  },
+  {
+    "id": "629",
+    "category": "Tembung Ngoko Liyane",
+    "jawa": "Ayo",
+    "translate": "Silahkan"
+  },
+  {
+    "id": "630",
+    "category": "Tembung Ngoko Liyane",
+    "jawa": "Enya",
+    "translate": "Ini"
+  },
+  {
+    "id": "631",
+    "category": "Tembung Krama Madya Liyane",
+    "jawa": "Abrit",
+    "translate": "Merah"
+  },
+  {
+    "id": "632",
+    "category": "Tembung Krama Madya Liyane",
+    "jawa": "Adhi",
+    "translate": "Adik"
+  },
+  {
+    "id": "633",
+    "category": "Tembung Krama Madya Liyane",
+    "jawa": "Ngadeg",
+    "translate": "Berdiri"
+  },
+  {
+    "id": "634",
+    "category": "Tembung Krama Madya Liyane",
+    "jawa": "Tebih",
+    "translate": "Jauh"
+  },
+  {
+    "id": "635",
+    "category": "Tembung Krama Madya Liyane",
+    "jawa": "Adus",
+    "translate": "Mandi"
+  },
+  {
+    "id": "636",
+    "category": "Tembung Krama Madya Liyane",
+    "jawa": "Ajang",
+    "translate": "Acara"
+  },
+  {
+    "id": "637",
+    "category": "Tembung Krama Madya Liyane",
+    "jawa": "Kula",
+    "translate": "Aku"
+  },
+  {
+    "id": "638",
+    "category": "Tembung Krama Madya Liyane",
+    "jawa": "Ambung",
+    "translate": "Cium"
+  },
+  {
+    "id": "639",
+    "category": "Tembung Krama Madya Liyane",
+    "jawa": "Amit",
+    "translate": "Permisi"
+  },
+  {
+    "id": "640",
+    "category": "Tembung Krama Madya Liyane",
+    "jawa": "Yoga",
+    "translate": "Anak"
+  },
+  {
+    "id": "641",
+    "category": "Tembung Krama Madya Liyane",
+    "jawa": "Anak-anak",
+    "translate": "Anak-anak"
+  },
+  {
+    "id": "642",
+    "category": "Tembung Krama Madya Liyane",
+    "jawa": "Angge",
+    "translate": "Gunakan"
+  },
+  {
+    "id": "643",
+    "category": "Tembung Krama Madya Liyane",
+    "jawa": "Nama",
+    "translate": "Nama"
+  },
+  {
+    "id": "644",
+    "category": "Tembung Krama Madya Liyane",
+    "jawa": "Badhe",
+    "translate": "Mau"
+  },
+  {
+    "id": "645",
+    "category": "Tembung Krama Madya Liyane",
+    "jawa": "Pembajeng",
+    "translate": "Anak pertama"
+  },
+  {
+    "id": "646",
+    "category": "Tembung Krama Madya Liyane",
+    "jawa": "Segawon",
+    "translate": "Anjing"
+  },
+  {
+    "id": "647",
+    "category": "Tembung Krama Madya Liyane",
+    "jawa": "Nyukani",
+    "translate": "Beri"
+  },
+  {
+    "id": "648",
+    "category": "Tembung Krama Madya Liyane",
+    "jawa": "Mangga",
+    "translate": "Silahkan"
+  },
+  {
+    "id": "649",
+    "category": "Tembung Krama Madya Liyane",
+    "jawa": "Niki",
+    "translate": "Ini"
+  },
+  {
+    "id": "650",
+    "category": "Tembung Krama Inggil Liyane",
+    "jawa": "Abrit",
+    "translate": "Merah"
+  },
+  {
+    "id": "651",
+    "category": "Tembung Krama Madya Liyane",
+    "jawa": "Rayi",
+    "translate": "Adik"
+  },
+  {
+    "id": "652",
+    "category": "Tembung Krama Inggil Liyane",
+    "jawa": "Jumeneng",
+    "translate": "Berdiri"
+  },
+  {
+    "id": "653",
+    "category": "Tembung Krama Inggil Liyane",
+    "jawa": "Tebih",
+    "translate": "Jauh"
+  },
+  {
+    "id": "654",
+    "category": "Tembung Krama Inggil Liyane",
+    "jawa": "Siram",
+    "translate": "Mandi"
+  },
+  {
+    "id": "655",
+    "category": "Tembung Krama Inggil Liyane",
+    "jawa": "Ambeng",
+    "translate": "Acara"
+  },
+  {
+    "id": "656",
+    "category": "Tembung Krama Inggil Liyane",
+    "jawa": "Kawula, Abdi, Dalem",
+    "translate": "Aku"
+  },
+  {
+    "id": "657",
+    "category": "Tembung Krama Inggil Liyane",
+    "jawa": "Aras",
+    "translate": "Cium"
+  },
+  {
+    "id": "658",
+    "category": "Tembung Krama Inggil Liyane",
+    "jawa": "Nuwun Sewu ",
+    "translate": "Permisi"
+  },
+  {
+    "id": "659",
+    "category": "Tembung Krama Inggil Liyane",
+    "jawa": "Putra",
+    "translate": "Anak"
+  },
+  {
+    "id": "660",
+    "category": "Tembung Krama Inggil Liyane",
+    "jawa": "Peputra",
+    "translate": "Anak-anak"
+  },
+  {
+    "id": "661",
+    "category": "Tembung Krama Inggil Liyane",
+    "jawa": "Agem",
+    "translate": "Guanakan"
+  },
+  {
+    "id": "662",
+    "category": "Tembung Krama Inggil Liyane",
+    "jawa": "Asma",
+    "translate": "Nama"
+  },
+  {
+    "id": "663",
+    "category": "Tembung Krama Inggil Liyane",
+    "jawa": "Kersa",
+    "translate": "Mau"
+  },
+  {
+    "id": "664",
+    "category": "Tembung Krama Inggil Liyane",
+    "jawa": "Pembajeng",
+    "translate": "Anak Pertama"
+  },
+  {
+    "id": "665",
+    "category": "Tembung Krama Inggil Liyane",
+    "jawa": "Segawon",
+    "translate": "Asu"
+  },
+  {
+    "id": "666",
+    "category": "Tembung Krama Inggil Liyane",
+    "jawa": "Maringi",
+    "translate": "Beri"
+  },
+  {
+    "id": "667",
+    "category": "Tembung Krama Inggil Liyane",
+    "jawa": "Sumanga",
+    "translate": "Silahkan"
+  },
+  {
+    "id": "668",
+    "category": "Tembung Krama Inggil Liyane",
+    "jawa": "Punika",
+    "translate": "Ini"
+  },
+  {
+    "id": "669",
+    "category": "Tembung Padha Tegese",
+    "jawa": "Agung : Luhur",
+    "translate": "Besar"
+  },
+  {
+    "id": "670",
+    "category": "Tembung Padha Tegese",
+    "jawa": "Ajar : Wuruk",
+    "translate": "Mengajar"
+  },
+  {
+    "id": "671",
+    "category": "Tembung Padha Tegese",
+    "jawa": "Ajur : Remuk",
+    "translate": "Hancur"
+  },
+  {
+    "id": "672",
+    "category": "Tembung Padha Tegese",
+    "jawa": "Alas : Wanandri",
+    "translate": "Hutan"
+  },
+  {
+    "id": "673",
+    "category": "Tembung Padha Tegese",
+    "jawa": "Dialem : Diugung",
+    "translate": "Dimanja"
+  },
+  {
+    "id": "674",
+    "category": "Tembung Padha Tegese",
+    "jawa": "Ama : Penyakit",
+    "translate": "Hama"
+  },
+  {
+    "id": "675",
+    "category": "Tembung Padha Tegese",
+    "jawa": "Ambal : Bali",
+    "translate": "Ulang"
+  },
+  {
+    "id": "676",
+    "category": "Tembung Padha Tegese",
+    "jawa": "Amem : Meneng",
+    "translate": "Diam"
+  },
+  {
+    "id": "677",
+    "category": "Tembung Padha Tegese",
+    "jawa": "Ancas : Maksud",
+    "translate": "Niat"
+  },
+  {
+    "id": "678",
+    "category": "Tembung Padha Tegese",
+    "jawa": "Andayani : Mrebawani",
+    "translate": "Manfaat"
+  },
+  {
+    "id": "679",
+    "category": "Tembung Padha Tegese",
+    "jawa": "Anggung : Tansah",
+    "translate": "Selalu"
+  },
+  {
+    "id": "680",
+    "category": "Tembung Padha Tegese",
+    "jawa": "Apik : Becik",
+    "translate": "Bagus"
+  },
+  {
+    "id": "681",
+    "category": "Tembung Padha Tegese",
+    "jawa": "Asma : Jeneng",
+    "translate": "Nama"
+  },
+  {
+    "id": "683",
+    "category": "Tembung Kosok Balen",
+    "jawa": "Andhap X Inggil",
+    "translate": "Pendek X Tinggi"
+  },
+  {
+    "id": "684",
+    "category": "Tembung Kosok Balen",
+    "jawa": "Andhap ansor X Deksura",
+    "translate": "Sopan X Kurang Ajar"
+  },
+  {
+    "id": "685",
+    "category": "Tembung Kosok Balen",
+    "jawa": "Adhem X Panas",
+    "translate": "Dingin X Panas"
+  },
+  {
+    "id": "686",
+    "category": "Tembung Kosok Balen",
+    "jawa": "Ageng X Alit",
+    "translate": "Besar X Kecil"
+  },
+  {
+    "id": "687",
+    "category": "Tembung Kosok Balen",
+    "jawa": "Akeh X Sathithik",
+    "translate": "Banyak X Sedikit"
+  },
+  {
+    "id": "688",
+    "category": "Tembung Kosok Balen",
+    "jawa": "Ala X Becik",
+    "translate": "Buruk X Baik"
+  },
+  {
+    "id": "689",
+    "category": "Tembung Kosok Balen",
+    "jawa": "Ambang X Kelem",
+    "translate": "Terapung X Tenggelam"
+  },
+  {
+    "id": "690",
+    "category": "Tembung Kosok Balen",
+    "jawa": "Arang X Kerep",
+    "translate": "Jarang X Kerap"
+  },
+  {
+    "id": "691",
+    "category": "Tembung Kosok Balen",
+    "jawa": "Asor X Unggul",
+    "translate": "Rendah X Tinggi"
+  },
+  {
+    "id": "692",
+    "category": "Tembung Kosok Balen",
+    "jawa": "Atos X Empuk",
+    "translate": "Keras X Empuk"
+  }
+]

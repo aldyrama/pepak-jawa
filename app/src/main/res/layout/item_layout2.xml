@@ -1,30 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="50dp"
+    android:layout_height="wrap_content"
 
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:gravity="center_vertical">
 
     <TextView
-        android:id="@+id/itemName"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingLeft="30dp"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        android:textColor="#000"
-        tools:text="Tembung Krama Madya Perangane Awak"/>
-
-    <TextView
-        android:id="@+id/itemDescr"
+        android:id="@+id/itemName2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingLeft="30dp"
         android:textSize="16sp"
+        android:textStyle="bold"
         android:textColor="#000"
-        android:layout_below="@id/itemName"
-        tools:text="Describe"/>
+        tools:text="Item"/>
 
 </LinearLayout>

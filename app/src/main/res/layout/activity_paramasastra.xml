@@ -1,30 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ParamasastraActivity"
     android:orientation="vertical"
-    tools:ignore="MissingDefaultResource">
+    tools:context=".ParamasastraActivity">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/paramasastra_adalah_tata_bahasa_dalam_bahasa_jawa"
+        android:text="@string/paramasastra_describe"
         android:textSize="22sp"
         android:padding="16dp"
         android:textColor="#000"
         android:textStyle="bold"
+        android:background="#5a969a9c"
         android:gravity="center"/>
 
     <View
         android:layout_width="match_parent"
         android:layout_height="2dp"/>
 
-
     <ExpandableListView
-        android:id="@+id/expandable"
+        android:id="@+id/expandable_paramasastra"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 

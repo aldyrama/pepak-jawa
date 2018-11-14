@@ -13,22 +13,19 @@ import org.d3ifcool.pepakjawa.R;
 
 import java.util.List;
 
-public class ExpandableAdapter extends BaseExpandableListAdapter {
+public class ExpandableAdapter2 extends BaseExpandableListAdapter {
 
     private List<Category> categoryList;
     private int groupLayoutId;
     private int itemLayoutId;
     private Context context;
 
-
-
-    public ExpandableAdapter(List<Category> categoryList,Context context) {
+    public ExpandableAdapter2(List<Category> categoryList,Context context) {
         this.categoryList = categoryList;
         this.groupLayoutId = R.layout.category_layout;
         this.itemLayoutId = R.layout.item_layout;
         this.context = context;
     }
-
     @Override
     public int getGroupCount() {
         return categoryList.size();
@@ -94,16 +91,16 @@ public class ExpandableAdapter extends BaseExpandableListAdapter {
         if (view == null) {
             LayoutInflater inflater = (LayoutInflater)context.getSystemService
                     (Context.LAYOUT_INFLATER_SERVICE);
-            view = inflater.inflate(R.layout.item_layout,parent,false);
+            view = inflater.inflate(R.layout.item_layout2,parent,false);
         }
 
-        TextView itemName = (TextView) view.findViewById(R.id.itemName);
-        TextView itemDescr = (TextView) view.findViewById(R.id.itemDescr);
+        TextView itemName = (TextView) view.findViewById(R.id.itemName2);
+//        TextView itemDescr = (TextView) view.findViewById(R.id.itemDescr2);
 
         ItemDetail itemDetail = categoryList.get(groupPosition).getItemDetails().get(childPosition);
 
         itemName.setText(itemDetail.getJawa());
-        itemDescr.setText(itemDetail.getTranslate());
+//        itemDescr.setText(itemDetail.getTranslate());
 
         return view;
     }

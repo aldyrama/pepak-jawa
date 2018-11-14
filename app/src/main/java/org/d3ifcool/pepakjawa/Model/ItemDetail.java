@@ -4,12 +4,17 @@ public class ItemDetail {
 
     private long id;
     private String jawa;
-    private String describe;
+    private String translate;
+
+    public ItemDetail(String jawa, String translate) {
+        this.jawa = jawa;
+        this.translate = translate;
+    }
 
     public ItemDetail(long id, String jawa, String translate) {
         this.id = id;
         this.jawa = jawa;
-        this.describe = translate;
+        this.translate = translate;
     }
 
     public long getId() {
@@ -20,7 +25,7 @@ public class ItemDetail {
         return jawa;
     }
 
-    public String getDescribe() {
-        return describe;
+    public String getTranslate() {
+        return translate;
     }
 }
