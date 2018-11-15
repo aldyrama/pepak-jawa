@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_marginBottom="60dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        tools:context=".StartQuiz">
+        <TextView
+            android:id="@+id/tQ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:gravity="center"
+            android:textSize="45sp"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/kuis"
+            android:gravity="center"
+            android:textSize="40sp"/>
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/help100"
+            tools:ignore="ContentDescription" />
+
+        <info.hoang8f.widget.FButton
+            android:id="@+id/playGame"
+            fbutton:buttonColor="@color/lightGreen"
+            android:layout_width="250dp"
+            android:text="@string/mulai_kuis"
+            android:backgroundTint="@color/colorPrimary"
+            android:shadowColor="@color/colorMintDark"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"
+            tools:ignore="UnusedAttribute" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/coinImage"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@drawable/thropy"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/best_score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_0"
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp"
+                android:gravity="center"
+                android:textSize="35sp"
+                android:layout_toRightOf="@id/coinImage"
+                tools:ignore="RtlHardcoded" />
+
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

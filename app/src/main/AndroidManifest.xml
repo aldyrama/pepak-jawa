@@ -67,6 +67,12 @@
         <activity android:name=".InsetAksara"
             android:screenOrientation="portrait"/>
         <!--<activity android:name=".MenuActivity"></activity>-->
+        <activity android:name=".JawaIndonesiaActivity"
+            android:label="Jawa Ke Indonesia">
+        </activity>
+        <activity android:name=".IndonesiaJawaActivity"
+            android:label="Indonesia Ke Jawa">
+        </activity>
     </application>
 
 </manifest>

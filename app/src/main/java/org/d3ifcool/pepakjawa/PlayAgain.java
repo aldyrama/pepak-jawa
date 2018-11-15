@@ -39,7 +39,7 @@ public class PlayAgain extends Activity {
         timer.schedule(new TimerTask() {
             @Override
             public void run() {
-                Intent intent = new Intent(PlayAgain.this, StartQuiz.class);
+                Intent intent = new Intent(PlayAgain.this, QuizFragment.class);
                 startActivity(intent);
                 finish();
 

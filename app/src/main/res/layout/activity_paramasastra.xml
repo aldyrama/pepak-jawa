@@ -14,12 +14,36 @@
         android:padding="16dp"
         android:textColor="#000"
         android:textStyle="bold"
-        android:background="#5a969a9c"
+        android:background="#E3E8EE"
         android:gravity="center"/>
 
     <View
         android:layout_width="match_parent"
-        android:layout_height="2dp"/>
+        android:layout_height="2dp"
+        android:background="@color/black_overlay"/>
+
+    <!--<LinearLayout-->
+        <!--android:orientation="vertical"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_margin="10dp"-->
+        <!--android:padding="10dp"-->
+        <!--android:background="@android:drawable/editbox_background_normal"-->
+        <!--android:id="@+id/linearLayout">-->
+
+        <!--<EditText-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/searchJawa"-->
+            <!--android:background="#ffffffff"-->
+            <!--android:padding="5dp"-->
+            <!--android:hint="Masukkan kata"-->
+            <!--android:maxLines="1"-->
+            <!--android:minLines="1"-->
+            <!--android:inputType="text" />-->
+    <!--</LinearLayout>-->
 
     <ExpandableListView
         android:id="@+id/expandable_paramasastra"

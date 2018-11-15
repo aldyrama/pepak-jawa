@@ -17,4 +17,8 @@
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
+    <style name="BootomNavigationView" parent="Widget.Design.BottomNavigationView">
+        <item name="colorPrimary">@color/colorBottomNavigation</item>
+    </style>
+
 </resources>

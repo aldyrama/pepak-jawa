@@ -36,6 +36,7 @@ dependencies {
     implementation 'com.android.support:recyclerview-v7:27.1.1'
     implementation 'com.android.support:cardview-v7:27.1.1'
     implementation 'com.bignerdranch.android:expandablerecyclerview:1.0.3'
+    implementation 'com.readystatesoftware.sqliteasset:sqliteassethelper:+'
 }
 
 apply plugin: 'com.google.gms.google-services'
