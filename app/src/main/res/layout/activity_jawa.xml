@@ -26,8 +26,8 @@
                 android:background="#ffffffff"
                 android:padding="10dp"
                 android:hint="Masukkan kata"
-                android:maxLines="1"
                 android:drawableRight="@drawable/ic_action_search"
+                android:maxLines="1"
                 android:minLines="1"
                 android:inputType="text" />
         </LinearLayout>
@@ -41,6 +41,7 @@
             android:layout_marginRight="10dp"
             android:layout_marginBottom="10dp"
             android:background="#BBFFFFFF"
+            android:foreground="?attr/selectableItemBackgroundBorderless"
             android:requiresFadingEdge="vertical"
             android:fadingEdgeLength="48sp" />
     </RelativeLayout>
@@ -50,12 +51,12 @@
         android:layout_height="match_parent"
         android:background="@color/black_overlay"
         android:id="@+id/tampilArtiLayout"
-        android:onClick="closeInAction"
-        android:visibility="gone">
+        android:visibility="gone"
+        android:onClick="closeInAction">
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="400dp"
+            android:layout_height="350dp"
             android:layout_centerVertical="true"
             android:layout_centerHorizontal="true"
             android:layout_marginLeft="50dp"
@@ -129,7 +130,8 @@
                 android:text="teksIndonesia"
                 android:id="@+id/tampilIndonesia"
                 android:layout_below="@+id/textView11"
-                android:layout_alignLeft="@+id/tampilJawa" />
+                android:layout_alignLeft="@+id/tampilJawa"
+                android:layout_alignStart="@+id/tampilJawa" />
         </RelativeLayout>
     </RelativeLayout>
 </RelativeLayout>

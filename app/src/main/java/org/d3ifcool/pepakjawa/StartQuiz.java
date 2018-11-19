@@ -57,10 +57,9 @@ public class StartQuiz extends AppCompatActivity {
         });
    }
 
-            @Override
-            public void onBackPressed() {
-                super.onBackPressed();
-                finish();
-                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
+    @Override
+    public void finish() {
+        super.finish();
+        overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
     }
 }

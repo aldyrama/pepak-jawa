@@ -13,9 +13,7 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by ASUS on 28-Sep-18.
- */
+
 
 public class WordAdapter  {
 //

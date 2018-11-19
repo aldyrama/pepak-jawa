@@ -3832,5 +3832,478 @@
     "category": "Tembung Kosok Balen",
     "jawa": "Atos X Empuk",
     "translate": "Keras X Empuk"
+  },
+  {
+  "id": "693",
+  "category": "Guru Sastra",
+  "jawa": "Aja dhemen memada, dhateng sapadhaning dumadi ",
+  "translate": " "
+},
+  {
+    "id": "694",
+    "category": "Guru Sastra",
+    "jawa": "Tata titi tutung, tanggung tertib",
+    "translate": " "
+  },
+  {
+    "id": "695",
+    "category": "Guru Sastra",
+    "jawa": "Tata tertib tartamtu tentrem",
+    "translate": " "
+  },
+  {
+    "id": "696",
+    "category": "Guru Sastra",
+    "jawa": "Taberi nasititi ian ngati-ati, mesti bakal dadi",
+    "translate": " "
+  },
+  {
+    "id": "697",
+    "category": "Guru Sastra",
+    "jawa": "Wong jejodohan kudu ngelingi,: babat, bibit, bobot, bebet",
+    "translate": " "
+  },
+  {
+    "id": "698",
+    "category": "Guru Sastra",
+    "jawa": "Ruruh, rereh, ririh ing wewarihipun, mrih reseping para muyarsi",
+    "translate": " "
+  },
+  {
+    "id": "699",
+    "category": "Guru Sastra",
+    "jawa": "Ing ngarsa sung,tuladha, ing madya mangun karya, tutwuri handayani",
+    "translate": " "
+  },
+  {
+    "id": "700",
+    "category": "Guru Sastra",
+    "jawa": "Tarti tata-tata, ate metu turut ratan, diutus tuku tahu tempe, dhuwite kertas telung atus",
+    "translate": " "
+  },  {
+  "id": "701",
+  "category": "Guru Sastra",
+  "jawa": "Tindak tanduk lan tutur kang kalantur, tamtu katula-tula katali, bakal kacatu, katutuh, kapatuh pan dadi awon",
+  "translate": " "
+},
+  {
+    "id": "702",
+    "category": "Guru Sastra",
+    "jawa": "Bobot, bibit, bebet ",
+    "translate": " "
+  },
+  {
+    "id": "703",
+    "category": "Guru Sastra",
+    "jawa": "katula-tula ketali",
+    "translate": " "
+  },
+  {
+    "id": "704",
+    "category": "Guru Sastra",
+    "jawa": "Laras, lurus, leres, laris",
+    "translate": " "
+  },
+  {
+    "id": "705",
+    "category": "Guru Sastra",
+    "jawa": "Makuta, makuti, makuten",
+    "translate": " "
+  },
+  {
+    "id": "706",
+    "category": "Guru Sastra",
+    "jawa": "Ruruh, rereh,ririh ing wewarah",
+    "translate": " "
+  },
+  {
+    "id": "707",
+    "category": "Guru Sastra",
+    "jawa": "Sing weweh bakal wuwuh",
+    "translate": " "
+  },
+  {
+    "id": "708",
+    "category": "Guru Sastra",
+    "jawa": "Tatag, teteg bakal tutug",
+    "translate": " "
+  },
+  {
+    "id": "709",
+    "category": "Guru Sastra",
+    "jawa": "Tatune methunthung mentheng-mentheng",
+    "translate": " "
+  },
+  {
+    "id": "710",
+    "category": "Lukmasita",
+    "jawa": "Asung bekti, bektine kawula marang Gusti",
+    "translate": " "
+  },
+  {
+    "id": "711",
+    "category": "Lukmasita",
+    "jawa": "Bayem anda, andane ngrasuk busana",
+    "translate": " "
+  },
+  {
+    "id": "712",
+    "category": "Lukmasita",
+    "jawa": "Lungguh dhingklik, diklike wong cilik-cilik",
+    "translate": " "
+  },
+  {
+    "id": "713",
+    "category": "Lukmasita",
+    "jawa": "Mangan ati, atine sing kelara-lara",
+    "translate": " "
+  },
+  {
+    "id": "714",
+    "category": "Lukmasita",
+    "jawa": "Nandang lara, larane wong lara lapa",
+    "translate": " "
+  },
+  {
+    "id": "715",
+    "category": "Lukmasita",
+    "jawa": "Pandhu suta, suta madyaning pandhawa",
+    "translate": " "
+  },
+  {
+    "id": "716",
+    "category": "Lukmasita",
+    "jawa": "Raja putra, putran daleme Ngastina",
+    "translate": " "
+  },
+  {
+    "id": "717",
+    "category": "Lukmasita",
+    "jawa": "Rujak degan, deganne kerambil ijo",
+    "translate": " "
+  },
+  {
+    "id": "718",
+    "category": "Lukmasita",
+    "jawa": "Remuk rempu, rempu dadi awu",
+    "translate": " "
+  },
+  {
+    "id": "719",
+    "category": "Lukmasita",
+    "jawa": "Saking tresna, tresna wong samudanak",
+    "translate": " "
+  },
+  {
+    "id": "720",
+    "category": "Lukmasita",
+    "jawa": "Rujak dhongdhong, rujak sisaning kalong",
+    "translate": " "
+  },
+  {
+    "id": "721",
+    "category": "Lukmasita",
+    "jawa": "Witing tresna, tresna mung sawetara",
+    "translate": " "
+  },
+  {
+    "id": "722",
+    "category": "Wujude Gamelan",
+    "jawa": "Gamelan Gedhe",
+    "translate": " "
+  },
+  {
+    "id": "723",
+    "category": "Wujude Gamelan",
+    "jawa": "Gamelan barut",
+    "translate": " "
+  },
+  {
+    "id": "724",
+    "category": "Swarane Gamelan",
+    "jawa": "Gamelan Pelog",
+    "translate": " "
+  },
+  {
+    "id": "725",
+    "category": "Swarane Gamelan",
+    "jawa": "Gamelan Slendro",
+    "translate": " "
+  },
+  {
+    "id": "726",
+    "category": "Perangane Gamelan",
+    "jawa": "Bonang",
+    "translate": " "
+  },
+  {
+    "id": "727",
+    "category": "Perangane Gamelan",
+    "jawa": "Demung",
+    "translate": " "
+  },
+  {
+    "id": "728",
+    "category": "Perangane Gamelan",
+    "jawa": "Gambang",
+    "translate": " "
+  },
+  {
+    "id": "729",
+    "category": "Perangane Gamelan",
+    "jawa": "Gender",
+    "translate": " "
+  },
+  {
+    "id": "730",
+    "category": "Perangane Gamelan",
+    "jawa": "Gong",
+    "translate": " "
+  },
+  {
+    "id": "731",
+    "category": "Perangane Gamelan",
+    "jawa": "Kempul",
+    "translate": " "
+  },
+  {
+    "id": "732",
+    "category": "Perangane Gamelan",
+    "jawa": "Kendhang",
+    "translate": " "
+  },
+  {
+    "id": "733",
+    "category": "Perangane Gamelan",
+    "jawa": "Kenong",
+    "translate": " "
+  },
+  {
+    "id": "734",
+    "category": "Perangane Gamelan",
+    "jawa": "Kethuk",
+    "translate": " "
+  },
+  {
+    "id": "735",
+    "category": "Perangane Gamelan",
+    "jawa": "Peking",
+    "translate": " "
+  },
+  {
+    "id": "736",
+    "category": "Perangane Gamelan",
+    "jawa": "Bonang",
+    "translate": " "
+  },
+  {
+    "id": "737",
+    "category": "Perangane Gamelan",
+    "jawa": "Rebab",
+    "translate": " "
+  },
+  {
+    "id": "738",
+    "category": "Perangane Gamelan",
+    "jawa": "Saron",
+    "translate": " "
+  },
+  {
+    "id": "739",
+    "category": "Perangane Gamelan",
+    "jawa": "Siter",
+    "translate": " "
+  },
+  {
+    "id": "740",
+    "category": "Perangane Gamelan",
+    "jawa": "Suwuk",
+    "translate": " "
+  },
+  {
+    "id": "741",
+    "category": "Perangane Gamelan",
+    "jawa": "Thimplung",
+    "translate": " "
+  },
+  {
+    "id": "742",
+    "category": "Gaweyane",
+    "jawa": "Dhalang",
+    "translate": "Tukang ngelakokake lakon wayang"
+  },
+  {
+    "id": "743",
+    "category": "Gaweyane",
+    "jawa": "Waranggana",
+    "translate": "Utawa pesidhen, tukang nembang gendhing-gendhing pagelaran wayang"
+  },
+  {
+    "id": "744",
+    "category": "Gaweyane",
+    "jawa": "Niyaga",
+    "translate": "Tukang nabuh gamelan"
+  },
+  {
+    "id": "745",
+    "category": "Gaweyane",
+    "jawa": "Gerong",
+    "translate": "Nabuh gamelan sinambi nembang"
+  },
+  {
+    "id": "746",
+    "category": "Gendhing",
+    "jawa": "Gendhing kluthang",
+    "translate": " "
+  },
+  {
+    "id": "747",
+    "category": "Gendhing",
+    "jawa": "Gending gilang",
+    "translate": " "
+  },
+  {
+    "id": "748",
+    "category": "Gendhing",
+    "jawa": "Gendhing kluthang",
+    "translate": " "
+  },
+  {
+    "id": "749",
+    "category": "Gendhing",
+    "jawa": "Gending gilang",
+    "translate": " "
+  },
+  {
+    "id": "750",
+    "category": "Gendhing",
+    "jawa": "Gendhing gonjang-ganjing",
+    "translate": " "
+  },
+  {
+    "id": "751",
+    "category": "Gendhing",
+    "jawa": "Gending grombol",
+    "translate": " "
+  },
+  {
+    "id": "752",
+    "category": "Gendhing",
+    "jawa": "Gendhing pangkur",
+    "translate": " "
+  },
+  {
+    "id": "753",
+    "category": "Gendhing",
+    "jawa": "Gending puspawarna",
+    "translate": " "
+  },
+  {
+    "id": "754",
+    "category": "Gendhing",
+    "jawa": "Gendhing sinom parijata",
+    "translate": " "
+  },
+  {
+    "id": "755",
+    "category": "Gendhing",
+    "jawa": "Gending srikaton",
+    "translate": " "
+  },
+  {
+    "id": "756",
+    "category": "Gendhing",
+    "jawa": "Gendhing srikarongron",
+    "translate": " "
+  },
+  {
+    "id": "757",
+    "category": "Gendhing",
+    "jawa": "Gending ulerkambang",
+    "translate": " "
+  },
+  {
+    "id": "758",
+    "category": "Tumrap",
+    "jawa": "Bawa",
+    "translate": "Tembang kanggo mbukani gendhing"
+  },
+  {
+    "id": "759",
+    "category": "Tumrap",
+    "jawa": "Buka",
+    "translate": "Wiwitane nembang"
+  },
+  {
+    "id": "760",
+    "category": "Tumrap",
+    "jawa": "Buka celuk",
+    "translate": "Bukaning gendhing mung njupuk saperagane tembang"
+  },
+  {
+    "id": "761",
+    "category": "Tumrap",
+    "jawa": "Cakepan",
+    "translate": "Unen-unen utawa tertembungan ing dienggo ing tembang"
+  },
+  {
+    "id": "762",
+    "category": "Tumrap",
+    "jawa": "Cengkok",
+    "translate": "eluk-eluking swara ing telagon tembang"
+  },
+  {
+    "id": "763",
+    "category": "Tumrap",
+    "jawa": "Gendhing",
+    "translate": "Lelagoning gamelan"
+  },
+  {
+    "id": "764",
+    "category": "Tumrap",
+    "jawa": "Gerongan",
+    "translate": "tetembangan bareng karo gamelan"
+  },
+  {
+    "id": "765",
+    "category": "Tumrap",
+    "jawa": "Laras",
+    "translate": "Runtuting(cocokin) swaran sing benar"
+  },
+  {
+    "id": "766",
+    "category": "Tumrap",
+    "jawa": "Niyaga",
+    "translate": "Tukang nabuh gamelan"
+  },
+  {
+    "id": "767",
+    "category": "Tumrap",
+    "jawa": "Pathet",
+    "translate": "Endhek dhuwuring swara ing gamelan"
+  },
+  {
+    "id": "768",
+    "category": "Tumrap",
+    "jawa": "Pelog",
+    "translate": "Larasin gamelan"
+  },
+  {
+    "id": "769",
+    "category": "Tumrap",
+    "jawa": "Plangkan",
+    "translate": "Jagrag sanggang kendhang"
+  },
+  {
+    "id": "780",
+    "category": "Tumrap",
+    "jawa": "Siendro",
+    "translate": "Larasing gamelan"
+  },
+  {
+    "id": "781",
+    "category": "Tumrap",
+    "jawa": "Waranggane",
+    "translate": "Sindhen, persindhen"
   }
 ]

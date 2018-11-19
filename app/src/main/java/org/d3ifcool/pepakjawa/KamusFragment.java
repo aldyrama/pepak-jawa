@@ -37,10 +37,12 @@ public class KamusFragment extends Fragment {
                     case 0:
                         Intent myinntent = new Intent(view.getContext(), IndonesiaJawaActivity.class);
                         startActivity(myinntent);
+                        getActivity().overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                         break;
                     case 1:
                         myinntent = new Intent(view.getContext(), JawaIndonesiaActivity.class);
                         startActivity(myinntent);
+                        getActivity().overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                         break;
 
                 }

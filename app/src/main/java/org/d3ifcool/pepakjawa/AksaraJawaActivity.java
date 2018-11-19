@@ -86,8 +86,8 @@ public class AksaraJawaActivity extends AppCompatActivity {
         nyaa = (ImageView) findViewById(R.id.nyaa);
         gaa = (ImageView) findViewById(R.id.gaa);
         baa = (ImageView) findViewById(R.id.baa);
-        facefour = (ImageView) findViewById(R.id.ffr);
-        facefive = (ImageView) findViewById(R.id.ffv);
+//        facefour = (ImageView) findViewById(R.id.ffr);
+//        facefive = (ImageView) findViewById(R.id.ffv);
         //Aksara Swara
         a = (ImageView) findViewById(R.id.a);
         ii = (ImageView) findViewById(R.id.ii);

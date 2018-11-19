@@ -98,6 +98,9 @@
     <string name="artikel17">
     <a href='https://freesound.org/people/LittleRainySeasons/sounds/335908/'>https://freesound.org/people/LittleRainySeasons/sounds/335908/</a>
     </string>
+    <string name="artikel18">
+        <a href='https://alangalangkumitir.wordpress.com/kamus-jawa-%E2%80%93-indonesia/'>https://alangalangkumitir.wordpress.com/kamus-jawa-%E2%80%93-indonesia/</a>
+    </string>
 
     //Wayang Description
     <string name="kresna">
@@ -420,7 +423,6 @@
         Werkundara juga memiliki pakaian yang melambangkan kebesaran yaitu; Gelung Pudaksategal, Pupuk Jarot Asem, Sumping Surengpati, Kelatbahu Candrakirana, ikat pinggang Nagabanda dan Celana Cinde Udaraga. Sedangkan beberapa anugerah Dewata yang diterimanya antara lain; Kampuh/kain Poleng Bintuluaji, Gelang Candrakirana, Kalung Nagasasra, Sumping Surengpati dan pupuk Pudak Jarot Asem. \n\n
     </string>
     <string name="aksara_jawa">Aksara Jawa</string>
-    <string name="todo">TODO</string>
     <string name="congratulation">congratulation !!!</string>
     <string name="selesai">selesai</string>
     <string name="kuis">Kuis</string>
@@ -440,4 +442,5 @@
     <string name="kuis_pepak_jawa">Kuis Pepak Jawa</string>
     <string name="rupakawruh_describe">Rupa Kawruh adalah macam ilmu pengetahuan</string>
     <string name="kawruhbasa_describe">Kawruh basa adalah ilmu pengetahuan bahasa</string>
+    <string name="todo">TODO</string>
 </resources>

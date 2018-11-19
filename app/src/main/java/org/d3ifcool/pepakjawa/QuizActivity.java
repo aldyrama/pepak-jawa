@@ -264,6 +264,7 @@ public class QuizActivity extends AppCompatActivity {
         buttonC.setEnabled(true);
         buttonD.setEnabled(true);
     }
+
     @Override
     public void finish() {
         super.finish();

@@ -80,9 +80,17 @@ public class AboutActivity extends AppCompatActivity {
         overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
     }
 
+    public void artikel18(View view) {
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://alangalangkumitir.wordpress.com/kamus-jawa-%E2%80%93-indonesia/"));
+        startActivity(intent);
+        overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
+    }
+
     @Override
     public void finish() {
         super.finish();
         overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
     }
+
+
 }

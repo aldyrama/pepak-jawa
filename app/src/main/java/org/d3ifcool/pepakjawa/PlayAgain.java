@@ -3,7 +3,10 @@ package org.d3ifcool.pepakjawa;
 import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Typeface;
+import android.location.Location;
 import android.os.Bundle;
+import android.support.v4.app.FragmentTransaction;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -13,7 +16,7 @@ import java.util.Timer;
 import java.util.TimerTask;
 
 
-public class PlayAgain extends Activity {
+public class PlayAgain extends AppCompatActivity {
 
     Button playAgain;
     TextView wrongAnsText;
@@ -39,9 +42,10 @@ public class PlayAgain extends Activity {
         timer.schedule(new TimerTask() {
             @Override
             public void run() {
-                Intent intent = new Intent(PlayAgain.this, QuizFragment.class);
+                Intent intent = new Intent(getBaseContext(),StartQuiz.class);
                 startActivity(intent);
                 finish();
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
 
             }
         }, 1500);

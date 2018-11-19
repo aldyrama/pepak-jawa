@@ -372,5 +372,11 @@ public class ParamasastraActivity extends AppCompatActivity{
         catch (JSONException e) { e.printStackTrace(); }
         return result;
     }
+
+    @Override
+    public void finish() {
+        super.finish();
+        overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
+    }
 }
 

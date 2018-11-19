@@ -40,16 +40,14 @@ public class Time_Up extends AppCompatActivity {
         timer.schedule(new TimerTask() {
             @Override
             public void run() {
-                Intent intent = new Intent(Time_Up.this, QuizFragment.class);
+                Intent intent = new Intent(Time_Up.this, StartQuiz.class);
                 startActivity(intent);
                 finish();
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
             }
         }, 1500);
     }
 
-        @Override
-        public void onBackPressed() {
-    }
     @Override
     public void finish() {
         super.finish();

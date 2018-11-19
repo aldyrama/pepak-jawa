@@ -44,7 +44,7 @@ public class HomeFragment extends Fragment {
                 Intent intent = new Intent(v.getContext(), ParamasastraActivity.class);
                 startActivity(intent);
                 TabButton1();
-//                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
+               getActivity().overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
 
             }
         });
@@ -57,7 +57,7 @@ public class HomeFragment extends Fragment {
                 Intent intent = new Intent(v.getContext(), RupaKawruhActivity.class);
                 startActivity(intent);
                 TapButton2();
-//                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
+                getActivity().overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
             }
         });
 
@@ -69,7 +69,7 @@ public class HomeFragment extends Fragment {
                 Intent intent = new Intent(v.getContext(), KawruhBasaActivity.class);
                 startActivity(intent);
                 TabButton3();
-//                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
+                getActivity().overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
             }
         });
 
@@ -81,7 +81,7 @@ public class HomeFragment extends Fragment {
                 Intent intent = new Intent(v.getContext(), KesusastraanActivity.class);
                 startActivity(intent);
                 TabButton4();
-//                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
+                getActivity().overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
             }
         });
 
@@ -93,7 +93,7 @@ public class HomeFragment extends Fragment {
                 Intent intent = new Intent(v.getContext(), AksaraJawaActivity.class);
                 startActivity(intent);
                 TabButton5();
-//                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
+                getActivity().overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
             }
         });
 
@@ -105,7 +105,7 @@ public class HomeFragment extends Fragment {
                 Intent intent = new Intent(v.getContext(), WayangPoin.class);
                 startActivity(intent);
                 TabButton6();
-//                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
+                getActivity().overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
             }
         });
 

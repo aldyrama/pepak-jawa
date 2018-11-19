@@ -89,7 +89,7 @@
                             <!--android:id="@+id/guidance"-->
                             <!--android:padding="5dp"/>-->
                         <TextView
-                            android:layout_width="wrap_content"
+                            android:layout_width="fill_parent"
                             android:layout_height="wrap_content"
                             android:text="Belajar menulis aksara"
                             android:padding="16dp"/>

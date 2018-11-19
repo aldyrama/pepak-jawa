@@ -1,4 +1,4 @@
-package org.d3ifcool.pepakjawa;
+package org.d3ifcool.pepakjawa.Database;
 
 import android.content.Context;
 import android.database.Cursor;

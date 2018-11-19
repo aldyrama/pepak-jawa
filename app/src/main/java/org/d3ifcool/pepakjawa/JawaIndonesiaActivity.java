@@ -14,6 +14,8 @@ import android.widget.ListView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import org.d3ifcool.pepakjawa.Database.DatabaseConnect;
+
 import java.util.List;
 
 public class JawaIndonesiaActivity extends AppCompatActivity {
@@ -119,4 +121,11 @@ public class JawaIndonesiaActivity extends AppCompatActivity {
         dismisstampilLayoutArti();
     }
 
+    @Override
+    public void finish() {
+        super.finish();
+        overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
+    }
+
 }
+

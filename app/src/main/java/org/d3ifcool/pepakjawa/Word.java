@@ -1,9 +1,5 @@
 package org.d3ifcool.pepakjawa;
 
-/**
- * Created by ASUS on 28-Sep-18.
- */
-
 public class Word {
 
     private String mJavaTranslation;

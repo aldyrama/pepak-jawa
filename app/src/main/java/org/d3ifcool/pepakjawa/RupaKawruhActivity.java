@@ -510,5 +510,11 @@ public class RupaKawruhActivity extends AppCompatActivity {
         return result;
     }
 
+    @Override
+    public void finish() {
+        super.finish();
+        overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
+    }
+
 
 }

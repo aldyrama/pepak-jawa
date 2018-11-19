@@ -14,16 +14,15 @@ import android.widget.ListView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import org.d3ifcool.pepakjawa.Database.DatabaseConnect;
+
 import java.util.List;
 
-/**
- * Created by milstrike on 23/02/2016.
- */
 public class IndonesiaJawaActivity extends AppCompatActivity {
 
     private ListView listView;
-    private TextView cariIndonesia;
-    private RelativeLayout LayoutTampilCari, mainlayout;
+    private TextView seachIndonesia;
+    private RelativeLayout LayoutSearch, mainlayout;
     private TextView textjawa, textindonesia;
     private LinearLayout tutupLayoutTampil;
 
@@ -33,9 +32,9 @@ public class IndonesiaJawaActivity extends AppCompatActivity {
         setContentView(R.layout.activity_indonesia);
 
         listView = (ListView) findViewById(R.id.listviewindonesia);
-        cariIndonesia = (TextView) findViewById(R.id.searchindonesia);
+        seachIndonesia = (TextView) findViewById(R.id.searchindonesia);
         mainlayout = (RelativeLayout) findViewById(R.id.mainLayout);
-        LayoutTampilCari = (RelativeLayout) findViewById(R.id.tampilArtiLayout);
+        LayoutSearch = (RelativeLayout) findViewById(R.id.tampilArtiLayout);
         tutupLayoutTampil = (LinearLayout) findViewById(R.id.tutupArtiLayout);
         textjawa = (TextView) findViewById(R.id.tampilJawa);
         textindonesia = (TextView) findViewById(R.id.tampilIndonesia);
@@ -55,7 +54,7 @@ public class IndonesiaJawaActivity extends AppCompatActivity {
             }
         });
 
-        cariIndonesia.addTextChangedListener(new TextWatcher() {
+        seachIndonesia.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
 
@@ -63,7 +62,7 @@ public class IndonesiaJawaActivity extends AppCompatActivity {
 
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count) {
-                listChanger(cariIndonesia.getText().toString());
+                listChanger(seachIndonesia.getText().toString());
             }
 
             @Override
@@ -110,16 +109,22 @@ public class IndonesiaJawaActivity extends AppCompatActivity {
 
     public void tampilLayoutArti(){
         mainlayout.setEnabled(false);
-        LayoutTampilCari.setVisibility(View.VISIBLE);
+        LayoutSearch.setVisibility(View.VISIBLE);
     }
 
     public void dismisstampilLayoutArti(){
-        LayoutTampilCari.setVisibility(View.GONE);
+        LayoutSearch.setVisibility(View.GONE);
         mainlayout.setEnabled(true);
     }
 
     public void closeInAction(View V){
         dismisstampilLayoutArti();
+    }
+
+    @Override
+    public void finish() {
+        super.finish();
+        overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
     }
 
 }
