@@ -2612,61 +2612,61 @@
     {
       "id": "489",
       "category": "Parikan",
-      "jawa": "Esuk Nyuling Sore Nyuling | Sulinge Arek Surabaya | Esuk Eling Sore Eling | nSing Dieling Ora Rumangsa",
+      "jawa": "Esuk Nyuling Sore Nyuling | Sulinge Arek Surabaya | Esuk Eling Sore Eling",
       "translate": ""
     },
     {
       "id": "490",
       "category": "Parikan",
-      "jawa": "Yen Kembang Kembange Kacang | Dudu Kembange Puspa Nyidra | Sih Cilik DiKudang-Kudang | Bareng Gedhe Gawe Rekasa",
+      "jawa": "Yen Kembang Kembange Kacang | Dudu Kembange Puspa Nyidra | Sih Cilik DiKudang-Kudang",
       "translate": ""
     },
     {
       "id": "491",
       "category": "Parikan",
-      "jawa": "Awan-Awan Aja Keluyuran | Ana Pak Mantri Numpak Sekuter | Kapan-Kapan Aku Keturutan | Duwe Kanca Sinaune Pinter",
+      "jawa": "Awan-Awan Aja Keluyuran | Ana Pak Mantri Numpak Sekuter | Kapan-Kapan Aku Keturutan",
       "translate": ""
     },
     {
       "id": "492",
       "category": "Parikan",
-      "jawa": "Esuk Nembang Sore Nembang | Tembangane Asmaradana | Esuk Ngadhang Sore Ngadhang | Sing Diadhang Ra Teka-Teka",
+      "jawa": "Esuk Nembang Sore Nembang | Tembangane Asmaradana | Esuk Ngadhang Sore Ngadhang",
       "translate": ""
     },
     {
       "id": "493",
       "category": "Parikan",
-      "jawa": "Omah Gentheng Saponono | Cagak Pilar Kapuren Putih | Abot Entheng Lakonono | Ati Susah Bakale Pulih",
+      "jawa": "Omah Gentheng Saponono | Cagak Pilar Kapuren Putih | Abot Entheng Lakonono ",
       "translate": ""
     },
     {
       "id": "494",
       "category": "Parikan",
-      "jawa": "Kulon Kali Wetan Kali | Arep Liwat Ora Ana Wote | Wetan Gati Kulon Gati | Arep Ditinggal Padha Abote",
+      "jawa": "Kulon Kali Wetan Kali | Arep Liwat Ora Ana Wote | Wetan Gati Kulon Gati ",
       "translate": ""
     },
     {
       "id": "495",
       "category": "Parikan",
-      "jawa": "Sawonggaling Wayange Kuno | Seng Digawe Kayune Jati | Yen Eling Sambangono | Ojo Gawe Larane Ati",
+      "jawa": "Sawonggaling Wayange Kuno | Seng Digawe Kayune Jati | Yen Eling Sambangono ",
       "translate": ""
     },
     {
       "id": "496",
       "category": "Parikan",
-      "jawa": "Neng Jombang Kampunge Sengon | Lemah Geneng Akeh Wedhine | Nadyan Ora Sambang Nek Kirim Ingon | Nek Ora Seneng Apa Mesthine",
+      "jawa": "Neng Jombang Kampunge Sengon | Lemah Geneng Akeh Wedhine ",
       "translate": ""
     },
     {
       "id": "497",
       "category": "Parikan",
-      "jawa": "Apa Gunane Meja Lan Kursi | Kuwi Pinongko Palungguhane | Apa Gunane Organisasi | Kuwi Pinongko Persatuane",
+      "jawa": "Apa Gunane Meja Lan Kursi | Kuwi Pinongko Palungguhane | Apa Gunane Organisasi ",
       "translate": ""
     },
     {
       "id": "498",
       "category": "Parikan",
-      "jawa": "Nyapu Yo Nyapu | Sapu Sada Semendhe Cagak | Mlaku Yo Mlaku | Nek Ketemu Kanca Ayo Diajak",
+      "jawa": "Nyapu Yo Nyapu | Sapu Sada Semendhe Cagak | Mlaku Yo Mlaku",
       "translate": ""
     },
     {
@@ -2702,7 +2702,7 @@
     {
       "id": "504",
       "category": "Wangsalan",
-      "jawa": "Kembang Jambu, Kemaruk Duwe Dolanan Anyar. (Kembang Jambu : Karuk : Dadi Kemaruk)",
+      "jawa": "Kembang Jambu, Kemaruk Duwe Dolanan Anyar.(Kembang Jambu:Karuk:Dadi Kemaruk)",
       "translate": ""
     },
     {
@@ -2726,13 +2726,13 @@
     {
       "id": "508",
       "category": "Wangsalan",
-      "jawa": "Witing Klapa, Jawata Ing Ngarcapada. Salungune Wong Mudha Gelem Rekasa. (Jawata Ing Ngarca Pada : Wong)",
+      "jawa": "Witing Klapa, Jawata Ing Ngarcapada. Salungune Wong Mudha Gelem Rekasa.",
       "translate": ""
     },
     {
       "id": "509",
       "category": "Wangsalan",
-      "jawa": "Kolik Priya, Priyagung Anjani Putra. Tuhu Eman, Wong Anom Wedi Kangelan. (Kolok Priya : Manuk Tuhu). (Anjani Putra : Anoman - dadi Anom)",
+      "jawa": "Kolik Priya, Priyagung Anjani Putra. Tuhu Eman, Wong Anom Wedi Kangelan.",
       "translate": ""
     },
     {
@@ -4010,121 +4010,121 @@
     "id": "722",
     "category": "Wujude Gamelan",
     "jawa": "Gamelan Gedhe",
-    "translate": " "
+    "translate": "gamelan yang bagus"
   },
   {
     "id": "723",
     "category": "Wujude Gamelan",
     "jawa": "Gamelan barut",
-    "translate": " "
+    "translate": "Gamelan gamelan"
   },
   {
     "id": "724",
     "category": "Swarane Gamelan",
     "jawa": "Gamelan Pelog",
-    "translate": " "
+    "translate": "Gamelan pelog"
   },
   {
     "id": "725",
     "category": "Swarane Gamelan",
     "jawa": "Gamelan Slendro",
-    "translate": " "
+    "translate": "Gamelan Slendro"
   },
   {
     "id": "726",
     "category": "Perangane Gamelan",
     "jawa": "Bonang",
-    "translate": " "
+    "translate": "Bonang"
   },
   {
     "id": "727",
     "category": "Perangane Gamelan",
     "jawa": "Demung",
-    "translate": " "
+    "translate": "Demung"
   },
   {
     "id": "728",
     "category": "Perangane Gamelan",
     "jawa": "Gambang",
-    "translate": " "
+    "translate": "Gambang"
   },
   {
     "id": "729",
     "category": "Perangane Gamelan",
     "jawa": "Gender",
-    "translate": " "
+    "translate": "Gender"
   },
   {
     "id": "730",
     "category": "Perangane Gamelan",
     "jawa": "Gong",
-    "translate": " "
+    "translate": "Gong"
   },
   {
     "id": "731",
     "category": "Perangane Gamelan",
     "jawa": "Kempul",
-    "translate": " "
+    "translate": "Kempul"
   },
   {
     "id": "732",
     "category": "Perangane Gamelan",
     "jawa": "Kendhang",
-    "translate": " "
+    "translate": "Kendhang"
   },
   {
     "id": "733",
     "category": "Perangane Gamelan",
     "jawa": "Kenong",
-    "translate": " "
+    "translate": "Kenong"
   },
   {
     "id": "734",
     "category": "Perangane Gamelan",
     "jawa": "Kethuk",
-    "translate": " "
+    "translate": "Kethuk"
   },
   {
     "id": "735",
     "category": "Perangane Gamelan",
     "jawa": "Peking",
-    "translate": " "
+    "translate": "Peking"
   },
   {
     "id": "736",
     "category": "Perangane Gamelan",
     "jawa": "Bonang",
-    "translate": " "
+    "translate": "Bonang"
   },
   {
     "id": "737",
     "category": "Perangane Gamelan",
     "jawa": "Rebab",
-    "translate": " "
+    "translate": "Rebab"
   },
   {
     "id": "738",
     "category": "Perangane Gamelan",
     "jawa": "Saron",
-    "translate": " "
+    "translate": "Saron"
   },
   {
     "id": "739",
     "category": "Perangane Gamelan",
     "jawa": "Siter",
-    "translate": " "
+    "translate": "Siter"
   },
   {
     "id": "740",
     "category": "Perangane Gamelan",
     "jawa": "Suwuk",
-    "translate": " "
+    "translate": "Suwuk"
   },
   {
     "id": "741",
     "category": "Perangane Gamelan",
     "jawa": "Thimplung",
-    "translate": " "
+    "translate": "Thimplung"
   },
   {
     "id": "742",
@@ -4154,73 +4154,61 @@
     "id": "746",
     "category": "Gendhing",
     "jawa": "Gendhing kluthang",
-    "translate": " "
+    "translate": "Itu badut"
   },
   {
     "id": "747",
     "category": "Gendhing",
     "jawa": "Gending gilang",
-    "translate": " "
-  },
-  {
-    "id": "748",
-    "category": "Gendhing",
-    "jawa": "Gendhing kluthang",
-    "translate": " "
-  },
-  {
-    "id": "749",
-    "category": "Gendhing",
-    "jawa": "Gending gilang",
-    "translate": " "
+    "translate": "Gending gilang"
   },
   {
     "id": "750",
     "category": "Gendhing",
     "jawa": "Gendhing gonjang-ganjing",
-    "translate": " "
+    "translate": "Saya gemetar"
   },
   {
     "id": "751",
     "category": "Gendhing",
     "jawa": "Gending grombol",
-    "translate": " "
+    "translate": "Gending grombol"
   },
   {
     "id": "752",
     "category": "Gendhing",
     "jawa": "Gendhing pangkur",
-    "translate": " "
+    "translate": "Gendhing pangkur"
   },
   {
     "id": "753",
     "category": "Gendhing",
     "jawa": "Gending puspawarna",
-    "translate": " "
+    "translate": "Gending puspawarna"
   },
   {
     "id": "754",
     "category": "Gendhing",
     "jawa": "Gendhing sinom parijata",
-    "translate": " "
+    "translate": "Itu orang berdosa"
   },
   {
     "id": "755",
     "category": "Gendhing",
     "jawa": "Gending srikaton",
-    "translate": " "
+    "translate": "Gending srikaton"
   },
   {
     "id": "756",
     "category": "Gendhing",
     "jawa": "Gendhing srikarongron",
-    "translate": " "
+    "translate": "Gendhing srikarongron"
   },
   {
     "id": "757",
     "category": "Gendhing",
     "jawa": "Gending ulerkambang",
-    "translate": " "
+    "translate": "Gending ulerkambang"
   },
   {
     "id": "758",
@@ -4305,5 +4293,317 @@
     "category": "Tumrap",
     "jawa": "Waranggane",
     "translate": "Sindhen, persindhen"
+  },
+  {
+    "id": "782",
+    "category": "Tembung Lan Jinise",
+    "jawa": "Tembung Kaanan",
+    "translate": "Kata Sifat"
+  },
+  {
+    "id": "783",
+    "category": "Tembung Lan Jinise",
+    "jawa": "Tembung Keterangan",
+    "translate": "Kata Keterangan"
+  },
+  {
+    "id": "784",
+    "category": "Tembung Lan Jinise",
+    "jawa": "Tembung Pangguwuh",
+    "translate": "Kata Seru"
+  },
+  {
+    "id": "785",
+    "category": "Tembung Lan Jinise",
+    "jawa": "Tembung Shandangan",
+    "translate": "Kata Sandhang"
+  },
+  {
+    "id": "786",
+    "category": "Tembung Lan Jinise",
+    "jawa": "Tembung Penyambung",
+    "translate": "Kata Sambung"
+  },
+  {
+    "id": "787",
+    "category": "Tembung Lan Jinise",
+    "jawa": "Tembung Pangarep",
+    "translate": "Kata Depan"
+  },
+  {
+    "id": "788",
+    "category": "Pamilahane Tembung",
+    "jawa": "Seselan",
+    "translate": "Akhiran"
+  },
+  {
+    "id": "789",
+    "category": "Pamilahe Ukara",
+    "jawa": "Katrangan (Pratelan)",
+    "translate": "Deskripsi"
+  },
+  {
+    "id": "790",
+    "category": "Pribasan",
+    "jawa": "Adhang-adhang tetese embun",
+    "translate": "Kelembaban embun"
+  },
+  {
+    "id": "791",
+    "category": "Pribasan",
+    "jawa": "Adigang, adigung, adiguna",
+    "translate": "Adigang, adigung, adiguna"
+  },
+  {
+    "id": "792",
+    "category": "Pribasan",
+    "jawa": "Aji godhong garing",
+    "translate": "Daun kering"
+  },
+  {
+    "id": "793",
+    "category": "Pribasan",
+    "jawa": "Ana catur mungkur",
+    "translate": "Ada catur"
+  },
+  {
+    "id": "794",
+    "category": "Pribasan",
+    "jawa": "Ana daulate ora ana bagjane",
+    "translate": "Tidak ada apa pun di dalamnya"
+  },
+  {
+    "id": "795",
+    "category": "Pribasan",
+    "jawa": "Anak polah bapa kapradah",
+    "translate": "Putra dari ayah kapradah"
+  },
+  {
+    "id": "796",
+    "category": "Pribasan",
+    "jawa": "Anggenthong umos",
+    "translate": "Hormat, umos"
+  },
+  {
+    "id": "797",
+    "category": "Pribasan",
+    "jawa": "Angon mangsa",
+    "translate": "Kawanan musim dingin"
+  },
+  {
+    "id": "798",
+    "category": "Pribasan",
+    "jawa": "Angon ulat ngumbar tangan",
+    "translate": "Gembala melapor"
+  },
+  {
+    "id": "799",
+    "category": "Tembung Krama Madya Perangane Awak",
+    "jawa": "Endhas",
+    "translate": "Kepala"
+  },
+  {
+    "id": "800",
+    "category": "Tembung Krama Madya Perangane Awak",
+    "jawa": "Epek-Epek",
+    "translate": "Telapak Tangan"
+  },
+  {
+    "id": "801",
+    "category": "Tembung Krama Madya Perangane Awak",
+    "jawa": "Geger",
+    "translate": "Punggung"
+  },
+  {
+    "id": "802",
+    "category": "Tembung Krama Madya Perangane Awak ",
+    "jawa": "Gelung",
+    "translate": "Sanggul"
+  },
+  {
+    "id": "803",
+    "category": "Tembung Krama Madya Perangane Awak",
+    "jawa": "Getih",
+    "translate": "Darah"
+  },
+  {
+    "id": "804",
+    "category": "Tembung Krama Madya Perangane Awak ",
+    "jawa": "Githok",
+    "translate": "Belakang Leher"
+  },
+  {
+    "id": "805",
+    "category": "Tembung Krama Madya Perangane Awak",
+    "jawa": "Gulu",
+    "translate": "Leher"
+  },
+  {
+    "id": "806",
+    "category": "Tembung Krama Madya Perangane Awak",
+    "jawa": "Idep",
+    "translate": "Bulu Mata"
+  },
+  {
+    "id": "807",
+    "category": "Tembung Krama Madya Perangane Awak",
+    "jawa": "Idu",
+    "translate": "Ludah"
+  },
+  {
+    "id": "808",
+    "category": "Tembung Krama Madya Perangane Awak ",
+    "jawa": "Iga",
+    "translate": "Tulang Dada"
+  },
+  {
+    "id": "809",
+    "category": "Tembung Krama Madya Perangane Awak",
+    "jawa": "Ilat",
+    "translate": "Lidah"
+  },
+  {
+    "id": "810",
+    "category": "Tembung Krama Madya Perangane Awak",
+    "jawa": "Irung",
+    "translate": "Hidung"
+  },
+  {
+    "id": "811",
+    "category": "Tembung Krama Madya Perangane Awak",
+    "jawa": "Janggut",
+    "translate": "Dagu"
+  },
+  {
+    "id": "812",
+    "category": "Tembung Krama Madya Perangane Awak",
+    "jawa": "Jenggot",
+    "translate": "Jenggot"
+  },
+  {
+    "id": "813",
+    "category": "Tembung Krama Madya Perangane Awak",
+    "jawa": "Kempol",
+    "translate": "Betis"
+  },
+  {
+    "id": "814",
+    "category": "Tembung Krama Madya Perangane Awak",
+    "jawa": "Kringet",
+    "translate": "Keringat"
+  },
+  {
+    "id": "815",
+    "category": "Tembung Krama Madya Perangane Awak",
+    "jawa": "Kuping",
+    "translate": "Telinga"
+  },
+  {
+    "id": "816",
+    "category": "Tembung Krama Madya Perangane Awak",
+    "jawa": "Lambe",
+    "translate": "Bibir"
+  },
+  {
+    "id": "817",
+    "category": "Tembung Krama Madya Perangane Awak ",
+    "jawa": "Luh",
+    "translate": "Air Mata"
+  },
+  {
+    "id": "818",
+    "category": "Tembung Krama Madya Perangane Awak ",
+    "jawa": "Mata",
+    "translate": "Mata"
+  },
+  {
+    "id": "819",
+    "category": "Tembung Krama Madya Perangane Awak",
+    "jawa": "Pipi",
+    "translate": "Pipi"
+  },
+  {
+    "id": "820",
+    "category": "Tembung Krama Madya Perangane Awak",
+    "jawa": "Pundhak",
+    "translate": "Pundak"
+  },
+  {
+    "id": "821",
+    "category": "Tembung Krama Madya Perangane Awak ",
+    "jawa": "Pupu",
+    "translate": "Paha"
+  },
+  {
+    "id": "822",
+    "category": "Tembung Krama Madya Perangane Awak ",
+    "jawa": "Rai",
+    "translate": "Wajah"
+  },
+  {
+    "id": "823",
+    "category": "Tembung Krama Madya Perangane Awak",
+    "jawa": "Rambut",
+    "translate": "Rambut"
+  },
+  {
+    "id": "824",
+    "category": "Tembung Krama Madya Perangane Awak",
+    "jawa": "Riyak",
+    "translate": "Riyak"
+  },
+  {
+    "id": "825",
+    "category": "Tembung Krama Madya Perangane Awak ",
+    "jawa": "Sikil",
+    "translate": "Kaki"
+  },
+  {
+    "id": "826",
+    "category": "Tembung Krama Madya Perangane Awak",
+    "jawa": "Susu",
+    "translate": "Payudara"
+  },
+  {
+    "id": "827",
+    "category": "Tembung Krama Madya Perangane Awak ",
+    "jawa": "Suwara",
+    "translate": "Suara"
+  },
+  {
+    "id": "828",
+    "category": "Tembung Krama Madya Perangane Awak ",
+    "jawa": "Tangan",
+    "translate": "Tangan"
+  },
+  {
+    "id": "829",
+    "category": "Tembung Krama Madya Perangane Awak",
+    "jawa": "Umbel",
+    "translate": "Ingus"
+  },
+  {
+    "id": "830",
+    "category": "Tembung Krama Madya Perangane Awak",
+    "jawa": "Untu",
+    "translate": "Gigi"
+  },
+  {
+    "id": "831",
+    "category": "Tembung Krama Madya Perangane Awak",
+    "jawa": "Uyuh",
+    "translate": "Air Kencing"
+  },
+  {
+    "id": "832",
+    "category": "Tembung Krama Madya Perangane Awak ",
+    "jawa": "Weteng",
+    "translate": "Perut"
+  },
+  {
+    "id": "833",
+    "category": "Tembung Krama Madya Perangane Awak ",
+    "jawa": "Wudel",
+    "translate": "Pusar"
   }
 ]

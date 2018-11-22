@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.widget.ExpandableListView;
 import org.d3ifcool.pepakjawa.Model.Category;
 import org.d3ifcool.pepakjawa.Model.ItemDetail;
+import org.d3ifcool.pepakjawa.MyAdapter.ExpandableAdapter;
 import org.d3ifcool.pepakjawa.MyAdapter.ExpandableAdapter2;
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -27,7 +28,7 @@ public class KesusastraanActivity extends AppCompatActivity {
         initData();
         ExpandableListView expandableListView = (ExpandableListView) findViewById(R.id.expandable_kesusastraan);
 
-        ExpandableAdapter2 expandableAdapter = new ExpandableAdapter2(categoryList, this);
+        ExpandableAdapter expandableAdapter = new ExpandableAdapter(categoryList, this);
 
         expandableListView.setAdapter(expandableAdapter);
     }
@@ -62,43 +63,35 @@ public class KesusastraanActivity extends AppCompatActivity {
         category5.setItemDetails(createItems5());
         categoryList.add(category5);
 
-        category6 = createCategory("Cangkriman", "Rima yang runtut suaranya ", 0);
+        category6 = createCategory("Cangkriman", "kegentingan", 0);
         category6.setItemDetails(createItems6());
         categoryList.add(category6);
 
-        category3 = createCategory("Paribasan", "Paribasan", 0);
-        category3.setItemDetails(createItems3());
-        categoryList.add(category3);
+        category7 = createCategory("Paribasan, Sanepan", "Pribadi, Harapan", 0);
+        category7.setItemDetails(createItems7());
+        categoryList.add(category7);
 
-        category3 = createCategory("Tembang", "Paribasan", 0);
-        category3.setItemDetails(createItems3());
-        categoryList.add(category3);
-
-        category3 = createCategory("Coba Lagokna", "Paribasan", 0);
-        category3.setItemDetails(createItems3());
-        categoryList.add(category3);
-
-        category10 = createCategory("Wujude Gamelan", "Paribasan", 0);
+        category10 = createCategory("Wujude Gamelan", "Gamelan Wujude", 0);
         category10.setItemDetails(createItems10());
         categoryList.add(category10);
 
-        category11 = createCategory("Swarane Gamelan", "Paribasan", 0);
+        category11 = createCategory("Swarane Gamelan", "Musik Gamelan", 0);
         category11.setItemDetails(createItems11());
         categoryList.add(category11);
 
-        category12 = createCategory("Perangane Gamelan", "Paribasan", 0);
+        category12 = createCategory("Perangane Gamelan", "Gamelan Parangane", 0);
         category12.setItemDetails(createItems12());
         categoryList.add(category12);
 
-        category13 = createCategory("Gaweyane", "Paribasan", 0);
+        category13 = createCategory("Gaweyane", "Gaweyane", 0);
         category13.setItemDetails(createItems13());
         categoryList.add(category13);
 
-        category14 = createCategory("Arane gendhing-gendhing", "Paribasan", 0);
+        category14 = createCategory("Arane gendhing-gendhing", "Terdengar seperti gendhing", 0);
         category14.setItemDetails(createItems14());
         categoryList.add(category14);
 
-        category15 = createCategory("Tembung Tumrap Gamelan", "Paribasan", 0);
+        category15 = createCategory("Tembung Tumrap Gamelan", "Kata Gamelan", 0);
         category15.setItemDetails(createItems15());
         categoryList.add(category15);
 
@@ -276,6 +269,33 @@ public class KesusastraanActivity extends AppCompatActivity {
         } catch (JSONException e) {
             e.printStackTrace();
         }
+        return result;
+    }
+
+    private ArrayList<ItemDetail> createItems7() {
+        String json;
+        final ArrayList<ItemDetail> result = new ArrayList<>();
+        try {
+            InputStream is = getAssets().open("data.json");
+            int size =is.available();
+            byte[] buffer = new byte[size];
+            is.read(buffer);
+            is.close();
+
+            json = new String(buffer,"UTF-8");
+            JSONArray baseJsonResponse = new JSONArray(json);
+            for (int i = 0; i < baseJsonResponse.length(); i++) {
+
+                JSONObject currentItemDetail = baseJsonResponse.getJSONObject(i);
+                if (currentItemDetail.getString("category").equals("Pribasan")){
+                    String jawa = currentItemDetail.getString("jawa");
+                    String translate = currentItemDetail.getString("translate");
+                    ItemDetail item = new ItemDetail(jawa, translate);
+                    result.add(item);
+                }
+            }
+        }catch (IOException ignored){ }
+        catch (JSONException e) { e.printStackTrace(); }
         return result;
     }
 

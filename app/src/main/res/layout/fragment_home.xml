@@ -55,7 +55,8 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical">
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal">
 
             <ImageView
                 android:layout_width="50dp"
@@ -64,15 +65,30 @@
                 android:src="@drawable/ic_action_arrow"
                 android:layout_marginLeft="20dp"/>
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/paramasastra"
-                android:layout_gravity="center_vertical"
-                android:textStyle="bold"
-                android:textSize="20sp"
-                android:layout_marginLeft="10dp"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:padding="8dp">
 
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/paramasastra"
+                    android:layout_gravity="center_vertical"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:textColor="#000"
+                    android:layout_marginLeft="10dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="16sp"
+                        android:text="Tata bahasa"/>
+                </LinearLayout>
             </LinearLayout>
 
             <LinearLayout
@@ -115,15 +131,31 @@
                 android:src="@drawable/ic_action_arrow"
                 android:layout_marginLeft="20dp"/>
 
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/rupa_kawruh"
                 android:layout_gravity="center_vertical"
                 android:textStyle="bold"
+                android:textColor="#000"
                 android:textSize="20sp"
                 android:layout_marginLeft="10dp"/>
 
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="16sp"
+                        android:text="Macam ilmu pengetahuan"/>
+
+                </LinearLayout>
             </LinearLayout>
 
             <LinearLayout
@@ -166,6 +198,13 @@
                 android:src="@drawable/ic_action_arrow"
                 android:layout_marginLeft="20dp"/>
 
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -173,8 +212,17 @@
                 android:layout_gravity="center_vertical"
                 android:textStyle="bold"
                 android:textSize="20sp"
+                android:textColor="#000"
                 android:layout_marginLeft="10dp"/>
 
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="16sp"
+                        android:text="Ilmu pengetahuan bahasa"/>
+
+                </LinearLayout>
             </LinearLayout>
 
             <LinearLayout
@@ -217,6 +265,13 @@
                 android:src="@drawable/ic_action_arrow"
                 android:layout_marginLeft="20dp"/>
 
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -224,8 +279,17 @@
                 android:layout_gravity="center_vertical"
                 android:textStyle="bold"
                 android:textSize="20sp"
+                android:textColor="#000"
                 android:layout_marginLeft="10dp"/>
 
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="16sp"
+                        android:text="Kesastraan dalam bahasa jawa"/>
+
+                </LinearLayout>
             </LinearLayout>
 
             <LinearLayout
@@ -267,15 +331,31 @@
                 android:src="@drawable/ic_action_arrow"
                 android:layout_marginLeft="20dp"/>
 
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/aksara"
                 android:layout_gravity="center_vertical"
                 android:textStyle="bold"
+                android:textColor="#000"
                 android:textSize="20sp"
                 android:layout_marginLeft="10dp"/>
 
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="16sp"
+                        android:text="Huruf, angka dan tanda baca"/>
+
+                </LinearLayout>
             </LinearLayout>
 
             <LinearLayout
@@ -322,6 +402,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/wayang"
+                android:textColor="#000"
                 android:layout_gravity="center_vertical"
                 android:textStyle="bold"
                 android:textSize="20sp"
