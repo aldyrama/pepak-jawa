@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -8,16 +9,15 @@
     tools:context=".MainActivity"
     android:background="@drawable/bg">
 
-
     <android.support.design.widget.CoordinatorLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-            <FrameLayout
-                android:id="@+id/fragment_container"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_above="@+id/bottom_navigation"/>
+        <FrameLayout
+            android:id="@+id/fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/bottom_navigation"/>
 
             <android.support.design.widget.BottomNavigationView
                 android:id="@+id/bottom_navigation"
@@ -29,427 +29,412 @@
                 android:theme="@style/BootomNavigationView">
             </android.support.design.widget.BottomNavigationView>
 
-        <ScrollView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginBottom="60dp">
-
-            <LinearLayout
+            <ScrollView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:padding="16dp"
-                android:layout_marginTop="10dp"
-                android:orientation="vertical">
-
-            <android.support.v7.widget.CardView
-                android:id="@+id/paramasastra"
-                android:layout_width="fill_parent"
-                android:layout_height="80dp"
                 android:layout_gravity="center"
-                android:background="@drawable/ripple_effect"
-                app:cardCornerRadius="6dp"
-                app:cardElevation="8dp"
-                android:foreground="?attr/selectableItemBackgroundBorderless">
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                android:orientation="horizontal">
-
-            <ImageView
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_gravity="center_vertical"
-                android:src="@drawable/ic_action_arrow"
-                android:layout_marginLeft="20dp"/>
+                android:layout_marginBottom="60dp">
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical"
-                    android:orientation="vertical"
-                    android:padding="8dp">
+                    android:padding="16dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical">
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/paramasastra"
-                    android:layout_gravity="center_vertical"
-                    android:textStyle="bold"
-                    android:textSize="20sp"
-                    android:textColor="#000"
-                    android:layout_marginLeft="10dp"/>
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/paramasastra"
+                        android:layout_width="fill_parent"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/ripple_effect"
+                        app:cardCornerRadius="6dp"
+                        app:cardElevation="8dp"
+                        android:foreground="?attr/selectableItemBackgroundBorderless">
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:textSize="16sp"
-                        android:text="Tata bahasa"/>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_gravity="center_vertical"
+                                android:src="@drawable/ic_action_arrow"
+                                android:layout_marginLeft="20dp"/>
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
+                                    android:orientation="vertical"
+                                    android:padding="8dp">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="@string/paramasastra"
+                                        android:layout_gravity="center_vertical"
+                                        android:textStyle="bold"
+                                        android:textSize="20sp"
+                                        android:textColor="#000"
+                                        android:layout_marginLeft="10dp"/>
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginLeft="10dp"
+                                            android:textSize="16sp"
+                                            android:text="Tata bahasa"/>
+                                </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:layout_marginTop="15dp"
+                            android:gravity="right">
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="50dp"
+                                android:src="@drawable/ic_action_right"
+                                android:layout_gravity="right"/>
+                        </LinearLayout>
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/rupa_kawruh"
+                        android:layout_width="fill_parent"
+                        android:layout_height="80dp"
+                        android:layout_marginTop="15dp"
+                        android:clickable="true"
+                        android:layout_gravity="center"
+                        app:cardCornerRadius="6dp"
+                        app:cardElevation="8dp"
+                        android:focusable="true"
+                        android:foreground="?attr/selectableItemBackgroundBorderless">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical">
+
+                            <ImageView
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_gravity="center_vertical"
+                                android:src="@drawable/ic_action_arrow"
+                                android:layout_marginLeft="20dp"/>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:orientation="vertical"
+                                android:padding="8dp">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/rupa_kawruh"
+                                    android:layout_gravity="center_vertical"
+                                    android:textStyle="bold"
+                                    android:textColor="#000"
+                                    android:textSize="20sp"
+                                    android:layout_marginLeft="10dp"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="10dp"
+                                    android:textSize="16sp"
+                                    android:text="Macam ilmu pengetahuan"/>
+
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:layout_marginTop="15dp"
+                            android:gravity="right">
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="50dp"
+                                android:src="@drawable/ic_action_right"
+                                android:layout_gravity="right"/>
+                        </LinearLayout>
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/kawruh_basa"
+                        android:layout_width="fill_parent"
+                        android:layout_height="80dp"
+                        android:layout_marginTop="15dp"
+                        android:clickable="true"
+                        android:layout_gravity="center"
+                        app:cardCornerRadius="6dp"
+                        app:cardElevation="8dp"
+                        android:focusable="true"
+                        android:foreground="?attr/selectableItemBackgroundBorderless">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical">
+
+                            <ImageView
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_gravity="center_vertical"
+                                android:src="@drawable/ic_action_arrow"
+                                android:layout_marginLeft="20dp"/>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:orientation="vertical"
+                                android:padding="8dp">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/kawruh_basa"
+                                    android:layout_gravity="center_vertical"
+                                    android:textStyle="bold"
+                                    android:textSize="20sp"
+                                    android:textColor="#000"
+                                    android:layout_marginLeft="10dp"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="10dp"
+                                    android:textSize="16sp"
+                                    android:text="Ilmu pengetahuan bahasa"/>
+
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:layout_marginTop="15dp"
+                            android:gravity="right">
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="50dp"
+                                android:src="@drawable/ic_action_right"
+                                android:layout_gravity="right"/>
+                        </LinearLayout>
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/kasusastra"
+                        android:layout_width="fill_parent"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:clickable="true"
+                        app:cardCornerRadius="6dp"
+                        app:cardElevation="8dp"
+                        android:focusable="true"
+                        android:foreground="?attr/selectableItemBackgroundBorderless">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical">
+
+                            <ImageView
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_gravity="center_vertical"
+                                android:src="@drawable/ic_action_arrow"
+                                android:layout_marginLeft="20dp"/>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:orientation="vertical"
+                                android:padding="8dp">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/kesusastraan"
+                                    android:layout_gravity="center_vertical"
+                                    android:textStyle="bold"
+                                    android:textSize="20sp"
+                                    android:textColor="#000"
+                                    android:layout_marginLeft="10dp"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="10dp"
+                                    android:textSize="16sp"
+                                    android:text="Kesastraan dalam bahasa jawa"/>
+
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:layout_marginTop="15dp"
+                            android:gravity="right">
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="50dp"
+                                android:src="@drawable/ic_action_right"
+                                android:layout_gravity="right"/>
+                        </LinearLayout>
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/aksara"
+                        android:layout_width="fill_parent"
+                        android:layout_height="80dp"
+                        android:layout_marginTop="15dp"
+                        android:clickable="true"
+                        app:cardCornerRadius="6dp"
+                        android:layout_gravity="center"
+                        app:cardElevation="8dp"
+                        android:focusable="true"
+                        android:foreground="?attr/selectableItemBackgroundBorderless">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical">
+
+                            <ImageView
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_gravity="center_vertical"
+                                android:src="@drawable/ic_action_arrow"
+                                android:layout_marginLeft="20dp"/>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:orientation="vertical"
+                                android:padding="8dp">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/aksara"
+                                    android:layout_gravity="center_vertical"
+                                    android:textStyle="bold"
+                                    android:textColor="#000"
+                                    android:textSize="20sp"
+                                    android:layout_marginLeft="10dp"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="10dp"
+                                    android:textSize="16sp"
+                                    android:text="Huruf, angka dan tanda baca"/>
+
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:layout_marginTop="15dp"
+                            android:gravity="right">
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="50dp"
+                                android:src="@drawable/ic_action_right"
+                                android:layout_gravity="right"/>
+                        </LinearLayout>
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/wayang"
+                        android:layout_width="fill_parent"
+                        android:layout_height="80dp"
+                        android:layout_marginTop="15dp"
+                        android:clickable="true"
+                        android:layout_gravity="center"
+                        app:cardCornerRadius="6dp"
+                        app:cardElevation="8dp"
+                        android:focusable="true"
+                        android:foreground="?attr/selectableItemBackgroundBorderless">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical">
+
+                            <ImageView
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_gravity="center_vertical"
+                                android:src="@drawable/ic_action_arrow"
+                                android:layout_marginLeft="20dp"/>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:orientation="vertical"
+                                android:padding="8dp">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/wayang"
+                                    android:textColor="#000"
+                                    android:layout_gravity="center_vertical"
+                                    android:textStyle="bold"
+                                    android:textSize="20sp"
+                                    android:layout_marginLeft="10dp"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="10dp"
+                                    android:textSize="16sp"
+                                    android:text="Kesenian dari jawa"/>
+                            </LinearLayout>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:layout_marginTop="12dp"
+                            android:gravity="right">
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="50dp"
+                                android:src="@drawable/ic_action_right"
+                                android:layout_gravity="right"/>
+                        </LinearLayout>
+                    </android.support.v7.widget.CardView>
                 </LinearLayout>
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="right"
-                android:layout_marginTop="15dp"
-                android:gravity="right">
-
-            <ImageView
-                android:layout_width="30dp"
-                android:layout_height="50dp"
-                android:src="@drawable/ic_action_right"
-                android:layout_gravity="right"
-            />
-            </LinearLayout>
-            </android.support.v7.widget.CardView>
-
-            <android.support.v7.widget.CardView
-                android:id="@+id/rupa_kawruh"
-                android:layout_width="fill_parent"
-                android:layout_height="80dp"
-                android:layout_marginTop="15dp"
-                android:clickable="true"
-                android:layout_gravity="center"
-                app:cardCornerRadius="6dp"
-                app:cardElevation="8dp"
-                android:focusable="true"
-                android:foreground="?attr/selectableItemBackgroundBorderless">
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical">
-
-            <ImageView
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_gravity="center_vertical"
-                android:src="@drawable/ic_action_arrow"
-                android:layout_marginLeft="20dp"/>
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical"
-                    android:orientation="vertical"
-                    android:padding="8dp">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/rupa_kawruh"
-                android:layout_gravity="center_vertical"
-                android:textStyle="bold"
-                android:textColor="#000"
-                android:textSize="20sp"
-                android:layout_marginLeft="10dp"/>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:textSize="16sp"
-                        android:text="Macam ilmu pengetahuan"/>
-
-                </LinearLayout>
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="right"
-                android:layout_marginTop="15dp"
-                android:gravity="right">
-
-            <ImageView
-                android:layout_width="30dp"
-                android:layout_height="50dp"
-                android:src="@drawable/ic_action_right"
-                android:layout_gravity="right"
-            />
-            </LinearLayout>
-            </android.support.v7.widget.CardView>
-
-            <android.support.v7.widget.CardView
-                android:id="@+id/kawruh_basa"
-                android:layout_width="fill_parent"
-                android:layout_height="80dp"
-                android:layout_marginTop="15dp"
-                android:clickable="true"
-                android:layout_gravity="center"
-                app:cardCornerRadius="6dp"
-                app:cardElevation="8dp"
-                android:focusable="true"
-                android:foreground="?attr/selectableItemBackgroundBorderless">
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical">
-
-            <ImageView
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_gravity="center_vertical"
-                android:src="@drawable/ic_action_arrow"
-                android:layout_marginLeft="20dp"/>
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical"
-                    android:orientation="vertical"
-                    android:padding="8dp">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/kawruh_basa"
-                android:layout_gravity="center_vertical"
-                android:textStyle="bold"
-                android:textSize="20sp"
-                android:textColor="#000"
-                android:layout_marginLeft="10dp"/>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:textSize="16sp"
-                        android:text="Ilmu pengetahuan bahasa"/>
-
-                </LinearLayout>
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="right"
-                android:layout_marginTop="15dp"
-                android:gravity="right">
-
-            <ImageView
-                android:layout_width="30dp"
-                android:layout_height="50dp"
-                android:src="@drawable/ic_action_right"
-                android:layout_gravity="right"
-            />
-            </LinearLayout>
-            </android.support.v7.widget.CardView>
-
-            <android.support.v7.widget.CardView
-                android:id="@+id/kasusastra"
-                android:layout_width="fill_parent"
-                android:layout_height="80dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="15dp"
-                android:clickable="true"
-                app:cardCornerRadius="6dp"
-                app:cardElevation="8dp"
-                android:focusable="true"
-                android:foreground="?attr/selectableItemBackgroundBorderless">
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical">
-
-            <ImageView
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_gravity="center_vertical"
-                android:src="@drawable/ic_action_arrow"
-                android:layout_marginLeft="20dp"/>
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical"
-                    android:orientation="vertical"
-                    android:padding="8dp">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/kasusastra"
-                android:layout_gravity="center_vertical"
-                android:textStyle="bold"
-                android:textSize="20sp"
-                android:textColor="#000"
-                android:layout_marginLeft="10dp"/>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:textSize="16sp"
-                        android:text="Kesastraan dalam bahasa jawa"/>
-
-                </LinearLayout>
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="right"
-                android:layout_marginTop="15dp"
-                android:gravity="right">
-
-            <ImageView
-                android:layout_width="30dp"
-                android:layout_height="50dp"
-                android:src="@drawable/ic_action_right"
-                android:layout_gravity="right"
-            />
-            </LinearLayout>
-            </android.support.v7.widget.CardView>
-            <android.support.v7.widget.CardView
-                android:id="@+id/aksara"
-                android:layout_width="fill_parent"
-                android:layout_height="80dp"
-                android:layout_marginTop="15dp"
-                android:clickable="true"
-                app:cardCornerRadius="6dp"
-                android:layout_gravity="center"
-                app:cardElevation="8dp"
-                android:focusable="true"
-                android:foreground="?attr/selectableItemBackgroundBorderless">
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical">
-
-            <ImageView
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_gravity="center_vertical"
-                android:src="@drawable/ic_action_arrow"
-                android:layout_marginLeft="20dp"/>
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical"
-                    android:orientation="vertical"
-                    android:padding="8dp">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/aksara"
-                android:layout_gravity="center_vertical"
-                android:textStyle="bold"
-                android:textColor="#000"
-                android:textSize="20sp"
-                android:layout_marginLeft="10dp"/>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:textSize="16sp"
-                        android:text="Huruf, angka dan tanda baca"/>
-
-                </LinearLayout>
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="right"
-                android:layout_marginTop="15dp"
-                android:gravity="right">
-
-            <ImageView
-                android:layout_width="30dp"
-                android:layout_height="50dp"
-                android:src="@drawable/ic_action_right"
-                android:layout_gravity="right"
-                />
-            </LinearLayout>
-            </android.support.v7.widget.CardView>
-
-            <android.support.v7.widget.CardView
-                android:id="@+id/wayang"
-                android:layout_width="fill_parent"
-                android:layout_height="80dp"
-                android:layout_marginTop="15dp"
-                android:clickable="true"
-                android:layout_gravity="center"
-                app:cardCornerRadius="6dp"
-                app:cardElevation="8dp"
-                android:focusable="true"
-                android:foreground="?attr/selectableItemBackgroundBorderless">
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical">
-
-            <ImageView
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_gravity="center_vertical"
-                android:src="@drawable/ic_action_arrow"
-                android:layout_marginLeft="20dp"/>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/wayang"
-                android:textColor="#000"
-                android:layout_gravity="center_vertical"
-                android:textStyle="bold"
-                android:textSize="20sp"
-                android:layout_marginLeft="10dp"/>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="right"
-                android:layout_marginTop="12dp"
-                android:gravity="right">
-
-            <ImageView
-                android:layout_width="30dp"
-                android:layout_height="50dp"
-                android:src="@drawable/ic_action_right"
-                android:layout_gravity="right"
-            />
-                    </LinearLayout>
-                </android.support.v7.widget.CardView>
-            </LinearLayout>
-        </ScrollView>
+            </ScrollView>
     </android.support.design.widget.CoordinatorLayout>
 </RelativeLayout>
 
-
-
-
-
-
-
-
-
-
-<!--<?xml version="1.0" encoding="utf-8"?>-->
-<!--<RelativeLayout-->
-    <!--xmlns:android="http://schemas.android.com/apk/res/android"-->
-    <!--android:layout_width="match_parent"-->
-    <!--android:layout_height="match_parent">-->
-
-    <!--<ListView-->
-        <!--android:id="@+id/list_home"-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="match_parent">-->
-
-    <!--</ListView>-->
-
-<!--</RelativeLayout>-->

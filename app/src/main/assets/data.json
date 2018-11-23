@@ -4605,5 +4605,779 @@
     "category": "Tembung Krama Madya Perangane Awak ",
     "jawa": "Wudel",
     "translate": "Pusar"
+  },
+  {
+    "id": "834",
+    "category": "Jenenge Panggaweyan",
+    "jawa": "Ajudhan",
+    "translate": "Pengawal Peajabat"
+  },
+  {
+    "id": "835",
+    "category": "Jenenge Panggaweyan",
+    "jawa": "Algojo",
+    "translate": "Orang yang menghukum mati"
+  },
+  {
+    "id": "836",
+    "category": "Jenenge Panggaweyan",
+    "jawa": "Apoteker",
+    "translate": "Peracik obat di apotek"
+  },
+  {
+    "id": "837",
+    "category": "Jenenge Panggaweyan",
+    "jawa": "Arsitek",
+    "translate": "Perancang bangunan"
+  },
+  {
+    "id": "838",
+    "category": "Jenenge Panggaweyan",
+    "jawa": "Bajag",
+    "translate": "Rampok"
+  },
+  {
+    "id": "839",
+    "category": "Jenenge Panggaweyan",
+    "jawa": "Bakul",
+    "translate": "Grosir"
+  },
+  {
+    "id": "840",
+    "category": "Jenenge Panggaweyan",
+    "jawa": "Begal",
+    "translate": "Penjahat di jalanan"
+  },
+  {
+    "id": "841",
+    "category": "Jenenge Panggaweyan",
+    "jawa": "Blandhong",
+    "translate": "Penebang kayu"
+  },
+  {
+    "id": "842",
+    "category": "Jenenge Panggaweyan",
+    "jawa": "Buruh",
+    "translate": "Buruh"
+  },
+  {
+    "id": "843",
+    "category": "Jenenge Panggaweyan",
+    "jawa": "Carik",
+    "translate": "Sekertaris"
+  },
+  {
+    "id": "844",
+    "category": "Jenenge Panggaweyan",
+    "jawa": "Dhalang",
+    "translate": "Orang yang menceritakan wayang"
+  },
+  {
+    "id": "845",
+    "category": "Jenenge Panggaweyan",
+    "jawa": "Dokter",
+    "translate": "Dokter"
+  },
+  {
+    "id": "846",
+    "category": "Jenenge Panggaweyan",
+    "jawa": "Empu",
+    "translate": "Orang yang membuat keris"
+  },
+  {
+    "id": "847",
+    "category": "Jenenge Panggaweyan",
+    "jawa": "Gamel",
+    "translate": "Pemelihara kuda"
+  },
+  {
+    "id": "848",
+    "category": "Jenenge Panggaweyan",
+    "jawa": "Gerji",
+    "translate": "Penjahit"
+  },
+  {
+    "id": "849",
+    "category": "Jenenge Panggaweyan",
+    "jawa": "Germa",
+    "translate": "Pemburu hewan"
+  },
+  {
+    "id": "850",
+    "category": "Jenenge Panggaweyan",
+    "jawa": "Guru",
+    "translate": "Guru"
+  },
+  {
+    "id": "851",
+    "category": "Jenenge Panggaweyan",
+    "jawa": "Jagal",
+    "translate": "Penyembelih hewan"
+  },
+  {
+    "idahasa": "852",
+    "category": "Jenenge Panggaweyan",
+    "jawa": "Juragan",
+    "translate": "Saudagar"
+  },
+  {
+    "id": "853",
+    "category": "Jenenge Panggaweyan",
+    "jawa": "Juru basa",
+    "translate": "Juru Bahasa"
+  },
+  {
+    "id": "854",
+    "category": "Jenenge Panggaweyan",
+    "jawa": "Juru dang",
+    "translate": "Tukang adang(masak nasi)"
+  },
+  {
+    "id": "855",
+    "category": "Jenenge Panggaweyan",
+    "jawa": "Juru kunci",
+    "translate": "Juru kunci"
+  },
+  {
+    "id": "856",
+    "category": "Jenenge Panggaweyan",
+    "jawa": "Juru nujum",
+    "translate": "Peramal"
+  },
+  {
+    "id": "857",
+    "category": "Jenenge Panggaweyan",
+    "jawa": "Juru silem",
+    "translate": "Penyelam"
+  },
+  {
+    "id": "858",
+    "category": "Jenenge Panggaweyan",
+    "jawa": "Juru sungging",
+    "translate": "Pelukis"
+  },
+  {
+    "id": "859",
+    "category": "Jenenge Panggaweyan",
+    "jawa": "Juru terbang",
+    "translate": "Pilot"
+  },
+  {
+    "id": "860",
+    "category": "Jenenge Panggaweyan",
+    "jawa": "Juru tulis",
+    "translate": "Juru tulis"
+  },
+  {
+    "id": "861",
+    "category": "Jenenge Panggaweyan",
+    "jawa": "Koki",
+    "translate": "Tukang masak"
+  },
+  {
+    "id": "862",
+    "category": "Jenenge Panggaweyan",
+    "jawa": "Kusir",
+    "translate": "Supir dokar"
+  },
+  {
+    "id": "863",
+    "category": "Jenenge Panggaweyan",
+    "jawa": "Makelar",
+    "translate": "Perantara jual beli"
+  },
+  {
+    "id": "864",
+    "category": "Jenenge Panggaweyan",
+    "jawa": "Mandhor",
+    "translate": "Koordinator buruh"
+  },
+  {
+    "id": "865",
+    "category": "Jenenge Panggaweyan",
+    "jawa": "Masinis",
+    "translate": "Masinis"
+  },
+  {
+    "id": "866",
+    "category": "Jenenge Panggaweyan",
+    "jawa": "Montir",
+    "translate": "Montir"
+  },
+  {
+    "id": "867",
+    "category": "Jenenge Panggaweyan",
+    "jawa": "Niyaga/wiyaga",
+    "translate": "Pemain gamelan"
+  },
+  {
+    "id": "868",
+    "category": "Jenenge Panggaweyan",
+    "jawa": "Prajurit",
+    "translate": "Prajurit"
+  },
+  {
+    "id": "869",
+    "category": "Jenenge Panggaweyan",
+    "jawa": "Pramugari",
+    "translate": "Pramugari"
+  },
+  {
+    "id": "870",
+    "category": "Jenenge Panggaweyan",
+    "jawa": "Pujangga",
+    "translate": "Ahli sastra"
+  },
+  {
+    "id": "871",
+    "category": "Jenenge Panggonan",
+    "jawa": "Alas",
+    "translate": "Alas"
+  },
+  {
+    "id": "872",
+    "category": "Jenenge Panggonan",
+    "jawa": "Alun alun",
+    "translate": "Alun alun"
+  },
+  {
+    "id": "873",
+    "category": "Jenenge Panggonan",
+    "jawa": "Balapan",
+    "translate": "Tempat balapan"
+  },
+  {
+    "id": "874",
+    "category": "Jenenge Panggonan",
+    "jawa": "Bale mungu",
+    "translate": "Pengadilan"
+  },
+  {
+    "id": "875",
+    "category": "Jenenge Panggonan",
+    "jawa": "Bango",
+    "translate": "Tempat berjualan"
+  },
+  {
+    "id": "876",
+    "category": "Jenenge Panggonan",
+    "jawa": "Beteng",
+    "translate": "Benteng"
+  },
+  {
+    "id": "877",
+    "category": "Jenenge Panggonan",
+    "jawa": "Bong",
+    "translate": "Kuburan cina"
+  },
+  {
+    "id": "878",
+    "category": "Jenenge Panggonan",
+    "jawa": "Clunthang",
+    "translate": "Wadah Jangkrik"
+  },
+  {
+    "id": "879",
+    "category": "Jenenge Panggonan",
+    "jawa": "Endhong",
+    "translate": "Wadah panah"
+  },
+  {
+    "id": "880",
+    "category": "Jenenge Panggonan",
+    "jawa": "Gadhen",
+    "translate": "Pegadaian"
+  },
+  {
+    "id": "881",
+    "category": "Jenenge Panggonan",
+    "jawa": "Gedhongan",
+    "translate": "Kandang kuda"
+  },
+  {
+    "id": "882",
+    "category": "Jenenge Panggonan",
+    "jawa": "Gedhong",
+    "translate": "Rumah mewah"
+  },
+  {
+    "id": "883",
+    "category": "Jenenge Panggonan",
+    "jawa": "Greja",
+    "translate": "Gereja"
+  },
+  {
+    "id": "884",
+    "category": "Jenenge Panggonan",
+    "jawa": "Gubug",
+    "translate": "Tempat menjaga tanaman"
+  },
+  {
+    "id": "885",
+    "category": "Jenenge Panggonan",
+    "jawa": "Gudhang",
+    "translate": "Gudang"
+  },
+  {
+    "id": "886",
+    "category": "Jenenge Panggonan",
+    "jawa": "Hotel",
+    "translate": "Hotel"
+  },
+  {
+    "id": "887",
+    "category": "Jenenge Panggonan",
+    "jawa": "Kandhang",
+    "translate": "Rumah hewan"
+  },
+  {
+    "id": "888",
+    "category": "Jenenge Panggonan",
+    "jawa": "Kanthong",
+    "translate": "Saku"
+  },
+  {
+    "id": "889",
+    "category": "Jenenge Panggonan",
+    "jawa": "Kantor",
+    "translate": "Kantor"
+  },
+  {
+    "id": "890",
+    "category": "Jenenge Panggonan",
+    "jawa": "Kombong",
+    "translate": "Kandhang bebek"
+  },
+  {
+    "id": "891",
+    "category": "Jenenge Panggonan",
+    "jawa": "Kuburan",
+    "translate": "Kuburan"
+  },
+  {
+    "id": "892",
+    "category": "Jenenge Panggonan",
+    "jawa": "Kurungan",
+    "translate": "Tempat memelihara burung"
+  },
+  {
+    "id": "893",
+    "category": "Jenenge Panggonan",
+    "jawa": "Langgar",
+    "translate": "Mushola"
+  },
+  {
+    "id": "894",
+    "category": "Jenenge Panggonan",
+    "jawa": "Lemari",
+    "translate": "Lemari"
+  },
+  {
+    "id": "895",
+    "category": "Jenenge Panggonan",
+    "jawa": "Loji",
+    "translate": "Rumah peninggalan belanda"
+  },
+  {
+    "id": "896",
+    "category": "Jenenge Panggonan",
+    "jawa": "Lumbung",
+    "translate": "Tempat menyimpan padi"
+  },
+  {
+    "id": "897",
+    "category": "Jenenge Panggonan",
+    "jawa": "Mesjid",
+    "translate": "Masjid"
+  },
+  {
+    "id": "898",
+    "category": "Jenenge Panggonan",
+    "jawa": "Padaringan",
+    "translate": "Tempat menyimpan beras"
+  },
+  {
+    "id": "899",
+    "category": "Jenenge Panggonan",
+    "jawa": "Padasan",
+    "translate": "Tempat wudhu"
+  },
+  {
+    "id": "900",
+    "category": "Jenenge Panggonan",
+    "jawa": "Pagupon",
+    "translate": "Kandang dara(burung)"
+  },
+  {
+    "id": "901",
+    "category": "Jenenge Panggonan",
+    "jawa": "Pakunjaran",
+    "translate": "Penjara"
+  },
+  {
+    "id": "902",
+    "category": "Jenenge Panggonan",
+    "jawa": "Pasangrahan",
+    "translate": "Tempat menginap"
+  },
+  {
+    "id": "903",
+    "category": "Jenenge Panggonan",
+    "jawa": "Pasar",
+    "translate": "Pasar"
+  },
+  {
+    "id": "904",
+    "category": "Jenenge Panggonan",
+    "jawa": "Patamanan",
+    "translate": "Teman"
+  },
+  {
+    "id": "905",
+    "category": "Jenenge Panggonan",
+    "jawa": "Pawon",
+    "translate": "Dapur"
+  },
+  {
+    "id": "906",
+    "category": "Jenenge Panggonan",
+    "jawa": "Pelabuhan",
+    "translate": "Pelabuhan"
+  },
+  {
+    "id": "907",
+    "category": "Jenenge Panggonan",
+    "jawa": "Pelataran",
+    "translate": "Teras rumah"
+  },
+  {
+    "id": "908",
+    "category": "Jenenge Panggonan",
+    "jawa": "Pesantren",
+    "translate": "Pesantren"
+  },
+  {
+    "id": "909",
+    "category": "Jenenge Panggonan",
+    "jawa": "Pesisir",
+    "translate": "Pesisir"
+  },
+  {
+    "id": "910",
+    "category": "Jenenge Panggonan",
+    "jawa": "Pranji",
+    "translate": "Kandang pitik"
+  },
+  {
+    "id": "911",
+    "category": "Jenenge Panggonan",
+    "jawa": "Ranggon",
+    "translate": "Tempat istirahat"
+  },
+  {
+    "id": "912",
+    "category": "Jenenge Panggonan",
+    "jawa": "Rumah sakit",
+    "translate": "Rumah sakit"
+  },
+  {
+    "id": "913",
+    "category": "Jenenge Panggonan",
+    "jawa": "Sanatorium",
+    "translate": "Tempat mengobati TBC"
+  },
+  {
+    "id": "914",
+    "category": "Jenenge Panggonan",
+    "jawa": "Sawah",
+    "translate": "Sawah"
+  },
+  {
+    "id": "915",
+    "category": "Jenenge Panggonan",
+    "jawa": "Sekolahan",
+    "translate": "Sekolah"
+  },
+  {
+    "id": "916",
+    "category": "Jenenge Panggonan",
+    "jawa": "Setasiun",
+    "translate": "Stasiun"
+  },
+  {
+    "id": "917",
+    "category": "Jenenge Panggonan",
+    "jawa": "Setren",
+    "translate": "Sawah di pinggir sungai"
+  },
+  {
+    "id": "918",
+    "category": "Jenenge Panggonan",
+    "jawa": "Susuh",
+    "translate": "Rumah burung"
+  },
+  {
+    "id": "919",
+    "category": "Jenenge Panggonan",
+    "jawa": "Tala",
+    "translate": "Rumah tawon"
+  },
+  {
+    "id": "920",
+    "category": "Jenenge Panggonan",
+    "jawa": "Tambak",
+    "translate": "Tambak"
+  },
+  {
+    "id": "921",
+    "category": "Jenenge Panggonan",
+    "jawa": "Tangki",
+    "translate": "Tangki"
+  },
+  {
+    "id": "922",
+    "category": "Jenenge Panggonan",
+    "jawa": "Warung",
+    "translate": "Warung"
+  },
+  {
+    "id": "923",
+    "category": "Kaya Apa",
+    "jawa": "Abang kaya dubang",
+    "translate": "Merah kaya dubang"
+  },
+  {
+    "id": "924",
+    "category": "Kaya Apa",
+    "jawa": "Abot kaya Watu",
+    "translate": "Berat kaya batu"
+  },
+  {
+    "id": "925",
+    "category": "Kaya Apa",
+    "jawa": "Adem kaya es",
+    "translate": "Adem kaya es"
+  },
+  {
+    "id": "926",
+    "category": "Kaya Apa",
+    "jawa": "Alus kaya sutra",
+    "translate": "Halus kaya sutra"
+  },
+  {
+    "id": "927",
+    "category": "Kaya Apa",
+    "jawa": "Asin kaya uyah",
+    "translate": "Asin kaya garam"
+  },
+  {
+    "id": "928",
+    "category": "Kaya Apa",
+    "jawa": "Atos kaya wesi",
+    "translate": "Keras kaya besi"
+  },
+  {
+    "id": "929",
+    "category": "Kaya Apa",
+    "jawa": "Banter kaya kilat",
+    "translate": "Cepat kaya kilat"
+  },
+  {
+    "id": "930",
+    "category": "Kaya Apa",
+    "jawa": "Bening kaya kaca",
+    "translate": "Bening kaya kaca"
+  },
+  {
+    "id": "931",
+    "category": "Kaya Apa",
+    "jawa": "Bodho kaya kebo",
+    "translate": "Bodoh kaya kerbau"
+  },
+  {
+    "id": "932",
+    "category": "Kaya Apa",
+    "jawa": "Bunder kaya neker",
+    "translate": "Bunder kaya kelereng"
+  },
+  {
+    "id": "933",
+    "category": "Kaya Apa",
+    "jawa": "Entheng kaya kapuk",
+    "translate": "Ringan kaya kapuk"
+  },
+  {
+    "id": "934",
+    "category": "Kaya Apa",
+    "jawa": "Gurih kaya santen",
+    "translate": "Gurih kaya santen"
+  },
+  {
+    "id": "935",
+    "category": "Kaya Apa",
+    "jawa": "Ireng kaya angus",
+    "translate": "Hitam kaya gosong"
+  },
+  {
+    "id": "936",
+    "category": "Kaya Apa",
+    "jawa": "Kasap kaya rempelas",
+    "translate": "Kasar kaya amplas"
+  },
+  {
+    "id": "937",
+    "category": "Kaya Apa",
+    "jawa": "Kecut kaya asem",
+    "translate": "kecut kaya asem"
+  },
+  {
+    "id": "938",
+    "category": "Kaya Apa",
+    "jawa": "Landhep kaya lading",
+    "translate": "Tajam kaya pisau"
+  },
+  {
+    "id": "939",
+    "category": "Kaya Apa",
+    "jawa": "Legi kaya gula",
+    "translate": "Manis kaya gula"
+  },
+  {
+    "id": "940",
+    "category": "Kaya Apa",
+    "jawa": "Lemu kaya babi",
+    "translate": "Gemuk kaya babi"
+  },
+  {
+    "id": "941",
+    "category": "Kaya Apa",
+    "jawa": "Lunyu kaya welut",
+    "translate": "Licin kaya belut"
+  },
+  {
+    "id": "942",
+    "category": "Kaya Apa",
+    "jawa": "Pait kaya bratawali",
+    "translate": "Pahit kaya bratawali"
+  },
+  {
+    "id": "943",
+    "category": "Kaya Apa",
+    "jawa": "Panas kaya geni",
+    "translate": "Panas kaya api"
+  },
+  {
+    "id": "944",
+    "category": "Kaya Apa",
+    "jawa": "Peteng kaya kuburan",
+    "translate": "Gelap kaya kuburan"
+  },
+  {
+    "id": "945",
+    "category": "Kaya Apa",
+    "jawa": "Swarane kaya bledheg",
+    "translate": "Suaranya kaya petir"
+  },
+  {
+    "id": "946",
+    "category": "Ambune apa",
+    "jawa": "Amis ambune iwak",
+    "translate": "Amis baunya iwak"
+  },
+  {
+    "id": "947",
+    "category": "Ambune apa",
+    "jawa": "Arum ambune kembang",
+    "translate": "Harum baunya kembang"
+  },
+  {
+    "id": "948",
+    "category": "Ambune apa",
+    "jawa": "Apek ambune kringet",
+    "translate": "Apek baunya keringat"
+  },
+  {
+    "id": "949",
+    "category": "Ambune apa",
+    "jawa": "Badheg ambune bathang kewan",
+    "translate": "Badheg baunya batang hewan"
+  },
+  {
+    "id": "950",
+    "category": "Ambune apa",
+    "jawa": "Bacin ambune iwak bosok",
+    "translate": "Bacin baunya ikan busuk"
+  },
+  {
+    "id": "951",
+    "category": "Ambune apa",
+    "jawa": "Banger ambune bathang kewan",
+    "translate": "Banger baunya batang hewan"
+  },
+  {
+    "id": "952",
+    "category": "Ambune apa",
+    "jawa": "Langu ambune tikus",
+    "translate": "Langu baunya tikus"
+  },
+  {
+    "id": "953",
+    "category": "Ambune apa",
+    "jawa": "Lecit ambune klapa bosok",
+    "translate": "Lecit baunya kelapa busuk"
+  },
+  {
+    "id": "954",
+    "category": "Ambune apa",
+    "jawa": "Pesing ambune ompol",
+    "translate": "Pesing baunya ompol"
+  },
+  {
+    "id": "955",
+    "category": "Ambune apa",
+    "jawa": "Penguk ambune beras lawas",
+    "translate": "Penguk baunya beras lama"
+  },
+  {
+    "id": "956",
+    "category": "Ambune apa",
+    "jawa": "Prengus ambune wedhus",
+    "translate": "Prengus baunya kambing"
+  },
+  {
+    "id": "957",
+    "category": "Ambune apa",
+    "jawa": "Sengak ambune kandhang ayam",
+    "translate": "Sengak baunya kandang ayam"
+  },
+  {
+    "id": "958",
+    "category": "Ambune apa",
+    "jawa": "Sumegrak ambune lombok goreng",
+    "translate": "Sumegrak baunya lombok goreng"
+  },
+  {
+    "id": "959",
+    "category": "Ambune apa",
+    "jawa": "Sumenthung ambune kotoran sapi",
+    "translate": "Sumenthung baunya kotoran sapi"
+  },
+  {
+    "id": "960",
+    "category": "Ambune apa",
+    "jawa": "Tengik ambune ampas bosok",
+    "translate": "Tengik baunya ampas busuk"
+  },
+  {
+    "id": "961",
+    "category": "Ambune apa",
+    "jawa": "Wangi ambune kembang",
+    "translate": "Wangi baunya kembang"
+  },
+  {
+    "id": "962",
+    "category": "Ambune apa",
+    "jawa": "Wangi ambune kembang",
+    "translate": "Wangi baunya kembang"
   }
 ]

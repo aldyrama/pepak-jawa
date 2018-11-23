@@ -59,17 +59,17 @@ public class RupaKawruhActivity extends AppCompatActivity {
         category6 = createCategory("Jenenge Wit", "Namanya pohon", 5);
         category6.setItemDetails(createItems6()); categoryList.add(category6);
 
-//        category7 = createCategory("Jenise Wit-Witan", "Namanya pepohonan", 6);
-//        category7.setItemDetails(createItems7()); categoryList.add(category7);
+        category7 = createCategory("Jenenge Panggaweyan", "Namanya pekerjaan", 6);
+        category7.setItemDetails(createItems7()); categoryList.add(category7);
 
-//        category8 = createCategory("Jenenge Pala", "Namanya tanaman", 7);
-//        category8.setItemDetails(createItems8()); categoryList.add(category8);
+        category8 = createCategory("Jenenge Panggonan", "Namanya tempat", 7);
+        category8.setItemDetails(createItems8()); categoryList.add(category8);
 
         category9 = createCategory("Jenenge Anak Kewan", "Namanya anak hewan", 8);
         category9.setItemDetails(createItems9()); categoryList.add(category9);
 
-//        category10 = createCategory("Jenenge Turunane Kewan", "Namanya turunan hewan", 9);
-//        category10.setItemDetails(createItems10()); categoryList.add(category10);
+        category10 = createCategory("Kaya Apa", "Kaya apa", 9);
+        category10.setItemDetails(createItems10()); categoryList.add(category10);
 
         category11 = createCategory("Jenenge Gaman Kewan", "Namanya senjata hewan", 10);
         category11.setItemDetails(createItems11()); categoryList.add(category11);
@@ -83,8 +83,8 @@ public class RupaKawruhActivity extends AppCompatActivity {
         category14 = createCategory("Swara Ngundang Kewan", "Suara memanggil hewan", 10);
         category14.setItemDetails(createItems14()); categoryList.add(category14);
 
-//        category15 = createCategory("Ulese/Rupane Kewan", "Wujudnya hewan", 10);
-//        category15.setItemDetails(createItems15()); categoryList.add(category15);
+        category15 = createCategory("Ambune Apa", "Baunya apa", 10);
+        category15.setItemDetails(createItems15()); categoryList.add(category15);
 
         category16 = createCategory("Sebutane Mangan", "Sebutannya makan", 10);
         category16.setItemDetails(createItems16()); categoryList.add(category16);
@@ -264,7 +264,7 @@ public class RupaKawruhActivity extends AppCompatActivity {
             for (int i = 0; i < baseJsonResponse.length(); i++) {
 
                 JSONObject currentItemDetail = baseJsonResponse.getJSONObject(i);
-                if (currentItemDetail.getString("category").equals("Jenise Wit-Witan")){
+                if (currentItemDetail.getString("category").equals("Jenenge Panggaweyan")){
                     String jawa = currentItemDetail.getString("jawa");
                     String translate = currentItemDetail.getString("translate");
                     ItemDetail item = new ItemDetail(jawa, translate);
@@ -290,7 +290,7 @@ public class RupaKawruhActivity extends AppCompatActivity {
             for (int i = 0; i < baseJsonResponse.length(); i++) {
 
                 JSONObject currentItemDetail = baseJsonResponse.getJSONObject(i);
-                if (currentItemDetail.getString("category").equals("Jenenge Pala")){
+                if (currentItemDetail.getString("category").equals("Jenenge Panggonan")){
                     String jawa = currentItemDetail.getString("jawa");
                     String translate = currentItemDetail.getString("translate");
                     ItemDetail item = new ItemDetail(jawa, translate);
@@ -342,7 +342,7 @@ public class RupaKawruhActivity extends AppCompatActivity {
             for (int i = 0; i < baseJsonResponse.length(); i++) {
 
                 JSONObject currentItemDetail = baseJsonResponse.getJSONObject(i);
-                if (currentItemDetail.getString("category").equals("Jenenge Turunane Kewan")){
+                if (currentItemDetail.getString("category").equals("Kaya Apa")){
                     String jawa = currentItemDetail.getString("jawa");
                     String translate = currentItemDetail.getString("translate");
                     ItemDetail item = new ItemDetail(jawa, translate);
@@ -472,7 +472,7 @@ public class RupaKawruhActivity extends AppCompatActivity {
             for (int i = 0; i < baseJsonResponse.length(); i++) {
 
                 JSONObject currentItemDetail = baseJsonResponse.getJSONObject(i);
-                if (currentItemDetail.getString("category").equals("Ulese/Rupane Kewan")){
+                if (currentItemDetail.getString("category").equals("Ambune Apa")){
                     String jawa = currentItemDetail.getString("jawa");
                     String translate = currentItemDetail.getString("translate");
                     ItemDetail item = new ItemDetail(jawa, translate);
